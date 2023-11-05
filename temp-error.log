@@ -1,8 +1,0 @@
-return {
- ["filename"]="/home/editorial/github/edlab_marketing/temp.tex",
- ["lastcontext"]="\nl.2 \\kerning\n           [0.2]Este é um exemplo",
- ["lastluaerror"]="?",
- ["lasttexerror"]="! Undefined control sequence",
- ["linenumber"]=2,
- ["offset"]=10,
-}

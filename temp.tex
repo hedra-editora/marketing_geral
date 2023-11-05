@@ -1,3 +1,28 @@
+\setuppapersize[A5][A5]
+\setupinterlinespace[line=3.2ex] % global setting 
+                           % (\setupinterlinespace[3.2ex] == \setupinterlinespace[line=3.2ex])
+
 \starttext
-\kerning[0.2]Este é um exemplo
+
+\input ward
+
+\blank 
+\setupinterlinespace[big] % big = 1.5 * global value (small = 1x, medium = 1.25x)
+
+\input ward
+
+\blank 
+
+\setupinterlinespace[reset] % here we go back to the global interlinespace set before
+
+\input ward
+
+\blank 
+\start 
+\setuplocalinterlinespace[line=4ex] % here a local value for the interlinespace is set
+
+\input ward
+
+\stop  % an empty line or \par before the end of the group is necessary
+
 \stoptext
