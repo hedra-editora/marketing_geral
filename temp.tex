@@ -1,28 +1,24 @@
-\setuppapersize[A5][A5]
-\setupinterlinespace[line=3.2ex] % global setting 
-                           % (\setupinterlinespace[3.2ex] == \setupinterlinespace[line=3.2ex])
+\usemodule[tikz]
+\usetikzlibrary{shadows.blur}
 
 \starttext
 
-\input ward
 
-\blank 
-\setupinterlinespace[big] % big = 1.5 * global value (small = 1x, medium = 1.25x)
+\starttikzpicture
+% \filldraw[fill=white, draw=black,
+% blur shadow]
+% (0,0) rectangle (1,1);
+%\node at (0,0) (\externalfigure[capa.pdf][width=4cm]);
+\endtikzpicture
 
-\input ward
-
-\blank 
-
-\setupinterlinespace[reset] % here we go back to the global interlinespace set before
-
-\input ward
-
-\blank 
-\start 
-\setuplocalinterlinespace[line=4ex] % here a local value for the interlinespace is set
-
-\input ward
-
-\stop  % an empty line or \par before the end of the group is necessary
+\starttikzpicture
+  \node
+      %[blur shadow={shadow scale=.95}]
+      [draw=none, blur shadow={shadow xshift=1.5pt,shadow yshift=-2pt, shadow scale=.95},shadow opacity=30, shadow blur extra rounding] 
+      at (0,0) {\externalfigure[capa.pdf][width=4cm]};
+\stoptikzpicture
 
 \stoptext
+
+
+

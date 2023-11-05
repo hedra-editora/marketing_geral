@@ -1,3 +1,6 @@
+\usemodule[tikz]
+\usetikzlibrary{shadows.blur}
+
 \definepapersize    [post]        [width=9.31cm, height=9.31cm]
 \definepapersize    [14x21]       [width=140mm, height=210mm]
 \setuppapersize     [post]        [14x21]
@@ -85,9 +88,16 @@
 \starttext
 %\showframe  %Para mostrar somente as linhas.
 
-\startpositioning
-\position(1.7,3mm){\externalfigure[capa.pdf][width=.55\textwidth]}
-\stoppositioning
+\starttikzpicture[overlay, remember picture]
+  \node
+      %[blur shadow={shadow scale=.95}]
+      [draw=none, blur shadow={shadow xshift=1.5pt,shadow yshift=-2pt, shadow scale=.95},shadow opacity=30, shadow blur extra rounding] 
+      at (0.47\textwidth,-.45\textheight) {\externalfigure[capa.pdf][width=4cm]};
+\stoptikzpicture
+
+% \startpositioning
+% \position(1.7,3mm){\externalfigure[capa.pdf][width=.55\textwidth]}
+% \stoppositioning
 
 \setupbackgrounds[header][background=MyGuides]
 
