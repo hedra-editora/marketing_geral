@@ -1,14 +1,21 @@
 # Todo
 
-- [x] Tamanho Post
-- [ ] Tamanho Reels
+- [x] Post Lançamento (coleção)
 - [x] Traços
 - [x] Fontes
-- [x] Imagem
-- [ ] Posição em Layer sem afetar
-- [ ] Ajuste damanho das fontes
+- [x] Inclusão de Imagem
+- [x] Fumaça com tikz no produto
+- [x] Posição em Layer sem afetar página
+- [x] Ajuste damanho das fontes
+- [ ] Filtro em imagem
+- [ ] Post Reels
+- [ ] Post Livro (+imagem)
+- [ ] Post Drops1
+- [ ] Post Drops2
+- [ ] Institucional1
+- [ ] Institucional2
 - [ ] Conversão Pandoc automática
-- [ ] Mumaça com tikz no produto
+
 
 
 
