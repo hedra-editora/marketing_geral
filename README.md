@@ -16,9 +16,48 @@
 - [ ] Institucional2
 - [ ] Conversão Pandoc automática
 
+## Livro
+- [ ] Alteração de cabeço
+- [ ] Aumento do height
+- [ ] Sombra bem discreta
+- [ ] Legenda ao final do texto em corpo bem pequeno
+- [ ] Aplicação de imagem bem justa
+- [ ] POST USP (teste)
+
+## Post Drops1
+- [x] Estrelinha em tikz
+- [ ] Kerning
+- [ ] hashtag
+
+## Post Drops2
+- [ ] Cores 
+- [ ] Filtro para transformar uma imagem metálica
+- [ ] footer
+
+## Institucional1
+-  [ ] Logo da Hedra disposto em partes
+-  [ ] Ajuste no setuplayout
+
+## Institucional2
+- [ ] Fundo colorido
+- [ ] Fundo com cor verde
+- [ ] Fundo com padrão azul
+- [ ] Fundo com padrões Lucas (processing?)
+- [ ] footer hashtag
+- [ ] Logo com bolinhas ao final e padrões
 
 
+# Comandos
+         
+```tex
+\MyStar [white] cor da estrela 
+		[none]  cor da caixa da estrela
 
+% Para escalar a estrela
+\scale[lines=1]{\MyStar [blue] [none]}
+```
+
+# ChatGPT
 ## Question
 
 me dê alguma documentação sobre setupbackgrounds
