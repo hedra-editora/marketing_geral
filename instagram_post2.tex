@@ -31,16 +31,12 @@
 \definefontfamily [FormularMImedium] [sans] [Formular]
                    [tf=file:Formular-medium-mi.otf,
                     bf=file:Formular-bold-mi.otf]              
-\definefontfamily [FormularLight] [sans] []
+\definefontfamily [FormularLight] [sans] [Formular]
                    [tf=file:Formular-Light.otf,
                     it=file:Formular-LightItalic.otf]
-% \definefontfamily [FormularBlack] [sans] [Formular]
-%                    [tf=file:Formular-Black.otf,
-%                     it=file:Formular-BlackItalic.otf]
-% \definefontfamily [FormularMedium] [sans] [Formular]
-%                    [tf=file:Formular-Medium.otf,
-%                     it=file:Formular-MediumItalic.otf]
+\definefontfamily [Times] [rm] [Times New Roman]
 
+        
 \setupbodyfont [FormularMI,12pt] 
             
 
@@ -80,7 +76,9 @@
     \position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
     }        
             
-            
+\definelayer[MyGuidesCleaned] 
+\setlayer[MyGuidesCleaned]{}
+
 \setupalign[right]
 
 
@@ -144,7 +142,12 @@ Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
  dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
  magna. Sapien in monti palavris qui num significa nadis i pareci latim. 
 
+\page 
 
-    
+\setupbackgrounds[header][background=MyGuidesCleaned]
+\Times
+\mbox{}\blank[1.6cm]
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
+
 
 \stoptext
