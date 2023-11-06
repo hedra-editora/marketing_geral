@@ -5,13 +5,15 @@
 
 \definepapersize    [post]        [width=9.31cm, height=9.31cm]
 \definepapersize    [14x21]       [width=140mm, height=210mm]
-\setuppapersize     [post]        [14x21]
+\setuppapersize     [post]        %[14x21]
 
     
 \setuplayout[location=middle, % Centralizar página dentro da 14x21
              marking=empty]   % Colocar marcas de corte
 
 % Define cores RGB
+
+
 
 \definecolor[MyGreen][r=0.251, g=0.678, b=0.290] %  40ad4a
 \definecolor[MyCyan][r=0.188, g=0.749, b=0.741] %   30bfbd
@@ -153,10 +155,10 @@
 \FormularMI\bold\switchtobodyfont[28pt]\setupinterlinespace[line=1.9ex]\setcharacterkerning[packed]
 
 \starttikzpicture[remember picture,overlay]
-  \coordinate (A)  at (-2mm,-86mm);
-  \coordinate (B)  at (91mm,-86mm);
-  \coordinate (C)  at (-2mm,7mm);
-  \coordinate (D)  at (91mm,7mm);
+  \coordinate (A)  at (-2mm,-84.5mm);
+  \coordinate (B)  at (91mm,-84.5mm);
+  \coordinate (C)  at (-2mm,9mm);
+  \coordinate (D)  at (91mm,9mm);
   \coordinate (A1) at ($(A)!0.166!(C)$);
   \coordinate (A2) at ($(A)!0.333!(C)$);
   \coordinate (A3) at ($(A)!0.5!(C)$);
@@ -188,6 +190,11 @@
   \node[anchor=north west] at ([yshift=-1mm]A4) {\bf HEDRA.};
   \node[anchor=north west] at ([yshift=1.5mm,xshift=-2.5mm]A1) {\scale[scale=120]{\MyStar[black][none]}};
 
+  %\fill[red] (A) circle (5pt);
+  %\fill[red] (B) circle (5pt);
+  %\fill[red] (C) circle (5pt);
+  %\fill[red] (D) circle (5pt);
+  
 
 \stoptikzpicture
     

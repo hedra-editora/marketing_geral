@@ -1,6 +1,7 @@
-\definecharacterkerning[packed] 
-\setupcharacterkerning[packed][factor=-.05] 
-\starttext \input knuth 
-\start \setcharacterkerning[packed] 
-\input knuth 
-\stop \stoptext
+\usemodule[tikz]
+\starttext
+\starttikzpicture
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\externalfigure[drop2-1.png]};
+    \fill[gray,opacity=0.2] (image.south west) rectangle (image.north east);
+\stoptikzpicture
+\stoptext

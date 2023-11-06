@@ -1,3 +1,6 @@
+[GitHub](https://github.com/hedra-editora/marketing_geral/blob/main/institucional1.pdf)
+[Dropbox](https://www.dropbox.com/home/MARKETING/PECAS_GRAFICAS/LOGOS)
+
 # Todo
 
 - [x] Post Lançamento (coleção)
@@ -8,15 +11,17 @@
 - [x] Posição em Layer sem afetar página
 - [x] Ajuste damanho das fontes
 - [x] Post Drops1
-- [ ] Post Drops2
-- [ ] Post Livro (+imagem)
-- [ ] Institucional1
-- [ ] Institucional2
+- [x] Post Drops2
+- [x] Institucional1
+- [x] Institucional2
+- [x] Conversão  automática
+- [x] Filtro em imagem
+- [x] Acertar logo da Hedra (times e não times new roman)
+- [ ] Incluir outros logos e pares de logos
 - [ ] Criação de uma documentação de uso e simplificação de pacote
-- [ ] Conversão Pandoc automática
-- [ ] Snippets
 - [ ] Post Reels
-- [ ] Filtro em imagem
+- [ ] Post Livro (+imagem)
+- [ ] Snippets
 
 
 ## Post Drops1
@@ -39,19 +44,27 @@
 - [ ] POST USP (teste)
 
 ## Institucional1
--  [ ] Logo da Hedra disposto em partes
--  [ ] Ajuste no setuplayout
+- [x] Logo da Hedra disposto em partes
+- [x] Ajuste no setuplayout
 
 ## Institucional2
-- [ ] Fundo colorido
-- [ ] Fundo com cor verde
-- [ ] Fundo com padrão azul
-- [ ] Fundo com padrões Lucas (processing?)
-- [ ] footer hashtag
+- [x] Fundo colorido
+- [x] Fundo com cor verde
+- [x] Fundo com padrão azul
+- [x] Fundo com padrões Lucas (processing?)
+- [x] footer hashtag
 - [ ] Logo com bolinhas ao final e padrões
 
 
+# Como converter um pdf para png
+
+De dentro da pasta ./marketing_geral:
+`make file=nomedopdfsemextensão`
+
+
 # Comandos
+
+Estrelinha
          
 ```tex
 \MyStar [white] cor da estrela 
@@ -59,6 +72,21 @@
 
 % Para escalar a estrela
 \scale[lines=1]{\MyStar [blue] [none]}
+```
+
+
+# Tips
+
+Como colocar um filtro sobre uma imagem (ver ./docs/filter.tex)
+
+```tex
+\usemodule[tikz]
+\starttext
+\starttikzpicture
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\externalfigure[drop2-1.png]};
+    \fill[gray,opacity=0.2] (image.south west) rectangle (image.north east);
+\stoptikzpicture
+\stoptext
 ```
 
 # ChatGPT
