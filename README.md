@@ -18,13 +18,6 @@
 - [ ] Post Reels
 - [ ] Filtro em imagem
 
-## Livro
-- [ ] Alteração de cabeço
-- [ ] Aumento do height
-- [ ] Sombra bem discreta
-- [ ] Legenda ao final do texto em corpo bem pequeno
-- [ ] Aplicação de imagem bem justa
-- [ ] POST USP (teste)
 
 ## Post Drops1
 - [x] Estrelinha em tikz
@@ -33,9 +26,17 @@
 - [x] hashtag & adaptlayout
 
 ## Post Drops2
-- [ ] Cores 
-- [ ] aplicação de imagem
-- [ ] footer
+- [x] Cores 
+- [x] aplicação de imagem
+- [x] footer
+
+## Livro
+- [ ] Alteração de cabeço
+- [ ] Aumento do height
+- [ ] Sombra bem discreta
+- [ ] Legenda ao final do texto em corpo bem pequeno
+- [ ] Aplicação de imagem bem justa
+- [ ] POST USP (teste)
 
 ## Institucional1
 -  [ ] Logo da Hedra disposto em partes
