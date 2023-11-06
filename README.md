@@ -7,14 +7,16 @@
 - [x] Fumaça com tikz no produto
 - [x] Posição em Layer sem afetar página
 - [x] Ajuste damanho das fontes
-- [ ] Filtro em imagem
-- [ ] Post Reels
-- [ ] Post Livro (+imagem)
-- [ ] Post Drops1
+- [x] Post Drops1
 - [ ] Post Drops2
+- [ ] Post Livro (+imagem)
 - [ ] Institucional1
 - [ ] Institucional2
+- [ ] Criação de uma documentação de uso e simplificação de pacote
 - [ ] Conversão Pandoc automática
+- [ ] Snippets
+- [ ] Post Reels
+- [ ] Filtro em imagem
 
 ## Livro
 - [ ] Alteração de cabeço
@@ -27,12 +29,12 @@
 ## Post Drops1
 - [x] Estrelinha em tikz
 - [x] cor rosa
-- [ ] kerning
-- [ ] hashtag & adaptlayout
+- [x] kerning
+- [x] hashtag & adaptlayout
 
 ## Post Drops2
 - [ ] Cores 
-- [ ] Filtro para transformar uma imagem metálica
+- [ ] aplicação de imagem
 - [ ] footer
 
 ## Institucional1
