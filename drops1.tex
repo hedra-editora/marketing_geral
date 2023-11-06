@@ -1,5 +1,7 @@
 \usemodule[tikz]
 \usetikzlibrary{shadows.blur}
+\environment{star.env}
+
 
 \definepapersize    [post]        [width=9.31cm, height=9.31cm]
 \definepapersize    [14x21]       [width=140mm, height=210mm]
@@ -17,7 +19,7 @@
 \usecolors[crayola]
 
 % Define cor de fundo (background)
-\setupbackgrounds[page][background=color,backgroundcolor=Almond]
+\setupbackgrounds[page][background=color,backgroundcolor=Salmon]
 
 % Retira numeração de página
 \setuppagenumbering[location=none]
@@ -28,9 +30,11 @@
                     it=file:Formular-Italic.otf,
                     bf=file:Formular-Bold.otf,
                     bi=file:Formular-BoldItalic.otf]
+
 \definefontfamily [FormularMI] [sans] [Formular]
                    [tf=file:Formular-regular-mi.otf,
                     bf=file::Formular-black-mi.otf]                   
+
 \definefontfamily [FormularMImedium] [sans] [Formular]
                    [tf=file:Formular-medium-mi.otf,
                     bf=file:Formular-bold-mi.otf]              
@@ -40,18 +44,23 @@
 \definefontfamily [Times] [rm] [Times New Roman]
 
         
-\setupbodyfont [FormularMI,12pt] 
+\setupbodyfont [FormularMI,15pt] 
             
+\definecharacterkerning[packed] 
+\setupcharacterkerning[packed][factor=-.05] 
+
 
 \setuplayout[
           location=middle,
-          width=83mm,
+          width=89mm,
           height=93mm,
-          leftmargin=5mm,
-          rightmargin=5mm,
-          backspace=5mm,
-          header=6.6mm,
-          footer=9mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=1mm,
+          footerdistance=0mm,
           topspace=0mm,
           leftedge=0mm,
           leftedgedistance=0mm,
@@ -60,13 +69,23 @@
           rightedgedistance=0mm,
           rightedge=0mm,
           topdistance=0mm,
-          headerdistance=3mm,
-          footerdistance=1mm,
           bottomdistance=0mm,
     %      top=21mm,
     %      bottom=21mm,
 ]
 
+
+\definelayout[MyLayout][
+          height=93mm,
+%          backspace=5mm,
+%          header=6.6mm,
+          footer=9mm,
+%          topspace=0mm,
+%          topdistance=0mm,
+%          headerdistance=3mm,
+          footerdistance=1mm,
+%          bottomdistance=0mm,
+]
 
 \definelayer[MyGuides]
 \setuplayer[MyGuides][width=\paperwidth, height=.8pt, color=black]
@@ -78,53 +97,64 @@
     \position(5cm,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
     \position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
     }        
-            
+
+
+\definelayer[MyGuidesHashtag]
+\setuplayer[MyGuidesHashtag][width=\paperwidth, height=0pt, color=black]
+\setlayer[MyGuidesHashtag]{
+    %\position(\leftmarginwidth,2.5mm){\FormularMImedium\bold  PRÉ-VENDA A PARTIR DE 22.08.20}
+    %\position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(0,\dimexpr\paperheight-9mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(2.5mm,\dimexpr\paperheight-7mm){\FormularMI \#hedraedicoes} 
+    %\position(5cm,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
+    %\position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
+    }               
+
+
 \definelayer[MyGuidesCleaned] 
 \setlayer[MyGuidesCleaned]{}
 
 \setupalign[right]
 
 
+\setuplocalinterlinespace[small]
+\setupbackgrounds[header][background=MyGuidesCleaned]
+\setupinterlinespace[line=2.5ex]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
 \starttext
 %\showframe  %Para mostrar somente as linhas.
 
-\starttikzpicture[overlay, remember picture]
-  \node
-      %[blur shadow={shadow scale=.95}]
-      [draw=none, blur shadow={shadow xshift=1.5pt,shadow yshift=-2pt, shadow scale=.95},shadow opacity=30, shadow blur extra rounding] 
-      at (0.47  \textwidth,-.45\textheight) {\externalfigure[capa.pdf][width=4cm]};
-\stoptikzpicture
-
-% \startpositioning
-% \position(1.7,3mm){\externalfigure[capa.pdf][width=.55\textwidth]}
-% \stoppositioning
-
-\setupbackgrounds[header][background=MyGuides]
-
-\page
-
-%\switchtobodyfont[28pt]
+\bgroup
 \FormularMI\bold
+\switchtobodyfont[28pt]\bold
+\setupinterlinespace[line=1.9ex]
+\setcharacterkerning[packed]
+ESCRAVO X
 
-{\switchtobodyfont[28pt]\bold\kerncharacters[-.05]{NARRATIVAS}}
+ESCRAVISADO
 
-{\switchtobodyfont[28pt]\bold\kerncharacters[-.05]{DA ESCRAVIDÃO}}\blank[4pt]
-
-{\FormularMI\switchtobodyfont[28pt]\kerncharacters[-.05]{↙LANÇAMENTO}}
+\egroup
 
 \vfill
-{\FormularMI
-\switchtobodyfont[20pt] 
-\setuplocalinterlinespace[line=1ex] 
-Harriet Jacobs\\
-Paul D. Escott\\
-William Wells Brown}
+\scale[lines=2]{\MyStar[black][none]}
 
-\page
+\page %---------------------------------------------------------|
 
-\FormularMI
-\setuplocalinterlinespace[small]
+\setcharacterkerning[packed]
 
+No aparato crítico das {\bf NARRATIVAS
+DA ESCRAVIDÃO}, empregou-se a
+palavra “escravizado” no lugar de
+“escravo”.
+
+\page %---------------------------------------------------------|
+
+\setuplayout[MyLayout]
+\kerncharacters[-.05]{Saiba mais e conheça nossa loja em}
+Saiba mais e conheça nossa loja em
 Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
  divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
  pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
@@ -137,27 +167,20 @@ Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
  dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
  magna. Sapien in monti palavris qui num significa nadis i pareci latim.
 
+\setupbackgrounds[header][background=MyGuidesHashtag]
 
-\flushlayer[MyGuides]
 
-Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
- divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
- pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
- aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
- santis. Nullam volutpat risus nec leo commodo, ut interdum diam
- laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá
- sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Não sou
- faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito
- paradis? Toma um mé que o mundo vai girarzis! Manduma pindureta quium
- dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
- magna. Sapien in monti palavris qui num significa nadis i pareci latim. 
+\page %---------------------------------------------------------|
 
-\page 
 
-\setupbackgrounds[header][background=MyGuidesCleaned]
+
+\setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
 \Times
+\switchtobodyfont[50pt] 
+
 \mbox{}\blank[1.6cm]
 \hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
+
 
 
 \stoptext

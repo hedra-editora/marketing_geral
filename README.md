@@ -26,8 +26,9 @@
 
 ## Post Drops1
 - [x] Estrelinha em tikz
-- [ ] Kerning
-- [ ] hashtag
+- [x] cor rosa
+- [ ] kerning
+- [ ] hashtag & adaptlayout
 
 ## Post Drops2
 - [ ] Cores 
