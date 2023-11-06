@@ -1,0 +1,33 @@
+<snippet>
+  <description>ConTeXt-switchtobodyfont</description>
+  <content><![CDATA[\switchtobodyfont[10pt]]]></content>
+  <tabTrigger>ConTeXt-switchtobodyfont</tabTrigger>
+  <scope>-source</scope>
+</snippet>
+
+\definecharacterkerning[packed] 
+\setupcharacterkerning[packed][factor=-.05] 
+
+\starttext \input knuth 
+\start \setcharacterkerning[packed] 
+\input knuth 
+\stop \stoptext
+
+\definelayer[MyGuides]
+\setuplayer[MyGuides][width=\paperwidth, height=.8pt, color=black]
+\setlayer[MyGuides]{}
+\setupbackgrounds[header][background=MyGuides]
+
+
+
+\setupalign[right]
+
+
+\setuplocalinterlinespace[small]
+\setupinterlinespace[line=1.9ex]
+%\setcharacterkerning[packed]
+
+% Define cores RGB
+\definecolor[minhacor][r=0.5, g=0.7, b=0.9]
+
+\adaptlayout[1][lines=3]
