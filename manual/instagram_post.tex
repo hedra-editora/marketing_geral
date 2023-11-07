@@ -1,0 +1,165 @@
+\usemodule[tikz]
+\usetikzlibrary{shadows.blur}
+\environment{star.env}
+
+
+\definepapersize    [post]        [width=9.31cm, height=9.31cm]
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        [14x21]
+
+    
+\setuplayout[location=middle, % Centralizar página dentro da 14x21
+             marking=empty]   % Colocar marcas de corte
+
+% Define cores RGB
+\definecolor[minhacor][r=0.5, g=0.7, b=0.9]
+
+% Cores pré-definidas
+% https://wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]
+
+% Define cor de fundo (background)
+\setupbackgrounds[page][background=color,backgroundcolor=Almond]
+
+% Retira numeração de página
+\setuppagenumbering[location=none]
+    
+
+\definefontfamily [FormularRegular] [sans] [Formular]
+                   [tf=file:Formular-Regular.otf,
+                    it=file:Formular-Italic.otf,
+                    bf=file:Formular-Bold.otf,
+                    bi=file:Formular-BoldItalic.otf]
+\definefontfamily [FormularMI] [sans] [Formular]
+                   [tf=file:Formular-regular-mi.otf,
+                    bf=file::Formular-black-mi.otf]                   
+\definefontfamily [FormularMImedium] [sans] [Formular]
+                   [tf=file:Formular-medium-mi.otf,
+                    bf=file:Formular-bold-mi.otf]              
+\definefontfamily [FormularLight] [sans] [Formular]
+                   [tf=file:Formular-Light.otf,
+                    it=file:Formular-LightItalic.otf]
+\definefontfamily [Times] [rm] [Times New Roman]
+
+        
+\setupbodyfont [FormularMI,12pt] 
+            
+
+\setuplayout[
+          location=middle,
+          width=83mm,
+          height=93mm,
+          leftmargin=5mm,
+          rightmargin=5mm,
+          backspace=5mm,
+          header=6.6mm,
+          footer=9mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          headerdistance=3mm,
+          footerdistance=1mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+\definelayer[MyGuides]
+\setuplayer[MyGuides][width=\paperwidth, height=.8pt, color=black]
+\setlayer[MyGuides]{
+    \position(\leftmarginwidth,2.5mm){\FormularMImedium\bold  PRÉ-VENDA A PARTIR DE 22.08.20}
+    \position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(0,\dimexpr\paperheight-\footerheight-.7mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(\leftmarginwidth,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold SAIBA MAIS:} 
+    \position(5cm,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
+    \position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
+    }        
+            
+\definelayer[MyGuidesCleaned] 
+\setlayer[MyGuidesCleaned]{}
+
+\setupalign[right]
+
+
+\starttext
+%\showframe  %Para mostrar somente as linhas.
+
+\starttikzpicture[overlay, remember picture]
+  \node
+      %[blur shadow={shadow scale=.95}]
+      [draw=none, blur shadow={shadow xshift=1.5pt,shadow yshift=-2pt, shadow scale=.95},shadow opacity=30, shadow blur extra rounding] 
+      at (0.47  \textwidth,-.45\textheight) {\externalfigure[capa.pdf][width=4cm]};
+\stoptikzpicture
+
+% \startpositioning
+% \position(1.7,3mm){\externalfigure[capa.pdf][width=.55\textwidth]}
+% \stoppositioning
+
+\setupbackgrounds[header][background=MyGuides]
+
+\page %----------------------------------------------------------------------|
+
+%\switchtobodyfont[28pt]
+\FormularMI\bold
+
+{\switchtobodyfont[28pt]\bold\kerncharacters[-.05]{NARRATIVAS}}
+
+{\switchtobodyfont[28pt]\bold\kerncharacters[-.05]{DA ESCRAVIDÃO}}\blank[4pt]
+
+{\FormularMI\switchtobodyfont[28pt]\kerncharacters[-.05]{↙LANÇAMENTO}}
+
+\vfill
+{\FormularMI
+\switchtobodyfont[20pt] 
+\setuplocalinterlinespace[line=1ex] 
+Harriet Jacobs\\
+Paul D. Escott\\
+William Wells Brown}
+
+\page  %----------------------------------------------------------------------|
+
+\FormularMI
+\setuplocalinterlinespace[small]
+
+Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
+ divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
+ pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
+ aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
+ santis. Nullam volutpat risus nec leo commodo, ut interdum diam
+ laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá
+ sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Não sou
+ faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito
+ paradis? Toma um mé que o mundo vai girarzis! Manduma pindureta quium
+ dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
+ magna. Sapien in monti palavris qui num significa nadis i pareci latim.
+
+
+\flushlayer[MyGuides]
+
+Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
+ divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
+ pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
+ aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
+ santis. Nullam volutpat risus nec leo commodo, ut interdum diam
+ laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá
+ sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Não sou
+ faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito
+ paradis? Toma um mé que o mundo vai girarzis! Manduma pindureta quium
+ dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
+ magna. Sapien in monti palavris qui num significa nadis i pareci latim. 
+
+\page 
+
+\setupbackgrounds[header][background=MyGuidesCleaned]
+\Times
+\mbox{}\blank[1.6cm]
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
+
+
+\stoptext

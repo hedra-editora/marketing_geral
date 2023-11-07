@@ -1,0 +1,108 @@
+\environment{mkt.tex}
+
+%\setuplayout[drops]
+
+% Define cores RGB
+\definecolor[minhacor][r=0.5, g=0.7, b=0.9]
+\setupbackgrounds[page][background=color,backgroundcolor=Salmon]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+\starttext
+
+%\showframe  %Para mostrar somente as linhas.
+
+
+\startMyCampaign
+ESCRAVO X 
+
+ESCRAVISADO
+\stopMyCampaign
+
+
+
+\vfill
+\scale[lines=2]{\MyStar[black][none]}
+
+
+% Instruções
+\starttikzpicture[remember picture,overlay,xshift=-2mm,yshift=-3mm] %step=4.655mm
+  \coordinate (X)  at (0,0); 
+  \coordinate (A)  at (0,0);
+  \coordinate (B)  at (9.3,0);
+  \coordinate (C)  at (0,9.3);
+  \coordinate (D)  at (9.3,9.3);
+  \coordinate (A1) at ($(A)!0.166!(C)$);
+  \coordinate (A2) at ($(A)!0.333!(C)$);
+  \coordinate (A3) at ($(A)!0.5!(C)$);
+  \coordinate (A4) at ($(A)!0.666!(C)$);
+  \coordinate (A5) at ($(A)!0.833!(C)$);
+  \coordinate (D1) at ($(B)!0.166!(D)$);
+  \coordinate (D2) at ($(B)!0.333!(D)$);
+  \coordinate (D3) at ($(B)!0.5!(D)$);
+  \coordinate (D4) at ($(B)!0.666!(D)$);
+  \coordinate (D5) at ($(B)!0.833!(D)$);
+
+
+% Grid
+  \fill[black] (X) circle (2pt);
+  \draw[black,opacity=.1] (-15,-20) grid (15,20);
+  \foreach \i in {1,...,10}
+  \node at (\i,-1.5mm) {\tfxx\i a}
+  node at (-1.5mm,\i) {\tfxx\i b}; 
+  
+% Instruções
+  %\draw[<-] (6.5,8.5) to[bend right] (4.4,13.5) node [anchor=south east,yshift=-2mm] 
+  %     {\tfxx(a)\starttyping[option=TEX]\setupbackgrounds[page][background=color,backgroundcolor=COLOR]...\%starttext...\stoptyping};
+  \draw[<-,thick] (5,5) node[yshift=2mm,color=red] {\tfxx estilo de página} to[bend right] (2,-2)
+       node [yshift=-3mm] 
+       {\tfxx(b)\starttyping[option=TEX]\startMyPagestyle[...]\stoptyping};
+  \draw[<-,thick] (6.5,8.5) to[bend right] (4.4,13.5) node [anchor=south east,yshift=-2mm] 
+       {\tfxx(c)\starttyping[option=TEX]\StartMyCampain...\stoptyping};
+  \draw[<-,thick,red] (1,1.5) to[bend right] (-1,3) node[anchor=east] {\tfxx(d)};
+  \draw[<-,thick] (6,4) to[bend right] (8,-1) node {\tfxx (a) \it  };
+
+  %\fill[blue] (A) circle (2pt);
+  %\fill[yellow] (B) circle (2pt);
+  %\fill[cyan] (C) circle (2pt);
+  %\fill[red] (D) circle (2pt); 
+\stoptikzpicture
+    
+
+
+
+\page %---------------------------------------------------------|
+
+
+No aparato crítico das {\bf NARRATIVAS
+DA ESCRAVIDÃO}, empregou-se a
+palavra “escravizado” no lugar de
+“escravo”.
+
+\page %---------------------------------------------------------|
+
+\Hashtag{\#hedraedicoes}
+
+Saiba mais e conheça nossa loja em
+Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
+ divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
+ pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
+ aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
+ santis. Nullam volutpat risus nec leo commodo, ut interdum diam
+ laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá
+ sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Não sou
+ faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito
+ paradis? Toma um mé que o mundo vai girarzis! Manduma pindureta quium
+ dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
+ magna. Sapien in monti palavris qui num significa nadis i pareci latim.
+
+
+\page %---------------------------------------------------------|
+
+
+
+\Hedra
+
+
+\stoptext
