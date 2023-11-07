@@ -1,0 +1,293 @@
+\usemodule[tikz]
+\usetikzlibrary{shadows.blur}
+\environment{star.env}
+
+
+\definepapersize    [post]        [width=9.31cm, height=9.31cm]
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+
+    
+\setuplayout[location=middle, % Centralizar página dentro da 14x21
+             marking=empty]   % Colocar marcas de corte
+
+% Define cores RGB
+
+
+
+\definecolor[MyGreen][r=0.251, g=0.678, b=0.290] %  40ad4a
+\definecolor[MyCyan][r=0.188, g=0.749, b=0.741] %   30bfbd
+\definecolor[MyRed][r=0.820, g=0.141, b=0.161] %    d12429
+\definecolor[MyPink][r=0.980, g=0.780, b=0.761] %   fac7c2
+\definecolor[MyGray][r=0.812, g=0.788, b=0.780] %   cfc9c7
+\definecolor[MyOrange][r=0.980, g=0.671, b=0.290] % faab4a
+
+%\setupcolors[textcolor=white]
+
+% Cores pré-definidas
+% https://wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]
+
+% Define cor de fundo (background)
+%\setupbackgrounds[page][background=color,backgroundcolor=black]
+
+% Retira numeração de página
+\setuppagenumbering[location=none]
+    
+
+\definefontfamily [FormularRegular] [sans] [Formular]
+                   [tf=file:Formular-Regular.otf,
+                    it=file:Formular-Italic.otf,
+                    bf=file:Formular-Bold.otf,
+                    bi=file:Formular-BoldItalic.otf]
+
+\definefontfamily [FormularMI] [sans] [Formular]
+                   [tf=file:Formular-regular-mi.otf,
+                    bf=file::Formular-black-mi.otf]                   
+
+\definefontfamily [FormularMImedium] [sans] [Formular]
+                   [tf=file:Formular-medium-mi.otf,
+                    bf=file:Formular-bold-mi.otf]              
+\definefontfamily [FormularLight] [sans] [Formular]
+                   [tf=file:Formular-Light.otf,
+                    it=file:Formular-LightItalic.otf]
+\definefontfamily [Times] [rm] [Times New Roman]
+
+        
+\setupbodyfont [FormularMI,15pt] 
+            
+\definecharacterkerning[packed] 
+\setupcharacterkerning[packed][factor=-.05] 
+
+
+\setuplayout[
+          location=middle,
+          width=89mm,
+          height=93mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=1mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+\definelayout[MyLayout][
+          height=93mm,
+%          backspace=5mm,
+%          header=6.6mm,
+          footer=9mm,
+%          topspace=0mm,
+%          topdistance=0mm,
+%          headerdistance=3mm,
+          footerdistance=1mm,
+%          bottomdistance=0mm,
+]
+
+\definelayer[MyGuides]
+\setuplayer[MyGuides][width=\paperwidth, height=.8pt, color=black]
+\setlayer[MyGuides]{
+    \position(\leftmarginwidth,2.5mm){\FormularMImedium\bold  PRÉ-VENDA A PARTIR DE 22.08.20}
+    \position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(0,\dimexpr\paperheight-\footerheight-.7mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(\leftmarginwidth,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold SAIBA MAIS:} 
+    \position(5cm,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
+    \position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
+    }        
+
+
+\definelayer[MyGuidesHashtag]
+\setuplayer[MyGuidesHashtag][width=\paperwidth, height=0pt, color=black]
+\setlayer[MyGuidesHashtag]{
+    %\position(\leftmarginwidth,2.5mm){\FormularMImedium\bold  PRÉ-VENDA A PARTIR DE 22.08.20}
+    %\position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(0,\dimexpr\paperheight-9mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(2.5mm,\dimexpr\paperheight-7mm){\FormularMI \#hedraedicoes} 
+    %\position(5cm,\dimexpr\paperheight-\footerheight+1.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
+    %\position(5cm,\dimexpr\paperheight-\footerheight+4.5mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
+    }               
+
+
+\definelayer[MyGuidesFooter]
+\setuplayer[MyGuidesFooter][width=\paperwidth, height=0pt, color=black]
+\setlayer[MyGuidesFooter]{
+    %\position(\leftmarginwidth,2.5mm){\FormularMImedium\bold  PRÉ-VENDA A PARTIR DE 22.08.20}
+    %\position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+    \position(0,\dimexpr\paperheight-9mm){\blackrule[width=\paperwidth, height=.6pt, color=black]}
+ %   \position(2.5mm,\dimexpr\paperheight-7mm){\FormularMI \#hedraedicoes} 
+    \position(2.5mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold SAIBA MAIS:} 
+    \position(50mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙HEDRA.COM.BR}
+    \position(50mm,\dimexpr\paperheight-4mm){\switchtobodyfont[7pt]\FormularMImedium\bold ↙LINK NA BIO}
+    }               
+
+ 
+
+\definelayer[MyGuidesCleaned] 
+\setlayer[MyGuidesCleaned]{}
+
+\setupalign[right]
+
+
+\setuplocalinterlinespace[small]
+\setupbackgrounds[header][background=MyGuidesCleaned]
+\setupinterlinespace[line=2.5ex]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+\starttext
+%\showframe  %Para mostrar somente as linhas.
+
+\bgroup
+\FormularMI\bold\switchtobodyfont[28pt]\setupinterlinespace[line=1.9ex]\setcharacterkerning[packed]
+
+\starttikzpicture[remember picture,overlay]
+  \coordinate (A)  at (-2mm,-84.5mm);
+  \coordinate (B)  at (91mm,-84.5mm);
+  \coordinate (C)  at (-2mm,9mm);
+  \coordinate (D)  at (91mm,9mm);
+  \coordinate (A1) at ($(A)!0.166!(C)$);
+  \coordinate (A2) at ($(A)!0.333!(C)$);
+  \coordinate (A3) at ($(A)!0.5!(C)$);
+  \coordinate (A4) at ($(A)!0.666!(C)$);
+  \coordinate (A5) at ($(A)!0.833!(C)$);
+
+  \coordinate (D1) at ($(B)!0.166!(D)$);
+  \coordinate (D2) at ($(B)!0.333!(D)$);
+  \coordinate (D3) at ($(B)!0.5!(D)$);
+  \coordinate (D4) at ($(B)!0.666!(D)$);
+  \coordinate (D5) at ($(B)!0.833!(D)$);
+
+  \fill [MyGreen] (C) rectangle (D5);
+  \fill [MyCyan] (A5) rectangle (D4);
+  \fill [MyRed] (A4) rectangle (D3);
+  \fill [MyPink] (A3) rectangle (D2);
+  \fill [MyGray] (A2) rectangle (D1);
+  \fill [MyOrange] (A1) rectangle (B);
+
+  \draw[thick=1pt] (A1) -- (D1);
+  \draw[thick=1pt] (A2) -- (D2);
+  \draw[thick=1pt] (A3) -- (D3);
+  \draw[thick=1pt] (A4) -- (D4);
+  \draw[thick=1pt] (A5) -- (D5);
+ 
+  \node[anchor=north west] at ([yshift=-1mm]C) {\bf MUDANÇAS};
+  \node[anchor=north west] at ([yshift=-1mm]A5) {\bf NA};
+  \node[anchor=north west] at ([yshift=-1mm]A4) {\bf HEDRA.};
+  \node[anchor=north west] at ([yshift=-1mm]A4) {\bf HEDRA.};
+  \node[anchor=north west] at ([yshift=1.5mm,xshift=-2.5mm]A1) {\scale[scale=120]{\MyStar[black][none]}};
+
+  %\fill[red] (A) circle (5pt);
+  %\fill[red] (B) circle (5pt);
+  %\fill[red] (C) circle (5pt);
+  %\fill[red] (D) circle (5pt);
+  
+
+\stoptikzpicture
+    
+\egroup
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyGreen]
+\setcharacterkerning[packed]
+
+Desde o ano passado, quando
+ainda não se podia prever os
+acontecimentos que transformaram
+2020 num ano marcado por
+tantas crises, com consequências
+que enfrentamos diariamente e
+dimensões que ainda tentamos
+compreender, a Hedra passava por
+um redesenho interno.
+    
+\starttikzpicture[remember picture,overlay] 
+\clip (0,-3.1) rectangle (93,.5);
+\node[color=white] at (4.5,1.5) {\switchtobodyfont[370pt] \setcharacterkerning[reset]\Times he};
+\stoptikzpicture
+    
+
+\page %---------------------------------------------------------|
+
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyCyan]
+
+E é nesse contexto de necessidade
+de {\bf MUDANÇAS}, em que a presença
+é ao mesmo tempo um risco e
+imprescindível, que damos início
+ao novo ciclo da editora, com uma
+identidade visual que busca nas
+cores básicas, nos padrões gráficos
+e na tipografia uma comunicação
+simples e objetiva.
+
+\page %---------------------------------------------------------|
+
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyRed]
+
+\setuplayout[MyLayout]
+\setupbackgrounds[header][background=MyGuidesFooter]
+
+Saiba mais e conheça nossa loja em
+Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
+ divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
+ pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. 
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyPink]
+
+
+ Quem num gosta di mim que vai caçá
+ sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Não sou
+ faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito
+ paradis? Toma um mé que o mundo vai girarzis! Manduma pindureta quium
+ dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod
+ magna. Sapien in monti palavris qui num significa nadis i pareci latim.
+
+
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyGray]
+
+
+\setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
+
+\startpositioning
+\position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
+\stoppositioning
+    
+
+
+\page %---------------------------------------------------------|
+
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
+
+\setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
+\Times
+\switchtobodyfont[50pt] 
+
+\mbox{}\blank[1.6cm]
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
+
+
+
+\stoptext
