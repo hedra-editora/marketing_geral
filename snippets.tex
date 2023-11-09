@@ -26,7 +26,32 @@
 \setupinterlinespace[line=1.9ex]
 %\setcharacterkerning[packed]
 
+% kerning
+\kerncharacters[-.05]{Saiba mais e conheça nossa loja em}
+
+
 % Define cores RGB
 \definecolor[minhacor][r=0.5, g=0.7, b=0.9]
 
 \adaptlayout[1][lines=3]
+
+% tikz: grid
+\fill[green] (X) circle (2pt);
+  \draw[black,opacity=.1] (X) grid (10,10);
+  \foreach \i in {1,...,10}
+  \node at (\i,-1.5mm) {\tfxx\i}
+  node at (-1.5mm,\i) {\tfxx\i}; 
+
+
+% New Environment
+\def\startMyEnvironment%
+  {\bgroup\bf}
+\def\stopMyEnvironment%
+  {\egroup}
+
+% Comando com uma opção
+\define[1]\MeuComando
+  {\doifelse{#1}{}{azul}{#1}}
+
+
+

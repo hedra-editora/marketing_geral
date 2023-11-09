@@ -1,0 +1,33 @@
+\usemodule[tikz]
+
+\starttext
+
+\title {sdcsdcs}
+
+
+Felis mauris pretium imperdiet facilisi fermentum sit dictum curae natoque
+finibus fusce elementum ante integer nascetur proin libero efficitur dapibus
+\tikz[remember picture] \node (n1) {};
+interdum metus augue himenaeos nam cubilia magna nec congue bibendum placerat
+neque mollis a non tincidunt aliquam morbi aliquet ac amet ridiculus class
+vestibulum odio mattis torquent phasellus justo ipsum convallis massa faucibus
+purus commodo pellentesque ad penatibus vel et id hendrerit aptent eget per
+lectus volutpat mi velit sagittis dignissim suspendisse parturient mus dis
+dolor hac dui tellus vehicula porta potenti fames suscipit gravida letius
+\tikz[remember picture] \node[fill=blue!50] (n2) {};
+laoreet posuere donec inceptos magnis tristique ligula habitant luctus nostra
+tempus condimentum tempor.
+
+\parindent=3ex
+
+\startblockquote
+Felis mauris pretium imperdiet facilisi fermentum sit dictum curae natoque finibus fusce elementum ante integer nascetur proin libero efficitur dapibus interdum metus augue himenaeos nam cubilia magna nec congue bibendum placerat neque mollis a non tincidunt aliquam morbi aliquet ac amet ridiculus class vestibulum odio mattis torquent phasellus justo ipsum convallis massa faucibus purus commodo pellentesque ad penatibus vel et id hendrerit aptent eget per lectus volutpat mi velit sagittis dignissim suspendisse parturient mus dis dolor hac dui tellus vehicula porta potenti fames suscipit gravida letius laoreet posuere donec inceptos magnis tristique ligula habitant luctus nostra tempus condimentum tempor.
+\stopblockquote
+
+\starttikzpicture[remember picture]
+\node (c) [circle,draw] {Big circle};
+\draw [overlay,->,very thick,red,opacity=.5]
+(c) to[bend left] (n1) (n1) -| (n2);
+\stoptikzpicture
+
+\stoptext

@@ -23,6 +23,10 @@
 - [ ] Post Livro (+imagem)
 - [ ] Snippets
 
+## Manual
+- [ ] tikz: remember picture
+- [ ] 
+
 
 ## Post Drops1
 - [x] Estrelinha em tikz
