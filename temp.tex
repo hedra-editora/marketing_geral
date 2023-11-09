@@ -1,7 +1,25 @@
-\usemodule[tikz]
+% wiki mode=mkiv
+
+\define\hello{Good morning:}
+
+
+% You may not use numbers
+% \define[1]\mp3{The ID3 Tag of the MP3 file is: #1}
+% but this will work:
+\define[1]\mpThree{The ID3 Tag of the MP3 file is: #1}
+
+% You can use non-ASCII characters in MkIV, but not in MkII.
+% This example is compiled using mkiv.
+\define[1]\KüFst{Küstenfunkstelle, #1!}
+
 \starttext
-\starttikzpicture
-    \node[anchor=south west,inner sep=0] (image) at (0,0) {\externalfigure[drop2-1.png]};
-    \fill[gray,opacity=0.2] (image.south west) rectangle (image.north east);
-\stoptikzpicture
+\hello
+
+\MeuComando
+
+\MeuComando{vermelho}
+
+
+\KüFst{12}
+
 \stoptext
