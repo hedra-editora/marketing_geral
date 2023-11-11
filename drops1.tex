@@ -1,10 +1,12 @@
 \environment{marketing.env}
 
-%\setuplayout[drops]
+% Cores pré-definidas
+% https://wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]
 
-% Define cores RGB
-%\definecolor[\MyColor][r=0.5, g=0.7, b=0.9]
-%\setupbackgrounds[page][background=color,backgroundcolor=\MyColor]
+\definecolor[MyColor][r=0.5, g=0.7, b=0.9]
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor] % Ver Salmon
+\setupcolors[textcolor=MyColorText]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
@@ -13,7 +15,7 @@
 %\showframe  %Para mostrar somente as linhas.
 
 
-\startMyCampaign
+\startMyCampaign\bold
 ESCRAVO X 
 
 ESCRAVISADO
@@ -54,10 +56,6 @@ Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
 
 \page %---------------------------------------------------------|
 
-
-
-%\Hedra
-\Ayllon
-
+\Hedra
 
 \stoptext
