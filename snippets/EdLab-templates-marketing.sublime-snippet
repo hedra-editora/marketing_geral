@@ -47,7 +47,7 @@
 % \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
 
 % Estrela: 
-% \vfill\scale[lines=2]{\MyStar[black][none]} 					% Estrela pequena  
+% \vfill\scale[lines=2]{\MyStar[MyColorText][none]} 					% Estrela pequena  
 % \startpositioning 											% Estrela grande
 %  \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
 % \stoppositioning
