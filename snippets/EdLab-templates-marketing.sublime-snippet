@@ -1,4 +1,6 @@
-% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+<snippet>
+	<description>EdLab-templates-marketing</description>
+	<content><![CDATA[% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
 % Cores definidas pelo designer:
@@ -84,3 +86,7 @@ DE TÍTULO}
 \Hedra
 
 \stoptext
+]]></content>
+	<tabTrigger>EdLab-templates-marketing</tabTrigger>
+	<scope>-source</scope>
+</snippet>
