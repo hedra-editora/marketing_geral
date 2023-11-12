@@ -23,9 +23,8 @@
 - [ ] Post Livro (+imagem)
 - [ ] Snippets
 
-## Manual
-- [ ] tikz: remember picture
-- [ ] 
+- [ ] tikz: padrões vários
+- [ ] aumentar tamanho do post 
 
 
 ## Post Drops1
