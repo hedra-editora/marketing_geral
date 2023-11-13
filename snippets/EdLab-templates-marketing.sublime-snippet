@@ -64,6 +64,7 @@
 
 % Espaçamentos:
 % \setupinterlinespace[line=1.9ex]		% para regular o entelinha (colocar \par ao fim do período)
+% \hyphenpenalty=10000   			    % evitar quebras
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
