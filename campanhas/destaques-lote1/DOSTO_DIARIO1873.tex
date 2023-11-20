@@ -71,19 +71,56 @@
 
 \page %---------------------------------------------------------|
 
-\MyPicture{}
+
+\starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\clip[height=72mm,voffset=3mm]{\externalfigure[DOSTO_DIARIO1873_1.jpeg][width=\textwidth]}};
+                    \fill[MyColorText,opacity=0.3] (image.south west) rectangle (image.north east);
+\stoptikzpicture
 
 \page 
 
-Mussum Ipsum, cacilds vidis litro abertis.  Suco de cevadiss, é um leite
-divinis, qui tem lupuliz, matis, aguis e fermentis. Cevadis im ampola
-pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean
-aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
-santis. Nullam volutpat risus nec leo commodo, ut interdum diam
-laoreet. Sed non consequat odio. 
+
+«Um dos piores equívocos do jovem poeta consiste em considerar
+o desmascaramento do vício (ou do que o liberalismo toma por vício) e a 
+incitação ao ódio e à vingança como o único caminho possível para atingir seu
+alvo. No entanto, para um talento forte, até desse caminho estreito é possível
+escapar, sem, com isso, anular-se no começo de sua vida artística; ele
+se valerá de uma regra de ouro: a palavra dita é de prata, mas a não dita é de ouro.»
+
+\vfill
+\scale[factor=fit]{Tradução do russo por {\bf Irineu Franco Perpétuo}}
+
+\page
+
+\MyPicture{DOSTO_DIARIO1873_2.jpeg}
+
+{\it O livro reúne escritos publicados em revistas literárias 
+em que o gênio das letras russas comentava 
+com paixão os temas políticos e estéticos de seu
+tempo. À primeira vista reacionárias e eslavófilas,
+suas posições seriam talvez melhor descritas como
+crítica da cultura de um conservador {\em sui generis}.
+Se observamos Dostoiévski defender uma incerta
+moral na relação servo-senhor e flertar com clichês
+antissemitas, também constatamos sua sensibilidade 
+para causas sociais como o investimento
+público em educação e a boa remuneração dos
+trabalhadores.}
 
 \page
 
 \Hedra
 
 \stoptext
+
+
+
+
+
+% “O escritor começa a escrever um romance e, logo que um comerciante ou
+% um clérigo se põem a falar em suas páginas, escolhe uma linguagem usando
+% as anotações do caderninho. Os leitores caem na risada e fazem elogios,
+% e tudo parece tão exato: escrito, palavra por palavra, com naturalidade, mas
+% acontece que isso é pior do que a mentira, justamente porque o comerciante
+% ou o soldado no romance falam por essências, quer dizer, como nem um
+% nem outro jamais falaria naturalmente.”
