@@ -71,7 +71,15 @@
 
 \page %---------------------------------------------------------|
 
-\MyPicture{}
+\starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {
+                    \clip[height=70mm,voffset=8mm]{\externalfigure[METABIBLIOTECA_GANDAVO_PROVINCIA_1.jpeg][width=\textwidth]}};
+                    \fill[MyColorText,opacity=0.3] (image.south west) rectangle (image.north east);
+\stoptikzpicture  
+\page 
+
+
+\MyCover{METABIBLIOTECA_GANDAVO_PROVINCIA_2.jpeg}
 
 \page 
 
