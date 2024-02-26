@@ -1,7 +1,7 @@
-# Fazer
+# Build para ConText
 
-- [ ] Formatos diferentes
-
+Instale os arquivos `context.sublime-build` e `context-once.sublime-build` na pasta `~/.config/sublibe-text/Packages/User`.
+Ou utilize o Makefile para isso rodando `make sublime`. (Não sei se funciona no mac.) 
 
 # Instalação
 
