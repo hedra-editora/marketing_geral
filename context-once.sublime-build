@@ -1,0 +1,3 @@
+{
+    "shell_cmd": "context $file_base_name.tex --once --purgeall && evince $file_base_name.pdf"
+}
