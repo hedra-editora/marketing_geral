@@ -1,0 +1,151 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MyGray]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodabé: Informações (caso queira trocar alguma coisa)
+% 		\def\MensagemSaibaMais{SAIBA MAIS:}
+% 		\def\MensagemSite{HEDRA.COM.BR}
+% 		\def\MensagemLink{LINK NA BIO}
+
+% Pesos para os títulos:
+%		\startMyCampaign...		 \stopMyCampaign
+%		\stopMyCampaignSection...   \stopMyCampaignSection
+
+% Aplicação de imagens: 
+% 		\MyCover{capa.pdf}  	% Aplicação de capa de livro com sombra
+%		\MyPicture{Imagem.png}  % Imagem com aplicação de filtro segundo cor MyColorText
+%		\MyPhoto{}			    % Aplicação simples de imagem com tamamho \textwidth
+
+% Aplicação de imagem com legenda:		
+% 		\placefigure{Legenda}{\externalfigure[drop2-1.png][width=\textwidth]}
+
+% Cabeço e rodabé: Opções
+% 		\Mensagem{AGORA É QUE SÃO ELAS}
+% 		\Hashtag{campanha de natal}
+% 		\Mensagem{campanha de natal}
+
+% Alteração de várias cores de background:
+% \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
+
+% Estrela: 
+% \vfill\scale[lines=2]{\MyStar[MyColorText][none]} 					% Estrela pequena  
+% \startpositioning 											% Estrela grande
+%  \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
+% \stoppositioning
+
+% Logos e selos: 				
+% \Hedra
+% \HedraAyllon	% Não está pronto
+% \HedraAcorde	% Não está pronto
+% \Ayllon		% Não está pronto
+% \Acorde		% Não está pronto
+
+% Atalhos: 						
+% 		\Seta  % Seta para baixo
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+\starttext
+%\showframe  %Para mostrar somente as linhas.
+
+\Mensagem{SOBRE O AUTOR}
+
+\MyCover{DOSTO_DIARIO1873_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+
+\starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\clip[height=72mm,voffset=3mm]{\externalfigure[DOSTO_DIARIO1873_1.jpeg][width=\textwidth]}};
+                    \fill[MyColorText,opacity=0.3] (image.south west) rectangle (image.north east);
+\stoptikzpicture
+
+\page 
+
+
+«Um dos piores equívocos do jovem poeta consiste em considerar
+o desmascaramento do vício (ou do que o liberalismo toma por vício) e a 
+incitação ao ódio e à vingança como o único caminho possível para atingir seu
+alvo. No entanto, para um talento forte, até desse caminho estreito é possível
+escapar, sem, com isso, anular-se no começo de sua vida artística; ele
+se valerá de uma regra de ouro: a palavra dita é de prata, mas a não dita é de ouro.»
+
+\vfill
+\scale[factor=fit]{Tradução do russo de {\bf Moissei e Daniela Mountian}}
+
+\page
+
+\MyPicture{DOSTO_DIARIO1873_2.jpeg}
+
+{\it
+Inclassificável, o {\bf Diário} é único no conjunto da
+obra de Dostoiévski, espécie de síntese entre teoria
+e prática, entre crítica e literatura.}\blank[1ex]
+
+{\hfill\tf ---Irineu Franco Perpétuo}
+
+
+
+\page
+
+\Hedra
+
+\stoptext
+
+
+
+
+% Para post
+
+% O livro reúne escritos publicados em revistas literárias 
+% em que Dostoiévski, o gênio das letras russas, comentava 
+% com paixão os temas políticos e estéticos de seu
+% tempo. À primeira vista reacionárias e eslavófilas,
+% suas posições seriam talvez melhor descritas como
+% crítica da cultura de um conservador {\em sui generis}.
+% Se observamos Dostoiévski defender uma incerta
+% moral na relação servo-senhor e flertar com clichês
+% antissemitas, também constatamos sua sensibilidade 
+% para causas sociais como o investimento
+% público em educação e a boa remuneração dos
+% trabalhadores. 
+
+% (...)
+
+% “O escritor começa a escrever um romance e, logo que um comerciante ou
+% um clérigo se põem a falar em suas páginas, escolhe uma linguagem usando
+% as anotações do caderninho. Os leitores caem na risada e fazem elogios,
+% e tudo parece tão exato: escrito, palavra por palavra, com naturalidade, mas
+% acontece que isso é pior do que a mentira, justamente porque o comerciante
+% ou o soldado no romance falam por essências, quer dizer, como nem um
+% nem outro jamais falaria naturalmente.”
+
+% Segundo texto
+
+% Diário de um escritor reúne mais de mil páginas de ensaios, crônicas e contos
+% que foram produzidos por Fiódor Dostoiévski entre 1873 e 1881 (ano de sua morte).
+% Originalmente, o Diário era o título de uma coluna assinada por Dostoiévski na
+% revista de política e literatura O cidadão, que a partir de 1876, passou a ser publi-
+% cada como uma nova revista. Foi com a atividade de jornalista e polemista, e não
+% como escritor, que Dostoiévski conquistou notoriedade. O interesse pelo Diário
+% não reside, no entanto, apenas nas polêmicas de seu tempo: em suas páginas, é
+% possível acompanhar o próprio processo criativo do autor, que “constrói uma teo-
+% ria estética ao mesmo tempo que a aplica”, como observa Irineu Franco Perpetuo
+% na “Apresentação” deste volume.
