@@ -1,3 +1,8 @@
+# Fazer
+
+- [ ] Formatos diferentes
+
+
 # Instalação
 
 ```
