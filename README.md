@@ -28,7 +28,7 @@ cd snippets
 make 
 ```
 
-# Utilização
+## Utilização
 
 Apra um arquivo .tex vazio e digite `EdLab-tempaltes-marketing` 
 
@@ -80,4 +80,40 @@ Apra um arquivo .tex vazio e digite `EdLab-tempaltes-marketing`
 %       \Seta  % Seta para baixo
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+```
+
+
+# Padrão de nomes
+
+
+
+
+```sh
+AUTOR_LIVRO_<EDITORIA>.tex
+AUTOR_LIVRO_<EDITORIA>_THUMB.jpg # capa
+AUTOR_LIVRO_<EDITORIA>-1.jpg	 # imagem 1
+AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
+```
+
+## Editorias
+
+```sh
+#_detalhes da edição ou por dentro da edição
+AUTOR_LIVRO_DETALHE.tex
+#_destaques "um trecho do livro:"
+AUTOR_LIVRO_TRECHO.tex
+#_quem é "autor"
+AUTOR_LIVRO_AUTOR.tex
+#_imprensa "clipping"
+AUTOR_LIVRO_CLIPPING.tex
+#_Vamos falar sobre isso "curiosidades"
+AUTOR_LIVRO_CURIOSIDADES.tex
+#_Pré-venda
+AUTOR_LIVRO_PREVENDA.tex
+#_Lançamento
+AUTOR_LIVRO_LANÇAMENTO.tex
+#_Evento
+AUTOR_LIVRO_EVENTO.tex
+#_Institucional
+AUTOR_LIVRO_INSTITUCIONAL.tex
 ```
