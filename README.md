@@ -14,6 +14,13 @@ mtxrun --generate
 mtxrun --script font --reload
 ```
 
+# Para gerar pasta com imagens
+
+```sh
+# Sem extensão (.tex)
+make file=NOME_DO_ARQUIVO
+```
+
 # Snippets
 
 ```
