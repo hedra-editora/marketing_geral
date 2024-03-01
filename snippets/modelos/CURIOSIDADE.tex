@@ -1,6 +1,4 @@
-<snippet>
-	<description>EdLab-templates-marketing</description>
-	<content><![CDATA[% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
 % Cores definidas pelo designer:
@@ -18,13 +16,12 @@
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
 
-
 % Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
-% Cabeço e rodabé: Informações (caso queira trocar alguma coisa)
-% 		\def\MensagemSaibaMais{SAIBA MAIS:}
-% 		\def\MensagemSite{HEDRA.COM.BR}
-% 		\def\MensagemLink{LINK NA BIO}
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais{SAIBA MAIS:}
+ 		\def\MensagemSite{HEDRA.COM.BR}
+ 		\def\MensagemLink{LINK NA BIO}
 
 % Pesos para os títulos:
 %		\startMyCampaign...		 \stopMyCampaign
@@ -71,26 +68,30 @@
 \starttext
 %\showframe  %Para mostrar somente as linhas.
 
-
 \startMyCampaign
-DIVULGAÇÃO
+Você sabia que\\
+{\bf O GIRASSOL}\\
+é amarelo? E que\\ 
+é uma das maiores\\ 
+flores brasileiras
 
-{\bf EXEMPLO  
-
-DE TÍTULO}
-
-\Seta LANÇAMENTO
 \stopMyCampaign
-
 
 \page %---------------------------------------------------------|
 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
+{\bf GIRASSOL}, {\bf ROSA} e {\bf CAMÉLIA} são flores especiais que aparecem no verão. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
+
+\MyPicture{NIETZSCHE_GREGOS_DETALHE-1.png}
+
+\page %---------------------------------------------------------|
+
+Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus. Morbi quis convallis risus. Sed eget scelerisque urna. Fusce et placerat orci, nec commodo ligula. Donec lobortis urna quis lorem euismod, eget bibendum sapien tincidunt. Nunc mollis ipsum eu sapien placerat, at suscipit nunc hendrerit.
+
+\page %---------------------------------------------------------|
 
 \Hedra
 
 \stoptext
-]]></content>
-	<tabTrigger>EdLab-templates-marketing</tabTrigger>
-	<scope>-source</scope>
-</snippet>

@@ -47,8 +47,8 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] CURIOSIDADE
 	- [ ] AUTOR
 - [ ] LAOZI_DAODEJING 					@jorge
-	- [ ] TRECHO
-	- [ ] TRECHO
+	- [x] TRECHO
+	- [x] CURIOSIDADE
 	- [ ] DETALHE (@felipe: série)
 - [ ] METABIBLIOTECA_ALENCAR_CARTAS  	@rogerio
 	- [ ] TRECHO
