@@ -1,0 +1,59 @@
+<snippet>
+	<description>EdLab-post-instagram-evento</description>
+	<content><![CDATA[% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Almond]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Salmon]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais{SAIBA MAIS:}
+ 		\def\MensagemSite{HEDRA.COM.BR}
+ 		\def\MensagemLink{LINK NA BIO}
+
+\starttext
+%\showframe  %Para mostrar somente as linhas.
+
+\startMyCampaign
+
+{\bf CURIOSIDADE\\ 
+SOBRE A EDIÇÃO}
+
+\vfill\scale[lines=2]{\MyStar[MyColorText][none]}
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Lorem ipsum dolor sit amet, {\bf CONSECTETUR ADIPISCING ELIT}. Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+
+\page %---------------------------------------------------------|
+
+Saiba mais e conheça nossa loja em {\bf HEDRA.COM.BR} ou através do link da bio.
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext
+	]]></content>
+	<tabTrigger>EdLab-post-instagram-evento</tabTrigger>
+	<scope>-source</scope>
+</snippet>
