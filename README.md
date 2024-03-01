@@ -107,7 +107,7 @@ AUTOR_LIVRO_AUTOR.tex
 #_imprensa "clipping"
 AUTOR_LIVRO_CLIPPING.tex
 #_Vamos falar sobre isso "curiosidades"
-AUTOR_LIVRO_CURIOSIDADES.tex
+AUTOR_LIVRO_CURIOSIDADE.tex
 #_Pré-venda
 AUTOR_LIVRO_PREVENDA.tex
 #_Lançamento
