@@ -11,7 +11,7 @@
 
 % Configuração de cores
 \definecolor[MyColor][x=f9d3b9]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColorText][Manatee]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -65,7 +65,20 @@
 \starttext
 %\showframe  %Para mostrar somente as linhas.
 
-\Mensagem{DESTAQUES}
+\Mensagem{OP.\,CIT.}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«CONTAR HISTÓRIAS NÃO
+ É APENAS UMA ARTE, É MUITO MAIS UMA
+ DIGNIDADE.»\blank[.5ex]
+
+ {\bf \Seta W. BENJAMIN}  
+\stopMyCampaign
+
+
+\page
 
 \MyCover{BENJAMIN_CONTADOR_THUMB.pdf}
 
