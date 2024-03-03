@@ -136,6 +136,17 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 
 ```
 
+## Rubricas
+
+[AUTOR](./modelos/AUTOR/AUTOR-O.png)
+[CLIPPING](./modelos/CLIPPING/CLIPPING-O.png)
+[CURIOSIDADE](./modelos/CURIOSIDADE/CURIOSIDADE-O.png)
+[DETALHE](./modelos/DETALHE/DETALHE-O.png)
+[EVENTO](./modelos/EVENTO/EVENTO-O.png)
+[LANCAMENTO](./modelos/LANCAMENTO/LANCAMENTO-O.png)
+[PREVENDA](./modelos/PREVENDA/PREVENDA-O.png)
+[TRECHO](./modelos/TRECHO/TRECHO-O.png)
+
 ## Onde subir os arquivos
 
 [Google Drive Mayara](https://drive.google.com/drive/u/4/folders/1etqbv6Ow5HCGbJ6AdRz2QPFBKKe26zCj)
