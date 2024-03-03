@@ -95,7 +95,7 @@ AUTOR_LIVRO_<EDITORIA>-1.jpg	 # imagem 1
 AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 ```
 
-## Editorias
+# Editorias
 
 ```sh
 > Institucional
