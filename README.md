@@ -98,54 +98,63 @@ AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 ## Editorias
 
 ```sh
-#_detalhes da edição ou por dentro da edição
-> "POR DENTRO DA EDIÇÃO"
-AUTOR_LIVRO_DETALHE.tex
-
-#_destaques "um trecho do livro:"
-> "OP.CIT."
-AUTOR_LIVRO_TRECHO.tex
-
-#_quem é "autor"
-> "VIDA & OBRA"
-AUTOR_LIVRO_AUTOR.tex
-
-#_imprensa "clipping"
-> "NA IMPRENSA"
-AUTOR_LIVRO_CLIPPING.tex
-
-#_Vamos falar sobre isso "curiosidades"
-> "EM CONTEXTO"
-AUTOR_LIVRO_CURIOSIDADE.tex
-
-#_Pré-venda
-> "PRÉ-VENDA"
-AUTOR_LIVRO_PREVENDA.tex
-
-#_Lançamento
-> "EM BREVE"
-AUTOR_LIVRO_LANÇAMENTO.tex
-
-#_Evento
-> "EVENTO"
-AUTOR_LIVRO_EVENTO.tex
-
-#_Institucional
+> Institucional
 > "A EDITORA"
-AUTOR_LIVRO_INSTITUCIONAL.tex
+> AUTOR_LIVRO_INSTITUCIONAL.tex
 
 ```
 
-## Rubricas
 
-![AUTOR](AUTOR-0.png)
-![CLIPPING](./modelos/CLIPPING/CLIPPING-0.png)
-![CURIOSIDADE](./modelos/CURIOSIDADE/CURIOSIDADE-0.png)
-![DETALHE](./modelos/DETALHE/DETALHE-0.png)
-![EVENTO](./modelos/EVENTO/EVENTO-0.png)
-![LANCAMENTO](./modelos/LANCAMENTO/LANCAMENTO-0.png)
-![PREVENDA](./modelos/PREVENDA/PREVENDA-0.png)
-![TRECHO](./modelos/TRECHO/TRECHO-0.png)l
+### AUTOR_LIVRO_AUTOR.tex
+> quem é "autor"
+> "VIDA & OBRA"
+> 
+
+![AUTOR](modelos/AUTOR/AUTOR-0.png)
+
+
+### AUTOR_LIVRO_CLIPPING.tex
+> imprensa "clipping"
+> "NA IMPRENSA"
+
+![CLIPPING](modelos/CLIPPING/CLIPPING-0.png)
+
+### AUTOR_LIVRO_CURIOSIDADE.tex
+> Vamos falar sobre isso "curiosidades"
+> "EM CONTEXTO"
+
+![CURIOSIDADE](modelos/CURIOSIDADE/CURIOSIDADE-0.png)
+
+### AUTOR_LIVRO_DETALHE.tex
+> detalhes da edição ou por dentro da edição
+> "POR DENTRO DA EDIÇÃO"
+
+![DETALHE](modelos/DETALHE/DETALHE-0.png)
+
+### AUTOR_LIVRO_EVENTO.tex
+> Evento
+> "EVENTO"
+
+![EVENTO](modelos/EVENTO/EVENTO-0.png)
+
+### AUTOR_LIVRO_LANÇAMENTO.tex
+> Lançamento
+> "EM BREVE"
+> 
+[LANCAMENTO](modelos/LANCAMENTO/LANCAMENTO-0.png)
+
+### AUTOR_LIVRO_PREVENDA.tex
+> Pré-venda
+> "PRÉ-VENDA"
+
+![PREVENDA](modelos/PREVENDA/PREVENDA-0.png)
+
+
+### AUTOR_LIVRO_TRECHO.tex
+> destaques "um trecho do livro:"
+> "OP.CIT."
+
+![TRECHO](modelos/TRECHO/TRECHO-0.png)
 
 ## Onde subir os arquivos
 
