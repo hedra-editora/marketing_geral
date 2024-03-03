@@ -1,5 +1,5 @@
 <snippet>
-	<description>EdLab-post-instagram-detalhe</description>
+	<description>EdLab-post-instagram-trecho</description>
 	<content><![CDATA[% AUTOR_LIVRO_TRECHO.tex
 % >> destaques "um trecho do livro:"
 % >> "OP.CIT."
@@ -92,6 +92,6 @@ na sociedade moderna.} \blank[1ex]
 
 \stoptext  %-----------------------------------------------------|
 ]]></content>
-	<tabTrigger>EdLab-post-instagram-detalhe</tabTrigger>
+	<tabTrigger>EdLab-post-instagram-trecho</tabTrigger>
 	<scope>-source</scope>
 </snippet>

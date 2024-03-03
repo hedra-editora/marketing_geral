@@ -1,13 +1,14 @@
 - [x] AUTOR
+- [x] CLIPPING
 - [x] CURIOSIDADE
-- [x] TRECHO
-- [?] EVENTO  
 - [x] DETALHE DA EDIÇÃO
+- [?] EVENTO  
+- [x] LANÇAMENTO ("EM BREVE")
 - [x] PREVENDA
+- [x] TRECHO
 
-- [ ] CLIPPING
-- [x] INSTITUCIONAL
-- [ ] LANÇAMENTO
+- [ ] INSTITUCIONAL
+
 
 Ficou faltando LANCAMENTO.tex
 

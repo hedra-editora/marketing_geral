@@ -1,6 +1,6 @@
 <snippet>
-	<description>EdLab-post-instagram-pre-venda</description>
-	<content><![CDATA[% AUTOR_LIVRO_PREVENDA.tex
+	<description>EdLab-post-instagram-clipping</description>
+	<content><![CDATA[% AUTOR_LIVRO_JORNAL_CLIPPING.tex
 % Pré-venda
 % "PRÉ-VENDA"
 
@@ -16,8 +16,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=30bfbd]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][Gray]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Canary]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -31,30 +31,18 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{PRÉ-VENDA}
+\Mensagem{NA IMPRENSA}
 
-\startMyCampaign
+\MyPhoto{FOLHA}
 
-{\bf EXEMPLO  
-
-DE TÍTULO}\\ 
-de Autor Xyz
-
-\vfill
-
-\Seta XX.XX.XXXX
-
-\stopMyCampaign
 
 \page %---------------------------------------------------------|
 
-\MyCover{AUTOR_LIVRO_THUMB.pdf}
-
-\page %---------------------------------------------------------|
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
+Texto resumindo a matéria explicando onde saiu, o que saiu.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet
 pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
 Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque
@@ -63,8 +51,13 @@ lacus.
 
 \page %---------------------------------------------------------|
 
+\MyCover{AUTOR_LIVRO_THUMB}
+
+\page %---------------------------------------------------------|
+
 \MyPicture{AUTOR_LIVRO_1}
 
+Serviço sobre livro com título, ISBN e preço.
 {\bf AUTOR XYZ} duis aliquet sed quam non tincidunt. Donec sit amet tempor
 urna. Quisque auctor justo enim.
 
@@ -73,7 +66,7 @@ urna. Quisque auctor justo enim.
 \Hedra
 
 \stoptext %---------------------------------------------------------|
-	]]></content>
-	<tabTrigger>EdLab-post-instagram-pre-venda</tabTrigger>
+]]></content>
+	<tabTrigger>EdLab-post-instagram-clipping</tabTrigger>
 	<scope>-source</scope>
 </snippet>

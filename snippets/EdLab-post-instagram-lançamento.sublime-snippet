@@ -1,6 +1,6 @@
 <snippet>
-	<description>EdLab-post-instagram-pre-venda</description>
-	<content><![CDATA[% AUTOR_LIVRO_PREVENDA.tex
+	<description>EdLab-post-instagram-lançamento</description>
+	<content><![CDATA[% AUTOR_LIVRO_LANÇAMENTO.tex
 % Pré-venda
 % "PRÉ-VENDA"
 
@@ -16,8 +16,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=30bfbd]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][Gray]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Canary]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -31,26 +31,13 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{PRÉ-VENDA}
-
-\startMyCampaign
-
-{\bf EXEMPLO  
-
-DE TÍTULO}\\ 
-de Autor Xyz
-
-\vfill
-
-\Seta XX.XX.XXXX
-
-\stopMyCampaign
-
-\page %---------------------------------------------------------|
+\Mensagem{EM BREVE}
 
 \MyCover{AUTOR_LIVRO_THUMB.pdf}
 
+
 \page %---------------------------------------------------------|
+
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
@@ -74,6 +61,6 @@ urna. Quisque auctor justo enim.
 
 \stoptext %---------------------------------------------------------|
 	]]></content>
-	<tabTrigger>EdLab-post-instagram-pre-venda</tabTrigger>
+	<tabTrigger>EdLab-post-instagram-lancamento</tabTrigger>
 	<scope>-source</scope>
 </snippet>

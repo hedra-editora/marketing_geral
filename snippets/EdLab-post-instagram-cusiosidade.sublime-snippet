@@ -1,8 +1,8 @@
 <snippet>
 	<description>EdLab-post-instagram-curiosidade</description>
-	<content><![CDATA[% Vamos falar sobre isso "curiosidades"
+	<content><![CDATA[% AUTOR_LIVRO_CURIOSIDADE.tex
+% Vamos falar sobre isso "curiosidades"
 % > "EM CONTEXTO"
-% AUTOR_LIVRO_CURIOSIDADE.tex
 
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors

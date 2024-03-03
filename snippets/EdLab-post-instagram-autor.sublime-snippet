@@ -1,8 +1,8 @@
 <snippet>
 	<description>EdLab-post-instagram-autor</description>
-	<content><![CDATA[% quem é "autor"
+	<content><![CDATA[% AUTOR_LIVRO_AUTOR.tex
+% quem é "autor"
 % > "VIDA & OBRA"
-% AUTOR_LIVRO_AUTOR.tex
 
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors

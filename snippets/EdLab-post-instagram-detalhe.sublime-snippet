@@ -1,8 +1,8 @@
 <snippet>
 	<description>EdLab-post-instagram-detalhe</description>
-	<content><![CDATA[% Detalhes da edição ou por dentro da edição: ex: sumário
+	<content><![CDATA[% AUTOR_LIVRO_DETALHE.tex
+% Detalhes da edição ou por dentro da edição: ex: sumário
 % > "POR DENTRO DA EDIÇÃO"
-% AUTOR_LIVRO_DETALHE.tex
 
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
