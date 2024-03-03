@@ -141,7 +141,7 @@ AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 > Lançamento
 > "EM BREVE"
 > 
-[LANCAMENTO](modelos/LANCAMENTO/LANCAMENTO-0.png)
+![LANCAMENTO](modelos/LANCAMENTO/LANCAMENTO-0.png)
 
 ### AUTOR_LIVRO_PREVENDA.tex
 > Pré-venda
