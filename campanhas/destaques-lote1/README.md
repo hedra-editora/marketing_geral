@@ -1,14 +1,20 @@
 # Editorias
 
-```
+```sh
 #_detalhes da edição ou por dentro da edição
+> 
 AUTOR_LIVRO_DETALHE.tex
+
 #_destaques "um trecho do livro:"
+> "OP.CIT"
 AUTOR_LIVRO_TRECHO.tex
+
 #_quem é "autor"
 AUTOR_LIVRO_AUTOR.tex
+
 #_Vamos falar sobre isso "curiosidades"
 AUTOR_LIVRO_CURIOSIDADES.tex
+
 #_Institucional
 AUTOR_LIVRO_INSTITUCIONAL.tex
 ```

@@ -1,3 +1,7 @@
+% Detalhes da edição ou por dentro da edição: ex: sumário
+% > "POR DENTRO DA EDIÇÃO"
+% AUTOR_LIVRO_DETALHE.tex
+
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
@@ -14,62 +18,13 @@
 \definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
-\environment{marketing.env}		   
+\environment{marketing.env}	
+	   
+\starttext %---------------------------------------------------------|
 
-
-% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
-
-% Cabeço e rodabé: Informações (caso queira trocar alguma coisa)
-% 		\def\MensagemSaibaMais{SAIBA MAIS:}
-% 		\def\MensagemSite{HEDRA.COM.BR}
-% 		\def\MensagemLink{LINK NA BIO}
-
-% Pesos para os títulos:
-%		\startMyCampaign...		 \stopMyCampaign
-%		\stopMyCampaignSection...   \stopMyCampaignSection
-
-% Aplicação de imagens: 
-% 		\MyCover{capa.pdf}  	% Aplicação de capa de livro com sombra
-%		\MyPicture{Imagem.png}  % Imagem com aplicação de filtro segundo cor MyColorText
-%		\MyPhoto{}			    % Aplicação simples de imagem com tamamho \textwidth
-
-% Aplicação de imagem com legenda:		
-% 		\placefigure{Legenda}{\externalfigure[drop2-1.png][width=\textwidth]}
-
-% Cabeço e rodabé: Opções
-% 		\Mensagem{AGORA É QUE SÃO ELAS}
-% 		\Hashtag{campanha de natal}
-% 		\Mensagem{campanha de natal}
-
-% Alteração de várias cores de background:
-% \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
-
-% Estrela: 
-% \vfill\scale[lines=2]{\MyStar[MyColorText][none]} 					% Estrela pequena  
-% \startpositioning 											% Estrela grande
-%  \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
-% \stoppositioning
-
-% Logos e selos: 				
-% \Hedra
-% \HedraAyllon	% Não está pronto
-% \HedraAcorde	% Não está pronto
-% \Ayllon		% Não está pronto
-% \Acorde		% Não está pronto
-
-% Atalhos: 						
-% 		\Seta  % Seta para baixo
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
-
-\starttext
-%\showframe  %Para mostrar somente as linhas.
-
-\Mensagem{DESTAQUES}
+\Mensagem{POR DENTRO DA EDIÇÃO}
 
 \MyCover{BASBAUM_ARTE_THUMB.pdf}
-
-
 
 \page %---------------------------------------------------------|
 
@@ -78,9 +33,9 @@
 \page 
 
 
-O livro, organizado por Ricardo Basbaum, reúne quarenta ensaios de artistas,
+O livro { \bf ARTE CONTEMPORÂNEA BRASILEIRA (1970--1999)}, organizado pelo artista Ricardo Basbaum, reúne quarenta ensaios de artistas,
 pesquisadores, críticos e curadores de arte contemporâneos sobre arte
-brasileira das duas primeiras décadas do século XXI. A obra está dividido em
+brasileira das duas primeiras décadas do século XXI. A obra está dividida em
 seis seções: Panorama, Artevismo, Crítica/Curadoria, Pertencimento, Brasis e
 Territórios em disputa.
 
@@ -94,14 +49,7 @@ Territórios em disputa.
 % desbravar o impensado.
 
 
-\page
-
-%\startpositioning
-%                \position(0,3mm){
-%                \clip[width=1cm, height=2cm, hoffset=3mm, voffset=5mm]{
-%                \externalfigure[BASBAUM_ARTE_3-crop.pdf][height=\textwidth]}}	
-%\stoppositioning
-
+\page %---------------------------------------------------------|
 
 \startpositioning
                 \position(-2cm,-5mm){
@@ -110,7 +58,7 @@ Territórios em disputa.
                 }}	
 \stoppositioning
 
-\page
+\page %---------------------------------------------------------|
 
 \startpositioning
                 \position(-2cm,3mm){
@@ -119,7 +67,7 @@ Territórios em disputa.
                 }}	
 \stoppositioning
 
-\page
+\page %---------------------------------------------------------|
 
 	
 \startpositioning
@@ -130,7 +78,7 @@ Territórios em disputa.
 \stoppositioning
 	
 
-\page 
+\page %---------------------------------------------------------|
 
 \Hedra
 

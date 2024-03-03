@@ -1,3 +1,7 @@
+% Descrição do evento com data
+% > "EVENTO"
+% AUTOR_LIVRO_EVENTO.tex
+
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
@@ -10,22 +14,18 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][Almond]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][Salmon]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][TickleMePink]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
 
-% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
-
 % Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
- 		\def\MensagemSaibaMais{SAIBA MAIS:}
- 		\def\MensagemSite{HEDRA.COM.BR}
- 		\def\MensagemLink{LINK NA BIO}
+ 		\def\MensagemSaibaMais	{SAIBA MAIS:}
+ 		\def\MensagemSite		    {HEDRA.COM.BR}
+ 		\def\MensagemLink		    {LINK NA BIO}
 
-
-\starttext
-%\showframe  %Para mostrar somente as linhas.
+\starttext  %---------------------------------------------------------|
 
 \Mensagem{EVENTO}
 
@@ -33,18 +33,14 @@
 
 {\bf EXEMPLO  
 
-DE TÍTULO}
+DE EVENTO}
 
 \Seta TIPO DE EVENTO %lançamento, pré-venda, feira, etc
 \Seta XX.XX.XX %data
 
 \vfill
-Nome do autor
+Alguma coisa
 \stopMyCampaign
-
-\page %---------------------------------------------------------|
-
-\MyCover{AKUTAGAWA_RASHOMON_THUMB.pdf}
 
 \page %---------------------------------------------------------|
 
@@ -61,4 +57,4 @@ Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor 
 
 \Hedra
 
-\stoptext
+\stoptext  %---------------------------------------------------------|

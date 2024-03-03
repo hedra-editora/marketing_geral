@@ -99,21 +99,43 @@ AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 
 ```sh
 #_detalhes da edição ou por dentro da edição
+> "POR DENTRO DA EDIÇÃO"
 AUTOR_LIVRO_DETALHE.tex
+
 #_destaques "um trecho do livro:"
+> "OP.CIT."
 AUTOR_LIVRO_TRECHO.tex
+
 #_quem é "autor"
+> "VIDA & OBRA"
 AUTOR_LIVRO_AUTOR.tex
+
 #_imprensa "clipping"
+> "NA IMPRENSA"
 AUTOR_LIVRO_CLIPPING.tex
+
 #_Vamos falar sobre isso "curiosidades"
+> "EM CONTEXTO"
 AUTOR_LIVRO_CURIOSIDADE.tex
+
 #_Pré-venda
+> "PRÉ-VENDA"
 AUTOR_LIVRO_PREVENDA.tex
+
 #_Lançamento
+> "EM BREVE"
 AUTOR_LIVRO_LANÇAMENTO.tex
+
 #_Evento
+> "EVENTO"
 AUTOR_LIVRO_EVENTO.tex
+
 #_Institucional
+> "A EDITORA"
 AUTOR_LIVRO_INSTITUCIONAL.tex
+
 ```
+
+## Onde subir os arquivos
+
+[Google Drive Mayara](https://drive.google.com/drive/u/4/folders/1etqbv6Ow5HCGbJ6AdRz2QPFBKKe26zCj)
