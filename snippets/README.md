@@ -13,39 +13,39 @@
 Ficou faltando LANCAMENTO.tex
 
 ```sh
+AUTOR_LIVRO_AUTOR.tex
 #_quem é "autor"
 > "VIDA & OBRA"
-AUTOR_LIVRO_AUTOR.tex
 
+AUTOR_LIVRO_TRECHO.tex
 #_destaques "um trecho do livro:"
 > "OP.CIT."
-AUTOR_LIVRO_TRECHO.tex
 
+AUTOR_LIVRO_DETALHE.tex
 #_detalhes da edição ou por dentro da edição
 > "POR DENTRO DA EDIÇÃO"
-AUTOR_LIVRO_DETALHE.tex
 
+AUTOR_LIVRO_CLIPPING.tex
 #_imprensa "clipping"
 > "NA IMPRENSA"
-AUTOR_LIVRO_CLIPPING.tex
 
+AUTOR_LIVRO_CURIOSIDADE.tex
 #_Vamos falar sobre isso "curiosidades"
 > "EM CONTEXTO"
-AUTOR_LIVRO_CURIOSIDADE.tex
 
+AUTOR_LIVRO_PREVENDA.tex
 #_Pré-venda
 > "PRÉ-VENDA"
-AUTOR_LIVRO_PREVENDA.tex
 
+AUTOR_LIVRO_LANÇAMENTO.tex
 #_Lançamento
 > "EM BREVE"
-AUTOR_LIVRO_LANÇAMENTO.tex
 
+AUTOR_LIVRO_EVENTO.tex
 #_Evento
 > "EVENTO"
-AUTOR_LIVRO_EVENTO.tex
 
+AUTOR_LIVRO_INSTITUCIONAL.tex
 #_Institucional
 > "SOBRE A EDITORA"
-AUTOR_LIVRO_INSTITUCIONAL.tex
 ```
