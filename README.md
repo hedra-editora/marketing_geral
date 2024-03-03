@@ -138,14 +138,14 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 
 ## Rubricas
 
-[AUTOR](./modelos/AUTOR/AUTOR-O.png)
-[CLIPPING](./modelos/CLIPPING/CLIPPING-O.png)
-[CURIOSIDADE](./modelos/CURIOSIDADE/CURIOSIDADE-O.png)
-[DETALHE](./modelos/DETALHE/DETALHE-O.png)
-[EVENTO](./modelos/EVENTO/EVENTO-O.png)
-[LANCAMENTO](./modelos/LANCAMENTO/LANCAMENTO-O.png)
-[PREVENDA](./modelos/PREVENDA/PREVENDA-O.png)
-[TRECHO](./modelos/TRECHO/TRECHO-O.png)
+![AUTOR](AUTOR-0.png)
+![CLIPPING](./modelos/CLIPPING/CLIPPING-0.png)
+![CURIOSIDADE](./modelos/CURIOSIDADE/CURIOSIDADE-0.png)
+![DETALHE](./modelos/DETALHE/DETALHE-0.png)
+![EVENTO](./modelos/EVENTO/EVENTO-0.png)
+![LANCAMENTO](./modelos/LANCAMENTO/LANCAMENTO-0.png)
+![PREVENDA](./modelos/PREVENDA/PREVENDA-0.png)
+![TRECHO](./modelos/TRECHO/TRECHO-0.png)l
 
 ## Onde subir os arquivos
 
