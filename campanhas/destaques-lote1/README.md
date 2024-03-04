@@ -27,10 +27,10 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] TRECHO
 	- [ ] DETALHES
 	- [ ] CLIPPLING (Evento na casa do Japão)
-- [ ] BENJAMIN_DIARIO  					@julia
-	- [ ] TRECHO
- 	- [ ] CURIOSIDADES (Série da Netflix, Livraria parisiense)
-	- [ ] DETALHE
+- [X] BENJAMIN_DIARIO  					@julia
+	- [X] TRECHO
+ 	- [X] CURIOSIDADES (Série da Netflix, Livraria parisiense)
+	- [X] DETALHE
 - [ ] BASBAUM_ARTE 						@paulo		
 	- [ ] TRECHO
  	- [ ] TRECHO
