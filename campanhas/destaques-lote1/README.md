@@ -67,7 +67,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 - [ ] HESIODO_TRABALHOS					@julia
 	- [ ] TRECHO
 	- [ ] CURIOSIDADES (Conversa com tradutor)
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] CURIOSIDADES (Mitos)
 
 
 
