@@ -22,7 +22,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 # Primeiro lote (Mayara)
 
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
-- [ ] AKUTAGAWA_RASHOMON 				@rogerio
+- [ ] AKUTAGAWA_RASHOMON 				@julia
 	- [ ] AUTOR
 	- [ ] TRECHO
 	- [ ] DETALHES
@@ -63,11 +63,11 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 - [ ] HESIODO_TEOGONIA					@suzana
 	- [ ] TRECHO
 	- [ ] CURIOSIDADES (Mitos)
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] CURIOSIDADES (Mitos)
 - [ ] HESIODO_TRABALHOS					@julia
 	- [ ] TRECHO
-	- [ ] CURIOSIDADES (Conversa com tradutor)
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] CURIOSIDADES (Conversa com tradutor)
+	- [X] CURIOSIDADES (Mitos)
 
 
 
