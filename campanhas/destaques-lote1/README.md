@@ -22,7 +22,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 # Primeiro lote (Mayara)
 
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
-- [ ] AKUTAGAWA_RASHOMON 				@rogerio
+- [ ] AKUTAGAWA_RASHOMON 				@julia
 	- [ ] AUTOR
 	- [ ] TRECHO
 	- [ ] DETALHES
