@@ -10,8 +10,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=34676e]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][BananaMania]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][BurntUmber]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -62,34 +62,46 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
 \starttext
 %\showframe  %Para mostrar somente as linhas.
 
-\Mensagem{POR DENTRO DA EDIÇÃO}
 
-\MyCover{HESIODO_TEOGONIA_THUMB.pdf}
+\Mensagem{OP.\,CIT.}
 
-\page %---------------------------------------------------------|
 
-\MyPicture{HESIODO_TRABALHOS_4.jpeg}
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«BEM NO INÍCIO, {\bf ABISMO} NASCEU»\blank[.5ex]
 
-\vfill
-\scale[factor=fit]{Tradução do grego de {\bf Christian Werner}}
+ {\bf \Seta HESÍODO}  
+\stopMyCampaign
+
+\page
+
 
 \page 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-«Noite e Dia passam perto /
-e falam entre si ao cruzarem o grande umbral /
-de bronze: uma entra e a outra pela porta /
-vai, e nunca a ambas a casa dentro encerra, /
-mas sempre uma delas deixa a casa /
-e à terra se dirige, e a outra na casa fica /
-e, até aquela chegar, aguarda a sua hora de ir.»
+«Bem no início, Abismo nasceu; depois, /
+Terra largo-peito, de todos assento sempre firme, /
+dos imortais que possuem o pico do Olimpo nevado /
+e o Tártaro brumoso no recesso da terra largas-rotas, /
+e Eros, que é o mais belo entre os deuses e todos os homens /
+subjuga, no peito, mente e desígnio refletido.»
+ \blank[medium]
+\scale[factor=fit]{Tradução do grego de {\bf Christian Werner}}
 
+\page
 
-\MyPicture{HESIODO_TRABALHOS_3.jpeg}
+\MyCover{HESIODO_TEOGONIA_THUMB.pdf}
+
 
 \page
 
