@@ -62,7 +62,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] CURIOSIDADES
 - [ ] HESIODO_TEOGONIA					@suzana
 	- [ ] TRECHO
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] CURIOSIDADES (Mitos)
 	- [X] CURIOSIDADES (Mitos)
 - [ ] HESIODO_TRABALHOS					@julia
 	- [ ] TRECHO
