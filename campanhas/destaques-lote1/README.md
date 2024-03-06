@@ -48,7 +48,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] TRECHO
 	- [ ] CURIOSIDADE
 	- [ ] AUTOR
-- [ ] DOSTO_DIARIO1873  				@paulo			
+- [ ] DOSTO_DIARIO1873  				@julia			
 	- [ ] TRECHO
 	- [ ] CURIOSIDADE
 	- [ ] AUTOR
@@ -65,7 +65,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [X] CURIOSIDADES (Mitos)
 	- [X] CURIOSIDADES (Mitos)
 - [ ] HESIODO_TRABALHOS					@julia
-	- [ ] TRECHO
+	- [X] TRECHO
 	- [X] CURIOSIDADES (Conversa com tradutor)
 	- [X] CURIOSIDADES (Mitos)
 

@@ -1,0 +1,69 @@
+% DOSTO_DIARIO1873_AUTOR.tex
+% quem é "autor"
+% > "VIDA & OBRA"
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][SteelTeal]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][SunnyPearl]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
+
+\starttext %--------------------------------------------------------|
+
+\Mensagem{VIDA \& OBRA}
+
+\starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\clip[height=72mm,voffset=3mm]{\externalfigure[DOSTO_DIARIO1873_1.jpeg][width=\textwidth]}};
+                    \fill[MyColorText,opacity=0.3] (image.south west) rectangle (image.north east);
+\stoptikzpicture
+
+\page %----------------------------------------------------------|
+
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+{\bf FIODOR DOSTOIÉVSKI} foi um renomado escritor russo do século {\cap XIX}, conhecido por suas obras profundas e exploratórias da psicologia humana. Nascido em Moscou em 1821, Dostoiévski sofreu grandes desafios ao longo de sua vida, incluindo a morte do pai na infância e sua prisão por participar de um círculo de intelectuais críticos ao regime czarista. 
+
+\page
+
+Durante seu tempo na prisão na Sibéria, {\bf Dostoiévski} experimentou profundamente a condição humana e refletiu sobre temas como o bem e o mal, a liberdade e a moralidade. Essas experiências moldaram sua visão de mundo e influenciaram sua escrita ao longo de sua carreira literária.
+
+\page 
+
+Dostoiévski é amplamente reconhecido por obras como {\bf Crime e castigo}, {\bf Os irmãos Karamázov} e {\bf O idiota}, as quais exploram questões existenciais, dilemas éticos e as complexidades da alma humana. Sua escrita profundamente psicológica e existencial fez dele um dos mais proeminentes autores da literatura russa e mundial.
+
+\page
+
+\MyCover{DOSTO_DIARIO1873_THUMB}
+
+\page
+
+{\bf Diário de um escritor (1873)} é o primeiro dos {\it Diários} de Dostoiévski, os quais reunem mais de mil páginas de ensaios, crônicas e contos que foram produzidos pelo autor entre 1873 e 1881, originalmente para sua coluna jornalística de mesmo nome. Com esta obra, o leitor terá a chance de acompanhar o próprio processo criativo do autor, que constrói uma teoria estética ao mesmo tempo que a aplica, como observa Irineu Franco Perpetuo na apresentação desta edição.  
+
+\page
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+			
