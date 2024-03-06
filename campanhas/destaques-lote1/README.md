@@ -24,9 +24,9 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
 - [ ] AKUTAGAWA_RASHOMON 				@julia
 	- [X] AUTOR
-	- [ ] TRECHO
-	- [ ] DETALHES
-	- [ ] CLIPPLING (Evento na casa do Japão)
+	- [X] TRECHO
+	- [X] DETALHES
+	- [X] CLIPPLING (Evento na casa do Japão) (ALTEREI PARA CURIOSIDADES)
 - [X] BENJAMIN_DIARIO  					@julia
 	- [X] TRECHO
  	- [X] CURIOSIDADES (Série da Netflix, Livraria parisiense)
