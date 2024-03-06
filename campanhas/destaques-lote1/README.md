@@ -23,7 +23,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
 - [ ] AKUTAGAWA_RASHOMON 				@julia
-	- [ ] AUTOR
+	- [X] AUTOR
 	- [ ] TRECHO
 	- [ ] DETALHES
 	- [ ] CLIPPLING (Evento na casa do Japão)
