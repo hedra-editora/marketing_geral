@@ -50,8 +50,8 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] AUTOR
 - [ ] DOSTO_DIARIO1873  				@julia			
 	- [ ] TRECHO
-	- [ ] CURIOSIDADE
-	- [ ] AUTOR
+	- [X] CURIOSIDADE
+	- [X] AUTOR
 - [ ] LAOZI_DAODEJING 					@jorge
 	- [x] TRECHO
 	- [x] CURIOSIDADE
