@@ -1,0 +1,168 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Pesos para os títulos:
+%		\startMyCampaign...		 \stopMyCampaign
+%		\stopMyCampaignSection...   \stopMyCampaignSection
+% Cabeço e rodabé: Opções
+% 		\Mensagem{AGORA É QUE SÃO ELAS}
+% 		\Hashtag{campanha de natal}
+% 		\Mensagem{campanha de natal}
+% Aplicação de imagens: 
+% 		\MyCover{capa.pdf}  	% Aplicação de capa de livro com sombra
+%		\MyPicture{Imagem.png}  % Imagem com aplicação de filtro segundo cor MyColorText
+%		\MyPhoto{}			    % Aplicação simples de imagem com tamamho \textwidth
+
+% Logos e selos: 				
+% \Hedra
+% \HedraAyllon	% Não está pronto
+% \HedraAcorde	% Não está pronto
+% \Ayllon		% Não está pronto
+% \Acorde		% Não está pronto
+
+% Atalhos: 						
+% 		\Seta  % Seta para baixo
+
+% Aplicação de imagem com legenda:		
+% 		\placefigure{Legenda}{\externalfigure[drop2-1.png][width=\textwidth]}
+
+% Cabeço e rodabé: Informações (caso queira trocar alguma coisa)
+% 		\def\MensagemSaibaMais{SAIBA MAIS:}
+% 		\def\MensagemSite{HEDRA.COM.BR}
+% 		\def\MensagemLink{LINK NA BIO}
+
+% Alteração de várias cores de background:
+% \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
+
+% Estrela: 
+% \vfill\scale[lines=2]{\MyStar[MyColorText][none]} 					% Estrela pequena  
+% \startpositioning 											% Estrela grande
+%  \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
+% \stoppositioning
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+\starttext
+%\showframe  %Para mostrar somente as linhas.
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+ \startMyCampaign
+ 
+
+ {\bf A REBELIÃO 
+%
+ DOS  MANÉS}
+%
+ \Seta PRÉ-VENDA
+%
+ \stopMyCampaign
+% 
+ \vfill\scale[lines=2]{\MyStar[MyColorText][none]} 
+%
+ \page %---------------------------------------------------------|
+
+\Mensagem{pré-venda}
+
+\MyCover{capa}
+
+
+\page
+
+%\MyPicture{001}
+%
+%\page
+%
+%\MyPicture{002}
+%
+%
+%\page
+
+O livro {\bf A REBELIÃO DOS MANÉS}, a ser lançado em breve, analisa como a extrema-direita brasileira incorporou com muita habilidade
+os impulsos políticos, rebeldes e estéticos da esquerda, reconfigurando-os ao
+seu modo e em sentido golpista.
+
+\vfill
+
+\scale[factor=fit]{\tfxx {\bf Pedro Arantes, Fernando Frias e Maria L.\ Meneses} (org.)}
+
+%\page%
+
+%%\Mensagem{A revolução dos manés}%
+
+%«O 8 de janeiro é um caleidoscópio de forças e vertigens, em imagens e atos,
+%apresentando de forma fugaz e impactante dilemas e fraturas do Brasil atual.
+%Daquele espetáculo, entre o grotesco e o surpreendente, há importantes
+%aprendizados sobre o que motiva e o que impulsiona a indignação e a capacidade
+%de assumir riscos em defesa de causas e crenças para transformar o rumo da
+%história.»%
+
+%\page%
+
+%Como pode a “direita ordeira” ter feito este {\bf QUEBRA-QUEBRA}? “Patriotas”, 
+%cidadãos de bem, “manés” seriam capazes de
+%atos tão violentos? Os {\bf DEFENSORES DA ORDEM}, da tradição, da
+%família e da propriedade não seriam os agentes de tanta violência. A resposta
+%imedita: «Esquerdistas infiltrados.»%
+
+%\page %
+
+%«As cenas filmadas em tempo real, e depois coletadas a partir das redes e
+%celulares dos extremistas, inundaram a mídia no mesmo dia e nas semanas
+%seguintes, produzindo não apenas a inversão no espelho da rebeldia insurgente
+%esquerda-direita, mas o seu estilhaçamento para uma parcela da direita.»
+
+\page
+
+\Hedra
+
+\stoptext
+
+% POST 8/1:
+% 
+% Thumb em png (jpg)
+% 
+% Chamada: "8/1: a rebelião dos manés" analisa como a extrema-direita incorporou
+% os impulsos políticos, rebeldes e estéticos da esquerda, reconfigurando-os ao
+% seu modo e em sentido golpista.
+% 
+% Destaques: "O 8 de janeiro é um caleidoscópio de forças e vertigens, em
+% imagens e atos, apresentando de forma fugaz e impactante dilemas e fraturas do
+% Brasil atual. Daquele espetáculo, entre o grotesco e o surpreendente, há
+% importantes aprendizados sobre o que motiva e o que impulsiona a indignação e
+% a capacidade de assumir riscos em defesa de causas e crenças para transformar
+% o rumo da história (32)."
+% 
+% "As cenas filmadas em tempo real, e depois coletadas a partir das redes e
+% celulares dos extremistas, inundaram a mídia no mesmo dia e nas semanas
+% seguintes, produzindo não apenas a inversão no espelho da rebeldia insurgente
+% esquerda-direita, mas o seu estilhaçamento para uma parcela da direita.""
+% 
+% Como fica, diante do quebra-quebra em Brasília, a “direita ordeira”? Viu-se em
+% um reflexo distorcido: “patriotas”, cidadãos de bem, “manés” seriam capazes de
+% tais atos de depredação e vandalismo? Defensores da ordem, da tradição, da
+% família e da propriedade seriam agentes de tanta violência? A resposta
+% escapista foi: havia esquerdistas infiltrados.
+% 
+% Imagens: 6 e 7
+% 
+% Minibios:

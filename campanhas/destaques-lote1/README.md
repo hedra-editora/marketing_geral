@@ -23,10 +23,10 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
 - [ ] AKUTAGAWA_RASHOMON 				@julia
-	- [ ] AUTOR
-	- [ ] TRECHO
-	- [ ] DETALHES
-	- [ ] CLIPPLING (Evento na casa do Japão)
+	- [X] AUTOR
+	- [X] TRECHO
+	- [X] DETALHES
+	- [X] CLIPPLING (Evento na casa do Japão) (ALTEREI PARA CURIOSIDADES)
 - [X] BENJAMIN_DIARIO  					@julia
 	- [X] TRECHO
  	- [X] CURIOSIDADES (Série da Netflix, Livraria parisiense)
@@ -48,10 +48,10 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] TRECHO
 	- [ ] CURIOSIDADE
 	- [ ] AUTOR
-- [ ] DOSTO_DIARIO1873  				@paulo			
+- [ ] DOSTO_DIARIO1873  				@julia			
 	- [ ] TRECHO
-	- [ ] CURIOSIDADE
-	- [ ] AUTOR
+	- [X] CURIOSIDADE
+	- [X] AUTOR
 - [ ] LAOZI_DAODEJING 					@jorge
 	- [x] TRECHO
 	- [x] CURIOSIDADE
@@ -65,7 +65,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [X] CURIOSIDADES (Mitos)
 	- [X] CURIOSIDADES (Mitos)
 - [ ] HESIODO_TRABALHOS					@julia
-	- [ ] TRECHO
+	- [X] TRECHO
 	- [X] CURIOSIDADES (Conversa com tradutor)
 	- [X] CURIOSIDADES (Mitos)
 
