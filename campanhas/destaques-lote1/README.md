@@ -34,7 +34,7 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 - [ ] BASBAUM_ARTE 						@paulo		
 	- [ ] TRECHO
  	- [ ] TRECHO
- 	- [ ] DETALHE
+ 	- [X] DETALHE
  	- [ ] CURIOSIDADES (Vida de artistas)
 - [ ] BENJAMIN_CONTADOR					@felipe				
 	- [ ] TRECHO
