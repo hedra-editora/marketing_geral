@@ -2,7 +2,7 @@
 	<description>EdLab-post-instagram-autor</description>
 	<content><![CDATA[% AUTOR_LIVRO_AUTOR.tex
 % quem é "autor"
-% > "VIDA & OBRA"
+% > "VIDA E OBRA"
 
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
@@ -30,9 +30,14 @@
 
 \starttext %--------------------------------------------------------|
 
-\Mensagem{VIDA \& OBRA}
+
+\Mensagem{VIDA E OBRA}
 
 \MyPicture{AUTOR_LIVRO_1.jpeg}
+
+\vfill
+\scale[factor=fit]{\Seta\, Lipsum eorum {\bf Nome do autor}, org. de {\bf Iuri Pereira}}
+% 	               Frase deve ter mais ou menos esse tammmmmmmmmmmmmmmmmanho.........
 
 \page %----------------------------------------------------------|
 
@@ -40,7 +45,12 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-{\bf RYÛNOSUKE AKUTAGAWA}, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+Pulvinar ante, a ultricies magna {\bf NOME DO AUTOR}, sempre em negrito e
+caixa alta. Seguir textos de orelha ou resumo. Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies
+magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non
+tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur
+vel est consectetur, sodales orci a, eleifend lacus. 
 
 \page %----------------------------------------------------------|
 

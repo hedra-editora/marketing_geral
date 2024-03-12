@@ -1,0 +1,104 @@
+% AUTOR_LIVRO_PREVENDA.tex
+% Pré-venda
+% "PRÉ-VENDA"
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{PRÉ-VENDA}
+
+
+\MyCover{ARANTES_MANES_THUMB.jpeg}
+
+\vfill
+
+\hfill {\bf 30\% OFF}
+
+\page %---------------------------------------------------------|
+
+\startMyCampaign
+
+{\bf A REBILIÃO DOS MANÉS}\\ 
+\small de Pedro Arantes, \\Fernando Frias e \\Maria Luiza Meneses 
+
+\vfill
+
+%\Seta 07/03 - 31/03
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf 8/1: A REBLIÃO DOS MANÉS} é uma análise política da história do tempo presente que problematiza uma inversão decisiva nas lutas sociais do Brasil: por que a direita se tornou ativista e audaz enquanto a esquerda novamente está refém do realismo político e da gestão comportada do sistema? 
+
+\page
+
+{\bf AUTORES}: Pedro Arantes, Fernando Frias e Maria Luiza Meneses; {\bf ORELHA}: Iná Camargo Costa; {\bf PREFÁCIO}: Tales Ab'Saber
+
+%\page %---------------------------------------------------------|
+%
+%O livro apresenta uma análise ímpar da visualidade e do imaginário dos novos rebeldes, de suas tramas e desfaçatez política, bem como aponta caminhos ainda possíveis para uma esquerda que precisa retomar a imaginação coletiva, a crítica radical e a rebeldia insurgente a fim de alterar o curso da história em favor dos despossuídos.
+%
+%\page
+%
+%%\MyPicture{ARANTES_MANES_AUTOR1.png}
+%
+%\tfx {\bf Pedro Arantes} é arquiteto e urbanista (FAU-USP),
+%professor de História da Arte na Unifesp, Campus Guarulhos. É autor de
+%livros e artigos sobre movimentos sociais, arte e política, guerras
+%culturais, direito à cidade, habitação popular e educação. 
+%
+%\page %---------------------------------------------------------|
+%
+%\tfx {\bf Fernando Frias} é graduado em História pela
+%Universidade de São Paulo (FFLCH-USP) e licenciado pela Faculdade de
+%Educação da USP. É mestrando em História da Arte pela EFLCH-Unifesp.
+%Integra o grupo de pesquisa MAAR (Mídias, Artes, Afetos e Resistência),
+%coordenado pela profa. Yanet Aguilera e o grupo de pesquisa e estudos em
+%guerras culturais, coordenado pelo prof. Pedro Arantes (ambos na
+%EFLCH-Unifesp).
+%
+%\page
+%
+%\tfx {\bf Maria Luiza Meneses} é graduanda em História da Arte (Unifesp).
+%É responsável pelos projetos Pinacoteca Digital Mauá (2019--) e Falando em
+%Arte (2020--). Foi curadora da exposição {\it Travessias do Moderno em
+%Mauá} (2022) e assistente pessoal da curadora Diane Lima, com ênfase em
+%pesquisa, produção e curadoria durante a 35ª Bienal de São Paulo
+%(2022--2023). Atua nos coletivos Rede Latino Americana de Estudantes de
+%História da Arte (RedLEHA), Nacional TROVOA e Rede Graffiteiras Negras
+%do Brasil.
+
+\page
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+	

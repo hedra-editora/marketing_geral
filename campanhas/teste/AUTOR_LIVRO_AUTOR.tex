@@ -1,0 +1,76 @@
+% AUTOR_LIVRO_DETALHE.tex
+% Detalhes da edição ou por dentro da edição: ex: sumário
+% > "POR DENTRO DA EDIÇÃO"
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=d12429]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]   % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}	
+	   
+\starttext %---------------------------------------------------------|
+
+\Mensagem{POR DENTRO DA EDIÇÃO}
+
+\MyCover{BASBAUM_ARTE_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\MyPicture{BASBAUM_ARTE_2.jpeg}
+
+\page 
+
+
+O livro { \bf ARTE CONTEMPORÂNEA BRASILEIRA (1970--1999)}, organizado pelo
+artista Ricardo Basbaum, reúne quarenta ensaios de artistas, pesquisadores,
+críticos e curadores de arte contemporâneos sobre arte brasileira das duas
+primeiras décadas do século XXI. A obra está dividida em seis seções:
+Panorama, Artevismo, Crítica/Curadoria, Pertencimento, Brasis e Territórios em
+disputa.
+
+\page %---------------------------------------------------------|
+
+\startpositioning
+                \position(-2cm,-5mm){
+                \clip[height=7cm]{
+                \externalfigure[BASBAUM_ARTE_3-crop.pdf][height=1.8\textheight]
+                }}	
+\stoppositioning
+
+\page %---------------------------------------------------------|
+
+\startpositioning
+                \position(-2cm,3mm){
+                \clip[height=7cm,voffset=7cm]{
+                \externalfigure[BASBAUM_ARTE_3-crop.pdf][height=1.8\textheight]
+                }}	
+\stoppositioning
+
+\page %---------------------------------------------------------|
+
+	
+\startpositioning
+                \position(-1.3cm,-4mm){
+                \clip[height=7cm]{
+                \externalfigure[BASBAUM_ARTE_4-crop.pdf][height=1.8\textheight]
+                }}	
+\stoppositioning
+	
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext

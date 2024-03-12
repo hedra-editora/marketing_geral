@@ -159,3 +159,8 @@ AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 ## Onde subir os arquivos
 
 [Google Drive Mayara](https://drive.google.com/drive/u/4/folders/1etqbv6Ow5HCGbJ6AdRz2QPFBKKe26zCj)
+
+
+## Fazer (código)
+
+No caso de peça sem header, o post precisa ser quadrado.

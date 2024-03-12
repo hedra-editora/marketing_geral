@@ -33,7 +33,7 @@
 
 \Mensagem{NA IMPRENSA}
 
-\MyPhoto{FOLHA}
+\MyPhoto{CLIPPING-NYT}
 
 
 \page %---------------------------------------------------------|
@@ -55,13 +55,6 @@ lacus.
 
 \page %---------------------------------------------------------|
 
-\MyPicture{AUTOR_LIVRO_1}
-
-Serviço sobre livro com título, ISBN e preço.
-{\bf AUTOR XYZ} duis aliquet sed quam non tincidunt. Donec sit amet tempor
-urna. Quisque auctor justo enim.
-
-\page %---------------------------------------------------------|
 
 \Hedra
 

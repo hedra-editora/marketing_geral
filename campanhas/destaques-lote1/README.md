@@ -22,15 +22,15 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 # Primeiro lote (Mayara)
 
 - [ ] INSTITUCIONAL_NOVAHEDRA			@suzana
-- [ ] AKUTAGAWA_RASHOMON 				@rogerio
-	- [ ] AUTOR
-	- [ ] TRECHO
-	- [ ] DETALHES
-	- [ ] CLIPPLING (Evento na casa do Japão)
-- [ ] BENJAMIN_DIARIO  					@julia
-	- [ ] TRECHO
- 	- [ ] CURIOSIDADES (Série da Netflix, Livraria parisiense)
-	- [ ] DETALHE
+- [ ] AKUTAGAWA_RASHOMON 				@julia
+	- [X] AUTOR
+	- [X] TRECHO
+	- [X] DETALHES
+	- [X] CLIPPLING (Evento na casa do Japão) (ALTEREI PARA CURIOSIDADES)
+- [X] BENJAMIN_DIARIO  					@julia
+	- [X] TRECHO
+ 	- [X] CURIOSIDADES (Série da Netflix, Livraria parisiense)
+	- [X] DETALHE
 - [ ] BASBAUM_ARTE 						@paulo		
 	- [ ] TRECHO
  	- [ ] TRECHO
@@ -48,10 +48,10 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] TRECHO
 	- [ ] CURIOSIDADE
 	- [ ] AUTOR
-- [ ] DOSTO_DIARIO1873  				@paulo			
+- [ ] DOSTO_DIARIO1873  				@julia			
 	- [ ] TRECHO
-	- [ ] CURIOSIDADE
-	- [ ] AUTOR
+	- [X] CURIOSIDADE
+	- [X] AUTOR
 - [ ] LAOZI_DAODEJING 					@jorge
 	- [x] TRECHO
 	- [x] CURIOSIDADE
@@ -61,13 +61,13 @@ AUTOR_LIVRO_INSTITUCIONAL.tex
 	- [ ] AUTOR
 	- [ ] CURIOSIDADES
 - [ ] HESIODO_TEOGONIA					@suzana
-	- [ ] TRECHO
-	- [ ] CURIOSIDADES (Mitos)
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] TRECHO
+	- [X] CURIOSIDADES (Mitos)
+	- [X] CURIOSIDADES (Mitos)
 - [ ] HESIODO_TRABALHOS					@julia
-	- [ ] TRECHO
-	- [ ] CURIOSIDADES (Conversa com tradutor)
-	- [ ] CURIOSIDADES (Mitos)
+	- [X] TRECHO
+	- [X] CURIOSIDADES (Conversa com tradutor)
+	- [X] CURIOSIDADES (Mitos)
 
 
 
