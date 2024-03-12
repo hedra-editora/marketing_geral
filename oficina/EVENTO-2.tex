@@ -1,0 +1,72 @@
+% Descrição do evento com data
+% > "EVENTO"
+% AUTOR_LIVRO_EVENTO.tex
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][TickleMePink]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais		{SAIBA MAIS:}
+ 		\def\MensagemSite		    {HEDRA.COM.BR}
+ 		\def\MensagemLink		    {LINK NA BIO}
+
+\starttext  %---------------------------------------------------------|
+
+\Mensagem{EVENTO}
+
+\def\MyBackground#1{\vfill
+                \starttikzpicture[remember picture,overlay]
+  \draw[help lines,black!30] (-5.5,-5.5) grid (5.5,5.5);
+  \draw[thick,->,red!20] (0,-5) -- (0,5) node[left]  {y};
+  \draw[thick,->,red!20] (-5,0) -- (5,0) node[below] {x};
+  \foreach \x in {-4,-3,-2,-1,1,2,3,4} \node[left,color=red!20] at (0,\x) {\x} node[below,color=red!20] at (\x,0) \x%};
+  \node[below right,color=red!20] at (0,0) {0}; 
+ 	
+	\node[yshift=-5mm, inner sep=0] (image) at (4,-5) {\externalfigure[#1][height=1.56\paperheight]};
+	\fill[black,opacity=0.5] (image.south west) rectangle (image.north east);
+   
+   \stoptikzpicture}
+     
+ \MyBackground{NIETZSCHE}
+
+
+\startMyCampaign
+    {\bf EXEMPLO DE EVENTO}
+
+    \Seta TIPO DE EVENTO %lançamento, pré-venda, feira, etc
+    \Seta XX.XX.XX %data
+    \vfill
+    Alguma coisa
+\stopMyCampaign
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Lorem ipsum dolor sit amet, {\bf CONSECTETUR ADIPISCING ELIT}. Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+
+\page %---------------------------------------------------------|
+
+Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext  %---------------------------------------------------------|
