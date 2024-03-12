@@ -1,0 +1,82 @@
+% DOSTO_DIARIO1873_TRECHO.tex
+% >> destaques "um trecho do livro:"
+% >> "OP.CIT."
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=f9d3b9]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Manatee]   % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
+\starttext  %-----------------------------------------------------|
+
+\Mensagem{OP.\,CIT.}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«CONTAR HISTÓRIAS NÃO
+ É APENAS UMA ARTE, É MUITO MAIS UMA
+ DIGNIDADE.»\blank[.5ex]
+
+ {\bf \Seta W. BENJAMIN}  
+\stopMyCampaign
+
+
+\page  %--------------------------------------------------------|
+
+\MyCover{DOSTO_DIARIO1873_THUMB}
+
+\page %---------------------------------------------------------|
+
+{\MyPicture{AUTOR_LIVRO_1.jpeg}}
+
+\vfill
+\scale[factor=fit]{Tradução do alemão de {\bf Patrícia Lavelle}}
+
+\page 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+ «Um dos piores equívocos do jovem poeta consiste em considerar
+o desmascaramento do vício (ou do que o liberalismo toma por vício) e a 
+incitação ao ódio e à vingança como o único caminho possível para atingir seu
+alvo. No entanto, para um talento forte, até desse caminho estreito é possível
+escapar, sem, com isso, anular-se no começo de sua vida artística; ele
+se valerá de uma regra de ouro: a palavra dita é de prata, mas a não dita é de ouro.»
+  F.\,D.
+
+\page %---------------------------------------------------------|
+
+{\MyPicture{AUTOR_LIVRO_4.jpeg}}
+
+{\it
+Inclassificável, o {\bf Diário} é único no conjunto da
+obra de Dostoiévski, espécie de síntese entre teoria
+e prática, entre crítica e literatura.}\blank[1ex]
+
+{\hfill\tf ---Irineu Franco Perpétuo}
+
+\page  %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext  %-----------------------------------------------------|
