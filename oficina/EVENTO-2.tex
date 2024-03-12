@@ -15,7 +15,7 @@
 
 % Configuração de cores
 \definecolor[MyColor][TickleMePink]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColorText][white]         % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}        
@@ -27,28 +27,32 @@
 
 \starttext  %---------------------------------------------------------|
 
+d
+
+\page
+
 \starttikzpicture[remember picture,overlay]
-  \node at (5,-4) {\externalfigure[SHOP][height=1.2\paperheight]};
-  
+  \node[yshift=-5mm, inner sep=0] (image) at (5,-5) {\externalfigure[SHOP][height=1.4\textheight]};
+  \fill[black,opacity=0.3] (image.south west) rectangle (image.north east);
+  \draw[line width=.6pt,white] (-1,-0.08) -- (10,-0.08);
+  \draw[line width=.6pt,white] (-1,-8.6) -- (10,-8.6);
 \stoptikzpicture
     
 \position(0,\dimexpr\paperheight-9mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
                     \position(2.5mm,\dimexpr\paperheight-7mm){\FormularMI Teste}
 
-
-
 \startMyCampaign
+\startcolor[white]
+{\bf EXEMPLO}  
 
-\MyColorText
-{\bf  EXEMPLO  
-
-DE EVENTO}
+DE EVENTO
 
 \Seta TIPO DE EVENTO %lançamento, pré-venda, feira, etc
 \Seta XX.XX.XX %data
 
 \vfill
 Alguma coisa
+\stopcolor
 \stopMyCampaign
 
 \page %---------------------------------------------------------|
