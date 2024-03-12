@@ -1,0 +1,19 @@
+\starttext
+
+\input knuth
+
+% Comando para definir a imagem de fundo em uma página específica
+\definelayer[bgimage]
+  [width=\paperwidth, height=\paperheight]
+
+% Configura onde e que figura é a imagem de fundo
+\setlayer[bgimage]
+    [hoffset=0cm, voffset=0cm]
+    {\externalfigure[SHOP][width=\paperwidth,height=\paperheight]}
+
+\flushlayer[bgimage]  % Aplica a imagem de fundo só a partir desta página
+
+\input knuth 
+
+% Páginas seguintes não terão a imagem de fundo
+\stoptext
