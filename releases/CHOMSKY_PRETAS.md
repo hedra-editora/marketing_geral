@@ -24,9 +24,13 @@ império americano* (Campus, 2004), *Para entender o poder* (Bertrand
 Brasil, 2005), *O lucro ou as pessoas* (Bertrand Brasil, 2006), *O
 governo do futuro* (Record, 2007) e *Razões de Estado* (Record, 2008).
 
+
+{{Explicar a diferença entre o livro americano e a edição brasileira}}
+
 **Notas sobre o anarquismo** é a maior compilação de Noam Chomsky já
-publicada sobre o assunto. Conta com oito entrevistas e dois artigos,
-expõe pontos de vista acerca das bases ideológicas que
+publicada sobre o assunto. 
+Conta com oito entrevistas e dois artigos,
+expõe pontos de vista acerca das bases ideológicas esquerda
 fundamentam sua análise e sua proposta estratégica de transformação
 social.
 
