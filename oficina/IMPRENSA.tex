@@ -14,8 +14,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][Gray]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][Canary]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][Cornflower]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -31,28 +31,30 @@
 
 \Mensagem{NA IMPRENSA}
 
-\MyPhoto{CLIPPING-NYT}
-
+\MyPhoto{THUMB_IMPRENSA.jpeg} %Usar este tamanho de imagem
 
 \page %---------------------------------------------------------|
-
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Texto resumindo a matéria explicando onde saiu, o que saiu.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet
-pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
-Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque
-auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend
-lacus.
+Pulvinar ante, a ultricies magna {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, sempre em negrito e caixa alta. Lorem ipsum dolor sit amet,
+consectetur ou {\bf ALGUM OUTRO DESTAQUE}. «O que diz a matéria? É possível citar um trecho curto dela, sempre entre aspas francesas?» Caso contrário, conte com suas palavras a importância da matéria. Na próxima página haverá espaço para uma citação maior, caso precise.
 
 \page %---------------------------------------------------------|
 
-\MyCover{AUTOR_LIVRO_THUMB}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Isso não é obrigatório mas, caso queira, é possível continuar a citação nesta página. Se fizer isso, não esqueça dos créditos. Tipo data, jornal, de quem se trata (ainda que seja repetitivo).»
+
+{\vfill\scale[factor=5]{\Seta\,Trecho da entrevista com {\bf João}, do Fantástico, em}\setupinterlinespace[line=1.5ex]\scale[factor=5]{1º de abril, para a Folha de S.\,Paulo. Lembre de quebrar}\setupinterlinespace[line=1.5ex]\scale[factor=5]{as linhas nos códigos.}}
 
 \page %---------------------------------------------------------|
 
+\MyCover{THUMB_LIVRO.pdf}
+
+\page %---------------------------------------------------------|
 
 \Hedra
 

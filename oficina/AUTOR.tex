@@ -14,8 +14,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][x=c0e016]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -25,34 +25,35 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink       {LINK NA BIO}
 
-
 \starttext %--------------------------------------------------------|
 
-
-\Mensagem{VIDA E OBRA}
-
-\MyPicture{AUTOR_LIVRO_1.jpeg}
-
-\vfill
-\scale[factor=fit]{\Seta\, Lipsum eorum {\bf Nome do autor}, org. de {\bf Iuri Pereira}}
-% 	               Frase deve ter mais ou menos esse tammmmmmmmmmmmmmmmmanho.........
-
-\page %----------------------------------------------------------|
-
+\Mensagem{MANCHETE CATIVANTE}
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Pulvinar ante, a ultricies magna {\bf NOME DO AUTOR}, sempre em negrito e
-caixa alta. Seguir textos de orelha ou resumo. Lorem ipsum dolor sit amet,
-consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies
+%\startMyCampaign
+
+\MyPicture{THUMB_AUTOR.jpeg}
+
+%\stopMyCampaign
+
+\vfill\scale[factor=6]{\Seta\,NOME DO AUTOR (1900--2000)}
+
+\page %----------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Pulvinar ante, a ultricies magna {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, 
+mas sempre em negrito e caixa alta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies
 magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non
 tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur
 vel est consectetur, sodales orci a, eleifend lacus. 
 
 \page %----------------------------------------------------------|
 
-\MyCover{AUTOR_LIVRO_THUMB.pdf}
+\MyCover{THUMB_LIVRO.pdf}
 
 \page %----------------------------------------------------------|
 

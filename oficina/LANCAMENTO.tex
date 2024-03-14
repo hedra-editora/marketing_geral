@@ -1,4 +1,4 @@
-% AUTOR_LIVRO_LANÇAMENTO.tex
+% AUTOR_LIVRO_PREVENDA.tex
 % Pré-venda
 % "PRÉ-VENDA"
 
@@ -14,8 +14,8 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][Gray]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][Canary]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][x=30bfbd]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -29,29 +29,36 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{EM BREVE}
+\Mensagem{LANÇAMENTO}
 
-\MyCover{AUTOR_LIVRO_THUMB.pdf}
+\MyCover{THUMB_LIVRO.pdf}
 
+\vfill\scale[factor=6]{\Seta\,JÁ DISPONÍVEL}
 
 \page %---------------------------------------------------------|
-
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet
-pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
-Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque
-auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend
-lacus.
+O livro é {\bf ORGANIZADO} por Josézinho das Couve e Mariana Xaublau. A {\bf TRADUÇÃO} é de Geová das Cruzes, e a {\bf APRESENTAÇÃO} é de Virgulino Moretti. A {\bf ORELHA} é de Josefino Tavares. O {\bf POSFÁCIO} é de Nicolas Tchan.
+
+\vfill
+\scale[factor=6]{\Seta\,R\$\,20,00}\\
+\scale[factor=6]{\Seta\,174 páginas}
 
 \page %---------------------------------------------------------|
 
-\MyPicture{AUTOR_LIVRO_1}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
-{\bf AUTOR XYZ} duis aliquet sed quam non tincidunt. Donec sit amet tempor
-urna. Quisque auctor justo enim.
+Pulvinar ante, a ultricies magna {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, sempre em negrito e caixa alta. Lorem ipsum dolor sit amet,
+consectetur ou {\bf ALGUM OUTRO DESTAQUE}. A sinopse ou orelha do livro podem ser texto usados para construir essa página. É importante apresentar o livro.
+
+\page %---------------------------------------------------------|
+
+\MyPicture{THUMB_AUTOR.jpeg}
+
+{\vfill\scale[factor=5]{\Seta\,Imagem que possa conversar com o livro. Pode ser}\setupinterlinespace[line=1.5ex]\scale[factor=5]{mais de uma. Lembre de quebrar as linhas no código.}}
 
 \page %---------------------------------------------------------|
 
