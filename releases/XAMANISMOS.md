@@ -1,0 +1,38 @@
+Os xamanismos têm sido objeto de fascínio há mais de 500 anos. Mesmo
+assim,*Xamanismos amerídios* é uma das primeiras publicações em
+português dedicadas ao assunto depois de mais de duas décadas. O livro
+conta com artigos de pesquisadores indígenas e não indígenas sobre os
+modos de pensar e agir das culturas ameríndias, mas sem a obsessão por
+definir ou identificar o fenômeno xamânico como religião arcaica. A
+investigação passa, nesta edição, pela multiplicidade dos xamanismos de
+19 povos: de uma ponta a outra da América da Argentina e do Brasil,
+passando por Venezuela, Colômbia, Peru, México e alcançando o Canadá.
+
+O livro também passa pela poética e política dos xamanismos no mundo
+contemporâneo: a agência *est-ética* e a centralidade do sensível, com a
+potência de criar e transformar mundos, que se alteram ao longo do tempo
+e adaptam-se à realidade na qual estão inseridos, e sua consequente
+abertura ao *outro*.
+
+*Xamanismos amerídios* explora diversas faces do tema por meio de
+teorias transversais e etnografias que ressoam umas nas outras, em uma
+encruzilhada de de saberes e práticas em diferentes contextos e
+histórias, por onde circulam corpos, substâncias, objetos, povos,
+linguagens e performances. Trata-se de uma antropologia em
+transformação, campo engajado na tentativa de compreender outros regimes
+de conhecimento e de ir além das categorias ocidentais da realidade.
+
+**Xamanismos ameríndios** reúne artigos de autores indígenas e não
+indígenas a respeito dos xamanismos de 20 povos das Américas,
+originários de diversas regiões da Amazônia, Aridoamérica, Brasil
+Central, Canadá, Chaco, Llanos de Venezuela e Mesoamérica. Foi
+organizado a partir de dois grupos de trabalho, um no [vii]{.smallcaps}
+Congresso da Associação Portuguesa de Antropologia e outro na 6ª Reunião
+Equatorial de Antropologia, ambos em 2019. Contém 18 textos, nos quais
+são explorados modos xamânicos particulares de conceber o mundo e agir
+nele: da permeação estética --- a agência no mundo por meio da beleza e
+da poesia --- associada à centralidade do sensível através de sons,
+cheiros, imagens, texturas e movimentos à sua *potência transformativa*
+de criar e transformar mundos. Explora também as alterações das práticas
+xamânicas ao longo do tempo e sua consequente abertura ao outro, em
+resposta ao mundo no qual estão inseridas.
