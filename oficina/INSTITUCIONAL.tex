@@ -14,16 +14,24 @@
 
 \starttext %---------------------------------------------------------|
 
+\Mensagem{MESA DO EDITOR}
+
 \startMyCampaign
-{\bf MUDANÇAS\\ 
-NA HEDRA.}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf MANCHETE CURTA E DIRETO AO ASSUNTO}
+
 \stopMyCampaign
 
 \vfill
 \scale[lines=2]{\MyStar[white][none]}
 
-
 \page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
 Desde o ano passado, quando ainda não se podia prever os acontecimentos que
 transformaram 2020 num ano marcado por tantas crises, com consequências que
@@ -31,27 +39,24 @@ enfrentamos diariamente e dimensões que ainda tentamos compreender.
     
 \starttikzpicture[remember picture,overlay] 
 \clip (-.1,-3.6) rectangle (9,0);
-\node[color=white] at (4.5,.9) {\switchtobodyfont[370pt] \setcharacterkerning[reset]\Times he};
+\node[color=white] at (4.5,.9) {\switchtobodyfont[370pt] \setcharacterkerning[reset]\Times hedra};
 \stoptikzpicture
 
 \page %---------------------------------------------------------|
 
-\setuplayout[MyLayout]
-\setupbackgrounds[header][background=MyGuidesFooter]
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
-Desde o ano passado, quando ainda não se podia prever os acontecimentos que
-transformaram 2020 num ano marcado por tantas crises, com consequências que
-enfrentamos diariamente e dimensões que ainda tentamos.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque iaculis mauris, nec elementum est tempus id. Nulla suscipit porttitor risus ut ultrices. Suspendisse risus nunc, vulputate ac finibus vitae, pharetra id.
     
 \starttikzpicture[remember picture,overlay] 
-\draw[red] (-.1,-3.6) rectangle (9,0);
-\node[color=white] at (4.5,.9) {\switchtobodyfont[370pt] \Times ed};
+\clip (-.1,-3.6) rectangle (9,0);
+\node[color=white] at (4.5,.9) {\switchtobodyfont[370pt] \setcharacterkerning[reset]\Times hedra};
 \stoptikzpicture
 
 \page %---------------------------------------------------------|
 
 \SemNada
-
 \startpositioning
 \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
 \stoppositioning
