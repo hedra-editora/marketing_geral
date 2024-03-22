@@ -1,9 +1,6 @@
 <snippet>
-	<description>EdLab-post-instagram-curiosidade</description>
-	<content><![CDATA[% AUTOR_LIVRO_CURIOSIDADE.tex
-% Vamos falar sobre isso "curiosidades"
-% > "EM CONTEXTO"
-
+	<description>EdLab-post-instagram-efemérides</description>
+	<content><![CDATA[% AUTOR_LIVRO_EFEMERIDE.tex
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
@@ -27,41 +24,30 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-\Mensagem{EM CONTEXTO}
+\Mensagem{18 DE MARÇO} %Sempre usar esse header
 
-\startMyCampaign
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+\MyPicture{THUMB_AUTOR.jpeg}
 
-A HISTÓRIA POR TRÁS DO SUICÍDIO  
-{\bf WALTER BENJAMIN}
-
-%\vfill\scale[lines=2]{\MyStar[MyColorText][none]} 					% Estrela pequena  
-
-\stopMyCampaign
+\vfill\scale[factor=6]{\Seta\,144 ANOS SEM {\bf KARL MARX}}
 
 \page %---------------------------------------------------------| 
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Pulvinar ante, a ultricies magna {\bf NOME DO AUTOR}, sempre em negrito e
-caixa alta. Seguir textos de orelha ou resumo. Lorem ipsum dolor sit amet,
-consectetur ou {\bf ALGUM DESTAQUE} adipiscing elit. Praesent sit amet
+Karl Marx foi um filósofo legal. {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, mas também polêmico. Ele morreu no dia {\bf 18 DE MARÇO DE 1936}, há 144 anos. Pulvinar ante, a ultricies magna consectetur ou adipiscing elit. Praesent sit amet
 pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
-Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque
-auctor justo enim. Curabitur vel est consectetur.
+Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna.
 
 \page %---------------------------------------------------------|
 
-\MyCover{AUTOR_LIVRO_THUMB}
+\MyCover{THUMB_LIVRO.pdf}
 
 \page %---------------------------------------------------------|
 
 \Hedra
 
-\stoptext %---------------------------------------------------------|
-	]]></content>
-	<tabTrigger>EdLab-post-instagram-curiosidade</tabTrigger>
+\stoptext %---------------------------------------------------------|]]></content>
+	<tabTrigger>EdLab-post-instagram-efemérides</tabTrigger>
 	<scope>-source</scope>
 </snippet>

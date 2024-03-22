@@ -1,4 +1,9 @@
-% AUTOR_LIVRO_EFEMERIDE.tex
+<snippet>
+	<description>EdLab-post-instagram-destaque-trecho</description>
+	<content><![CDATA[% AUTOR_LIVRO_CURIOSIDADE.tex
+% Vamos falar sobre isso "curiosidades"
+% > "EM CONTEXTO"
+
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
@@ -19,25 +24,19 @@
 
 \starttext %---------------------------------------------------------|
 
+\Mensagem{DESTAQUE}
+
+\startMyCampaign
+
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
+«Batatinha quando nasce se esparrama pelo chão, menininha quando dorme põe a mão no coração»
 
-\Mensagem{18 DE MARÇO} %Sempre usar esse header
+\stopMyCampaign
 
-\MyPicture{THUMB_AUTOR.jpeg}
-
-\vfill\scale[factor=6]{\Seta\,144 ANOS SEM {\bf KARL MARX}}
+{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Batatinha}, do Zé das Couves,}\setupinterlinespace[line=1.5ex]\scale[factor=6]{vindo de onde Judas perdeu as botas. Lembre}\setupinterlinespace[line=1.5ex]\scale[factor=6]{de quebrar as linhas nos códigos.}}
 
 \page %---------------------------------------------------------| 
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-Karl Marx foi um filósofo legal. {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, mas também polêmico. Ele morreu no dia {\bf 18 DE MARÇO DE 1936}, há 144 anos. Pulvinar ante, a ultricies magna consectetur ou adipiscing elit. Praesent sit amet
-pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices.
-Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna.
-
-\page %---------------------------------------------------------|
 
 \MyCover{THUMB_LIVRO.pdf}
 
@@ -45,4 +44,7 @@ Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna.
 
 \Hedra
 
-\stoptext %---------------------------------------------------------|
+\stoptext %---------------------------------------------------------|]]></content>
+	<tabTrigger>EdLab-post-instagram-destaque-trecho</tabTrigger>
+	<scope>-source</scope>
+</snippet>

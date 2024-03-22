@@ -1,3 +1,13 @@
+<snippet>
+	<description>EdLab-post-instagram-pre-venda</description>
+	<content><![CDATA[
+
+		]]></content>
+	<tabTrigger>EdLab-post-instagram-pre-venda</tabTrigger>
+	<scope>-source</scope>
+</snippet>
+
+
 - [x] AUTOR
 - [x] CLIPPING
 - [x] CURIOSIDADE
