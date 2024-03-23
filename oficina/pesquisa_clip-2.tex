@@ -1,0 +1,36 @@
+\usemodule[tikz]
+
+
+
+\startluacode
+function getCircleSize(index)
+    if index == 1 then
+        return ".3"
+    elseif index == 2 then
+        return ".2"
+    elseif index == 3 then
+        return ".15"
+    else
+        return ".1"
+    end
+end
+\stopluacode
+
+\starttext
+d
+
+%\def\MyPortrait#1{
+\starttikzpicture
+    \directlua{tex.print(\string\n\string\clip circle (\string"..getCircleSize(\the\numexpr\directlua{tex.count['starttikzpicture']-1}).."\string textwidth);")}
+    %\node at (0,0) {\externalfigure[ca1][width=1\textwidth]};
+\stoptikzpicture
+
+
+%
+%\starttikzpicture
+%    \MyPortrait{cat1}
+%    \MyPortrait{cat2}
+%    \MyPortrait{cat3}
+%\stoptikzpicture
+
+\stoptext

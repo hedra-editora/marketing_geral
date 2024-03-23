@@ -28,6 +28,18 @@ cd snippets
 make 
 ```
 
+* EdLab-post-instagram-autor.sublime-snippet
+* EdLab-post-instagram-detaque-trecho.sublime-snippet
+* EdLab-post-instagram-edicao.sublime-snippet
+* EdLab-post-instagram-efeméride.sublime-snippet
+* EdLab-post-instagram-emcontexto-curiosidades.sublime-snippet
+* EdLab-post-instagram-eventodelançamento.sublime-snippet
+* EdLab-post-instagram-evento.sublime-snippet
+* EdLab-post-instagram-imprensa-clipping.sublime-snippet
+* EdLab-post-instagram-institucional.sublime-snippet
+* EdLab-post-instagram-pré-venda.sublime-snippet
+* EdLab-post-instagram-radar.sublime-snippet
+
 ## Utilização
 
 Apra um arquivo .tex vazio e digite `EdLab-tempaltes-marketing` 
@@ -85,76 +97,12 @@ Apra um arquivo .tex vazio e digite `EdLab-tempaltes-marketing`
 
 # Padrão de nomes
 
-
-
-
 ```sh
 AUTOR_LIVRO_<EDITORIA>.tex
 AUTOR_LIVRO_<EDITORIA>_THUMB.jpg # capa
 AUTOR_LIVRO_<EDITORIA>-1.jpg	 # imagem 1
 AUTOR_LIVRO_<EDITORIA>-2.jpg	 # imagem 2
 ```
-
-# Editorias
-
-```sh
-> Institucional
-> "A EDITORA"
-> AUTOR_LIVRO_INSTITUCIONAL.tex
-
-```
-
-
-### AUTOR_LIVRO_AUTOR.tex
-> quem é "autor"
-> "VIDA & OBRA"
-> 
-
-![AUTOR](modelos/AUTOR/AUTOR-0.png)
-
-
-### AUTOR_LIVRO_CLIPPING.tex
-> imprensa "clipping"
-> "NA IMPRENSA"
-
-![CLIPPING](modelos/CLIPPING/CLIPPING-0.png)
-
-### AUTOR_LIVRO_CURIOSIDADE.tex
-> Vamos falar sobre isso "curiosidades"
-> "EM CONTEXTO"
-
-![CURIOSIDADE](modelos/CURIOSIDADE/CURIOSIDADE-0.png)
-
-### AUTOR_LIVRO_DETALHE.tex
-> detalhes da edição ou por dentro da edição
-> "POR DENTRO DA EDIÇÃO"
-
-![DETALHE](modelos/DETALHE/DETALHE-0.png)
-
-### AUTOR_LIVRO_EVENTO.tex
-> Evento
-> "EVENTO"
-
-![EVENTO](modelos/EVENTO/EVENTO-0.png)
-
-### AUTOR_LIVRO_LANÇAMENTO.tex
-> Lançamento
-> "EM BREVE"
-> 
-![LANCAMENTO](modelos/LANCAMENTO/LANCAMENTO-0.png)
-
-### AUTOR_LIVRO_PREVENDA.tex
-> Pré-venda
-> "PRÉ-VENDA"
-
-![PREVENDA](modelos/PREVENDA/PREVENDA-0.png)
-
-
-### AUTOR_LIVRO_TRECHO.tex
-> destaques "um trecho do livro:"
-> "OP.CIT."
-
-![TRECHO](modelos/TRECHO/TRECHO-0.png)
 
 ## Onde subir os arquivos
 

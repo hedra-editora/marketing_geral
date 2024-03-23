@@ -1,0 +1,22 @@
+\usemodule[tikz]
+
+\starttext
+
+\starttikzpicture[scale=.5]
+    \clip circle (.47\textwidth);
+    \node at (0,0) {\externalfigure[pessoa][width=1\textwidth, factor=max]};
+\stoptikzpicture
+\starttikzpicture[scale=.5]
+    \clip circle (.47\textwidth);
+    \node at (0,0) {\externalfigure[pessoa2][width=1\textwidth, factor=max]};
+\stoptikzpicture
+
+
+%\starttikzpicture
+%    \clip circle (.5\textwidth);
+%    \node at (-0.2\textwidth,0) {\starttikzpicture \clip circle (.1\textwidth); \node {\externalfigure[imagem1.jpg][width=1\textwidth]}; \stoptikzpicture};
+%    \node at (0,0) {\starttikzpicture \clip circle (.1\textwidth); \node {\externalfigure[imagem2.jpg][width=1\textwidth]}; \stoptikzpicture};
+%    \node at (0.2\textwidth,0) {\starttikzpicture \clip circle (.1\textwidth); \node {\externalfigure[imagem3.jpg][width=1\textwidth]}; \stoptikzpicture};
+%\stoptikzpicture
+
+\stoptext
