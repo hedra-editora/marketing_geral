@@ -1,63 +1,130 @@
 <snippet>
-	<description>EdLab-post-instagram-evento</description>
-	<content><![CDATA[% AUTOR_LIVRO_EVENTO.tex
-% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
-\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+  <description>EdLab-post-instagram-evento</description>
+  <content><![CDATA[% AUTOR_LIVRO_EVENTO.tex
+\usecolors[crayola]
+\environment{marketing.env}
+\definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+\setuplayout[marking=empty,
+          location=middle,
+          width=89mm,
+          height=97.5mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=2mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
 
-% Cores definidas pelo designer:
-% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
-% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
-% MyRed			r=0.820, g=0.141, b=0.161 % d12429
-% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
-% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
-% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
-% Configuração de cores
-\definecolor[MyColor][TickleMePink]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
-% Classe para diagramação dos posts
-\environment{marketing.env}		   
+\starttext
 
-% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
- 		\def\MensagemSaibaMais	{SAIBA MAIS:}
- 		\def\MensagemSite		    {HEDRA.COM.BR}
- 		\def\MensagemLink		    {LINK NA BIO}
+\bgroup
+\FormularMI\bold\switchtobodyfont[28pt]\setupinterlinespace[line=1.9ex]\setcharacterkerning[packed]
 
-\starttext  %---------------------------------------------------------|
+\starttikzpicture[remember picture,overlay]
+  \coordinate (A)  at (-2mm,-90.5mm);
+  \coordinate (B)  at (91mm,-90.5mm);
+  \coordinate (C)  at (-2mm,9mm);
+  \coordinate (D)  at (91mm,9mm);
 
-\Mensagem{EVENTO}
+  % Divisão das alturas das partes por igual
+  \coordinate (A1) at ($ (A)!1/6!(C) $); % 1/6 da altura
+  \coordinate (A2) at ($ (A)!2/6!(C) $); % 2/6 da altura
+  \coordinate (A3) at ($ (A)!3/6!(C) $); % 3/6 da altura
+  \coordinate (A4) at ($ (A)!4/6!(C) $); % 4/6 da altura
+  \coordinate (A5) at ($ (A)!5/6!(C) $); % 5/6 da altura
 
-\startMyCampaign
+  \coordinate (D1) at ($ (B)!1/6!(D) $); % 1/6 da altura
+  \coordinate (D2) at ($ (B)!2/6!(D) $); % 2/6 da altura
+  \coordinate (D3) at ($ (B)!3/6!(D) $); % 3/6 da altura
+  \coordinate (D4) at ($ (B)!4/6!(D) $); % 4/6 da altura
+  \coordinate (D5) at ($ (B)!5/6!(D) $); % 5/6 da altura
 
-{\bf EXEMPLO  
 
-DE EVENTO}
+  \fill [MyGreen] (C) rectangle (D5);
+  \fill [MyCyan] (A5) rectangle (D4);
+  \fill [MyRed] (A4) rectangle (D3);
+  \fill [MyPink] (A3) rectangle (D2);
+  \fill [MyGray] (A2) rectangle (D1);
+  \fill [MyOrange] (A1) rectangle (B);
 
-\Seta TIPO DE EVENTO %lançamento, pré-venda, feira, etc
-\Seta XX.XX.XX %data
+  \draw[thick=1pt] (A1) -- (D1);
+  \draw[thick=1pt] (A2) -- (D2);
+  \draw[thick=1pt] (A3) -- (D3);
+  \draw[thick=1pt] (A4) -- (D4);
+  \draw[thick=1pt] (A5) -- (D5);
 
-\vfill
-Alguma coisa
-\stopMyCampaign
+  %\fill[red] (A) circle (5pt);
+ 
+% CARD COLORIDO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \node[anchor=north west] at ([yshift=-2mm]C)    {\bf HEDRA};
+  \node[anchor=north west] at ([yshift=-1mm]A5)   {\bf NA};
+  \node[anchor=north west] at ([yshift=-1mm]A4)   {\bf FEIRA DA USP};
+  \node[anchor=north west] at ([yshift=-1mm]A3)   {};
+  \node[anchor=north west] at ([yshift=-1mm]A2)   {13 DE FEV \| 10H};
+  \node[anchor=north west] at ([yshift=-1mm]A1)   {};     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\stoptikzpicture
+\egroup
 
 \page %---------------------------------------------------------|
+
+% Escolher entre as cores disponíveis para montar a página
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyGreen]
+% \setupbackgrounds[page][background=color,backgroundcolor=MyCyan]
+% \setupbackgrounds[page][background=color,backgroundcolor=MyRed]
+% \setupbackgrounds[page][background=color,backgroundcolor=MyPink]
+\setcharacterkerning[packed]
+
+% \Mensagem{EVENTO}
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Lorem ipsum dolor sit amet, {\bf CONSECTETUR ADIPISCING ELIT}. Praesent sit amet pulvinar ante, a ultricies magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros
+durante o período estarão com {\bf 50\% DE DESCONTO} tanto na feira quanto no
+site. Visite o nosso stand!
+
+\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
+
+% \page %---------------------------------------------------------|
+% \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
+% \setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
+% \startpositioning
+% \position(-1,-.3){\scale[scale=980]{\MyStar[white][none]}}
+% \stoppositioning
 
 \page %---------------------------------------------------------|
 
-Duis aliquet sed quam non tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur vel est consectetur, sodales orci a, eleifend lacus.
+\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
 
-\page %---------------------------------------------------------|
+\setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
+\Times
+\switchtobodyfont[50pt] 
 
-\Hedra
+\mbox{}\blank[1.6cm]
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
 
-\stoptext  %---------------------------------------------------------|
-		]]></content>
-	<tabTrigger>EdLab-post-instagram-evento</tabTrigger>
-	<scope>-source</scope>
+\stoptext]]></content>
+  <tabTrigger>EdLab-post-instagram-evento</tabTrigger>
+  <scope>-source</scope>
 </snippet>

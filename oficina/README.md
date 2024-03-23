@@ -1,6 +1,0 @@
-EVENTO.tex parei no picto
-IMPRENSA.tex
-INSTITUCIONAL.tex
-LANCAMENTO.tex
-PREVENDA.tex
-RADAR.tex
