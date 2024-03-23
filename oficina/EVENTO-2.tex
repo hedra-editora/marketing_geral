@@ -26,16 +26,10 @@
         \def\MensagemLink           {LINK NA BIO}
 
 \starttext  %---------------------------------------------------------|
+\Mensagem{EVENTO}
 
-\starttikzpicture[remember picture,overlay]
-  \node at (5,-4) {\externalfigure[SHOP][height=1.2\paperheight]};
-  
-\stoptikzpicture
-    
-\position(0,\dimexpr\paperheight-9mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
-                    \position(2.5mm,\dimexpr\paperheight-7mm){\FormularMI Teste}
-
-
+\MyBackground{pessoa}
+\startstandardmakeup[background=backgroundimage]
 
 \startMyCampaign
 
@@ -50,6 +44,10 @@ DE EVENTO}
 \vfill
 Alguma coisa
 \stopMyCampaign
+
+\stopstandardmakeup
+
+
 
 \page %---------------------------------------------------------|
 \Mensagem{EVENTO}
