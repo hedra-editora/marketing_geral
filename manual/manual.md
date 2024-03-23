@@ -4,6 +4,7 @@
 	\MyCover{capa.pdf}  	% Aplicação de capa de livro com sombra
 	\MyPicture{Imagem.png}  % Imagem com aplicação de filtro segundo cor MyColorText
 	\MyPhoto{}			    % Aplicação simples de imagem com tamamho \textwidth
+	\MyPortrait{} 			% Uma imagem dentro de um círculo. Colocar imagem quadrada.
 
 ## Pesos para os títulos
 	\startMyCampaign...		 \stopMyCampaign
