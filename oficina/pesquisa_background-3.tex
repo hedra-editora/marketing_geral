@@ -1,0 +1,43 @@
+\usemodule[tikz]
+\usetikzlibrary{shadows.blur}
+
+\def\MyPicture#1{\vfill
+                \starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\externalfigure[#1][width=\textwidth]};
+                    \fill[red,opacity=0.3] (image.south west) rectangle (image.north east);
+                \stoptikzpicture}  
+
+\unprotect
+\appendtoks
+  \setupbackgrounds[\v!page][\c!background=\makeupparameter\c!background]
+\to \t_page_makeup_every_setup
+\protect
+
+\setupexternalfigures[location={local,default,global}]
+
+\def\MyBackground#1{
+\defineoverlay
+  [backgroundimage]
+  [
+\starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\externalfigure[#1][width=\textwidth]};
+                    \fill[red,opacity=0.3] (image.south west) rectangle (image.north east);
+                \stoptikzpicture
+  ]
+}
+
+\starttext
+
+
+
+
+\MyBackground{pessoa2}
+
+\startstandardmakeup[background=backgroundimage]
+  Whatever
+\stopstandardmakeup
+
+Next
+
+\stoptext
+

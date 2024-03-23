@@ -1,0 +1,11 @@
+<snippet>
+	<description>EdLab-post-instagram-manual-imagemdefundo-MyBackground</description>
+	<content><![CDATA[\MyBackground{IMAGEM}
+\startstandardmakeup[background=backgroundimage]
+
+...
+
+\stopstandardmakeup]]></content>
+	<tabTrigger>EdLab-post-instagram-manual-imagemdefundo-MyBackground</tabTrigger>
+	<scope>-source</scope>
+</snippet>

@@ -1,0 +1,56 @@
+% AUTOR_LIVRO_PREVENDA.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][white]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{PRÉ-VENDA}
+
+\MyCover{THUMB_LIVRO.pdf}
+
+\vfill\scale[factor=6]{\Seta\,{\bf 20\% DE DESCONTO}} % Data entra somente após aprovação da Mayara
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Escrever aqui uma análise curta, {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, sempre em negrito e caixa alta. Considerar que {\bf A NOTÍCIA} direta é o que vai vender o livro, como se fosse um «lead» de jornal ou manchete: textinho bem editado, claro e assertivo.
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Aqui entram os nomes em destaque do livro, gente conhecida ou importante que valha mencionar. O livro é organizado por {\bf JOSÉZINHO DAS COUVE} e {\bf MARIANA XAUBLAU}. A tradução é de {\bf GEOVÁ DAS CRUZES}, e a apresentação é de {\bf VIRGULINO MORETTI}.
+
+\vfill
+\scale[factor=5]{\Seta\,De 20,00 {\bf por 10,00}, 174 páginas, 2ª edição.}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
