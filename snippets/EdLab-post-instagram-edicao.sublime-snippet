@@ -1,5 +1,5 @@
 <snippet>
-	<description>EdLab-post-instagram-destaque-trecho</description>
+	<description>EdLab-post-instagram-edição</description>
 	<content><![CDATA[% AUTOR_LIVRO_EDICAO.tex
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
 \usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
@@ -68,6 +68,6 @@ auctor justo enim. Curabitur vel est consectetur.
 \Hedra
 
 \stoptext %---------------------------------------------------------|]]></content>
-	<tabTrigger>EdLab-post-instagram-destaque-trecho</tabTrigger>
+	<tabTrigger>EdLab-post-instagram-edição</tabTrigger>
 	<scope>-source</scope>
 </snippet>
