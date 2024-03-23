@@ -5,7 +5,13 @@
 	\MyPicture{Imagem.png}  % Imagem com aplicação de filtro segundo cor MyColorText
 	\MyPhoto{}			    % Aplicação simples de imagem com tamamho \textwidth
 	\MyPortrait{} 			% Uma imagem dentro de um círculo. Colocar imagem quadrada.
-
+    \MyBackground{}			% Imagem de fundo
+	```
+		\MyBackground{image.png}
+		\startstandardmakeup[background=backgroundimage]
+		...
+		\stopstandardmakeup
+	```
 ## Pesos para os títulos
 	\startMyCampaign...		 \stopMyCampaign
 	\stopMyCampaignSection...   \stopMyCampaignSection
