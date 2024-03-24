@@ -7,7 +7,6 @@ EdLab-post-instagram-eventodelançamento.sublime-snippet
 EdLab-post-instagram-imprensa-clipping.sublime-snippet
 EdLab-post-instagram-institucional.sublime-snippet
 EdLab-post-instagram-radar.sublime-snippet
-
 EdLab-post-instagram-pré-venda.sublime-snippet
 
 EdLab-post-instagram-manual-imagemdefundo-MyBackground.sublime-snippet

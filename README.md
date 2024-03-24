@@ -28,17 +28,18 @@ cd snippets
 make 
 ```
 
-* EdLab-post-instagram-autor.sublime-snippet
-* EdLab-post-instagram-detaque-trecho.sublime-snippet
-* EdLab-post-instagram-edicao.sublime-snippet
-* EdLab-post-instagram-efeméride.sublime-snippet
-* EdLab-post-instagram-emcontexto-curiosidades.sublime-snippet
-* EdLab-post-instagram-eventodelançamento.sublime-snippet
-* EdLab-post-instagram-evento.sublime-snippet
-* EdLab-post-instagram-imprensa-clipping.sublime-snippet
-* EdLab-post-instagram-institucional.sublime-snippet
-* EdLab-post-instagram-pré-venda.sublime-snippet
-* EdLab-post-instagram-radar.sublime-snippet
+* EdLab-post-instagram-autor
+* EdLab-post-instagram-autor-background
+* EdLab-post-instagram-detaque-trecho
+* EdLab-post-instagram-edicao
+* EdLab-post-instagram-efeméride
+* EdLab-post-instagram-emcontexto-curiosidades
+* EdLab-post-instagram-eventodelançamento
+* EdLab-post-instagram-evento
+* EdLab-post-instagram-imprensa-clipping
+* EdLab-post-instagram-institucional
+* EdLab-post-instagram-pré-venda
+* EdLab-post-instagram-radar
 
 ## Utilização
 
