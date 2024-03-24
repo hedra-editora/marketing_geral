@@ -1,0 +1,7 @@
+«Diário de um Escritor» é uma coleção de ensaios escrita por Fiódor Dostoiévski que captura suas reflexões sobre uma variedade de temas, incluindo política, sociedade, moralidade e psicologia. Publicado inicialmente como uma revista mensal entre 1873 e 1877, esse trabalho mostra Dostoiévski discutindo questões contemporâneas e fornecendo uma visão única sobre a sociedade russa e europeia da época.
+
+Em «Diário de um Escritor» Dostoiévski trata de tópicos como a natureza da liberdade, as complexidades da alma humana, as tensões sociopolíticas e a busca da verdade e da espiritualidade. Seus ensaios são marcados por sua perspicácia psicológica, sua análise penetrante e sua habilidade em expressar suas opiniões de forma cativante e provocativa.
+
+Considerado uma peça essencial da obra de Dostoiévski, "Diário de um Escritor" oferece insights profundos sobre as preocupações e ideias do autor, além de fornecer um rico retrato da Rússia do século XIX. Os ensaios contidos nesse livro permanecem relevantes e inspiradores até os dias atuais, cativando leitores e estudiosos com sua riqueza de pensamento e observação aguda.
+
+A partir deste ano a editora Hedra volta a publicar outros volumes do «Diário».
