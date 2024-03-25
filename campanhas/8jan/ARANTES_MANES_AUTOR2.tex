@@ -1,0 +1,54 @@
+% ARANTES_MANES_AUTOR2.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite           {HEDRA.COM.BR}
+        \def\MensagemLink           {LINK NA BIO}
+
+\starttext  %---------------------------------------------------------|
+\Mensagem{MANCHETE CATIVANTE}
+
+% Foto para background
+\MyBackground{CHOMSKY_ANARQUISMO_3}
+
+\startstandardmakeup[background=backgroundimage]
+\startMyCampaign
+\vfill\scale[factor=4]{\Seta\,FERNANDO FRIAS (1900--2000)}
+\stopMyCampaign
+\stopstandardmakeup
+
+\page 
+\Mensagem{MANCHETE CATIVANTE}
+
+ é graduado em História pela Universidade de São Paulo ({\cap FFLCH-USP}) e licenciado pela Faculdade de Educação da {\cap USP}. É mestrando em História da Arte pela {\cap EFLCH}-Unifesp. Integra o grupo de pesquisa {\cap MAAR} (Mídias, Artes, Afetos e Resistência), coordenado pela profa. Yanet Aguilera e o grupo de pesquisa e estudos em
+guerras culturais, coordenado pelo prof. Pedro Arantes (ambos na {\capEFLCH}-Unifesp).
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\page %----------------------------------------------------------|
+
+\MyCover{ARANTES_MANES_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
