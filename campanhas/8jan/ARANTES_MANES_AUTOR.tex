@@ -1,47 +1,49 @@
 % AUTOR_LIVRO_AUTOR.tex
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
-\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
 % Cores definidas pelo designer:
-% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
-% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
-% MyRed         r=0.820, g=0.141, b=0.161 % d12429
-% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
-% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
-% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColor][x=c0e016]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
-\environment{marketing.env}        
+\environment{marketing.env}		   
 
 % Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
-        \def\MensagemSaibaMais  {SAIBA MAIS:}
-        \def\MensagemSite           {HEDRA.COM.BR}
-        \def\MensagemLink           {LINK NA BIO}
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
 
-\starttext  %---------------------------------------------------------|
-\Mensagem{MANCHETE CATIVANTE}
+\starttext %--------------------------------------------------------|
 
-% Foto para background
-\MyBackground{ARANTES_MANES_AUTOR1.png}
-
-\startstandardmakeup[background=backgroundimage]
-\startMyCampaign
-\vfill\scale[factor=4]{\Seta\,PEDRO ARANTES (1974--)}
-\stopMyCampaign
-\stopstandardmakeup
-
-\page 
-\Mensagem{MANCHETE CATIVANTE}
-
+\Mensagem{SOBRE O AUTOR}
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Arquiteto e urbanista ({\cap FAU-USP}), professor de História da Arte na Unifesp, Campus Guarulhos. Mestre em {\bf POLÍTICAS PÚBLICAS} e doutor em tecnologia da construção, ambos pela {\cap FAU-USP}. É autor de livros e artigos sobre {\bf MOVIMENTOS SOCIAIS}, arte e política, guerras culturais, direito à cidade, habitação popular e educação. 
+%\startMyCampaign
+
+\MyPicture{ARANTES_MANES_AUTOR5}
+
+%\stopMyCampaign
+
+\vfill\scale[factor=6]{\Seta\,PEDRO FIORI ARANTES}
+
+\page %----------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Arquiteto e urbanista ({\cap FAU-USP}), professor de História da Arte na Unifesp. Mestre em {\bf POLÍTICAS PÚBLICAS} e doutor em tecnologia da construção, ambos pela {\cap FAU-USP}. É autor de livros e artigos sobre {\bf MOVIMENTOS SOCIAIS}, arte e política, guerras culturais, direito à cidade, habitação popular e educação. 
+
 \page %----------------------------------------------------------|
 
 \MyCover{ARANTES_MANES_THUMB}
@@ -51,4 +53,3 @@ Arquiteto e urbanista ({\cap FAU-USP}), professor de História da Arte na Unifes
 \Hedra
 
 \stoptext %---------------------------------------------------------|
-
