@@ -8,7 +8,6 @@ https://color.adobe.com/pt/create/color-wheel
 * 420 caracteres
 
 # Snippets
-* autor-background
 * autor
 * detaque-trecho
 * edicao
@@ -20,8 +19,8 @@ https://color.adobe.com/pt/create/color-wheel
 * pré-venda
 * radar
 
-- [x] Escolha de títulos
-- [x] Arquivos originais
+- [x] Escolha de títulos/livros
+- [x] Arquivos originais no dropbox
 - [x] Thumbs
 - [x] Cores
 - [x] Textos acessórios (pretas)
@@ -32,7 +31,7 @@ https://color.adobe.com/pt/create/color-wheel
 - [ ] Diagramação
 
 <cor>
-<sinópse>
+<sinopse>
 <capa>
 <pretas>
 <trecho>
@@ -40,7 +39,7 @@ https://color.adobe.com/pt/create/color-wheel
 <datas>
 <organizadores>
 
-# Freud e o patriarcado (Léa Silveira; Alessandra Martins Parente; Pedro Ambra; Janaína Namba; Stephen Frosh; Aline De Souza Martins; Lívia Santiago Moreira; Marita Vyrgioti; Filipe Ceppas; Julia Fatio Vasconcelos; Manuela Borghi Crissiuma; Mariana Facanali Angelini; Renata de Lima Conde; Ana Carolina Minozzo; Marcelo Amorim Checchia; Paula Peron; Jacqueline Rose; Beatriz Santos; Virginia Helena Ferreira da Costa; Rafael Kalaf Cossi. Editora Hedra) [PSY026000]	
+# 1. Freud e o patriarcado (Léa Silveira; Alessandra Martins Parente; Pedro Ambra; Janaína Namba; Stephen Frosh; Aline De Souza Martins; Lívia Santiago Moreira; Marita Vyrgioti; Filipe Ceppas; Julia Fatio Vasconcelos; Manuela Borghi Crissiuma; Mariana Facanali Angelini; Renata de Lima Conde; Ana Carolina Minozzo; Marcelo Amorim Checchia; Paula Peron; Jacqueline Rose; Beatriz Santos; Virginia Helena Ferreira da Costa; Rafael Kalaf Cossi. Editora Hedra) [PSY026000]	
 
 47bf8b
 
@@ -59,6 +58,13 @@ psicanálise urgente e alinhada ao progressivo empoderamento das mulheres e
 da luta feminista, o livro inclui diversas reflexões, que vão dos textos
 canônicos de Freud às novas abordagens de Oswald de Andrade, Deleuze e
 Guattari.
+
+
+1. "Freud e o patriarcado" questiona a concepção psicanalítica do psíquico em relação à cultura, civilização e masculinidade.
+2. A psicanálise é desafiada a explicar, em vez de aceitar como dado, o modelo teórico subjacente.
+3. O livro explora e preserva os modelos freudianos originais em busca de sua eficácia intrínseca.
+4. Além dos textos de Freud, são apresentados elementos que sugerem modelos de psicanálise alternativos.
+5. Procurando uma nova psicanálise alinhada ao empoderamento feminino, o livro traz reflexões diversas, desde as obras clássicas de Freud até as novas abordagens de outros pensadores.
 
 <capa>
 Este livro é composto por um conjunto de textos que expressam potentes
@@ -90,6 +96,12 @@ discussões teóricas, mas também como uma obra dotada de exemplo de atitude
 crítica.
 
 
+1. O livro trata do tema do patriarcado e da relação entre a teoria de Freud e as questões de gênero.
+2. Composto por diferentes eixos, discute os pilares freudianos e os acertos de contas na interpretação de suas obras.
+3. Aborda uma visão crítica e pluralista sobre a temática, explorando a psicanálise e o feminismo.
+4. Considera os problemas atuais sociopolíticos e busca atualizar a psicanálise para os debates contemporâneos.
+5. Destaca a não hierarquização das perspectivas e debates, promovendo uma postura crítica e uma reflexão aprofundada sobre temas complexos.
+
 <trecho>
 Recorrer ao gozo como expediente de acesso ao corpo não é saída sem
 consequências — lembremo-nos de que, na lógica psicanalítica, quem goza é
@@ -109,9 +121,22 @@ mais significativos edifícios da cultura, que, embora reitere alguns de seus
 preconceitos, é sobretudo capaz de resistir a diferentes modos de opressão
 nela existentes. 
 
+
+1. O texto aborda o gozo como meio de acessar o corpo, destacando que na lógica psicanalítica, apenas o Pai primordial desfruta, de forma arbitrária, de todas as mulheres.
+2. Adverte sobre as consequências de tentar resolver a acumulação tóxica sublimada de décadas e séculos de maneira direta, sem devolver ao corpo e à materialidade sua importância central.
+3. Reconhece a psicanálise como revolucionária por trazer o desejo erótico, a sexualidade e as pulsões para o pensamento universal.
+4. Alerta para a necessidade de não menosprezar a contribuição dos primeiros pensadores da psicanálise, provedores de métodos e conhecimentos significativos.
+5. Destaca a capacidade da cultura em resistir a diversas formas de opressão, mesmo com a reiteração de alguns preconceitos, sustentando um edifício cultural fundamental.
+
 <pretas>
 
 <ideias>
+* feminismo e psicanálise
+* a psicanálise na história
+* as mulheres histéricas no centro da teoria (galeria de fotos de personagens femininas de freud)
+* o conceito de gozo em freud
+* as mulheres de freud
+* o uso da palavra patriarcado
 
 <organizadores>
 
@@ -120,6 +145,7 @@ nela existentes.
 2. 4 de novembro de 1922 - Publicação do livro ""Psicologia das Massas e Análise do Eu"" de Freud (99 anos)
 3. 26 de agosto de 1920 - Primeira vez que a palavra ""patriarcado"" aparece em um registro oficial (101 anos)
 4. 23 de setembro de 1939 - Morte de Sigmund Freud (82 anos)"
+
 
 ::: Psicanálise e feminismo; Por uma nova psicanálise 
 Em 'Freud e o Patriarcado', a psicanálise é revisitada à luz da cultura,
@@ -140,7 +166,7 @@ coletânea souberam muito bem como enfrentar.
 
 
 
-# A mulher que virou tatu (Eliane Camargo; Anita Ekman. Editora Hedra) [FIC059000]	
+# 2. A mulher que virou tatu (Eliane Camargo; Anita Ekman. Editora Hedra) [FIC059000]	
 
 bf8e79
 
@@ -154,6 +180,11 @@ bf8e79
  dá batata doce por dar menos trabalho de produzir, já que os idosos Caxinauá
  não trabalham e sua alimentação deve ser garantida pelos parentes.
 
+
+1. "A mulher que virou tatu" é uma história registrada no início do século XX por João Capistrano de Abreu.
+2. A edição atualizada e bilíngue desta história ilustrada reflete uma língua que evoluiu desde o registro original de Capistrano.
+3. A narrativa aborda os alimentos plantados pelos Caxinauá, destacando o milho, mais apreciado e difícil de cultivar, e a batata doce, mais simples e rápida.
+4. Na história, a família de uma idosa fornece batata doce, visto que os idosos Caxinauá não trabalham, e sua alimentação é assegurada pelos parentes.
 
 <trecho> A história diz que quem domesticou a batata doce para podermos comer foi o tatu,
 e quando não tinha batata doce para comer, o tatu comia minhoca. Foi assim
@@ -183,7 +214,6 @@ a dois jovens provenientes do povo, do rio Ibuaçu. Esse trabalho deu
 origem ao livro Hantxa huni kuin, sobre a língua dos Caxinauá do rio
 Ibuaçu, afluente do Muru.
 
-<ideias>
 
 <organizadores>
 
@@ -195,15 +225,22 @@ Ibuaçu, afluente do Muru.
 4. 1920 - Ano em que a população Caxinauá foi reduzida drasticamente devido a doenças trazidas pelos brancos.
 5. 1988 - Ano em que a Constituição Federal do Brasil reconheceu os direitos dos povos indígenas sobre suas terras e culturas."
 
-## Ideias
+<ideias>
+	* data do primeiro contato
+	* a diferença entre o milho e a batata doce
+	* o lugar do velho para os caxinauá
+	* Capistrano de Abre e os índios caxinauã
+	* O povo Caxinauá
+	* Ano em que a população Caxinauá foi reduzida drasticamente devido a doenças trazidas pelos brancos. https://pib.socioambiental.org/pt/Povo:Huni_Kuin_(Kaxinaw%C3%A1)
+	  Os primeiros relatos de viajantes na área do Alto Juruá que falam dos Kaxinawá consideram os rios Muru, Humaitá e principalmente o Iboiçu, três afluentes do Envira (por sua vez afluente do Juruá), como o habitat “original” dos Kaxinawá, antes da chegada dos seringueiros. Destes rios eles ocuparam a margem direita, sendo a margem esquerda ocupada pelos Kulina (McCallum, 1989; Tocantins, 1979). Ao que parece, já no século XVIII os colonizadores organizaram excursões à procura de escravos nesta região. Mas deste primeiro contato não se tem nenhum registro. Estas primeiras incursões foram muito fragmentárias e de curta duração.
+		No final do séc XIX, a partir de 1890, inicia-se uma onda de invasões de caucheiros peruanos e que não demorou mais que vinte anos. Para conseguir o caucho, as árvores precisam ser cortadas e a região ficou logo esgotada. Já a borracha, Hevea brasiliensis, é extraída dos cortes feitos com uma regularidade que preserva a árvore. Por isso a chegada dos seringueiros brasileiros não foi passageira, apesar dos altos e baixos do mercado.
+		Nesse violento contato os grupos indígenas locais sofreram violência por parte dos exploradores que trouxeram, dentre outras coisas, doenças. Em 1913 a região do Juruá contava com 40 mil migrantes (em sua maioria cearenses), e o Purus 60 mil. A violência era organizada. A função dos mateiros não era somente abrir estradas de seringa, era também limpar a área de índios brabos. A reação dos Kaxinawá era roubar e assaltar, porém alguns grupos deixaram-se amansar pelos seringalistas. Foi o que aconteceu com o grupo de Kaxinawá de Iboiçu, que aceitou trabalhar para Felizardo Cerqueira em troca de mercadorias. Felizardo levou-os do Iboiçu para o Alto Envira e de lá, em, 1919, para o Tarauacá, onde foram usados no massacre dos Papavó (McCallum, 1989). Em 1924 chegaram ao rio Jordão, onde estão até hoje, muito tempo depois da morte do patrão. Os Kaxinawá mais velhos deste rio ainda estão marcados com as iniciais FC (Felizardo Cerqueira) do nome do patrão.
 
-* Capistrano de Abreu e os caxinauá.
 
 
 
 
-
-# Diários de Adão e Eva (Mark Twain. Editora Hedra) [LCO002000]	
+# 3. Diários de Adão e Eva (Mark Twain. Editora Hedra) [LCO002000]	
 
 
 
@@ -220,6 +257,12 @@ maturidade − além das considerações de um observador privilegiado, Satã
 o jovem e ingênuo casal). Obra póstuma de um dos maiores escritores e
 satiristas norte-americanos, pela primeira vez em português."	
 
+1. O livro "Diários de Adão e Eva" é um diário íntimo fictício do primeiro casal, dividido em duas partes: Fragmentos do diário de Adão e Diário de Eva, e três contos relacionados.
+2. Os Fragmentos do diário de Adão e o Diário de Eva descrevem as novas condições de vida no Paraíso imediatamente após a Criação, mostrando as primeiras impressões de Adão sobre Eva e vice-versa.
+3. Os contos Solilóquio de Adão, Autobiografia de Eva e Passagens do diário de Satã abordam as experiências de Adão e Eva após serem expulsos do Éden e durante a maturidade.
+4. Satã é retratado como um observador experiente capaz de ajudar o jovem casal, oferecendo considerações valiosas baseadas em sua vasta experiência.
+5. O livro é uma obra póstuma de Mark Twain, renomado escritor e satirista norte-americano, e está disponível em português pela primeira vez.
+
 <pretas>
 	Diários de Adão e Eva e outras sátiras bíblicas reúne os principais
 textos da sátira de Twain a alguns livros e personagens bíblicos. Os
@@ -230,7 +273,7 @@ car essas obras em sequência com outros contos de temática aﬁm,
 como o “Solilóquio de Adão”, a “Autobiograﬁa de Eva” e “Passagens
 do diário de Satã”, aqui coligidos. Isto ocorreu apenas recentemente,
 em, quando Baetzhold e McCullogh reuniram e publicaram, na
-obra intitulada e Bible According to Mark Twain, os mais relevan-
+obra intitulada the Bible According to Mark Twain, os mais relevan-
 tes textos de temática bíblica encontrados em uma “caixa póstuma”,
 espécie de caixa-preta literária em que Twain guardava tudo o que
 escrevera e fora censurado pelas editoras. Inédito em edição bra-
@@ -275,6 +318,29 @@ Preferiria que ﬁcasse com os outros animais…»
 
 
 <ideias>
+	* A única filmagem com Mark Twain (https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Mark_Twain_at_Stormfield_%281909%29.webm/Mark_Twain_at_Stormfield_%281909%29.webm.480p.vp9.webm)
+	* O último livro de Mark Twain?
+	* Mark Twain e Machado de Assis, ambos formados em uma tipografia.
+	* Piloto de barco a vapor no Mississipi e minerador, soldado na guerra civil americana
+	* Uncle Daniel
+	* Qual o verdadeiro nome de Mark Twain?
+	* Mark Twain e a Amazônia
+	* Os pseudônimos de Mark Twain 
+		- W. Epaminondas Adrastus Perkins,
+		- Thomas Jefferson Snodgrass e 
+		- Josh.
+	* A origem do sobrenome "mark twain" 
+	Para navegar com segurança,
+	a profundidade do rio tinha que ser de pelo menos dois
+	pés, ou seja, 24 polegadas, cerca de sessenta centímetros,
+	a segunda marca no medidor.
+	* Samuel Langhorne Cle-
+		mens nasceu em 1835, na companhia do cometa Halley.
+		Do mesmo modo, parte no ano em que o Halley volta a
+		aparecer no céu, no dia 21 de abril de 1910.
+	* obsessão por adão
+	* a caixa preta de Twain
+	* por que o livro não foi publicado em vida?	
 
 <datas>
 1. 18 de novembro de 1835 - Mark Twain nasceu em Florida, Missouri (há 186 anos).
@@ -303,7 +369,7 @@ experiência, o jovem e ingênuo casal).
 
 
 
-# História da província de Santa Cruz (Pero de Magalhães Gandavo; Ricardo Valle; Ieda Lebensztayn. Editora Hedra) [HIS033000]	
+# 4. História da província de Santa Cruz (Pero de Magalhães Gandavo; Ricardo Valle; Ieda Lebensztayn. Editora Hedra) [HIS033000]	
 
 ec3620
 
@@ -389,6 +455,13 @@ regrado, em que o historiador, apoiado pelo aconselhamento ético da
 Igreja Católica, tem por fim exaltar, pelo discurso, ações virtuosas de
 pessoas de caráter elevado e eventos providenciais.
 
+1. A "História da província Santa Cruz" foi inicialmente interpretada como um relato de viagem ou a primeira história sobre as terras além-mar dos portugueses.
+2. Apesar disso, teve uma circulação muito restrita na época de sua publicação.
+3. Sua obscuridade persistiu até o século XIX, quando foi redescoberta e traduzida para o francês por M. Henri Ternaux em 1837, e posteriormente para o inglês por John B. Stetson Jr.
+4. O livro foi dedicado a um homem de armas envolvido nas Índias portuguesas e foi impresso pela mesma oficina que produziu "Os Lusíadas" apenas quatro anos mais tarde.
+5. Ao contrário de um testemunho empírico, o livro segue a ideia do gênero histórico, com uma estrutura retoricamente regulada.
+6. O historiador, seguindo os princípios éticos da Igreja Católica, tem como objetivo exaltar ações virtuosas e eventos providenciais através do discurso.
+
 <datas>
 1. 1576 - Publicação do livro ""História da província de Santa Cruz"" (445 anos atrás)
 2. 1837 - Reconsideração do livro em edição e tradução francesa (184 anos atrás)
@@ -400,12 +473,18 @@ pessoas de caráter elevado e eventos providenciais.
 
 <ideias> 
 	* Ninguém sabe quem é Gandavo, mas publicou na mesma tipografia de Camões.
+	* O monstro
+	* O canibalismo
+	* Por que ficou tanto tempo desconhecido
+	* Filme de Herzog, Aguirre
+	* "Três fatos inusitados sobre..."
 
 
 
 
 
-# Sobre anarquismo, sexo e casamento (Emma Goldman; Mariana Lins. Editora Hedra) [SOC010000]	
+
+# 5. Sobre anarquismo, sexo e casamento (Emma Goldman; Mariana Lins. Editora Hedra) [SOC010000]	
 
 <sinópse>
 "Sobre anarquismo, sexo e casamento"" trata de temas como o controle de
@@ -420,6 +499,40 @@ Alemanha. A condição de Goldman como russa, judia, anarquista e crítica
 implacável do puritanismo estadunidense à autocracia soviética, tornaram-na
 ainda mais vulnerável em relação ao ativismo pela condição da mulher — dos
 Estados Unidos à Rússia, e nos mais diferentes círculos."
+
+- O contexto histórico em que os textos foram escritos abrange a Primeira Guerra Mundial, a Revolução Russa e a ascensão do fascismo na Itália e do nacional-socialismo na Alemanha.
+- Tópicos incluem controle de natalidade, puritanismo norte-americano, repressão sexual, amor livre, ciúme, prostituição, homossexualidade, desigualdade de gênero, maternidade, emancipação feminina e sufrágio.
+- Emma Goldman, autora do livro, era russa, judia, anarquista e crítica do puritanismo americano e da autocracia soviética.
+- Sua posição única a tornou vulnerável em sua defesa dos direitos das mulheres, tanto nos Estados Unidos quanto na Rússia, e em vários círculos ativistas.
+
+<capa>
+Amor livre? Como se o amor pudesse não ser livre.
+O homem pode comprar cérebros, mas todos os
+milhões de dólares do mundo não podem comprar o
+amor. O homem subjugou corpos, mas todo o poder
+na terra foi incapaz de subjugar o amor. O homem
+conquistou nações inteiras, mas todos os seus
+exércitos juntos não puderam conquistar o amor. O
+homem acorrenta e agrilhoa o espírito, mas diante
+do amor ele está completamente desamparado. Mesmo 
+que se encontre nas alturas de um trono, com
+todo o esplendor e glória que o ouro pode comprar,
+ainda assim, o homem será pobre e desolado se o
+amor passar ao largo. Mas, caso não passe e resolva
+ficar, até o casebre mais pobre torna-se radiante de
+aconchego, de vida e de cor. Portanto, o amor tem o
+poder mágico de fazer de um mendigo, um rei. Sim, o
+amor é livre; ele não pode viver em outra atmosfera.
+Em liberdade, ele se entrega sem reservas, abundante, 
+completamente. Todas as leis dos estatutos,
+todos os tribunais do universo não podem arrancá-lo
+do solo, caso o amor tenha criado raízes. Mas se o
+solo é estéril, como o casamento pode dar frutos? É
+como a luta desesperada e última entre a vida passageira 
+e a morte.”
+
+# 6 Emma Goldman, O indivíduo, A sociedade, O Estado
+
 
 <capa> 
 Os textos de Emma Goldman reunidos em O indivíduo,
@@ -442,6 +555,13 @@ global. Inspirados em Kropotkin e Malatesta, os
 textos de O indivíduo, a sociedade e o Estado já
 antecipavam muitas das questões fundamentais do
 século XX.
+
+- O indivíduo, a sociedade e o Estado" reúne os textos de Emma Goldman, que continuam relevantes na defesa firme da liberdade individual.
+- A nova tradução feita pela pesquisadora Mariana Lins mantém a linguagem surpreendentemente simples, direta e precisa da renomada ativista.
+- Goldman é conhecida pela coerência entre sua obra, sua militância e sua vida pessoal.
+- Crítica contundente da submissão ao poder estatal, Goldman apresenta denúncias embasadas em argumentos históricos, revelando uma prática implacável de dizer a verdade.
+- A autora não sofre do problema que ela mesma diagnosticou nos intelectuais de seu tempo: a ignorância ou indiferença em relação aos assuntos mais urgentes e elementares, tanto locais quanto globais.
+- Inspirados em pensadores como Kropotkin e Malatesta, os textos de "O indivíduo, a sociedade e o Estado" antecipam muitas das questões fundamentais do século XX.
 
 Suma sacerdotisa do anarquismo, Emma Goldman
 promove um encontro livre e profícuo entre história
@@ -499,7 +619,12 @@ Esse conflito constante e incessante é a própria
 substância da história da humanidade.
 
 <ideias>
-	* A suma sacerdotisa do anarquismo
+	* A suma sacerdotisa do anarquismo, a mulher mais perigosa da América
+	* Cinco fatos sobre a vida de Emma Goldman
+	* Goldman e a revolução russa (John Reed)
+
+
+
 
 <organizadores>
 
@@ -512,7 +637,7 @@ substância da história da humanidade.
 
 
 
-# Pai contra mãe e outros contos (Machado de Assis; Ieda Lebensztayn; Flávio Ricardo Vassoler; Alexandre Rosa; Ieda Lebensztayn. Editora Hedra) [FIC004000]	
+# 6. Pai contra mãe e outros contos (Machado de Assis; Ieda Lebensztayn; Flávio Ricardo Vassoler; Alexandre Rosa; Ieda Lebensztayn. Editora Hedra) [FIC004000]	
 
 f680b9
 
@@ -582,6 +707,8 @@ propriedade moderava a ação, porque
 dinheiro também dói.
 
 <ideias>
+* machado de assis e a máscara de flandres
+* machado tratou da escravidão?
 
 <organizadores>
 
