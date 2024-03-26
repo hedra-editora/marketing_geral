@@ -1,0 +1,64 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Eggplant]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][Canary]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite           {HEDRA.COM.BR}
+        \def\MensagemLink           {LINK NA BIO}
+
+\starttext  %---------------------------------------------------------|
+\Mensagem{MESTRE DAS ENTRELINHAS}
+
+% Foto para background
+\MyBackground{METABIBLIOTECA_MACHADO_PAI_7.jpeg}
+
+\startstandardmakeup[background=backgroundimage]
+\startMyCampaign
+\vfill\scale[factor=4]{\Seta\,MACHADO DE ASSIS (1839--1908)}
+\stopMyCampaign
+\stopstandardmakeup
+
+\page 
+\Mensagem{MESTRE DAS ENTRELINHAS}
+
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+{\bf MACHADO DE ASSIS} foi um renomado escritor do século {\cap XIX}, conhecido pela sua agudeza do retrato que fez da elite brasileira.
+
+\page %----------------------------------------------------------|
+
+Considerado um dos maiores escritores brasileiros de todos os tempos, {\bf MACHADO} foi capaz de transpor formalmente, em suas narrativas, os {\bf DILEMAS} do país --- por exemplo, o capricho e volatilidade das classes abastadas.
+
+\page
+
+Neto de escravos alforriados, o escritor ganhou a vida em atividades ligadas ao mundo letrado. Conviveu intensamente com a elite artístico-intelectual de sua época, tendo inclusive sido eleito como presidente da {\bf ACADEMIA BRASILEIRA DE LETRAS}, em 1897.
+
+\page
+\MyCover{METABIBLIOTECA_MACHADO_PAI_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+
