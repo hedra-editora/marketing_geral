@@ -1,12 +1,8 @@
-% AUTOR_LIVRO_EVENTO.tex
 \usecolors[crayola]
-
 \environment{marketing.env}
-
 \definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
 \definepapersize    [14x21]       [width=140mm, height=210mm]
 \setuppapersize     [post]        %[14x21]
-
 \setuplayout[marking=empty,
           location=middle,
           width=89mm,
@@ -30,7 +26,6 @@
     %      top=21mm,
     %      bottom=21mm,
 ]
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
@@ -59,7 +54,6 @@
   \coordinate (D4) at ($ (B)!4/6!(D) $); % 4/6 da altura
   \coordinate (D5) at ($ (B)!5/6!(D) $); % 5/6 da altura
 
-
   \fill [MyGreen] (C) rectangle (D5);
   \fill [MyCyan] (A5) rectangle (D4);
   \fill [MyRed] (A4) rectangle (D3);
@@ -76,11 +70,11 @@
   %\fill[red] (A) circle (5pt);
  
 % CARD COLORIDO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \node[anchor=north west] at ([yshift=-2mm]C)    {\bf HEDRA};
-  \node[anchor=north west] at ([yshift=-1mm]A5)   {\bf NA};
-  \node[anchor=north west] at ([yshift=-1mm]A4)   {\bf FEIRA DA USP};
-  \node[anchor=north west] at ([yshift=-1mm]A3)   {};
-  \node[anchor=north west] at ([yshift=-1mm]A2)   {13 DE FEV \| 10H};
+  \node[anchor=north west] at ([yshift=-2mm]C)    {\bf HEDRA NA};
+  \node[anchor=north west] at ([yshift=-1mm]A5)   {\bf FEIRA DA USP};
+  \node[anchor=north west] at ([yshift=-1mm]A4)   {\bf };
+  \node[anchor=north west] at ([yshift=-1mm]A3)   {13.03.2024};
+  \node[anchor=north west] at ([yshift=-1mm]A2)   {10 ÀS 20H};
   \node[anchor=north west] at ([yshift=-1mm]A1)   {};     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -90,7 +84,6 @@
 \page %---------------------------------------------------------|
 
 % Escolher entre as cores disponíveis para montar a página
-
 \setupbackgrounds[page][background=color,backgroundcolor=MyGreen]
 % \setupbackgrounds[page][background=color,backgroundcolor=MyCyan]
 % \setupbackgrounds[page][background=color,backgroundcolor=MyRed]
@@ -102,9 +95,9 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros durante o período estarão com {\bf 50\% DE DESCONTO} tanto na feira quanto no site. Visite o nosso stand!
+A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros durante o período estarão com {\bf 50\% DE DESCONTO} tanto na feira quanto no site. Visite o nosso stand! Aqui também pode entrar um texto mais editorial, como o {\bf LANÇAMENTO QUE SERÁ DISPONIBILIZADO} no dia ou a coleção que estará em destaque no nosso stand.
 
-\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
+%\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
 
 % \page %---------------------------------------------------------|
 % \setupbackgrounds[page][background=color,backgroundcolor=MyGray]
@@ -115,6 +108,12 @@ A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros du
 
 \page %---------------------------------------------------------|
 
+\MyPicture{THUMB_AUTOR.jpeg}
+
+\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
+
+\page %---------------------------------------------------------|
+
 \setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
 
 \setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
@@ -122,6 +121,6 @@ A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros du
 \switchtobodyfont[50pt] 
 
 \mbox{}\blank[1.6cm]
-\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  
+\hfill\switchtobodyfont[50pt] hedra \hfill \mbox{}  
 
 \stoptext
