@@ -2,7 +2,7 @@ local utilitydata = { }
 
 utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
- ["file"]="METABIBLIOTECA_ALENCAR_CARTAS_EDICAO",
+ ["file"]="ARANTES_MANES_AUTOR",
  ["format"]="cont-en",
  ["stamp"]="2021.03.05 19:11",
  ["version"]=0x1.51eb851eb851fp+0,
@@ -19,7 +19,7 @@ if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
  ["macros"]={},
- ["randomseed"]=0x1.dba9be78p-1,
+ ["randomseed"]=0x1.86b9ff1p-1,
  ["sectionblockorder"]={},
 }
 
@@ -43,7 +43,7 @@ utilitydata.job.positions.collected={
   ["p"]=1,
   ["r"]="textarea:1",
   ["x"]=372935,
-  ["y"]=17039932,
+  ["y"]=17350047,
  },
  ["p:2"]={
   ["d"]=346801,
@@ -52,7 +52,7 @@ utilitydata.job.positions.collected={
   ["p"]=2,
   ["r"]="textarea:2",
   ["x"]=372935,
-  ["y"]=17701052,
+  ["y"]=7594134,
  },
  ["p:3"]={
   ["d"]=346801,
@@ -61,7 +61,7 @@ utilitydata.job.positions.collected={
   ["p"]=3,
   ["r"]="textarea:3",
   ["x"]=372935,
-  ["y"]=17701052,
+  ["y"]=7594076,
  },
  ["p:4"]={
   ["d"]=346801,
@@ -70,7 +70,7 @@ utilitydata.job.positions.collected={
   ["p"]=4,
   ["r"]="textarea:4",
   ["x"]=372935,
-  ["y"]=17701052,
+  ["y"]=7598360,
  },
  ["p:5"]={
   ["d"]=346801,
