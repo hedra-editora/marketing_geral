@@ -1,0 +1,90 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Goldenrod]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][VenetianRed]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite           {HEDRA.COM.BR}
+        \def\MensagemLink           {LINK NA BIO}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackground#1{
+\defineoverlay
+  [backgroundimage]
+  [{\externalfigure[#1][height=\overlayheight]}]
+}
+
+
+\Mensagem{POETA FINGIDOR}
+
+% Foto para background
+\MyBackground{METABIBLIOTECA_PESSOA_EXTASE_3}
+
+\startstandardmakeup[background=backgroundimage]
+\startMyCampaign
+\vfill\scale[factor=4]{\Seta\,FERNANDO PESSOA (1888--1935)}
+\stopMyCampaign
+\stopstandardmakeup
+
+\page 
+\Mensagem{POETA FINGIDOR}
+
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Nascido em Lisboa, {\bf FERNANDO PESSOA} é um dos maiores poetas da língua portuguesa e uma figura singular na literatura mundial. Sua vida {\bf ENIGMÁTICA} e sua genialidade são refletidas em uma obra vasta e diversificada.
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Pessoa é conhecido por criar {\bf HETERÔNIMOS}, personas literárias com estilos e {\bf PERSPECTIVAS ÚNICAS}. Álvaro de Campos, Ricardo Reis e Alberto Caeiro são alguns dos mais famosos. 
+
+ \page
+
+\MyPicture{METABIBLIOTECA_PESSOA_EXTASE_1}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Sua poesia aborda temas como amor e fragmentação e metafísica, com precisão nas palavras e intensidade emocional.
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Durante sua vida publicou em livro apenas {\bf MENSAGEM} (1934). 
+Falece em decorrência de uma cirrose hepática aos 47 anos, nesta mesma cidade. 
+
+\page %----------------------------------------------------------|
+
+\MyCover{METABIBLIOTECA_PESSOA_EXTASE_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+
+  % Em 1905, retorna definitivamente para sua cidade natal e ingressa na Faculdade de Letras da Universidade de Lisboa. Começa a publicar textos de crítica na revista \textit{A águia}, em 1912, e a colaborar em jornais e revistas, sendo a principal delas a  \textit{Orpheu}.
+

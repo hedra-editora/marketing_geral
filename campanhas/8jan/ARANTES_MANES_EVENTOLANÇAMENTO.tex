@@ -24,7 +24,17 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink		{LINK NA BIO}
 
+
+\def\startMyCampaign{\bgroup
+            \FormularMI
+            \switchtobodyfont[25pt]
+            \setupinterlinespace[line=1.9ex]
+            \setcharacterkerning[packed]}
+\def\stopMyCampaign{\par\egroup}
+
 \starttext %---------------------------------------------------------|
+
+
 
 \Mensagem{EVENTO DE LANÇAMENTO}
 
@@ -33,27 +43,25 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-{\bf 8/1: A REBLIÃO DOS MANÉS} DE
+{\bf 8/1: A REBELIÃO DOS MANÉS} DE
  PEDRO ARANTES, FERNANDO FRIAS E MARIA LUIZA MENESES  
 \stopMyCampaign
-\scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Constantino Kaváfis, Luiz Krausz e Valter Hugo Mãe}
 
 \vfill
 
 % Colocar sempre imagens quadradas
-\scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR2.jpeg}\quad\MyPortrait{ARANTES_MANES_AUTOR4}\quad\MyPortrait{ARANTES_MANES_AUTOR3.png}}
+\scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR-PEDROQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-FERNANDOQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-MARIAQUADRADO}}
 
 \scale[factor=fit]{\Seta\,{\bf 05 DE ABRIL 19H} LIVRARIA MARTINS FONTES}
 
 
-\page %---------------------------------------------------------|
 \page
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Faremos uma {\bf RODA DE CONVERSA} com a participação dos {\bf AUTORES}
-e ministrada por {\bf FELIPE MUSETTI}, editor da Hedra. A mediação é de {\bf SUZANA SORAYA}, apresentadora do Fantástico. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Podemos usar {\bf OUTRO DESTAQUE} aqui, mas sem pressão.
+{\bf RODA DE CONVERSA} com a participação dos {\bf AUTORES}
+e mediação de {\bf FELIPE MUSETTI}, editor da Hedra e da coleção {\bf QUE HORAS SÃO?}
 
 {\vfill\scale[factor=5]{\Seta\,{\bf Livraria Martins Fontes} Av.\,Paulista, 509, Bela Vista.}
 \page %---------------------------------------------------------|
