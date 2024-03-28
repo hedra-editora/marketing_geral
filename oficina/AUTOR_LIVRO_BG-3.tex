@@ -1,0 +1,96 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][x=cfc9c7]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+
+  
+
+\definelayer[MyLayer]
+  [width=\paperwidth,
+   height=\paperheight,
+   position=no,
+   repeat=no,
+   align={middle,middle}]
+
+\setlayer[MyLayer]
+   {\starttikzpicture
+     \node[yshift=-5mm, inner sep=0] (image) at (0,0) 
+          {\externalfigure[CHOMSKY_ANARQUISMO_3][width=\paperwidth]};
+     \fill[MyColor,opacity=0.3] (image.south west) rectangle (image.north east);
+    \stoptikzpicture}
+  %{\externalfigure[pessoa2][width=\paperwidth,height=\paperheight]}
+
+%\setupbackgrounds[page][background=MyLayer]
+
+\def\Mensagem#1{
+\def\MySlogan{\uppercasing{#1}}
+\definelayer[Mensagem]
+\setuplayer[Mensagem][width=\paperwidth, height=.8pt, color=green]
+\setlayer[Mensagem]{
+    \position(\leftmarginwidth,2mm){\FormularMImedium\bold  \color[color=green]{\MySlogan}}
+    \position(0,8mm){\blackrule[width=\paperwidth, height=.6pt, color=green]}
+    \position(0,\dimexpr\paperheight-\footerheight-8mm){\blackrule[width=\paperwidth, height=.6pt, color=green]}
+    \position(\leftmarginwidth,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{\MensagemSaibaMais}} 
+    \position(5cm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemSite}}
+    \position(5cm,\dimexpr\paperheight-4mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemLink}}
+    }        
+    \setuplayout[MyLayoutWithHeader]
+}
+
+\starttext  %---------------------------------------------------------|
+\Mensagem{MANCHETE CATIVANTE}
+\setupbackgrounds[header][background=Mensagem]
+\setupbackgrounds[page][background=MyLayer]
+
+%\Mensagem{MANCHETE CATIVANTE}
+
+% Foto para background
+%\MyBackground{CHOMSKY_ANARQUISMO_3}
+
+xx
+
+
+\page 
+
+
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setupbackgrounds[header][background=Mensagem]
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+2. Pulvinar ante, a ultricies magna {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, 
+mas sempre em negrito e caixa alta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pulvinar ante, a ultricies
+magna. Etiam placerat quis tellus sed ultrices. Duis aliquet sed quam non
+tincidunt. Donec sit amet tempor urna. Quisque auctor justo enim. Curabitur
+vel est consectetur, sodales orci a, eleifend lacus. 
+
+\page %----------------------------------------------------------|
+
+\MyCover{THUMB_LIVRO.pdf}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

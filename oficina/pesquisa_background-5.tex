@@ -1,0 +1,23 @@
+\definelayer[MyBackground]
+  [width=\paperwidth,
+   height=\paperheight,
+   position=no,
+   repeat=no,
+   align={middle,middle}]
+
+\setlayer[MyBackground]
+      {\externalfigure[pessoa2][width=\paperwidth,height=\paperheight]}
+      
+\setupbackgrounds[page][background=MyBackground]
+
+\starttext
+
+Seu texto para a primeira página aqui...
+
+\page
+
+\setupbackgrounds[page][background=color,backgroundcolor=blue] % Configura o background para azul a partir da segunda página
+
+Seu texto para a segunda página aqui...
+
+\stoptext
