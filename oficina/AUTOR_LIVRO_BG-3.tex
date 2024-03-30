@@ -30,24 +30,24 @@
      \stoptikzpicture
     \position(-1.5mm,8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
     \position(-1.5mm,\dimexpr\paperheight-\footerheight-8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
-        \position(\leftmarginwidth,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{\MensagemSaibaMais}}
-           \position(5cm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemSite}}
+    \position(\dimexpr\leftmarginwidth-1.5mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{\MensagemSaibaMais}}
+    \position(5cm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemSite}}
     \position(5cm,\dimexpr\paperheight-4mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemLink}}
+    \position(\dimexpr\leftmarginwidth-1.5mm,2mm){\FormularMImedium\bold  \color[color=MyColorText]{AAAA}}
     }
-  %{\externalfigure[pessoa2][width=\paperwidth,height=\paperheight]}
-
+ 
 
 \starttext  %---------------------------------------------------------|
 \setupbackgrounds[header][background=Mensagem]
 \setupbackgrounds[page][background=MyLayer]
 
-\startMyCampaign
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-
-{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
-\stopMyCampaign
+\ \\
+%\startMyCampaign
+%\hyphenpenalty=10000
+%\exhyphenpenalty=10000
+%\mbox{}\blank[0.1ex]
+%{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
+%\stopMyCampaign
 
 \page 
 
