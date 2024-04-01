@@ -1,10 +1,8 @@
-<snippet>
-        <description>EdLab-post-instagram-autor-background</description>
-        <content><![CDATA[% AUTOR_LIVRO_AUTOR.tex
+% AUTOR_LIVRO_AUTOR.tex
 \usecolors[crayola]
 
 % Configuração de cores TickleMePink
-\definecolor[MyColor][TickleMePink]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColor][x=cfc9c7]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
@@ -20,14 +18,13 @@
 \starttext  %---------------------------------------------------------|
 
 \def\MyBackgroundMessage{MENSAGEM CATIVANTE}
-\MyBackground{chomsky}
-
-\startMyCampaign
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+\MyBackground{IMAGEMAUTOR}
+%\startMyCampaign
+%\hyphenpenalty=10000
+%\exhyphenpenalty=10000
+%\mbox{}\blank[0.1ex]
 %{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
-\position(0,7.8){\scale[factor=4]{\Seta\,NOME DO AUTOR (1900--2000)}}
-\stopMyCampaign
+%\stopMyCampaign
 
 \page 
 
@@ -48,7 +45,4 @@ vel est consectetur, sodales orci a, eleifend lacus.
 
 \Hedra
 
-\stoptext %---------------------------------------------------------|]]></content>
-        <tabTrigger>EdLab-post-instagram-autor-background</tabTrigger>
-        <scope>-source</scope>
-</snippet>
+\stoptext %---------------------------------------------------------|

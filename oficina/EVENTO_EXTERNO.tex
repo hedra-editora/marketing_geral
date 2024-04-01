@@ -29,8 +29,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
 
+
+\def\MyPicture#1{\vfill
+                \starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\externalfigure[#1][width=\textwidth]};
+                    % Mudar a cor aqui do filtro se alterar o verde
+                    \fill[MyGreen,opacity=0.3] (image.south west) rectangle (image.north east);
+                \stoptikzpicture}  
+
 \starttext
-\showframe  %Para mostrar somente as linhas.
+%\showframe  %Para mostrar somente as linhas.
 
 \bgroup
 \FormularMI\bold\switchtobodyfont[28pt]\setupinterlinespace[line=1.9ex]\setcharacterkerning[packed]
@@ -108,11 +116,20 @@ A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros du
 
 \page %---------------------------------------------------------|
 
-\MyPicture{THUMB_AUTOR.jpeg}
+\MyPhoto{cat}
 
 \vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
 
 \page %---------------------------------------------------------|
+
+\MyPicture{THUMB_AUTOR}
+
+\page
+
+\vfill
+\scale[factor=fit]{\MyPortrait{pessoa}\quad\MyPortrait{pessoa2}}
+
+\page
 
 \setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
 
