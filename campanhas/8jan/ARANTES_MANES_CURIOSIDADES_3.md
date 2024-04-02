@@ -6,10 +6,10 @@ Afinal, a tomada de palácios por massas de civis em  rebelião não era uma for
 
 Percebemos essa inversão com um paradoxo, que surge na transição do Regime Militar para a Nova República: como a  esquerda, mesmo derrotada militarmente pela ditadura, saiu vitoriosa do ponto de vista político, moral e simbólico?
 
+Na narrativa da direita, oavanço progressista se comprovaria com seis eleições presidenciais sucessivas. Foram 22 anos de presidências de esquerda, com um professor marxista da USP, um líder sindical metalúrgico e uma ex-guerrilheira. Ou seja, mais tempo que os 21 anos da ditadura.
+
 Olavo de Carvalho estava convencido de que havia uma ação organizada e deliberada da esquerda em torno do gramscismo (ou marxismo cultural). Acreditava num grau tal de centralismo e orquestração que a sua hipótese tornava-se uma teoria da conspiração, mas teve faro político e percebeu um movimento real na sociedade brasileira.
 
-O  avanço progressista se comprovaria com seis eleições presidenciais sucessivas. Na narrativa da direita, foram 22 anos de presidências de esquerda, com um professor marxista da USP, um líder sindical metalúrgico e uma ex-guerrilheira. Ou seja, mais tempo que os 21 anos da ditadura.
+ Olavo de Carvalho dá a entender que nova direita reacionária precisaria dar um basta a esse longo ciclo de hegemonia política e cultural progressista e liberal. Realizar ascensão similar, mas às avessas, e promover uma revolução cultural a partir de seus valores. 
 
-A nova direita reacionária precisaria dar um basta a esse longo ciclo de hegemonia política e cultural progressista e liberal. Realizar ascensão similar, mas às avessas, e promover uma  revolução cultural a partir de seus valores. 
-
- Olavo de Carvalho dá a entender, assim, que as forças reacionárias devem entrar para valer na guerra por hegemonia e tomar a direção dos aparelhos culturais.
+A nova direita reacionária precisaria dar um basta a esse longo ciclo de hegemonia política e cultural progressista e liberal. Realizar ascensão similar, mas às avessas, e promover uma  revolução cultural a partir de seus valores. As forças reacionárias devem entrar para valer na guerra por hegemonia e tomar a direção dos aparelhos culturais.
