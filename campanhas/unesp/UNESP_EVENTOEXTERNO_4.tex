@@ -1,0 +1,82 @@
+% AUTOR_LIVRO_EVENTOEXTERNO.tex
+\usecolors[crayola]
+\environment{marketing.env}
+\environment{extra.env}
+
+\definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+\setuplayout[marking=empty,
+          location=middle,
+          width=89mm,
+          height=97.5mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=2mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+%MyGreen
+%MyCyan
+%MyRed
+%MyPink
+%MyOrange
+\definecolor[MyColor][MyGreen] 
+
+\starttext
+
+\MyColorbars{HEDRA}{NA}{FEIRA DA UNESP}{}{DE 03\|04 A 07\|04}{}
+
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyGreen]
+\MyCover{JULIALOPES_CONTOS_THUMB}
+
+\page
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyCyan]
+\MyCover{BENJAMIN_DIARIO_THUMB}
+
+\page
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyRed]
+\MyCover{MARX_MANIFESTO_THUMB}
+
+\page
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyPink]
+\MyCover{BLECHER_ACONTECIMENTOS_THUMB}
+
+\page
+
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyGray]
+\MyCover{GAMA_LIBERDADE_THUMB}
+
+\page
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
+\MyCover{GOLDMAN_INDIVIDUO_THUMB}
+
+\page
+\setupbackgrounds[page][background=color,backgroundcolor=white]
+
+\Hedra
+
+\stoptext
