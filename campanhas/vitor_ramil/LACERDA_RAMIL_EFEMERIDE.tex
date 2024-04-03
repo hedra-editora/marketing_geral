@@ -1,0 +1,64 @@
+% AUTOR_LIVRO_EFEMERIDE.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                            % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen                r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan                r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed                        r=0.820, g=0.141, b=0.161 % d12429
+% MyPink                r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray                r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange                r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Almond]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}                   
+
+\starttext %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\Mensagem{ANIVERSÁRIO} %Sempre usar esse header
+
+\MyPicture{THUMB_AUTOR2.jpg}
+
+\vfill\scale[factor=6]{\Seta\,QUEM É {\bf VITOR RAMIL}}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Nascido em 7 de abril de 1962 em Pelotas (RS), {\bf VITOR RAMIL} é um dos mais inventivos músicos contemporâneos brasileiros. Lançou seu primeiro álbum aos 18 anos, \emph{Estrela, estrela} (1981), ao qual se seguiram mais 11 discos, sendo o mais recente \emph{Avenida Angélica}, de 2022, com poemas de sua conterrânea Angélica Freitas.
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Vitor, além de exímio compositor de canções, letrista versátil e
+cultíssimo, é também um artista da canção que transforma poemas em
+música com tal nível de excelência que fica a impressão de que o poema
+musicado foi feito para ser mesmo letra de canção popular.»
+
+\vfill
+
+{\scale[factor=fit]{{\bf Marcos Lacerda}, autor de {\it Vitor Ramil, o astronauta lírico}}
+
+\page
+
+\MyCover{THUMB_LIVRO.pdf}
+
+\vfill
+
+\scale[factor=5]{\Seta\,De XXXXXXX {\bf por XXXXXXX}, 340 páginas, 1ª edição.}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

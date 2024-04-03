@@ -1,0 +1,66 @@
+% AUTOR_LIVRO_PREVENDA.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][BlueI]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{PRÉ-VENDA}
+
+\MyCover{THUMB_LIVRO.pdf}
+
+\vfill\scale[factor=6]{\Seta\,{\bf 30\% DE DESCONTO}} % Data entra somente após aprovação da Mayara
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Profícuo compositor e escritor pelotense, Vitor Ramil tem sua trajetória desbravada na biografia {\bf VITOR RAMIL, O ASTRONAUTA LÍRICO}. A partir da crítica da canção, da literatura e dos shows, bem como do diálogo com o biografado, o autor Marcos Lacerda traça não só uma análise de sua carreira artística, como a relaciona com sua formação pessoal, preenchendo uma importante lacuna na produção crítica sobre a {\bf MÚSICA POPULAR BRASILEIRA.}
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+% O sociólogo e crítico {\bf MARCOS LACERDA}, autor de {\it Vitor Ramil, o astronauta lírico}, foi diretor de música da Funarte, responsável por políticas de âmbito nacional, e publicou outras obras relacionadas ao universo da música brasileira, como {\it Hotel Universo: a poética de Ronaldo Bastos} (2019), além de organizar {\it Música: ensaios brasileiros contemporâneos} (2016) e {\it A canção
+% como música de invenção} (2018).
+\vfill
+
+\scale[factor=6]{\Seta\,{\bf Título} {\it Vitor Ramil, o astronauta lírico}}
+
+\scale[factor=6]{\Seta\,{\bf Autor} {Marcos Lacerda}}
+
+\scale[factor=6]{\Seta\,{\bf ISBN} {978-65-84716-19-3}}
+
+\scale[factor=6]{\Seta\,{\bf Pág.} {340}}
+
+\vfill
+\scale[factor=5]{\Seta\,De XXXXXXX {\bf por XXXXXXX}, 340 páginas, 1ª edição.}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
