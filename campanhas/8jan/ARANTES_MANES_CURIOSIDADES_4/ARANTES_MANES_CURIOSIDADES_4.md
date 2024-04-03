@@ -1,4 +1,4 @@
-A tentativa de reescrita do 8/1: manés invadem a Wikipédia
+A tentativa de reescrita do 8/1: bolsonaristas invadem a Wikipédia
  
 Apoiadores de Bolsonaro tentaram reescrever a história sobre a empreitada golpista do 8 de janeiro na página da Wikipédia. 
 
@@ -10,7 +10,7 @@ Cerca de 20 minutos depois da sua criação, um usuário trocou o termo “terro
 
 Quase um ano depois, esse mesmo usuário substituiu “manifestações golpistas no Brasil após as eleições de 2022” por “manifestações da vontade popular legítima fruto de uma democracia instituída pela própria  Constituição Federal do Brasil após as eleições de 2022”.
 
-O volume de edições na página era tão grande que as essas foram restringidas.
+O volume de edições na página era tão grande que as edições foram restringidas.
 A Wikipédia tornou-se um verdadeiro cabo de guerra em que estava em jogo a verdade sobre os acontecimentos do fatídio 8 de janeiro.
 
 
