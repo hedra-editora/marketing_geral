@@ -1,0 +1,74 @@
+% AUTOR_LIVRO_EVENTOEXTERNO.tex
+\usecolors[crayola]
+\environment{marketing.env}
+\environment{extra.env}
+
+\definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+\setuplayout[marking=empty,
+          location=middle,
+          width=89mm,
+          height=97.5mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=2mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+%MyGreen
+%MyCyan
+%MyRed
+%MyPink
+%MyOrange
+\definecolor[MyColor][MyGreen] 
+
+\starttext
+
+\MyColorbars{HEDRA}{NA}{FEIRA DA UNESP}{}{DE 03\|04 A 07\|04}{}
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+\setcharacterkerning[packed]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+A VI Feira do Livro da Unesp acontece de 3 a 7 de abril de 2024, combinando
+formatos presencial e virtual. Milhares de livros disponíveis com descontos
+de pelo menos 50\% na versão presencial, dentre eles os livros da
+{\bf HEDRA}. 
+
+\vfill
+
+\scale[factor=5]{\Seta\,R. Dr. Bento Teobaldo Ferraz, 27, Barra Funda, SP}
+
+\page %---------------------------------------------------------|
+
+\MyPicture{UNESP_EVENTOEXTERNO_1}
+
+\page %---------------------------------------------------------|
+
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
+
+\Hedra
+
+\stoptext
