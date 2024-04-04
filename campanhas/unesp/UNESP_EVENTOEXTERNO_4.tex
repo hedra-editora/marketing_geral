@@ -1,81 +1,57 @@
-% AUTOR_LIVRO_EVENTOEXTERNO.tex
-\usecolors[crayola]
-\environment{marketing.env}
-\environment{extra.env}
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
-\definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
-\definepapersize    [14x21]       [width=140mm, height=210mm]
-\setuppapersize     [post]        %[14x21]
-\setuplayout[marking=empty,
-          location=middle,
-          width=89mm,
-          height=97.5mm,
-          leftmargin=2mm,
-          rightmargin=2mm,
-          backspace=2mm,
-          header=2mm,
-          headerdistance=0mm,
-          footer=2mm,
-          footerdistance=0mm,
-          topspace=0mm,
-          leftedge=0mm,
-          leftedgedistance=0mm,
-          leftmargindistance=0mm,
-          rightmargindistance=0mm,
-          rightedgedistance=0mm,
-          rightedge=0mm,
-          topdistance=0mm,
-          bottomdistance=0mm,
-    %      top=21mm,
-    %      bottom=21mm,
-]
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MyGreen]   [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+
+\Mensagem{HEDRA NA FEIRA DA UNESP}
+\starttext 
 
 
-%MyGreen
-%MyCyan
-%MyRed
-%MyPink
-%MyOrange
-\definecolor[MyColor][MyGreen] 
+\page
 
-\starttext
-
-\MyColorbars{HEDRA}{NA}{FEIRA DA UNESP}{}{DE 03\|04 A 07\|04}{}
-
-
-\page %---------------------------------------------------------|
-
-\setupbackgrounds[page][background=color,backgroundcolor=MyGreen]
 \MyCover{JULIALOPES_CONTOS_THUMB}
 
 \page
 
-\setupbackgrounds[page][background=color,backgroundcolor=MyCyan]
 \MyCover{BENJAMIN_DIARIO_THUMB}
 
 \page
 
-\setupbackgrounds[page][background=color,backgroundcolor=MyRed]
 \MyCover{MARX_MANIFESTO_THUMB}
 
 \page
 
-\setupbackgrounds[page][background=color,backgroundcolor=MyPink]
 \MyCover{BLECHER_ACONTECIMENTOS_THUMB}
 
 \page
 
 
-\setupbackgrounds[page][background=color,backgroundcolor=MyGray]
 \MyCover{GAMA_LIBERDADE_THUMB}
 
 \page
 
-\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
 \MyCover{GOLDMAN_INDIVIDUO_THUMB}
 
 \page
-\setupbackgrounds[page][background=color,backgroundcolor=white]
 
 \Hedra
 
