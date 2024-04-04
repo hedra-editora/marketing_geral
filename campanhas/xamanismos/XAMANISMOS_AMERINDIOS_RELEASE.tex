@@ -1,0 +1,223 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb O xamanismo sob a perspectiva de 20 povos}
+
+\blank[big]
+
+\noindent{\it Primeira publicação no Brasil, depois de duas décadas, dedicada à reflexão sobre a prática xamânica de diferentes povos da América}, Xamanismos ameríndios {\it promove uma virada na compreensão dos modos de pensar e agir entendidos como xamanismos}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=3.5cm]{
+\externalfigure[XAMANISMOS_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=4.5cm,style=tfx]{
+\noindent{\bf Título} {\em Xamanismos ameríndios: Expressões sensíveis e ações cosmopolíticas}\\
+{\bf Autor} Aristoteles Barcelos Neto, Laura Pérez Gil e Danilo Paiva Ramos (orgs.)\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-986-4\\
+{\bf Pág.} 504\\
+{\bf Pré-venda} 08/04\\
+{\bf Lançamento} 19/04\\
+{\bf Preço} R\$\,117,00
+}
+
+\noindent{\em Xamanismos ameríndios} reúne artigos de
+autores indígenas e não indígenas a respeito dos xamanismos de 20
+povos das Américas, originários de diversas regiões da Amazônia,
+Aridoamérica, Brasil Central, Canadá, Chaco, Llanos de Venezuela e
+Mesoamérica. São 18 textos,
+nos quais são explorados modos xamânicos particulares de conceber o
+mundo e agir nele: da permeação estética --- a agência no mundo por
+meio da beleza e da poesia --- associada à centralidade do sensível
+através de sons, cheiros, imagens, texturas e movimentos à sua
+{\em potência transformativa} de criar e transformar mundos. Explora
+também as alterações das práticas xamânicas ao longo do tempo e sua
+consequente abertura ao outro, em resposta ao mundo no qual estão
+inseridas.
+
+A coletânea abrange povos indígenas
+da América do Norte --- Olmeca, Wixárika, Tepehuano, Masewal e Atikamekw
+--- e da América do Sul --- Kaiowá, Guarani, Qom, Wauja, Huni Kuin, Yaminawa,
+Kulina, Yuhupdëh, Hupd’äh, Desana, Tariano, Ye’pâmasa (Makuna), Pumé,
+Tukano, Mebengokré (Xikrin). Ao reunir tal diversidade de trabalhos, o livro
+estabelece ressonâncias, aberturas, articulações e transversalidades xamânicas
+perpassadas pela diversidade linguística, geográfica, temporal e cosmológica.
+
+O livro foi organizado a partir de dois grupos de trabalho, um no
+VII Congresso da Associação Portuguesa de Antropologia e outro na 6ª
+Reunião Equatorial de Antropologia, ambos em 2019. 
+
+\blank[big]
+
+\subject{Sobre os organizadores}
+
+\startitemize
+  \item
+    {\bf Aristoteles Barcelos} é professor associado e diretor de curso
+    na Sainsbury Research Unit for the Arts of Africa, Oceania and the
+    Americas (University of East Anglia, Norwich). É também museólogo no
+    Museu Indígena Ulupuwene do Povo Wauja do Alto Xingu, professor
+    colaborador do Centro de Estudos Mesoamericanos e Andinos da
+    Universidade de São Paulo (USP), {\em fellow} da British Higher
+    Education Academy e membro do Conselho Internacional de Museus.
+    Recebeu o Prêmio CNPq--Anpocs de melhor tese de doutorado em
+    Ciências Sociais. Foi pesquisador visitante do CNPq no Laboratoire
+    d'Anthropologie Sociale du Collège de France, da FAPESP na USP e do
+    convênio Newton Fund/FAPESP na UNICAMP.
+  \item
+    {\bf Laura Pérez Gil} é professora de Antropologia Americana na
+    Universidad Complutense de Madrid, do departamento da Antropologia
+    (em excedência) e do programa de pós-graduação em Antropologia e
+    Arqueologia da Universidade Federal do Paraná. Foi responsável pelas
+    coleções de etnologia indígena, e posteriormente coordenadora do
+    Museu de Arqueologia e Etnologia da mesma universidade. Atua na área
+    de Etnologia Indígena das Terras Baixas da América do Sul com povos
+    de língua pano, especialmente sobre xamanismo, corporalidade,
+    organização social e processos históricos. Igualmente, desenvolve e
+    orienta pesquisas sobre coleções etnográficas em museus.
+  \item
+    {\bf Danilo Paiva Ramos} é antropólogo, professor adjunto C do
+    departamento de Ciências Humanas da Universidade Federal de Alfenas
+    (UNIFAL--MG) e professor efetivo do programa de pós-graduação em
+    Antropologia Social da Universidade Federal de São Carlos
+    (PPGAS--UFSCar). É líder do grupo de pesquisa em Etnologia,
+    Linguística e Saúde Indígena (ETNOLINSI, do CNPq). Desenvolve
+    pesquisas em etnologia indígena, com ênfase em estudos sobre
+    xamanismo, línguas indígenas, arte verbal e saúde indígena. É membro
+    do Coletivo de Apoio aos Povos Yuhupdëh, Hupd'äh, Dâw e Nadëb
+    (CAPYHDN) e da Associação Saúde Sem Limites (SSL).
+  \stopitemize
+
+\page
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    {\bf Capítulo {\em A flauta-jaguar e o xamanismo wauja}}
+
+    \startitemize
+    \item
+      A jaguaridade é um tema complexo na Amazônia e sua indexicalidade
+      é amplamente heterogênea {[}...{]} não é completamente capturada
+      por indexes materiais ou sensíveis; ela é constituída, antes de
+      tudo, por ideias de poder e de transformação {[}...{]} Seguindo
+      essa referência da identificação do jaguar como cachorro, retomo
+      um trecho da narrativa de Itsakumã: “ele (o jaguar) veio andando
+      na minha direção, como se eu fosse o dono dele, como se ele fosse
+      o meu cachorro”. Essa aparição, de natureza claramente xamânica,
+      era o prenúncio de que Itsakumã se tonaria, de fato, dono dos
+      jaguares. A mansidão indicava uma aproximação entre iguais, pois,
+      logo na noite depois do encontro na estrada, a alma de Itsakumã
+      seria novamente levada pelos jaguares para suas aldeias para comer
+      carne humana. Essa ideia de poder contida na {\em jaguaridade}
+      raramente opera desvinculada de uma presença material e sensível.
+    \stopitemize
+  \item
+    {\bf Capítulo {\em Gaapi, a bebida cósmica dos desana}}
+
+    \startitemize
+    \item
+      {\bf Os seres primordiais}: Antes do mundo existia Ʉmũsĩ Dihtaru,
+      onde viviam Abe, “Sol”, e Omẽ Mahʉ, “Trovão”. Nesse lago celeste
+      existiam três tipos de linhas de forças: a linha branca de nuvens,
+      a linha preta de nuvens e a linha aquosa de nuvens. Além delas, no
+      centro do lago, existia um pilar hiperbrilhante. Meu avô Toramü
+      Bayaru, Venâncio Ramos, relatou que esse pilar era de breu, e que
+      representava o próprio Abe, “Sol”. Por ser muito luminoso, nenhum
+      ser podia aproximar-se dele. No ápice do pilar, ainda, havia um
+      pedaço circular de pedra, do qual saíam três chamas de fogo: fogo
+      de chama vermelha intensa, fogo de chama amarela intensa e fogo de
+      chama verde intensa. Ao redor do pilar de breu havia sete cuias em
+      círculo. Essas cuias representavam a fonte de vida e a força dos
+      seres humanos. O líquido derretido do breu caía na forma de linhas
+      e elas se juntavam dentro das cuias. Esse evento significava a
+      reconstrução da vida de Abe, e o breu derretido simbolizava a sua
+      força essencial. A mancha escura simboliza, por outro lado, a
+      força de Bʉhpo, que domina as nuvens --- a força que emana do
+      cigarro do {\em kumu}, “conhecedor” ou “xamã".
+    \stopitemize
+ 
+  \item
+    {\bf Capítulo {\em Ohendu: aprendendo a cantar entre os Kaiowá e
+    Guarani~}}
+
+    \startitemize
+    \item
+      Como explicam os {\em opuraheiva}, os cantos atravessam os muitos
+      domínios da vida guarani e são absolutamente fundamentais para a
+      sustentação do mundo, por isso o cantar emerge não só como o
+      principal fazer dos humanos. Os Kaiowá e Guarani aprendem com as
+      vozes dos pássaros, das corredeiras, árvores e pedras, em suma,
+      tudo que tem {\em ñe'ẽ}, “linguagem”, de modo que alguns objetos
+      de seu xamanismo, como o chocalho {\em mbaraka}, o bastão de ritmo
+      {\em takuapu}, a flauta {\em mimby}, e o arco de boca
+      {\em guyrapa'i}, ainda que categorizados como instrumentos
+      musicais, são dotados de estatutos ontológicos próprios.
+    \stopitemize
+  \stopitemize
+
+\stoptext

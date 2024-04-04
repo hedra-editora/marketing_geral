@@ -1,0 +1,159 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Biografia inédita preenche lacuna nos estudos críticos sobre a música popular brasileira}
+
+\blank[big]
+
+\noindent{\it Ensaio biográfico sobre o cantor e compositor gaúcho Vitor Ramil desvela uma das trajetórias artísticas mais instigantes da cena musical do Brasil contemporâneo}
+
+\blank[1cm]
+
+\noindent{\em Vitor Ramil, o astronauta lírico} é um ensaio biográfico sobre o
+cantor e compositor gaúcho Vitor Ramil, escrito pelo crítico Marcos
+Lacerda. O livro se concentra na trajetória artística do biografado, mas
+sem deixar de lado as informações relevantes de momentos de sua vida
+pessoal. As análises da obra de Vitor Ramil se condensam assim, na
+proporção exata, com as inquietudes do homem crescido no extremo sul do
+país, nas derradeiras décadas do século XX. Trata-se de um livro
+essencial sobre vida e a poética musical única do cantautor tanto para o
+leitor leigo quanto para o já iniciado na “estética do frio”.
+
+\inoutermargin[width=60mm,hoffset=1.5cm,style=tfx]{
+\externalfigure[RAMIL_CAPA.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=60mm,hoffset=1.5cm,voffset=1cm,style=tfx]{
+\noindent {\bf Título}{\it Vitor Ramil, o astronauta lírico}\\
+{\bf Autor} Marcos Lacerda\\
+{\bf Editora} Hedra\\
+{\bf Selo Acorde} Editorial
+{\bf ISBN} 978-65-84716-19-3\\
+{\bf Pág.} 340\\
+{\bf Pré-venda} 05/04/2024\\
+{\bf Lançamento} Maio\\
+{\bf Preço} 89,00
+}
+
+Construído a partir de diálogos do autor com o biografado ao longo de
+quatro anos e de minuciosa pesquisa em periódicos e materiais inéditos,
+o livro de Marcos Lacerda trata da vida e da obra de Vitor Ramil de
+maneira singular e propõe uma leitura crítica e informativa. Por sua
+formação como sociólogo e sua atuação como crítico musical, o autor não
+desperdiça linha ou vírgula neste livro.
+
+{\em Vitor Ramil, o astronauta lírico} vem cumprir uma lacuna de jogar
+luz à obra de um dos mais inventivos artistas contemporâneos
+brasileiros.
+
+\blank[big]
+
+\subject{Sobre o autor}
+
+Marcos Lacerda é sociólogo e ensaísta. Foi diretor de música da Funarte,
+responsável por políticas de âmbito nacional. É autor de {\em Hotel
+Universo: a poética de Ronaldo Bastos} (2019) e organizador de
+{\em Música: ensaios brasileiros contemporâneos} (2016) e {\em A canção
+como música de invenção} (2018). É um dos curadores da coleção Cadernos
+Ultramares e da coleção Certas Canções (Hedra/Acorde).
+
+\subject{Trechos do livro}
+
+\startblockquote
+“O palco está já preparado. Acendem as primeiras luzes. O teatro lotado
+aguarda, com certa ansiedade. Começam a entrar os primeiros músicos.
+Gutcha Ramil, Ian Ramil, Thiago Ramil, João Ramil, Kleiton e Kledir
+Ramil e, por fim, Vitor Ramil. Estão reunidos os músicos da Casa Ramil,
+projeto de shows, gravações e encontros entre os artistas da família. O
+nome é sugestivo. A importância da casa como lugar real e metáfora na
+obra de Vitor é enorme. A casa das canções em “Autorretrato” (1984); a
+descrição de quartos, salas, portas, pátios em “Espaço” (2000); no mesmo
+ano de 2000 a “Ilusão da casa”; a importância da casa dos pais como
+cenário fundamental na novela Pequod, com quartos secretos, poltronas,
+relógios, um casarão de um amigo próximo do pai (1995); os pátios
+pequenos da concisão onde se revelam o universo e o sentido das coisas
+em “Milonga de sete cidades” (1997); a alegoria da casa da família em
+ruínas no romance Satolep (2008); a descrição de corredores, mesas da
+“casa nova” na canção “Satolep” (1984); o tapete deslocado da sala para
+os pais dançarem tango no texto do encarte do disco Ramilonga -- A
+estética do frio (1997); a descrição de cama, livro, televisão, abajur
+em “Livro aberto” (2007) e, claro, a volta para a casa onde nasceu na
+cidade de Pelotas, fundamental para uma reorientação na sua carreira, no
+ano de 1992”.
+\stopblockquote
+
+\blank[big]
+
+\startblockquote
+“Vitor me disse algo surpreendente: “Eu não me sinto nem músico, nem
+escritor, eu não me sinto nada. Eu sou um cara interessado em muitas
+coisas”. Essa afirmação veio quando estava falando a respeito da sua
+relação com o ambiente da música, sobre algumas necessidades próprias ao
+ofício, como a de viajar para encontrar músicos, produtores,
+arranjadores, o que for. Viver dentro das ambiências do campo cultural,
+vamos dizer assim, como protagonista entre os atores sociais que compõem
+este campo”.
+\stopblockquote
+
+\stoptext
