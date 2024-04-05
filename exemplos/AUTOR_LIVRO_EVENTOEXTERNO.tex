@@ -1,0 +1,84 @@
+% AUTOR_LIVRO_EVENTOEXTERNO.tex
+\usecolors[crayola]
+\environment{marketing.env}
+\environment{extra.env}
+
+\definepapersize    [post]        [width=93.1mm, height=97.5mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+\setuplayout[marking=empty,
+          location=middle,
+          width=89mm,
+          height=97.5mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=2mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+%MyGreen
+%MyCyan
+%MyRed
+%MyPink
+%MyOrange
+\definecolor[MyColor][MyGreen] 
+
+\starttext
+
+\MyColorbars{HEDRA}{NA}{FEIRA DA USP}{BLA}{XX.XX.XX}{10H}
+
+\page %---------------------------------------------------------|
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+\setcharacterkerning[packed]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+A Feira da USP vai de 11 de março até 11 de abril, e todos os nossos livros durante o período estarão com {\bf 50\% DE DESCONTO} tanto na feira quanto no site. Visite o nosso stand! Aqui também pode entrar um texto mais editorial, como o {\bf LANÇAMENTO QUE SERÁ DISPONIBILIZADO} no dia ou a coleção que estará em destaque no nosso stand.
+
+%\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
+
+\page %---------------------------------------------------------|
+
+\MyPhoto{cat}
+
+\vfill\scale[factor=5]{\Seta\,Av. São Luís 187, República, das 10h às 18h.}
+
+\page %---------------------------------------------------------|
+
+\MyPicture{THUMB_AUTOR}
+
+\page
+
+\vfill
+\scale[factor=fit]{\MyPortrait{pessoa}\quad\MyPortrait{pessoa2}}
+
+\page
+
+%MyGreen
+%MyCyan
+%MyRed
+%MyPink
+%MyOrange
+\setupbackgrounds[page][background=color,backgroundcolor=MyOrange]
+
+\Hedra
+
+\stoptext
