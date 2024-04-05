@@ -1,0 +1,69 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{LANÇAMENTO}
+
+\startMyCampaign
+
+{É HOJE}\setupinterlinespace[line=1ex]\\
+{\bf 8/1: A REBELIÃO DOS MANÉS}
+\stopMyCampaign
+
+\vfill
+
+% Colocar sempre imagens quadradas
+\scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR-PEDROQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-FERNANDOQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-MARIAQUADRADO}}
+
+\vfill
+
+{\vfill
+\scale[factor=6]{\Seta\,{\bf Quem participa} Pedro Arantes,}
+\setupinterlinespace[line=1.5ex]\scale[factor=6]{Fernando Frias e Maria Luiza Meneses}
+\setupinterlinespace[line=2ex]\scale[factor=6]{\Seta\,{\bf 5 de abril 19h} Livraria Martins Fontes}
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf RODA DE CONVERSA} com a participação dos {\bf AUTORES}
+e mediação de {\bf FELIPE MUSETTI}, editor da Hedra e da coleção 
+
+{\bf QUE HORAS SÃO?}
+
+{\vfill\scale[factor=5]{\Seta\,{\bf Livraria Martins Fontes} Av.\,Paulista, 509, Bela Vista.}
+
+\page %---------------------------------------------------------|
+
+
+\MyCover{ARANTES_MANES_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
