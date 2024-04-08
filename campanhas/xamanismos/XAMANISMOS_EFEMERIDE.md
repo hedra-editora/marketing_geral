@@ -7,3 +7,5 @@ A coleção «Mundo indígena» enquadra-se nesse esforço de propagar os conhec
 O mais novo lançamento da coleção é  «Xamanismos ameríndios», que contesta o conceito homogêneo de 
 xamã, confrontando-o com as multiplicidades e particulares dos líderes e práticas espirituais de diferentes povos nativos das Américas.
 
+📸  Foto da primeira página do carrossel: «Xamanismos ameríndios», «Ohendu, aprendendo a cantar.»
+Rezadoras kaiowá acompanhadas de uma jovem aprendiz dançam seus cantos «mborahéi» em recepção aos convidados da festa «avatikyry» em Guyra Kambi'y, TI Panambi Lagoa Rica, Douradina (MS). Autoria: Tatiane Klein, 2018.

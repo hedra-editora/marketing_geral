@@ -4,5 +4,5 @@ Pré-venda do livro «Xamanismos ameríndios» com 20% de desconto!
 
 O livro é organizado por  Aristoteles Barcelos Neto, Laura Pérez Gil e Danilo Paiva Ramos. Reúne 18 textos, nos quais são explorados modos xamânicos particulares de conceber o mundo e agir nele. O posfácio é de Esther Jean Langdon, pesquisadora de narrativas xamânicas e performance.
 
-De R$ XX,XX por R$ XX,00
+De R$ 117,00 por R$ 93,60
 504 páginas, 1ª edição.
