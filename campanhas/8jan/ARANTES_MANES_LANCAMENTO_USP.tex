@@ -12,7 +12,7 @@
 
 % Configuração de cores
 \definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
-\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
@@ -26,17 +26,20 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{DEBATE}
+\Mensagem{EVENTO + DEBATE}
 
 \startMyCampaign
 {\bf 8/1: A REBELIÃO DOS MANÉS}
 \stopMyCampaign
-\scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Pedro F. Arantes, Fernando Frias, Maria L. Meneses e Vladimir Safatle}
+{\scale[factor=5]{\Seta\,{\bf CONVIDADOS} Pedro Arantes, Fernando Frias,}
+\setupinterlinespace[line=1.7ex]\scale[factor=5]{Maria L. Meneses e Vladimir Safatle}}
 
 \vfill
 
 % Colocar sempre imagens quadradas
 \scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR-PEDROQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-FERNANDOQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-MARIAQUADRADO}\quad\MyPortrait{ARANTES_MANES_CONVIDADO_SAFATLE}}
+
+\blank[medium]
 
 \scale[factor=fit]{\Seta\,{\bf 12 DE ABRIL 18H} NA FFLCH-USP}
 
@@ -47,7 +50,7 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-O segundo evento de lançamento de {\bf 8/1: A REBELIÃO DOS MANÉS} terá a participação do filósofo {\bf VLADIMIR SAFATLE}, que conversará com os autores do livro sobre o bolsonarismo nos dias de hoje, o futuro da democracia e o papel da esquerda no Brasil contemporâneo.
+Evento de lançamento do livro {\bf 8/1: A REBELIÃO DOS MANÉS} terá a participação especial do filósofo {\bf VLADIMIR SAFATLE}, que conversa com os autores sobre os temas do livro.
 
 
 {\vfill\scale[factor=5]{\Seta\,O debate acontece na {\bf sala 14} do prédio da}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Filosofia/Ciências Sociais, na {\bf FFLCH-USP}, que }
@@ -58,9 +61,13 @@ O segundo evento de lançamento de {\bf 8/1: A REBELIÃO DOS MANÉS} terá a par
 
 \MyCover{ARANTES_MANES_THUMB.jpeg}
 
+\vfill
+
+\Seta\,{\bf 50\%} de desconto
+
 \page %---------------------------------------------------------|
 
-\setcharacterkerning[reset]
+\setcharacterkerning[reset]\setupbackgrounds[header][background=MyGuidesCleaned]
 \Times
 \switchtobodyfont[50pt]
 \mbox{}\blank[10mm]
@@ -70,14 +77,20 @@ O segundo evento de lançamento de {\bf 8/1: A REBELIÃO DOS MANÉS} terá a par
 \FormularMImedium\bold
 \switchtobodyfont[12pt]
 \setcharacterkerning[packed]
-APOIO:
-\blank[medium]
 
+\position(-1,9.25mm){\blackrule[width=1.2\paperwidth, height=.6pt, color=MyColorText]}
+
+\starttikzpicture[remember picture,overlay]
+\node at (3,-.8)
+{
 \startcombination[4*1]
-{\externalfigure[fflch.png][width=.15\textwidth]}{}
-{\externalfigure[ppgfil.png][width=.15\textwidth]}{}
-{\externalfigure[capes.png][width=.2\textwidth]}{}
-{\externalfigure[usp.png][width=.2\textwidth]}{}
+{\externalfigure[fflch-pb.png][width=.1\textwidth]}{}
+{\externalfigure[ppgfil-pb.png][width=.1\textwidth]}{}
+{\externalfigure[capes.png][width=.15\textwidth]}{}
+{\externalfigure[usp-pb.png][width=.15\textwidth]}{}
 \stopcombination
+};
+\stoptikzpicture
+
 
 \stoptext %---------------------------------------------------------|
