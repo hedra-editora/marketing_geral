@@ -1,0 +1,83 @@
+% AUTOR_LIVRO_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumGreen]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{DEBATE}
+
+\startMyCampaign
+{\bf 8/1: A REBELIÃO DOS MANÉS}
+\stopMyCampaign
+\scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Pedro F. Arantes, Fernando Frias, Maria L. Meneses e Vladimir Safatle}
+
+\vfill
+
+% Colocar sempre imagens quadradas
+\scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR-PEDROQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-FERNANDOQUADRADO}\quad\MyPortrait{ARANTES_MANES_AUTOR-MARIAQUADRADO}\quad\MyPortrait{ARANTES_MANES_CONVIDADO_SAFATLE}}
+
+\scale[factor=fit]{\Seta\,{\bf 12 DE ABRIL 18H} NA FFLCH-USP}
+
+
+\page %---------------------------------------------------------|
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+O segundo evento de lançamento de {\bf 8/1: A REBELIÃO DOS MANÉS} terá a participação do filósofo {\bf VLADIMIR SAFATLE}, que conversará com os autores do livro sobre o bolsonarismo nos dias de hoje, o futuro da democracia e o papel da esquerda no Brasil contemporâneo.
+
+
+{\vfill\scale[factor=5]{\Seta\,O debate acontece na {\bf sala 14} do prédio da}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Filosofia/Ciências Sociais, na {\bf FFLCH-USP}, que }
+\setupinterlinespace[line=1.7ex]\scale[factor=5]{fica na Av. Prof. Luciano Gualberto, 315, SP.}}
+
+\page %---------------------------------------------------------|
+
+
+\MyCover{ARANTES_MANES_THUMB.jpeg}
+
+\page %---------------------------------------------------------|
+
+\setcharacterkerning[reset]
+\Times
+\switchtobodyfont[50pt]
+\mbox{}\blank[10mm]
+\hfill hedra \hfill \mbox{}  
+
+\vfill
+\FormularMImedium\bold
+\switchtobodyfont[12pt]
+\setcharacterkerning[packed]
+APOIO:
+\blank[medium]
+
+\startcombination[4*1]
+{\externalfigure[fflch.png][width=.15\textwidth]}{}
+{\externalfigure[ppgfil.png][width=.15\textwidth]}{}
+{\externalfigure[capes.png][width=.2\textwidth]}{}
+{\externalfigure[usp.png][width=.2\textwidth]}{}
+\stopcombination
+
+\stoptext %---------------------------------------------------------|
