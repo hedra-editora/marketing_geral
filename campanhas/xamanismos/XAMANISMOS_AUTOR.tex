@@ -1,0 +1,84 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumBluePurple]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
+\starttext %--------------------------------------------------------|
+
+\Mensagem{SOBRE OS ORGANIZADORES}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+Conheça os\\ 
+organizadores do livro {\bf XAMANISMOS \\
+AMERÍNDIOS}
+
+\vfill
+\scale[factor=5]{\Seta\,Aristoteles Barcelos Neto}\\
+\scale[factor=5]{\Seta\,Laura Pérez Gil}\\
+\scale[factor=5]{\Seta\,Danilo Paiva Ramos}\\
+% \scale[factor=fit]{\MyPortrait{ARANTES_MANES_AUTOR1}\quad\MyPortrait{ARANTES_MANES_AUTOR4.jpg}\quad\MyPortrait{ARANTES_MANES_AUTOR3.png}}
+
+\stopMyCampaign
+
+\page %----------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\MyPicture{XAMANISMOS_FOTO_ARIS_PB}
+
+{\vfill\scale[factor=6]{\Seta\,{\bf ARISTOTELES BARCELOS NETO} é}
+\setupinterlinespace[line=2ex]\scale[factor=6]{professor e museólogo. Recebeu o Prêmio}
+\setupinterlinespace[line=2ex]\scale[factor=6]{{\cap CNP}q--Anpocs de melhor tese de doutorado}
+\setupinterlinespace[line=2ex]\scale[factor=6]{{em Ciências Sociais.}} 
+
+\page %----------------------------------------------------------|
+
+\MyPicture{XAMANISMOS_PAIVA_FOTO_PB2}
+
+
+{\vfill\scale[factor=6]{\Seta\,{\bf LAURA PÉREZ GIL} é professora de Antropologia}\setupinterlinespace[line=2ex]\scale[factor=6]{ Americana na Universidad Complutense de}\setupinterlinespace[line=2ex]\scale[factor=6]{ Madrid. Desenvolve e orienta pesquisas sobre}\setupinterlinespace[line=2ex]\scale[factor=6]{coleções etnográficas em museus.}}
+
+% \textls[10]{\textbf{Laura Pérez Gil} é professora de Antropologia Americana na Universidad Complutense de Madrid, do departamento da Antropologia (em excedência) e do programa de pós-graduação em Antropologia e Arqueologia da Universidade Federal do Paraná. Foi responsável pelas coleções de etnologia indígena, e posteriormente coordenadora do Museu de Arqueologia e Etnologia da mesma universidade. Atua na área de Etnologia Indígena das Terras Baixas da América do Sul com povos de língua pano, especialmente sobre xamanismo, corporalidade, organização social e processos históricos. Igualmente, desenvolve e orienta pesquisas sobre coleções etnográficas em museus.}
+
+\page
+
+\MyPicture{XAMANISMOS_PAIVA_FOTO_PB2}
+
+
+{\vfill\scale[factor=6]{\Seta\,{\bf DANILO PAIVA RAMOS} é antropólogo e}\setupinterlinespace[line=2ex]\scale[factor=6]{professor da UNIFAL-MG e do PPGAS-UFSCAR.}\setupinterlinespace[line=2ex]\scale[factor=6]{ Pesquisa etnologia indígena, com ênfase em}}\setupinterlinespace[line=2ex]\scale[factor=6]{ estudos sobre xamanismo e saúde indígena.}}
+
+%foi curadora da exposição {\it Travessias do Moderno em Mauá} (2022) e 
+%é graduanda em História da Arte (Unifesp) e responsável pelos projetos Pinacoteca Digital Mauá (2019) e Falando em Arte (2020). 
+
+\page
+
+\MyCover{XAMANISMOS_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
