@@ -9,7 +9,7 @@
  		\def\MensagemSite		{AV. IPIRANGA, 200, REPÚBLICA}
  		\def\MensagemLink       {19 DE ABRIL ÀS 19H}
 
-\definepapersize    [post]        [width=93.1mm, height=165.3mm] %10.23cm
+\definepapersize    [post]        [width=93.1mm, height=135.3mm] %10.23cm
 \definepapersize    [14x21]       [width=140mm, height=210mm]
 \setuppapersize     [post]        %[14x21]
 
@@ -38,7 +38,7 @@
 ]
 
 \definelayout[MyLayout][
-          height=11.33cm,
+          height=103.3mm,
 %         backspace=5mm,
 %         header=6.6mm,
           footer=9mm,
@@ -94,6 +94,8 @@
 
 \starttikzpicture[remember picture,overlay]
  \node at (-18mm,-16mm) {\externalfigure[XAMANISMOS_THUMB][width=3cm]};
+ %\node at (-20.5mm,-46mm) {\setcharacterkerning[reset]\Times\MyColorText\switchtobodyfont[30pt] hedra};
+ %\node at (-24.5mm,-96mm) {\externalfigure[logo.png][width=1.75cm]};
 \stoptikzpicture
     
 \inmargin{\tfxx
@@ -113,27 +115,29 @@
 {\bf Páginas} 504\\
 {\bf Preço} R\$\,117,00
 
-%\blank[3ex]
-\vfill
+\blank[1ex]
+
 
 \setupinterlinespace[2.5ex]
 O lançamento do livro acontecerá dia {\bf 19 DE ABRIL, ÀS 19H}, na Livraria Megafauna. A mediação será feita por {\bf LUÍSA VALENTINI}, antropóloga e coordenadora da coleção Mundo Indígena, junto com os convidados:
-\blank[1ex]
+{\bf DANILO PAIVA RAMOS, 
+JOÃO RIVELINO BARRETO, 
+TIMÓTEO POPYGUÁ}.
 
-%{\bf CONVIDADOS}
+%\blank[1ex]
+%
+%%{\bf CONVIDADOS}
+%
+%\setupinterlinespace[2.7ex]
+%{\bf {\Seta\,DANILO PAIVA RAMOS}}\\
+%{\bf {\Seta\,JOÃO RIVELINO BARRETO}}\\
+%{\bf {\Seta\,TIMÓTEO POPYGUÁ}}
 
-\setupinterlinespace[2.7ex]
-{\bf {\Seta\,DANILO PAIVA RAMOS}}\\
-{\bf {\Seta\,JOÃO RIVELINO BARRETO}}\\
-{\bf {\Seta\,TIMÓTEO POPYGUÁ}}
+    
+
 
 \blank[2ex]
 \scale[factor=fit]{\MyPortrait{XAMANISMOS_PAIVA_FOTO_PB}\quad\MyPortrait{XAMANISMOS_RIVELINO_FOTO_PB}\quad\MyPortrait{XAMANISMOS_TIMOTEO_FOTO_PB}}
 
-\vfill
-
-\hspace[-10cm]\scale[factor=15]{\Hedra}
-
 \stoptext %---------------------------------------------------------|
 
-\stoptext %-------------------------------------------------------alentini--|
