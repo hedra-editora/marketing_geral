@@ -1,0 +1,47 @@
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\definecolor[MyColor][x=c0e016]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {LIVRARIA:}
+ 		\def\MensagemSite		{RUA DUARTE DA COSTA, 989}
+ 		\def\MensagemLink       {PERDIZES}
+
+\definepapersize    [post]        [width=93.1mm, height=165.3mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+
+\setuplayout[marking=empty,
+          location=middle,
+          width=89mm,
+          height=33mm,
+          leftmargin=2mm,
+          rightmargin=2mm,
+          backspace=2mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=1mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=0mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+
+\starttext %--------------------------------------------------------|
+\showframe
+
+\Mensagem{EVENTO DE LANÇAMENTO}
+sdc
+
+
+\stoptext %---------------------------------------------------------|
