@@ -1,0 +1,140 @@
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\definecolor[MyColor][MaximumBluePurple]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {LIVRARIA MEGAFAUNA}
+ 		\def\MensagemSite		{AV. IPIRANGA, 200, REPÚBLICA}
+ 		\def\MensagemLink       {19 DE ABRIL ÀS 19H}
+
+\definepapersize    [post]        [width=93.1mm, height=165.3mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+
+\setuplayout[marking=empty,
+          location=middle,
+          width=55mm,
+          height=33mm,
+          leftmargin=33mm,
+          rightmargin=2mm,
+          backspace=35mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=1mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=3mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+\definelayout[MyLayout][
+          height=11.33cm,
+%         backspace=5mm,
+%         header=6.6mm,
+          footer=9mm,
+%         topspace=0mm,
+%         topdistance=0mm,
+%         headerdistance=3mm,
+          footerdistance=1mm,
+%         bottomdistance=0mm,
+]
+
+\definelayout[MyLayoutWithHeader][
+          height=11cm,
+%          backspace=5mm,
+          height=165.4mm,
+          header=8.1mm,
+          footer=9mm,
+%          topspace=0mm,
+%          topdistance=0mm,
+          headerdistance=2mm,
+          footerdistance=0mm,
+%          bottomdistance=0mm,
+]
+
+
+\def\Mensagem#1{
+\def\MySlogan{\uppercasing{#1}}
+\definelayer[Mensagem]
+\setuplayer[Mensagem][width=\paperwidth, height=.8pt, color=MyColorText]
+\setlayer[Mensagem]{
+    \position(\dimexpr\leftmarginwidth-31mm,2.5mm){\FormularMImedium\bold  \switchtobodyfont[10pt] \color[color=MyColorText]{\bf \MySlogan}}
+    \position(1mm,8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
+    \position(1mm,\dimexpr\paperheight-\footerheight-8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
+    \position(\dimexpr\leftmarginwidth-30mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{\MensagemSaibaMais}} 
+    \position(\dimexpr\leftmarginwidth+2mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemSite}}
+    \position(\dimexpr\leftmarginwidth+2mm,\dimexpr\paperheight-4mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemLink}}
+    }        
+\setuplayout[MyLayoutWithHeader]\setupbackgrounds[header][background=Mensagem]
+}
+
+
+
+\define\Hedra{
+\setcharacterkerning[reset]
+\Times
+\switchtobodyfont[50pt] 
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  }
+
+\starttext %--------------------------------------------------------|
+%\showframe
+
+
+\Mensagem{EVENTO DE LANÇAMENTO}
+\tfx
+
+
+\starttikzpicture[remember picture,overlay]
+ \node at (-18mm,-16mm) {\externalfigure[XAMANISMOS_THUMB][width=3cm]};
+\stoptikzpicture
+    
+\inmargin{\tfxx
+\setupinterlinespace[1ex]\mbox{}\blank[4cm]
+}
+    
+\setupinterlinespace[3ex]
+\kern-3ex {\switchtobodyfont[18pt]\bf XAMANISMOS AMERÍNDIOS}\blank[1em]
+
+\tfxx
+\setupinterlinespace[2.3ex]
+
+{\bf Título} {\em Xamanismos ameríndios: Expressões sensíveis e ações cosmopolíticas}\\
+{\bf Autor} Aristoteles Barcelos Neto, Laura Pérez Gil e Danilo Paiva Ramos (orgs.)\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-986-4\\
+{\bf Pág.} 504\\
+% {\bf Pré-venda} 08/04\\
+% {\bf Lançamento} 19/04\\
+{\bf Preço} R\$\,117,00
+
+\blank[3ex]
+
+\setupinterlinespace[2.5ex]
+Bate-papo com os convidados e Luísa Valentini, antropóloga e editora da coleção Mundo Indígena.
+\blank[4ex]
+
+{\bf CONVIDADOS}
+
+{\Seta\,Danilo Paiva Ramos}\\
+{\Seta\,João Rivelino Barreto}\\
+{\Seta\,Timóteo Popyguá}
+
+\blank[3ex]
+\scale[factor=fit]{\MyPortrait{XAMANISMOS_PAIVA_FOTO_PB}\quad\MyPortrait{XAMANISMOS_RIVELINO_FOTO_PB}\quad\MyPortrait{XAMANISMOS_TIMOTEO_FOTO_PB}}
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+
+\stoptext %-------------------------------------------------------alentini--|
