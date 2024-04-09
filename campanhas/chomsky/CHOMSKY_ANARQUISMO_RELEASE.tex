@@ -1,0 +1,169 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Coletânea inédita de Noam \\
+Chomsky sobre anarquismo}
+
+\blank[big]
+
+\noindent{\it Maior compilação de Noam Chomsky já
+publicada sobre o assunto,} Notas sobre anarquismo {\it conta com oito entrevistas e dois artigos,
+expõe pontos de vista acerca das bases ideológicas esquerda
+fundamentam sua análise e sua proposta estratégica de transformação
+social.}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=3.5cm]{
+\externalfigure[CHOMSKY_ANARQUISMO_THUMB][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=4.5cm,style=tfx]
+{\noindent{\bf Título} {\em Notas sobre anarquismo}\\
+{\bf Autor} Noam Chosmky\\
+{\bf Organizadores} Felipe Corrêa, Rodrigo Rosa, Bruna Mantese, Pablo Ortellado, Arthur Dantas e Ruy Fernando Cavalheiro\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-752-5\\
+{\bf Pág.} 224\\
+{\bf Pré-venda} XXXX\\
+{\bf Lançamento} XXXX\\
+{\bf Preço} R\$\,XXXX
+}
+
+
+
+
+\noindent Em {\em Notas sobre anarquismo}, Noam Chomsky, um dos
+maiores intelectuais vivos da esquerda, defende suas posições sobre o
+anarquismo, e afirma uma concepção significativamente eclética e
+antidogmática, cuja filiação ideológica seria proveniente de uma união
+entre o socialismo e o liberalismo.
+
+
+
+A partir de autores como
+Mikhail Bakunin, Piotr Kropotkin e Rudolf Rocker, Noam Chomsky defende e
+apresenta uma concepção anarquista eclética e antidogmática, proveniente da
+união entre o socialismo e pensamento libertário.
+
+
+Defendendo como princípio fundamental a luta e o combate às estruturas
+autoritárias de poder responsáveis pela dominação em todos os níveis, Chomsky
+critica o socialismo de Estado, de inspiração leninista, que restringiu os
+espaços de liberdade e reforçou instituições repressoras como o partido
+único. 
+
+Chomsky discute ainda estratégias de lutas populares, que conciliam reformas de
+curto prazo com a busca de um horizonte revolucionário com ganhos reais em
+relação às empresas e ao Estado. E surpreende aqueles para quem o anarquismo é
+essencialmente uma luta contra o poder, ao propor que o Estado, por vezes,
+precisa ser reforçado, pois só ele pode impedir “tiranias ainda piores”,
+estabelecidas pelos poderes privados das corporações capitalistas, “que vêm
+atacando os progressos conquistados em benefício da democracia e dos direitos
+humanos”.
+
+A edição conta com a organização de Felipe Corrêa, Rodrigo Rosa, Bruna Mantese, Pablo Ortellado, Arthur Dantas e Ruy Fernando Cavalheiro, e introdução de Alexandre Samis.
+
+\blank[big]
+
+% \subject{Sobre os organizadores}
+
+% \startitemize
+%   \item
+    
+\page
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    {\bf Capítulo {\em Anarquismo, marxismo e expectativas para o futuro}}
+
+    \startitemize
+    \item
+      Eu me encantei pelo anarquismo ainda jovem, assim que comecei a
+pensar no mundo para além de uma perspectiva bastante limitada, e não vi
+muitos motivos, desde então, para modificar aquelas antigas atitudes.
+Creio que o anarquismo só tem sentido ao buscar e identificar estruturas
+autoritárias, hierarquia e dominação em todos aspectos da vida, e
+questioná-las, e a não ser que se justifiquem, estas estruturas são
+ilegítimas e devem ser desmanteladas.
+
+    \stopitemize
+  \item
+    {\bf Capítulo {\em }}
+
+    \startitemize
+    \item
+    \stopitemize
+ 
+  \item
+    {\bf Capítulo {\em }}
+
+    \startitemize
+    \item
+    
+    \stopitemize
+  \stopitemize
+
+\stoptext
