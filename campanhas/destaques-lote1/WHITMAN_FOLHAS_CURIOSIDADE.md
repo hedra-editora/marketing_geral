@@ -5,6 +5,6 @@ Pouco antes de morrer, o poeta Walt Whitman, adepto da frenologia, estabeleceu c
 
 A frenologia --- teoria pseudocientífica que afirmava ser possível determinar características de personalidade e habilidades mentais examinando a forma e os contornos do crânio de uma pessoa --- era bastante popular no século XIX, e as expectativas eram altas para os resultados desse estudo em uma figura tão notável. 
 
-O desenrolar da história, contudo, é bastante tragicômico. Depois de quinze anos de silêncio sobre os resultados do estudo, foi revelado que, após um desafortunado acidente, nada restava do cérebro do poeta.
+Depois de quinze anos de silêncio sobre os resultados do estudo, foi revelado que, após um desafortunado acidente, nada restava do cérebro do poeta.
 
 Embora a versão mais popular fosse a de que um desastrado assistente, ao manusear o cérebro, teria o derrubado no chão, a verdade veio a tona nos diários de Dr. Cattell: era ele mesmo o verdadeiro responsável pelo acidente e não seu assistente a quem foi atribuída a culpa.
