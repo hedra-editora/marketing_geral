@@ -1,0 +1,67 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][PewterBlue]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][TigersEye]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
+\starttext %--------------------------------------------------------|
+
+\Mensagem{A POETA DA GRÉCIA ARCAICA}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+%\startMyCampaign
+
+\MyPicture{SAFO_HINO_1}
+
+%\stopMyCampaign
+
+\vfill\scale[factor=6]{\Seta\,SAFO DE LESBOS ({\it c.} 630 a.\,C.--580 a.\,C)}
+
+\page %----------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf SAFO DE LESBOS} nasceu, segundo a tradição, de uma família aristocrática em Êresos, na costa ocidental da {\bf ILHA DE LESBOS}. 
+
+\page
+
+ \hyphenpenalty=10000
+ \exhyphenpenalty=10000
+
+Desde seu tempo, {\bf SAFO} figura entre os expoentes da poesia grega {\bf MÉLICA}, ou {\bf LÍRICA}, e é o único nome feminino no conjunto de poetas da {\bf GRÉCIA ARCAICA}.
+
+\page
+
+Muitos outros dados sobre sua vida podem ser colhidos nos testemunhos antigos; vistos de perto, porém, eles se mostram demasiado frágeis, {\bf CONTRADITÓRIOS}, anedóticos, configurando-se antes como peças de uma {\bf BIOGRAFIA FICCIONALIZANTE}, sempre em reconstrução, baseada no que nos restou da {\bf OBRA SÁFICA}.
+\page %----------------------------------------------------------|
+
+\MyCover{SAFO_HINO_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+

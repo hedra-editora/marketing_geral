@@ -1,0 +1,203 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Coletânea inédita de Noam \\
+Chomsky sobre anarquismo}
+
+\blank[big]
+
+\noindent{\it Maior compilação de Noam Chomsky já
+publicada sobre o assunto,} Notas sobre anarquismo {\it reune oito entrevistas e dois artigos em que o filósofo
+expõe pontos de vista acerca das bases ideológicas da esquerda
+que fundamentam sua análise e sua proposta estratégica de transformação
+social.}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=3.5cm]{
+\externalfigure[CHOMSKY_ANARQUISMO_THUMB][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=4.5cm,style=tfx]
+{\noindent{\bf Título} {\em Notas sobre anarquismo}\\
+{\bf Autor} Noam Chosmky\\
+{\bf Organizadores} Felipe Corrêa, Rodrigo Rosa, Bruna Mantese, Pablo Ortellado, Arthur Dantas e Ruy Fernando Cavalheiro\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-752-5\\
+{\bf Edição} 2ª\\
+{\bf Pág.} 224\\
+{\bf Pré-venda} XXXX\\
+{\bf Lançamento} XXXX\\
+{\bf Preço} R\$\,XXXX
+}
+
+
+
+
+\noindent Em {\em Notas sobre anarquismo}, Noam Chomsky, um dos
+maiores intelectuais vivos da esquerda, defende suas posições sobre o
+anarquismo e, a partir de autores como Mikhail Bakunin, Piotr Kropotkin e Rudolf Rocker, apresenta uma concepção anarquista eclética e antidogmática, proveniente de uma união
+entre o socialismo e o liberalismo.
+ 
+Defendendo como princípio fundamental a luta e o combate às estruturas
+autoritárias de poder responsáveis pela dominação em todos os níveis, Chomsky
+critica o socialismo de Estado, de inspiração leninista, que restringiu os
+espaços de liberdade e reforçou instituições repressoras como o partido
+único. 
+
+Chomsky discute ainda estratégias de lutas populares, que conciliam reformas de
+curto prazo com a busca de um horizonte revolucionário com ganhos reais em
+relação às empresas e ao Estado. E surpreende aqueles para quem o anarquismo é
+essencialmente uma luta contra o poder, ao propor que o Estado, por vezes,
+precisa ser reforçado, pois só ele pode impedir “tiranias ainda piores”,
+estabelecidas pelos poderes privados das corporações capitalistas, “que vêm
+atacando os progressos conquistados em benefício da democracia e dos direitos
+humanos”.
+
+A edição conta com a organização de Felipe Corrêa, Rodrigo Rosa, Bruna Mantese, Pablo Ortellado, Arthur Dantas e Ruy Fernando Cavalheiro, e introdução de Alexandre Samis.
+
+\blank[big]
+
+% \subject{Sobre os organizadores}
+
+% \startitemize
+%   \item
+    
+\page
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    {\bf Capítulo {\em Anarquismo, marxismo e expectativas para o futuro}}
+
+    \startitemize
+    \item
+      Eu me encantei pelo anarquismo ainda jovem, assim que comecei a
+pensar no mundo para além de uma perspectiva bastante limitada, e não vi
+muitos motivos, desde então, para modificar aquelas antigas atitudes.
+Creio que o anarquismo só tem sentido ao buscar e identificar estruturas
+autoritárias, hierarquia e dominação em todos aspectos da vida, e
+questioná-las, e a não ser que se justifiquem, estas estruturas são
+ilegítimas e devem ser desmanteladas.
+
+
+
+
+% Um anarquista coerente deve se opor à propriedade privada dos meios de produção e à escravidão salarial, que é um componente desse sistema, considerando-os incompatíveis com o princípio de que o trabalho deve ser livremente empreendido e estar sob o controle dos produtores. 
+
+    \stopitemize
+  
+  \item
+    {\bf Capítulo {\em Metas e projetos}}
+
+
+    \startitemize
+    \item  Tendemos a considerar as estruturas resultantes do poder imutáveis, praticamente como partes da natureza. Elas são tudo menos isso. Essas formas de tirania privada só chegaram a algo próximo de sua forma atual, com os direitos de pessoas imortais, no início deste século. 
+
+    \stopitemize
+
+  \item
+    {\bf Capítulo {\em Metas e projetos }}
+
+    \startitemize
+    \item Minha meta de curto prazo é defender, e até reforçar
+elementos da autoridade do Estado que, embora sejam ilegítimos em
+seus fundamentos, são decisivamente necessários neste momento para
+impedir os esforços que vêm atacando os progressos que foram
+conseguidos em benefício da democracia e dos direitos humanos. A
+autoridade de Estado está agora sob severo ataque nas sociedades mais
+democráticas, mas isso não em benefício do projeto libertário.
+Justamente o oposto: porque ela oferece (fraca) proteção a alguns
+aspectos desse projeto. Os governos têm uma importante falha: diferente
+das tiranias privadas, as instituições de poder e
+a autoridade do Estado oferecem ao desprezado público uma oportunidade
+de desempenhar algum papel, ainda que limitado, na gestão de seus
+próprios assuntos.
+    
+    \stopitemize
+  
+\item
+    {\bf Capítulo {\em Anarquismo, intelectuais e Estado}}
+
+    \startitemize
+    \item Do meu ponto de vista (e do ponto de vista de
+alguns outros), o Estado é uma instituição
+ilegítima. Mas disso não decorre que você não deva apoiar o Estado.
+Talvez haja uma instituição ainda mais ilegítima, que vai tomar conta
+se você não apoiar essa instituição ilegítima.
+  
+
+
+  \stopitemize
+  
+
+\item
+    {\bf Capítulo {\em Noam Chomsky o anarquismo}}
+
+    \startitemize
+    \item Pessoalmente, não confio em meus próprios projetos sobre o “caminho certo“ e não me impressiono com as presunçosas declarações de outros, incluindo aqueles que são bons amigos. Sinto que muito pouco é conhecido para termos a capacidade de dizer muito, com alguma confiança. Podemos tentar formular nossos projetos de longo prazo, nossos objetivos, nossos ideais; e podemos (e devemos) nos dedicar a trabalhar em questões de importância à humanidade. Mas a lacuna entre essas duas possibilidades é frequentemente considerável, e eu raramente vejo algum caminho para transpô-la, exceto em um nível vago e genérico.
+
+  \stopitemize
+
+\stoptext

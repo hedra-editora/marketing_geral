@@ -1,13 +1,13 @@
-\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]          % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 \definecolor[MyColor][MaximumBluePurple]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
-\environment{marketing.env}		   
+\environment{marketing.env}      
 
 % Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
- 		\def\MensagemSaibaMais  {LIVRARIA MEGAFAUNA}
- 		\def\MensagemSite		{AV. IPIRANGA, 200, REPÚBLICA}
- 		\def\MensagemLink       {19 DE ABRIL ÀS 19H}
+    \def\MensagemSaibaMais  {LIVRARIA MEGAFAUNA}
+    \def\MensagemSite   {AV. IPIRANGA, 200, REPÚBLICA}
+    \def\MensagemLink       {19 DE ABRIL ÀS 19H}
 
 \definepapersize    [post]        [width=93.1mm, height=135.3mm] %10.23cm
 \definepapersize    [14x21]       [width=140mm, height=210mm]
@@ -62,7 +62,6 @@
 %          bottomdistance=0mm,
 ]
 
-
 \def\Mensagem#1{
 \def\MySlogan{\uppercasing{#1}}
 \definelayer[Mensagem]
@@ -78,8 +77,6 @@
 \setuplayout[MyLayoutWithHeader]\setupbackgrounds[header][background=Mensagem]
 }
 
-
-
 \define\Hedra{
 \setcharacterkerning[reset]
 \Times
@@ -89,13 +86,13 @@
 \starttext %--------------------------------------------------------|
 %\showframe
 
-\Mensagem{EVENTO DE LANÇAMENTO}
+\Mensagem{CONVITE DE LANÇAMENTO}
 \tfx
 
 \starttikzpicture[remember picture,overlay]
- \node at (-18mm,-16mm) {\externalfigure[XAMANISMOS_THUMB][width=3cm]};
- %\node at (-20.5mm,-46mm) {\setcharacterkerning[reset]\Times\MyColorText\switchtobodyfont[30pt] hedra};
- %\node at (-24.5mm,-96mm) {\externalfigure[logo.png][width=1.75cm]};
+\node at (-18mm,-17mm) {\externalfigure[XAMANISMOS_THUMB][width=3cm]};
+\node at (42mm,-104mm) {\setcharacterkerning[reset]\Times\MyColorText\switchtobodyfont[30pt] hedra};
+\node at (11.5mm,-104.6mm) {\externalfigure[LOGO_LIVRARIA.png][width=2.3cm]};
 \stoptikzpicture
     
 \inmargin{\tfxx
@@ -103,41 +100,24 @@
 }
     
 \setupinterlinespace[3ex]
-\kern-3ex {\switchtobodyfont[18pt]\bf XAMANISMOS AMERÍNDIOS}\blank[1em]
 
-\tfxx
+%\blank[4.7em]
 
-\setupinterlinespace[2.5ex]
-{\bf Subtítulo} {Expressões sensíveis e ações cosmopolíticas}\\
-{\bf Organizadores} Aristoteles Barcelos Neto, Laura Pérez Gil e Danilo Paiva Ramos\\
-{\bf Editora} Hedra\\
-{\bf ISBN} 9788577159864\\
-{\bf Páginas} 504\\
-{\bf Preço} R\$\,117,00
+\kern-3ex {\switchtobodyfont[18pt]\bf XAMANISMOS AMERÍNDIOS}
 
-\blank[1ex]
+\blank[0.5em]
 
+\tfxx\setupinterlinespace[2.5ex]
+Aristoteles Barcelos Neto,\\ Laura Pérez Gil e\\ Danilo Paiva Ramos\\
+
+\blank[3ex]
 
 \setupinterlinespace[2.5ex]
-O lançamento do livro acontecerá dia {\bf 19 DE ABRIL, ÀS 19H}, na Livraria Megafauna. A mediação será feita por {\bf LUÍSA VALENTINI}, antropóloga e coordenadora da coleção Mundo Indígena, junto com os convidados:
-{\bf DANILO PAIVA RAMOS, 
-JOÃO RIVELINO BARRETO, 
-TIMÓTEO POPYGUÁ}.
+A Editora Hedra e a Livraria Megafauna convidam para o lançamento do livro «Xamanismos ameríndios», que acontecerá dia {\bf 19 DE ABRIL, ÀS 19H}. O lançamento contará com a presença de João Rivelino Rezende Barreto (Yúpuri), Timóteo Vera Tupã Popyguá, Danilo Paiva Ramos, Tatiane Maíra Klein, e Pedro Lolli e será mediado por Luísa Valentini, antropóloga e coordenadora da coleção Mundo Indígena.
 
-%\blank[1ex]
-%
-%%{\bf CONVIDADOS}
-%
-%\setupinterlinespace[2.7ex]
-%{\bf {\Seta\,DANILO PAIVA RAMOS}}\\
-%{\bf {\Seta\,JOÃO RIVELINO BARRETO}}\\
-%{\bf {\Seta\,TIMÓTEO POPYGUÁ}}
+\blank[3ex]
 
-    
-
-
-\blank[2ex]
-\scale[factor=fit]{\MyPortrait{XAMANISMOS_PAIVA_FOTO_PB}\quad\MyPortrait{XAMANISMOS_RIVELINO_FOTO_PB}\quad\MyPortrait{XAMANISMOS_TIMOTEO_FOTO_PB}}
+\scale[factor=fit]{\MyPortrait{XAMANISMOS_RIVELINO_FOTO_PB}\quad\MyPortrait{XAMANISMOS_TIMOTEO_FOTO_PB}\quad\MyPortrait{XAMANISMOS_PAIVA_FOTO_PB}\quad\MyPortrait{XAMANISMOS_KLEIN_FOTO_PB}\quad\MyPortrait{XAMANISMOS_LOLLI_FOTO_PB.jpg}}
 
 \stoptext %---------------------------------------------------------|
 

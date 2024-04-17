@@ -1,0 +1,71 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Blush]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais      {SAIBA MAIS:}
+        \def\MensagemSite           {HEDRA.COM.BR}
+        \def\MensagemLink           {LINK NA BIO}
+
+\starttext  %---------------------------------------------------------|
+\Mensagem{UMA VOZ DA ESQUERDA}
+
+% Foto para background
+\MyBackground{CHOMSKY_ANARQUISMO_3}
+
+\startstandardmakeup[background=backgroundimage]
+\startMyCampaign
+\vfill\scale[factor=4]{\Seta\,NOAM CHOMSKY (1928--)}
+\stopMyCampaign
+\stopstandardmakeup
+
+\page 
+
+\Mensagem{UMA VOZ DA ESQUERDA}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Reconhecido internacionalmente como um dos maiores intelectuais vivos da esquerda, {\bf NOAM CHOMSKY} publicou centenas de artigos e livros sobre temas como mídia, {\bf MOVIMENTOS SOCIAIS}, política e economia global.
+
+\page %----------------------------------------------------------|
+
+\MyPicture{CHOMSKY_ANARQUISMO_2}
+
+Além disso, é professor de linguística na Universidade do Arizona e 
+{\bf PROFESSOR EMÉRITO} do {\cap mit}.
+% Sua teoria sobre a «gramática gerativa» teve um profundo impacto no campo dos {\bf ESTUDOS
+% LINGUÍSTICOS}. 
+
+
+\page
+
+Dentre seus livros publicados no Brasil, estão: {\bf 11 DE SETEMBRO} (Bertrand Brasil, 2003), {\bf CONTENDO A DEMOCRACIA} (Record, 2003), {\bf O
+IMPÉRIO AMERICANO} (Campus, 2004), {\bf PARA ENTENDER O PODER} (Bertrand
+Brasil, 2005), {\bf O LUCRO OU AS PESSOAS} (Bertrand Brasil, 2006), {\bf O
+GOVERNO DO FUTURO} (Record, 2007) e {\bf RAZÕES DE ESTADO} (Record, 2008).
+
+\page
+
+\MyCover{CHOMSKY_ANARQUISMO_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

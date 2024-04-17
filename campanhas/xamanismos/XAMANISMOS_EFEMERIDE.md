@@ -1,11 +1,7 @@
 19 de abril: Dia dos Povos Indígenas
 
-A partir do ano de 2022, o dia 19 de abril passou a ser chamado de Dia dos Povos Indígenas em vez de Dia do Índio. Essa mudança promove uma abordagem mais inclusiva e respeitosa, quebrando com a ideia estereotipada de índio e reconhecendo as pluralidades étnicas e culturais dos povos originários.
+O dia 19 de abril é dedicado à questão indígena em diversos países do continente americano. Essa é a data da primeira discussão compartilhada entre lideranças indígenas e indigenistas no Congresso Indigenista Interamericano realizado no México, em 1940. Hoje, no Brasil, ele é designado  Dia dos Povos Indígenas, em reconhecimento à diversidade das coletividades indígenas no Brasil, bem como aos seus direitos originários à terra.
 
-A coleção «Mundo indígena» enquadra-se nesse esforço de propagar os conhecimentos e modos de existência desses povos diversos, reunindo estudos antropológicos sobre suas práticas e culturas, além de narrativas indígenas. Essas integram um acervo destinado a apoiar os processos de educação, formação, e preservação de suas histórias dentro de suas comunidades.
+A Coleção Mundo Indígena da Hedra vem se construindo em colaboração com diferentes lideranças, pensadores e coletividades indígenas, bem como aliados não indígenas dedicados à garantia de seus direitos.
 
-O mais novo lançamento da coleção é  «Xamanismos ameríndios», que contesta o conceito homogêneo de 
-xamã, confrontando-o com as multiplicidades e particulares dos líderes e práticas espirituais de diferentes povos nativos das Américas.
-
-📸  Foto da primeira página do carrossel: «Xamanismos ameríndios», «Ohendu, aprendendo a cantar.»
-Rezadoras kaiowá acompanhadas de uma jovem aprendiz dançam seus cantos «mborahéi» em recepção aos convidados da festa «avatikyry» em Guyra Kambi'y, TI Panambi Lagoa Rica, Douradina (MS). Autoria: Tatiane Klein, 2018.
+O novo título da coleção, «Xamanismos ameríndios», apresenta um caleidoscópio de cosmologias e ontologias de povos indígenas de norte a sul do continente, celebrando essa diversidade e a importância do direito dos povos indígenas à diferença em todas as suas dimensões.
