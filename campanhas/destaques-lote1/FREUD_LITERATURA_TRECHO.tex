@@ -1,0 +1,58 @@
+% AUTOR_LIVRO_TRECHO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][ShinyShamrock]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][SpringGreen]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{DESTAQUE}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Sobre a rica personalidade de Dostoiévski, seria o caso
+de evidenciar quatro facetas: a do escritor, a do neurótico,
+a do ético e a do pecador.»
+
+\stopMyCampaign
+
+{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Escritos sobre literatura},}\setupinterlinespace[line=1.5ex]\scale[factor=6]{ de Sigmund Freud, do capítulo «Dostoiévski}\setupinterlinespace[line=1.5ex]\scale[factor=6]{e o parricídio».}}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{FREUD_LITERATURA_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+
+% «Sobre a rica personalidade de Dostoiévski, seria o caso
+% de evidenciar quatro facetas: a do escritor, a do neurótico,
+% a do ético e a do pecador. Mas como poderemos nos encontrar 
+% em meio a essa desconcertante complicação? Quanto
+% ao escritor, há poucas dúvidas de que seu lugar é não muito 
+% atrás de Shakespeare. Dos romances escritos, {\em Os irmãos
+% Karamázov} é o de maior envergadura e o episódio do grande
+% inquisidor, das mais altas realizações da literatura mundial,
+% quase não se pode superestimar. Já no que diz respeito a
+% seus problemas pessoais, infelizmente a análise deve depor
+% armas.»   S.\,F.
