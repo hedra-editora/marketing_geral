@@ -27,12 +27,19 @@
 
 \Mensagem{EM CONTEXTO} %Sempre usar esse header
 
-\startMyCampaign
+\starttikzpicture[remember picture,overlay]
+\node at (8,-4)
+{\externalfigure
+              [./RAMIL_CURIOSIDADES_FOTO1.jpg]
+              [width=.6\textwidth]};
+\stoptikzpicture
 
+\startMyCampaign
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
- O QUE É A {\bf ESTÉTICA\\ DO FRIO?}
+ENTENDA A {\bf ESTÉTICA\\ DO FRIO}
+EM QUATRO\\ PONTOS
 
 \stopMyCampaign
 
@@ -41,49 +48,48 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Conceito que o músico {\bf VITOR RAMIL} começou a esboçar em 1992, no livro {\it Nós, os gaúchos}, e depois desenvolveu no disco {\it Ramilonga – a estética do frio} (1997), a {\bf ESTÉTICA DO FRIO} relaciona-se a uma forma de pensar a arte no contexto gaúcho.
+\starttikzpicture[remember picture,overlay]
+\node at (-1.5,-4)
+{\externalfigure
+              [./RAMIL_CURIOSIDADES_FOTO1.jpg]
+              [width=.6\textwidth]};
+\stoptikzpicture
+
+\startnarrower[3*left]
+Conceito que o músico {\bf VITOR RAMIL} começou a esboçar em 1992, a {\bf ESTÉTICA DO FRIO} parte da consciência de uma {\bf ESTÉTICA TROPICAL} que uniria o país, ao lado da tomada de consciência da necessidade de criar uma estética própria ao Rio Grande do Sul.
+\stopnarrower
+
+{\vfill\scale[factor=fit]{\Seta\,O escritor argentino Jorge Luis Borges, que influenciou Vitor Ramil desde a juventude com suas milongas e poemas}}
+
 
 \page %---------------------------------------------------------| 
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Ela parte da consciência de uma {\bf ESTÉTICA TROPICAL} que uniria o país, ao lado da tomada de consciência da necessidade de criar uma estética própria ao Rio Grande do Sul.
+Ela é caracterizada por:
 
-\page %---------------------------------------------------------| 
+\startitemize[n]
+\item Um espaço geográfico, os pampas, com sua linearidade, clareza, leveza e melancolia;
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+\item Uma ambiência cultural por onde confluem Brasil, Argentina e Uruguai; 
 
-Segundo o autor, o fato de existir uma identificação da maior parte dos brasileiros que vivem em regiões tropicais com o ambiente festeiro da rua, da agregação efusiva de corpos, sendo os habitantes do Sul pouco afeitos a estes tipos de experimentação da vida social e da cultura em geral, faz com que se justifique a impressão de os rio-grandenses se sentirem «mais diferentes em um país feito de diferenças».
+\item A milonga, ritmo que descende da {\it habanera} cubana e nasce dos negros dos países platinos;
 
-\page %---------------------------------------------------------| 
+\page
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+\item E o personagem mítico do gaúcho, filho de indígena com europeu.
 
-Um elemento fundamental dessa diferença são as fronteiras: «Muitos de nós, rio-grandenses, consideravam-se mais uruguaios que brasileiros; outros tinham em Buenos Aires, Argentina, um referencial de grande polo irradiador de informação e cultura mais presente que São Paulo ou Rio de Janeiro», escreve Ramil.
 
-\page %---------------------------------------------------------| 
+% \starttikzpicture[remember picture,overlay]
+% \node at (3,-1)
+% {\externalfigure
+%               [./RAMIL_CURIOSIDADES_FOTO2.png]
+%               [width=.6\textwidth]};
+% \stoptikzpicture
+\MyPhoto{RAMIL_CURIOSIDADES_FOTO2}
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-O frio é encarado tanto como realidade climática quanto como metáfora. Nas palavras de Vitor: «Unidade. A própria ideia do frio como metáfora amplamente definidora apontava para este caminho: o frio nos tocava a todos em nossa heterogeneidade».
-
-\page %---------------------------------------------------------| 
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-Enquanto gênero, a milonga compõe bem o quadro do que seria a estética do frio: «Em sua inteireza e essencialidade, a milonga, assim como a imagem, opunha-se ao excesso, à redundância. Intensas e extensas, ambas tendiam ao monocromatismo, à horizontalidade».
-
-\page %---------------------------------------------------------| 
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-Em suma, a estética do frio é caracterizada por: um espaço geográfico, os pampas, com sua linearidade, clareza, leveza e melancolia; uma ambiência cultural por onde confluem Brasil, Argentina e Uruguai; o personagem mítico do gaúcho, filho de índio com europeu; e a milonga, ritmo que descende da {\it habanera} cubana e nasce dos negros dos países platinos, sendo designado por uma palavra de origem africana.
+{\vfill\scale[factor=fit]{\Seta\,Foto de divulgação do show {\it É proibido o uso de salto alto?}}}
 
 \page %---------------------------------------------------------|
 
@@ -94,3 +100,18 @@ Em suma, a estética do frio é caracterizada por: um espaço geográfico, os pa
 \Hedra
 
 \stoptext %---------------------------------------------------------|
+
+%Conceito que o músico {\bf VITOR RAMIL} começou a esboçar em 1992, no livro {\it Nós, os gaúchos}, e depois desenvolveu no disco {\it Ramilonga – a estética do frio} (1997), a {\bf ESTÉTICA DO FRIO} relaciona-se a uma forma de pensar a arte no contexto gaúcho.
+% \page %---------------------------------------------------------| 
+%Ela parte da consciência de uma {\bf ESTÉTICA TROPICAL} que uniria o país, ao lado da tomada de consciência da necessidade de criar uma estética própria ao Rio Grande do Sul.
+% \page %---------------------------------------------------------| 
+% Segundo o autor, o fato de existir uma identificação da maior parte dos brasileiros que vivem em regiões tropicais com o ambiente festeiro da rua, da agregação efusiva de corpos, sendo os habitantes do Sul pouco afeitos a estes tipos de experimentação da vida social e da cultura em geral, faz com que se justifique a impressão de os rio-grandenses se sentirem «mais diferentes em um país feito de diferenças».
+% \page %---------------------------------------------------------| 
+% Um elemento fundamental dessa diferença são as fronteiras: «Muitos de nós, rio-grandenses, consideravam-se mais uruguaios que brasileiros; outros tinham em Buenos Aires, Argentina, um referencial de grande polo irradiador de informação e cultura mais presente que São Paulo ou Rio de Janeiro», escreve Ramil.
+% \page %---------------------------------------------------------| 
+% Enquanto gênero, a milonga compõe bem o quadro do que seria a estética do frio: «Em sua inteireza e essencialidade, a milonga, assim como a imagem, opunha-se ao excesso, à redundância. Intensas e extensas, ambas tendiam ao monocromatismo, à horizontalidade».
+% \page %---------------------------------------------------------| 
+% Em suma, a estética do frio é caracterizada por: um espaço geográfico, os pampas, com sua linearidade, clareza, leveza e melancolia; uma ambiência cultural por onde confluem Brasil, Argentina e Uruguai; o personagem mítico do gaúcho, filho de índio com europeu; e a milonga, ritmo que descende da {\it habanera} cubana e nasce dos negros dos países platinos, sendo designado por uma palavra de origem africana.
+%\page %---------------------------------------------------------| 
+%«Unidade. A própria ideia do frio como metáfora amplamente definidora apontava para este caminho: o frio nos tocava a todos em nossa heterogeneidade.»
+%{\vfill\scale[factor=fit]{\Seta\,Vitor Ramil na biografia {\bf Vitor Ramil, o astronauta lírico}, de Marcos Lacerda}}
