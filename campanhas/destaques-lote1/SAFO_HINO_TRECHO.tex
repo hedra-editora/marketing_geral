@@ -11,11 +11,19 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][PewterBlue]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+
+\definecolor[MyColor][x=cfc9c7]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][TigersEye]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
+
+\def\startMyCampaign{\bgroup
+            \FormularMI
+            \switchtobodyfont[27pt]
+            \setupinterlinespace[line=1.9ex]
+            \setcharacterkerning[packed]}
+\def\stopMyCampaign{\par\egroup}
 
 \starttext %---------------------------------------------------------|
 
@@ -26,14 +34,12 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-«De flóreo manto furta-cor, ó imortal Afrodite,\\
-filha de Zeus, tecelã de ardis, suplico-te:\\
-não me domes com angústias e náuseas,\\
-veneranda, o coração [\unknown]»
+«Não me domes com angústias e náuseas,
+veneranda, o coração»
 
 \stopMyCampaign
 
-{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Batatinha}, do Zé das Couves,}\setupinterlinespace[line=1.5ex]\scale[factor=6]{vindo de onde Judas perdeu as botas. Lembre}\setupinterlinespace[line=1.5ex]\scale[factor=6]{de quebrar as linhas nos códigos.}}
+{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Hino a Afrodite e outros}}\setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf poemas}, de Safo, poema «Hino a Afrodite».}
 
 \page %---------------------------------------------------------| 
 
