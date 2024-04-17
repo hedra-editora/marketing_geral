@@ -17,6 +17,13 @@
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
 
+\def\startMyCampaign{\bgroup
+            \FormularMI
+            \switchtobodyfont[27pt]
+            \setupinterlinespace[line=1.9ex]
+            \setcharacterkerning[packed]}
+\def\stopMyCampaign{\par\egroup}
+
 \starttext %---------------------------------------------------------|
 
 \Mensagem{DESTAQUE}
@@ -26,14 +33,14 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-«De flóreo manto furta-cor, ó imortal Afrodite,\\
-filha de Zeus, tecelã de ardis, suplico-te:\\
-não me domes com angústias e náuseas,\\
-veneranda, o coração [\unknown]»
+«De flóreo manto furta-cor, ó imortal Afrodite,
+filha de Zeus, tecelã de ardis, suplico-te:
+não me domes com angústias e náuseas,
+veneranda, o coração»
 
 \stopMyCampaign
 
-{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Batatinha}, do Zé das Couves,}\setupinterlinespace[line=1.5ex]\scale[factor=6]{vindo de onde Judas perdeu as botas. Lembre}\setupinterlinespace[line=1.5ex]\scale[factor=6]{de quebrar as linhas nos códigos.}}
+{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Hino a Afrodite e outros}}\setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf poemas}, de Safo, poema «Hino a Afrodite».}
 
 \page %---------------------------------------------------------| 
 
