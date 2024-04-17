@@ -1,0 +1,55 @@
+% AUTOR_LIVRO_AUTOR.tex
+\usecolors[crayola]
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][x=88DB00]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+      
+\environment{extra.env}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackgroundMessage{MENSAGEM CATIVANTE}
+\MyBackground{METABIBLIOTECA_ALENCAR_CARTAS_1}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+%{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
+\position(0,7.8){\scale[factor=4]{\Seta\,NOME DO AUTOR (1900--2000)}}
+\stopMyCampaign
+
+\page 
+
+\Mensagem{ÍCONE DO ROMANTISMO}
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf JOSÉ DE ALENCAR}, um dos maiores escritores brasileiros do século {\cap XIX}, atravessou diversos gêneros, do romance ao teatro, deixando um {\bf LEGADO ÚNICO} na literatura nacional.
+
+\page
+
+Figura central do romantismo brasileiro, entre seus romances figuram {\bf O GUARANI} e {\bf IRACEMA}, que demonstram sua habilidade em criar tramas envolventes e personagens inesquecíveis.
+ \page
+
+ Além de sua contribuição literária, {\bf ALENCAR} foi figura ativa na política e no jornalismo de sua época, assumindo {\bf POSIÇÕES BASTANTE CONSERVADORAS} --- como a defesa da escravidão.
+
+\page %----------------------------------------------------------|
+
+\MyCover{METABIBLIOTECA_ALENCAR_CARTAS_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
