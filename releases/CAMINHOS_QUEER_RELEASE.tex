@@ -1,0 +1,129 @@
+\usemodule[tikz]
+\setuppapersize[A4]
+\usecolors[crayola]
+%\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Eram os deuses queer?}
+
+\blank[big]
+
+\noindent{\it Da cosmogonia babilônica à mesoamericana, escritor chinês questiona dualismo de gênero de mitologias primordiais em um impulso de descolonizar os saberes}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=7.5cm]{
+\externalfigure[CAMINHOS_QUEER_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=8cm,style=tfx]{
+\noindent{\bf Título} {\em Antigos caminhos queer:\\ uma exploração decolonial}\\
+{\bf Autor} Zairong Xiang\\
+{\bf Tradução} Paula Faro, colaboração de\\ Gil Vicente Lourenção\\
+{\bf Editora} n-1 edições\\
+{\bf ISBN} 978-65-6119-011-4\\
+{\bf Pág.} 270\\
+{\bf Lançamento} 25/04\\
+{\bf Preço} R\$\,80,00
+}
+
+\noindent{}A pesquisa do professor, curador e escritor Zairong Xiang tem sido
+pautada pelo que ele mesmo costuma chamar de práticas de ensino e
+curadoria com cosmologia e cosmopolitanismo. Partindo de uma complexa
+diversidade cultural, especificidades históricas e escrituras em inglês,
+espanhol, francês, chinês e nahuatl, a obra de Zairong apresenta um viés
+muitíssimo original. Se, à primeira vista, o seu ecletismo ex-cêntrico
+pode soar um pouco enigmático, lendo os seus textos e ouvindo suas
+palestras, tudo parece fazer sentido, especialmente em um país como o
+Brasil, onde a promiscuidade cultural tem sido sempre um ponto de partida
+inevitável.
+
+O principal argumento de Zairong é que o colonialismo tem afetado as
+traduções de culturas não ocidentais antigas, na tentativa de fortalecer
+os seus próprios paradigmas.
+
+\blank[big]
+
+\subject{Trecho do livro}
+
+{\it Antigos caminhos queer}, por sua vez, defende um profundo
+desaprendizado das categorias coloniais/modernas que funcionaram, desde
+o alvorecer do colonialismo europeu no século {\sc xvi} até o
+presente, para manter na obscuridade as formas e teorias de
+corporeidades e {\it queerness} das fontes mais antigas. Isto é feito
+simultaneamente por meio de um exercício decolonial de
+aprender-a-aprender com cosmologias não ocidentais e não modernas, o que
+nos ajuda a abordar um rico imaginário {\it ueer} que foi quase
+perdido para o pensamento moderno.
+
+\vfill
+
+\externalfigure[logo_n1.pdf][width=.2\textwidth]
+
+\starttikzpicture[remember picture,overlay]
+\node at (15.8,25)
+{\externalfigure
+              [dots.png]
+              [width=.15\textwidth]};
+\stoptikzpicture
+
+\stoptext
