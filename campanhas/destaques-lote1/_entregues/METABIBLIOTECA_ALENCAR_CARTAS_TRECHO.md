@@ -1,4 +1,5 @@
-«No seio da barbaria, o homem, em luta contra a natureza, sente a necessidade de multiplicar suas forças. O único instrumento ao alcance é o próprio homem, seu semelhante.» Trecho de «Cartas a favor da escravidão», do José de Alencar.
+«No seio da barbaria, o homem, em luta contra a natureza, sente a necessidade de multiplicar suas forças. O único instrumento ao alcance é o próprio homem, seu semelhante.»
+Trecho de «Cartas a favor da escravidão», do José de Alencar.
 
 A leitura destas cartas completa o quebra-cabeça de um dos nossos autores mais fundamentais, tornando talvez obsoleta a antítese que José Veríssimo atribui a Alencar --- «Revolucionário em letras, conservador em política».
 
