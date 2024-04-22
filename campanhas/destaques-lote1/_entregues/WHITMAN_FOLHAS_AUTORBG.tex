@@ -1,0 +1,67 @@
+% AUTOR_LIVRO_AUTOR.tex
+\usecolors[crayola]
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][black]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+      
+\environment{extra.env}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackgroundMessage{PAI DO VERSO LIVRE}
+
+\MyBackground{WHITMAN_FOLHAS_2}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+%{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
+\position(0,7.8){\scale[factor=4]{\Seta\,WALT WHITMAN (1819--1892)}}
+\stopMyCampaign
+
+\page 
+
+\Mensagem{PAI DO VERSO LIVRE}
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+ Um dos poetas mais influentes da literatura americana do século {\cap XIX}, {\bf WALT WHITMAN} nasceu em Long Island e cresceu no Brooklyn, em Nova York.
+
+ \page
+
+ Por ser de família humilde, aos onze anos abandonou os estudos para trabalhar, tendo atuado como tipógrafo, professor e editor. O poeta passou parte de sua juventude viajando pelos Estados Unidos, o que serviu de inspiração sua mais famosa obra, {\bf FOLHAS DE RELVA}.
+
+ \page
+
+\MyPicture{WHITMAN_FOLHAS_3.png}
+
+Conhecido por {\bf ROMPER COM AS CONVENÇÕES POÉTICAS} de sua época, Whitman não teve amplo {\bf RECONHECIMENTO PÚBLICO} enquanto vivo.
+
+\page
+
+Contudo, deixou um legado duradouro como um dos poetas mais inovadores da literatura americana, tendo influenciado grandes nomes como {\bf EZRA POUND, WILLIAM CARLOS WILLIAMS} e {\bf ALLEN GINSBERG}.
+
+
+\page %----------------------------------------------------------|
+
+\MyCover{WHITMAN_FOLHAS_THUMB.pdf}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+

@@ -1,3 +1,4 @@
+Escravidão e literatura
 
 Dirigindo-se a Dom Pedro II, José de Alencar articula uma defesa da escravidão brasileira.
 Para o autor, o regime escravagista ia de encontro aos interesses da nação e ao progresso da humanidade. 

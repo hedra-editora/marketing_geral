@@ -1,6 +1,6 @@
 Em defesa da liberdade: a maior coletânea de Noam Chomsky sobre anarquismo
 
-«Notas sobre anarquismo» conta com oito entrevistas e dois artigos, reunidos pela primeira vez.
+«Notas sobre anarquismo» é uma compilação inédita de oito entrevistas e dois artigos.
 
 Nesses textos, Chomsky assume posições bastante ecléticas e antidogmáticas, que se baseiam numa união entre o socialismo e o liberalismo.
 
