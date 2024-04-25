@@ -1,4 +1,4 @@
-Pré-venda do livro «Notas sobre anarquismo», com 30% de desconto!
+Pré-venda do livro «Notas sobre o anarquismo», com 30% de desconto!
 
 Maior compilação de Noam Chomsky já publicada sobre o assunto, «Notas sobre anarquismo» reune pela primeira vez oito 
 entrevistas e dois artigos de um dos maiores intelectuais vivos da esquerda.
