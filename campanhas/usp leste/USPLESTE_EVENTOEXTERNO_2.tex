@@ -1,0 +1,51 @@
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MyPink]   [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+
+\Mensagem{HEDRA NA FEIRA DA USP LESTE}
+\starttext %--------------------------------------------------------|
+
+\kern-5mm
+
+\MyCover{XAMANISMOS_THUMB}
+
+\page
+
+\MyCover{FONTELA_TRANSPOSICAO_THUMB}
+\page
+
+\MyCover{BARROS_NEGRO_THUMB}
+
+\page
+
+\MyCover{GOLDMAN_SEXO_THUMB}
+
+\page
+
+\MyCover{HESIODO_TEOGONIA_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
