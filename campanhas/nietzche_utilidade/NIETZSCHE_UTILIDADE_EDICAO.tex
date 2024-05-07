@@ -1,0 +1,93 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=3f9cd0]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{TRÊS CONCEITOS}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf 
+O SENTIDO HISTÓRICO, A-HISTÓRICO E SUPRA-
+-HISTÓRICO EM NIETZSCHE}
+
+\stopMyCampaign
+
+%\vfill\scale[lines=1.5]{\MyStar[MyColorText][none]}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{./NIETZSCHE_UTILIDADE_THUMB.pdf}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\startnarrower[5*right]
+Apesar de o homem ser
+essencialmente um ser histórico, pois {\bf O PASSADO E A MEMÓRIA} fazem parte de sua experiência no mundo, para Nietzsche é preciso também integrar uma visão a-histórica à experiência humana.
+\stopnarrower
+
+\starttikzpicture[remember picture,overlay]
+\node at (7.33,4)
+{\externalfigure
+              [./nietzsche_munch1.jpg]
+              [width=.4\textwidth]};
+\stoptikzpicture
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\startnarrower[5*left]
+Escreve o filósofo: «O animal vive de forma {\bf A-HISTÓRICA}: pois ele se absorve no presente; não sabe dissimular; não sabe ser outra coisa senão sincero».
+\stopnarrower
+
+\starttikzpicture[remember picture,overlay]
+\node at (1.58,2)
+{\externalfigure
+              [./nietzsche_munch2.jpg]
+              [width=.4\textwidth]};
+\stoptikzpicture
+
+\vfill
+\startnarrower[5*left]
+\setupinterlinespace[line=1.4ex]
+{\itxx\Seta\,Nietzsche pintado por Edvard Munch, 1906}
+\stopnarrower
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Além do histórico e do a-histórico, há ainda uma terceira forma de se relacionar com o passado, o {\bf PONTO DE VISTA SUPRA-HISTÓRICO}: uma visão daquilo que é eterno. Ele é alcançado quando a pesquisa histórica, ao identificar o acaso, a insensatez e a injustiça que alimentam os processos históricos, conduz a uma perturbadora indiferença para com o passado e à superação do ponto de vista histórico.
+
+\vfill
+\scale[factor=5]{\Seta\,De R\$\,XXXXXX {\bf por R\$\,XXXXXX}, 122 páginas, 2ª edição.}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
