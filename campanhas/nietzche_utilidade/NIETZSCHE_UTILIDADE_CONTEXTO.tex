@@ -1,0 +1,99 @@
+% AUTOR_LIVRO_CURIOSIDADE.tex
+% Vamos falar sobre isso "curiosidades"
+% > "EM CONTEXTO"
+
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=3f9cd0]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\Mensagem{EM CONTEXTO} %Sempre usar esse header
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf NIETZSCHE} DISCUTE A DOENÇA DE SEU SÉCULO: O {\bf SENTIDO HISTÓRICO}\\ DA VIDA
+
+\starttikzpicture[remember picture,overlay]
+\node at (8.8,4)
+{\externalfigure
+              [./nietzsche.jpg]
+              [width=.55\textwidth]};
+\stoptikzpicture
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\startnarrower[3*left]
+Em diálogo com o hegelianismo e o positivismo, Nietzsche realiza, no livro {\bf SOBRE A UTILIDADE E A DESVANTAGEM DA HISTÓRIA PARA A VIDA}, um estudo sobre o historicismo que identifica nessas escolas, antes de tudo, a exacerbação de uma faculdade propriamente humana: o sentido histórico.
+\stopnarrower
+
+\starttikzpicture[remember picture,overlay]
+\node at (-.5,4.95)
+{\externalfigure
+              [./nietzsche.jpg]
+              [width=.55\textwidth]};
+\stoptikzpicture
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Dada a impossibilidade de nos desvencilharmos da história, pois o homem é um ser histórico, cabe saber até que ponto ela {\bf AUXILIA OU PREJUDICA A VIDA} --- vista aqui não como um conceito biológico, mas como a experiência da vida humana, que só pode ser pensada no interior de uma cultura.
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\startnarrower[4*left]
+Sua crítica não se reduz à disciplina histórica, nem às correntes filológicas de então, mas às próprias concepções de ciência e de conhecimento que permeiam essa prática e, mais que isso, às consequências que essa prática pode ter em toda uma cultura.
+\stopnarrower
+
+\starttikzpicture[remember picture,overlay]
+\node at (1,6)
+{\externalfigure
+              [./herodoto.png]
+              [width=.45\textwidth]};
+\stoptikzpicture
+
+\startnarrower[6*right]
+\setupinterlinespace[line=1.4ex]
+\setupbodyfont[9pt]\tfxx
+{\it O historiador grego Heródoto,\\\itxx considerado o “pai da história”}
+\stopnarrower
+
+\page %---------------------------------------------------------|
+
+\MyCover{./NIETZSCHE_UTILIDADE_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
