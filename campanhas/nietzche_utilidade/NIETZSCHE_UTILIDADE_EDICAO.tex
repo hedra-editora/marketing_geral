@@ -14,21 +14,27 @@
 \definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
-\environment{marketing.env}		   
+\environment{marketing.env}
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{TRÊS CONCEITOS}
+\Mensagem{FILOSOFANDO}
 
 \startMyCampaign
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-{\bf O HISTÓRICO, A-HISTÓRICO E SUPRA- -HISTÓRICO}
+%{\bf O HISTÓRICO, A-HISTÓRICO E SUPRA- -HISTÓRICO} Para entender alguns conceitos de {\bf NIETZSCHE}
+Para {\bf NIETZSCHE},\\ o homem deve ser?
 
-Para entender alguns conceitos de {\bf NIETZSCHE}
+\blank[medium]
 
+\tikz \draw[scale=.5,thick] (0,0) -- (0,1) -- (1,1) -- (1,0) -- (0,0);  histórico;
+
+\tikz \draw[scale=.5,thick] (0,0) -- (0,1) -- (1,1) -- (1,0) -- (0,0); a-histórico;
+
+\tikz \draw[scale=.5,thick] (0,0) -- (0,1) -- (1,1) -- (1,0) -- (0,0); supra-histórico.
 \stopMyCampaign
 
 %\vfill\scale[lines=1.5]{\MyStar[MyColorText][none]}
@@ -42,51 +48,61 @@ Para entender alguns conceitos de {\bf NIETZSCHE}
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-\startnarrower[5*right]
-Apesar de o homem ser
-essencialmente um ser histórico, pois {\bf O PASSADO E A MEMÓRIA} fazem parte de sua experiência no mundo, para Nietzsche é preciso também integrar uma visão a-histórica à experiência humana.
-\stopnarrower
+% \startnarrower[5*right]
+% Apesar de o homem ser
+% essencialmente um ser histórico, pois {\bf O PASSADO E A MEMÓRIA} fazem parte de sua experiência no mundo, para Nietzsche é preciso também integrar uma visão a-histórica à experiência humana.
+% \stopnarrower
 
-\starttikzpicture[remember picture,overlay]
-\node at (7.33,4)
-{\externalfigure
-              [./nietzsche_munch1.jpg]
-              [width=.4\textwidth]};
-\stoptikzpicture
+% \starttikzpicture[remember picture,overlay]
+% \node at (7.33,4)
+% {\externalfigure
+%               [./nietzsche_munch1.jpg]
+%               [width=.4\textwidth]};
+% \stoptikzpicture
+
+A resposta não é tão óbvia quanto parece.
+
+\startitemize[packed]
+\item O homem precisa do {\bf HISTÓRICO} para preservar a memória.
+
+\item O {\bf A-HISTÓRICO} permite viver o presente e não ficar preso às experiências passadas.
+
+\item O {\bf SUPRA-HISTÓRICO} permite a visão daquilo que é eterno, superando o ponto de vista histórico.
+\stopitemize
 
 \page %---------------------------------------------------------| 
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+% \hyphenpenalty=10000
+% \exhyphenpenalty=10000
 
-\startnarrower[5*left]
-Escreve o filósofo: «O animal vive de forma {\bf A-HISTÓRICA}: pois ele se absorve no presente; não sabe dissimular; não sabe ser outra coisa senão sincero».
-\stopnarrower
+% \startnarrower[5*left]
+% Escreve o filósofo: «O animal vive de forma {\bf A-HISTÓRICA}: pois ele se absorve no presente; não sabe dissimular; não sabe ser outra coisa senão sincero».
+% \stopnarrower
 
-\starttikzpicture[remember picture,overlay]
-\node at (1.58,2)
-{\externalfigure
-              [./nietzsche_munch2.jpg]
-              [width=.4\textwidth]};
-\stoptikzpicture
+% \starttikzpicture[remember picture,overlay]
+% \node at (1.58,2)
+% {\externalfigure
+%               [./nietzsche_munch2.jpg]
+%               [width=.4\textwidth]};
+% \stoptikzpicture
 
-\vfill
-\startnarrower[5*left]
-\setupinterlinespace[line=1.4ex]
-{\itxx\Seta\,Nietzsche pintado por Edvard Munch, 1906}
-\stopnarrower
+% \vfill
+% \startnarrower[5*left]
+% \setupinterlinespace[line=1.4ex]
+% {\itxx\Seta\,Nietzsche pintado por Edvard Munch, 1906}
+% \stopnarrower
 
-\page %---------------------------------------------------------|
+% \page %---------------------------------------------------------|
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+% \hyphenpenalty=10000
+% \exhyphenpenalty=10000
 
-Além do histórico e do a-histórico, há ainda uma terceira forma de se relacionar com o passado, o {\bf PONTO DE VISTA SUPRA-HISTÓRICO}: uma visão daquilo que é eterno. Ele é alcançado quando a pesquisa histórica, ao identificar o acaso, a insensatez e a injustiça que alimentam os processos históricos, conduz a uma perturbadora indiferença para com o passado e à superação do ponto de vista histórico.
+% Além do histórico e do a-histórico, há ainda uma terceira forma de se relacionar com o passado, o {\bf PONTO DE VISTA SUPRA-HISTÓRICO}: uma visão daquilo que é eterno. Ele é alcançado quando a pesquisa histórica, ao identificar o acaso, a insensatez e a injustiça que alimentam os processos históricos, conduz a uma perturbadora indiferença para com o passado e à superação do ponto de vista histórico.
 
-\vfill
-\scale[factor=5]{\Seta\,De R\$\,XXXXXX {\bf por R\$\,XXXXXX}, 122 páginas, 2ª edição.}
+% \vfill
+% \scale[factor=5]{\Seta\,De R\$\,XXXXXX {\bf por R\$\,XXXXXX}, 122 páginas, 2ª edição.}
 
-\page %---------------------------------------------------------|
+% \page %---------------------------------------------------------|
 
 \Hedra
 
