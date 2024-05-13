@@ -4,6 +4,6 @@ Maior compilação de Noam Chomsky já publicada sobre o assunto, «Notas sobre 
 entrevistas e dois artigos de um dos maiores intelectuais vivos da esquerda.
 
 A organização é de Felipe Corrêa, Rodrigo Rosa, Bruna Mantese, Pablo Ortellado, Arthur Dantas e Ruy Fernando Cavalheiro.
-A introdução é de {\bf ALEXANDRE SAMIS}.
+A introdução é de Alexandre Samis.
 
-De xxxx por xxx, 224 páginas, 2ª edição.
+De R$ 69,00 por 48,30, 216 páginas, 2ª edição.
