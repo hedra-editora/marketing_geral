@@ -1,0 +1,175 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Um mergulho íntimo na psicologia russa do século 19}
+
+\blank[big]
+
+\noindent{\it A novela} A morte de Ivan Ílitch,{\it de Tolstói, parte da crítica sutil e irônica do universo de classe média na Rússia Imperial até ir ao extremo da psicologia de seu protagonista}
+
+
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[TOLSTOI_ILITCH_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em A morte de Ivan Ílitch}\\
+{\bf Autor} Lev Tolstói\\
+{\bf Tradutor} Irineu Franco Perpetuo\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-723-5\\
+{\bf Pág.} 100\\
+{\bf Pré-venda} XXXXXXX\\
+{\bf Lançamento} XXXXXX\\
+{\bf Preço} R\$\,XXXXXX
+}
+
+\noindent{}Após se consagrar com a publicação de longos
+  romances, entre os quais {\it Guerra e paz} (1863--1869) e {\it Anna Kariênina}
+  (1873--1878), Tolstói publica, em 1886, {\it A morte de Ivan Ílitch}, que
+  integra uma série de textos breves que um já consagrado Tolstói
+  produzira por volta dos seus cinquenta anos de vida.
+
+  Nessa concisa narrativa, o escritor russo detém-se sobre a “corriqueira” e, por isso
+  mesmo, “terrível” vida de um funcionário público médio, preenchida por
+  ambições mesquinhas e relações regidas por interesses e conveniências.
+  É apenas a partir do distanciamento, que a iminência da morte lhe impõe,
+  que Ivan Ílitch torna-se capaz de reavaliar a vida que levou até
+  então. Diante do seu inevitável fim, o protagonista não enxerga mais
+  sentido nos seus esforços infindos para seguir à risca os protocolos
+  sociais, a fim de adequar-se ao mundo das aparências.
+  Percebe como suas escolhas priorizaram aquilo que se esperava de um homem que
+  ocupava sua posição social, mas que muitas delas não foram mais do que
+  fontes de aborrecimento, em nada contribuindo para sua verdadeira
+  felicidade.
+
+  Através da existência medíocre de Ivan Ílitch, o romance
+  tece uma crítica sutil, salpicada com amaciada ironia, expõe as
+  futilidades e pequenezas de um universo de classe média na Rússia
+  Imperial. E se, num primeiro momento, o livro retrata a mediocridade
+  cotidiana, a narrativa que conduz o caminho longo até a
+  morte vai se esvaindo do relato da pequenez, até que a personagem
+  principal atinge um algo mais sublime, de modo que saímos muito
+  sutilmente, do universo cotidiano, mesquinho, ganancioso e pretensioso
+  das repartições, para irmos, paulatinamente, ao
+  mais íntimo psicológico de Ivan Ílitch.
+
+\page
+
+\subject{Sobre o autor}
+
+Lev Tolstói (1828--1910), tido como um dos mais
+  importantes e influentes escritores do seu tempo, foi o principal
+  representante do realismo russo. Ainda menino, perdeu ambos os pais,
+  sendo educado por tutores e depois por uma tia. Em 1845, ingressou na
+  Universidade de Kazan, mas não chegou a concluí-la, sendo, no fim das
+  contas, um autodidata --- era conhecedor de muitas línguas e
+  filosofias. Seu primeiro texto, {\it Infância}, saiu em 1852 na
+  revista {\it O contemporâneo}. Após seu casamento com Sófia Andréievna
+  em 1862, deu-se início a fase de seus longos romances, de {\it Guerra
+  e paz} (1863--1869) até {\it Anna Kariênina} (1873--1878). Seu último
+  romance foi {\it Ressurreição} (1889). Embora seja considerado “o
+  mestre insuperado do gênero que se costumou chamar romance psicológico
+  do século 19”, também aventurou-se por outros formatos, como contos
+  breves, diários e escritos teóricos sobre pedagogia, arte e religião.
+  Na década de 1880, Tolstói viveu uma fase que ele próprio definiu como
+  sua {\it redenção moral}. Foi nessa época que sistematizou uma série
+  de preceitos filosóficos e religiosos que, reunidos, passaram a ser
+  conhecidos como tolstoísmo, doutrina baseada no cristianismo, mas
+  acrescida de outras concepções, que repercutiu no mundo todo e fez com
+  que Tolstói fosse excomungado da Igreja Ortodoxa.
+
+\subject{Sobre o tradutor}
+
+Irineu Franco Perpetuo é jornalista, tradutor e crítico de música. Autor, entre outros, de {\it História concisa da música clássica brasileira} (Alameda editorial, 2018). Entre suas traduções, consta {\it Vida e Destino}, de Vassili Grossman (Ed.\,Alfaguara, 2014, Prêmio Jabuti de Tradução).
+
+\page
+
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    Veio-lhe à mente que aquilo que antes parecia uma completa impossibilidade, que não tivesse passado a vida como devia, pudesse ser verdade. Veio-lhe à mente que suas intenções quase imperceptíveis de lutar contra aquilo que as pessoas de posição elevada consideravam bom, que ele imediatamente afastava de si, essas intenções é que podiam ser a realidade, e todo o resto era impróprio. Seu trabalho, a organização de sua vida, sua família, os interesses da sociedade e do serviço, tudo isso podia ser impróprio. Tentou defender tudo aquilo perante si mesmo. E, de repente, sentiu toda a debilidade do que defendia. Não havia nada a defender.
+    \item
+    Mas o que é isso? Por quê? Não pode ser. Não pode ser que a vida tenha sido tão sem sentido e abjeta. E se ela foi apenas tão abjeta e sem sentido, então por que morrer, e morrer no sofrimento? Alguma coisa não bate. “Talvez eu não tenha vivido como deveria” — passou-lhe de repente pela cabeça.
+    \item
+    Exigia da vida conjugal apenas o jantar doméstico, a dona de casa,
+    o leito, confortos que ela podia lhe proporcionar e,
+    principalmente, a decência na aparência externa, que determinava a
+    opinião da sociedade.~
+    \item
+    Na verdade, havia ali o que acontece com todas pessoas que não são
+    ricas de verdade, mas querem parecer ricas e, dessa forma, só se
+    parecem umas com as outras: damasco, ébano, flores, tapetes e
+    bronzes, escuros e brilhantes --- tudo que todas as pessoas de um
+    determinado tipo fazem para se parecer com todas as pessoas de um
+    determinado tipo. No caso dele, tudo era tão imitativo que nem
+    chamava a atenção; para Ivan Ilitch, porém, parecia muito
+    especial.
+  \stopitemize
+ 
+\stoptext
