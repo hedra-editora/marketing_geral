@@ -1,0 +1,226 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb O perigoso, corrosivo e\\ envenenador da vida}
+
+\blank[big]
+
+\noindent{\it O consagrado filósofo Friedrich Nietzsche discute a doença do século: o sentido histórico}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[NIETZSCHE_UTILIDADE_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em Sobre a utilidade e a desvantagem da história para a vida}\\
+{\bf Autor} Friedrich Nietzsche\\
+{\bf Tradutor} André Itaparica\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-768-6\\
+{\bf Pág.} 122\\
+{\bf Pré-venda} 07/05\\
+{\bf Lançamento} 07/06\\
+{\bf Preço} R\$\,59,00
+}
+
+\noindent{}Obra fundamental para compreender a filosofia da história e a filosofia da
+cultura em Nietzsche, {\it Sobre a utilidade e a desvantagem da história para a
+vida}, publicada em 1874, é a segunda das quatro considerações extemporâneas do
+autor, série de livros caracterizada pelo desejo de “intervir
+extemporaneamente --- isto é, contra a época, sobre a época e a favor de uma
+época futura”. Nesta consideração, são discutidos os princípios, limites e
+objetivos do saber histórico.
+
+Contudo, as invectivas de Nietzsche não se dirigem apenas à cultura histórica
+do século 19, mas também às próprias concepções de ciência e de
+conhecimento que permeiam essa pesquisa e têm consequências na cultura como um
+todo. Para o filósofo, tratar a história com a pretensão da suposta
+objetividade é mera erudição sem relação com a vida e com a renovação da cultura ---
+é apenas uma forma de conhecimento que não conduz à ação. A história como
+ciência objetiva não é apenas erro e ilusão: é desserviço à vida.
+
+Não será à toa, portanto, que Nietzsche exortará, ao final desta consideração,
+a juventude a libertar-se da educação histórica que lhe é impingida e a
+praticar a história a serviço da vida, por meio dos ponto de vista {\it a-histórico}
+---  “a arte e a força de poder esquecer”, isto é, a capacidade de abandonar a
+memória coletiva --- e {\it supra-histórico} --- a percepção do que “dá à
+existência o caráter da eternidade e identidade, a arte e a religião”.
+ 
+Apesar da tímida recepção na época de sua publicação, {\it Sobre a utilidade e a
+desvantagem da história para a vida} tornou-se, com o passar do tempo, um texto
+incontornável na obra de Nietzsche pelas provocações, complexidades e
+ambiguidades que contém.
+
+\page
+
+\subject{Sobre o autor}
+
+Friedrich Nietzsche (Röcken, 1844--Weimar, 1900), filósofo e filólogo
+alemão, foi crítico mordaz da cultura ocidental e um dos pensadores mais
+influentes da modernidade. Descendente de pastores protestantes, optou,
+no entanto, pela carreira acadêmica. Aos 25 anos, tornou-se professor de
+letras clássicas na Universidade da Basileia, onde se aproximou do
+compositor Richard Wagner. Serviu como enfermeiro voluntário na guerra
+franco-prussiana, mas contraiu difteria, que lhe comprometeu a saúde
+definitivamente. Retornou à Basileia e passou a frequentar mais a casa
+de Wagner. Em 1879, devido a constantes recaídas, deixou a universidade
+e passou a receber uma renda anual. A partir daí assumiu uma vida
+errante, dedicando-se exclusivamente à reflexão e à redação de suas
+obras, dentre as quais se destacam: {\em O nascimento da tragédia}
+(1872), {\em Considerações Extemporâneas} (1873--1874), {\em Assim
+falava Zaratustra} (1883--1885), {\em Para além do bem e mal} (1886),
+{\em A genealogia da moral} (1887) e {\em O anticristo} (1895). Em 1889,
+apresentou os primeiros sintomas de problemas mentais, provavelmente
+decorrentes de sífilis. Faleceu em 1900.
+
+\subject{Sobre o tradutor}
+
+André Luis Mota Itaparica é doutor em filosofia pela Universidade de São
+Paulo (USP) e professor da Universidade Federal do Recôncavo da Bahia
+(UFRB). É autor de {\em Nietzsche: Estilo e moral} (Discurso/Unijuí,
+2001), {\em Verdade e linguagem em Nietzsche} (Edufba, 2014), numerosos
+artigos e contribuições a obras sobre Nietzsche, Crítica da Moral,
+Idealismo, Realismo, Natureza, Cultura etc.
+
+\page
+
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    {\bf A miséria dos homens frente aos animais}
+
+    \startitemize
+    \item
+      Observe o rebanho a pastar: ele nada sabe do que é o ontem e o hoje;
+      saltita aqui e acolá, come, descansa, digere, novamente saltita, noite e
+      dia, dia após dia. Em resumo, preso ao seu prazer e desprazer, estancado
+      no instante, não se entristece nem se enfastia. Ver isso é difícil para
+      o homem, que se vangloria de sua humanidade perante o animal, mas
+      contempla enciumado a sorte deste --- pois o homem apenas quer, como o
+      animal, viver sem fastio e sem dor; mas o quer em vão, por não querer
+      como aquele. O homem pergunta ao animal: “por que nada me diz de sua
+      sorte e apenas me fita?” O animal quer responder e dizer: “acontece que
+      eu sempre esqueço o que quero dizer” --- mas já esquece essa resposta e
+      silencia, e o homem se espanta.
+    \stopitemize
+  \item
+    {\bf A ciência domina a vida humana}
+
+    \startitemize
+    \item
+      Aliás, hoje é vangloriado o fato de que “a ciência começa a dominar a
+      vida”: é possível que se chegue a isso, mas a vida assim dominada não
+      tem muito valor, pois é menos vida e garante menos vida para o futuro do
+      que outrora, quando se dominava a vida não pelo saber, mas por instintos
+      e fortes alucinações. Mas esta não deve ser, como dissemos, uma época de
+      personalidades harmoniosas, perfeitas e maduras, mas a do trabalho mais
+      ordinário e mais útil possível. Isso significa que os homens devem
+      direcionar-se aos propósitos da época para trabalhar o mais cedo
+      possível. Eles devem trabalhar na fábrica das utilidades universais
+      antes de se tornar maduros --- porque seria um luxo dispensar do
+      “mercado de trabalho” uma grande quantidade de força. Cegam-se alguns
+      pássaros para que eles cantem melhor; não acredito que os homens de hoje
+      cantem melhor do que os de outrora, mas sei que se cegam na atualidade.
+      Mas o instrumento, o terrível instrumento que utilizam para cegar é uma
+      luz por demais rútila, súbita e cambiante.
+    \stopitemize
+  \stopitemize
+ 
+  % \item
+  %   {\bf A educação distante da experiência}
+
+  %   \startitemize
+  %   \item
+  %     Sobretudo destruindo uma superstição, a crença na necessidade daquela
+  %     forma de educação. Porém, pensa-se que não haveria outra possibilidade
+  %     senão a da nossa tão lamentável realidade. Basta alguém examinar a
+  %     literatura das últimas décadas produzida por nossas escolas e
+  %     estabelecimentos de ensino superiores: ele verificará, para seu espanto
+  %     e desgosto, como o objetivo geral do ensino é pensado uniformemente, em
+  %     toda mudança de sugestões, em toda sofreguidão de contradições; como
+  %     temerosamente se admite o resultado atual, o “homem culto”, como hoje é
+  %     entendido, como o fundamento necessário e racional de um ensino
+  %     ulterior. Mas aquele cânone monótono soaria assim: o jovem deve começar
+  %     com um saber acerca da cultura, não com um saber acerca da vida e muito
+  %     menos com um saber acerca da própria vida e vivência. Ainda mais, esse
+  %     saber acerca da cultura, como saber histórico, é misturado e
+  %     administrado ao jovem; isto é, sua cabeça é entupida com um número
+  %     descomunal de conceitos extraídos, no máximo, do conhecimento indireto
+  %     de épocas e povos pretéritos, não da observação direta da vida. Seu
+  %     anseio é entorpecido e igualmente inebriado pelo grande teatro de que
+  %     seria possível sumarizar em si as mais altas e mais marcantes
+  %     experiências das épocas antigas, justamente as maiores épocas. É o mesmo
+  %     método absurdo que conduz nossos jovens artistas plásticos a museus e
+  %     galerias, e não ao ateliê de um mestre e, sobre tudo, ao ateliê da
+  %     mestra única, a natureza. Como se se pudesse prever, como um passeante
+  %     fugidio, na história das coisas passadas, seus pendores e artes, seu
+  %     produto vital! Como se a própria vida não fosse um ofício, que se
+  %     aprende profunda e firmemente, e que se exerce com labor, quando não
+  %     impede que incompeten- tes e falastrões saiam do ovo!
+  %   \stopitemize
+
+\stoptext
