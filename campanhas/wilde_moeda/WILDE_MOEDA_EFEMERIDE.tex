@@ -1,0 +1,54 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=4c0055]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\Mensagem{\scale[factor=fit]{DIA DA LUTA CONTRA A HOMOFOBIA}} %Sempre usar esse header
+
+\MyPicture{./THUMB_AUTOR.jpg}
+
+\vfill\scale[factor=6]{\Seta\,Dia Internacional da Luta Contra a Homofobia}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«A maior delícia da minha infância era ver homens se banhando. Eu mal conseguia me conter para não correr até eles; provavelmente teria gostado de tocar e beijar seus corpos inteiros. Ficava quase fora de mim quando via um deles nu\ldots»
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Um falo agia sobre mim como — eu suponho — sobre uma mulher muito voluptuosa; minha boca realmente se enchia d’água diante de tal visão, especialmente se fosse um de bom tamanho, vigoroso, com a cabeça arregaçada e a glande carnuda.»
+
+\vfill\scale[factor=fit]{\Seta\,Oscar Wilde, em {\bf O OUTRO LADO DA MOEDA}}
+
+\page %---------------------------------------------------------|
+
+\MyCover{./WILDE_MOEDA_CAPA.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
