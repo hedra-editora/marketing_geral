@@ -1,0 +1,59 @@
+% AUTOR_LIVRO_EFEMERIDE.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=c0e016]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\Mensagem{30 DE MAIO} %Sempre usar esse header
+
+\MyPicture{THUMB_JULIA_LOPES}
+
+\vfill\scale[factor=6]{\Seta\,90 ANOS SEM {\bf JÚLIA LOPES DE ALMEIDA}}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+90 anos atrás, o Brasil perdia Júlia Lopes de Almeida, renomada escritora da virada do século, conhecida pela publicação de romances, contos e crônicas.
+
+\page %---------------------------------------------------------|
+
+Para celebrar a memória da escritora, a Editora Hedra inicia a publicação das Obras Completas de Júlia Lopes de Almeida com o romance A família Medeiros, publicado em folhetim em 1891 e em livro em 1892.
+
+\page %---------------------------------------------------------|
+
+A família Medeiros surpreende pela atualidade: nesse romance, duas gerações de uma família tradicional de fazendeiros da região de Campinas (SP) entram em conflito: os mais jovens defendem a abolição e a emancipação das mulheres; já o patriarca dos Medeiros é um brutal escravista. 
+
+\page %---------------------------------------------------------|
+
+A família Medeiros está em pré-venda no nosso site a partir de hoje. 
+
+\page %---------------------------------------------------------|
+
+\MyCover{JULIA_MEDEIROS_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|]
+	
