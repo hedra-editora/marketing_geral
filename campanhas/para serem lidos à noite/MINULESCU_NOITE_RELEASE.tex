@@ -1,0 +1,140 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Um dos maiores nomes do modernismo romeno romenos do século {\cap XX} e XXX}
+
+\blank[big]
+
+
+\noindent{\it Em} Para serem lidos à noite {\it Ion Minulescu XXXXXXX.}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=3.5cm]{
+\externalfigure[MINULESCU_NOITE_THUMB][width=50mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=4.5cm,style=tfx]
+{\noindent{\bf Título} {\em Para serem lidos à noite}\\
+{\bf Autor} Ion Minulescu\\
+{\bf Tradução} Fernando Klabin\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-935-2\\
+{\bf Pág.} 116\\
+{\bf Pré-venda} XXXX\\
+{\bf Preço} XXXXX
+}
+
+
+ \noindent{} Dentro de sua ampla trajetória ficcional, o romeno Minulescu, uma das figuras literárias do século {\cap XX} mais populares do país, se volta para a literatura fantástica e sobrenatural em {\em Para serem lidos à noite}, articulando real-irreal, lógico-ilógico, sagrado-profano. O título e advertência alinham-se e prenunciam uma pletora de mistérios sem fim.
+
+O teor fantástico dos quatro contos reunidos no volume corrobora a influência do simbolismo sobre o autor, sendo ele admirador de mestres do gênero, como Oscar Wilde e Edgar Allan Poe. 
+
+Na fronteira entre realidade e imaginário, Minulescu articula uma série de mistérios e “jogos de mostras e máscaras”, a serem vislumbrados pelo leitor notívago. 
+
+
+% \blank[big]
+
+% \page
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    {\bf Capítulo {\em Bate-papo com o coisa-ruim}}
+
+    \startitemize
+    \item
+    --- A imaginação dos poetas, na maior parte das vezes, ultrapassa a realidade e estrangula o verossímil. Ainda bem que a maioria das pessoas que frequenta a Igreja não lê poesia, e aqueles que lêem e acreditam na conversa fiada dos poetas não vão à Igreja.
+
+    \stopitemize
+  
+  \item
+    {\bf Capítulo {\em O homem do coração de ouro}}
+\startitemize
+\item --- Claro que conheço!\unknown Mas onde está o anel?\unknown Por que você arrancou a pedra?\unknown\\
+--- Não fui eu quem arrancou.\\
+--- Então quem foi?\\
+--- Ele!\unknown\\
+--- Ele quem?\unknown\\
+--- O homem do coração de ouro!\\
+--- Admirável título para uma novela fantástica!, exclamei.\\
+
+    \stopitemize
+
+\startitemize
+\item
+--- Você teria a bondade de me dizer quantos anos tem?\\
+--- Trezentos e onze anos, e cento e noventa e oito dias,
+considerando, claro, os trinta dias dos anos bissextos.\\
+--- E por que é que você está há tanto tempo por aqui?\\
+--- Não posso morrer até estar completo, como todos os
+mortais.\\
+--- Falta-lhe algo?\\
+--- Sim\unknown\\
+--- Algum órgão importante?\\
+--- O mais importante de todos\unknown O coração! [\unknown]
+
+  \stopitemize
+
+\stoptext
