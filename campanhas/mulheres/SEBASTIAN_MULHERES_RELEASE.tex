@@ -1,0 +1,121 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Um dos maiores escritores romenos do século {\cap XX} e seu hino ao amor}
+
+\blank[big]
+
+
+\noindent{\it Em} Mulheres {\it Mihail Sebastian retrata o amor sob diversas formas: às vezes imprudentes, outras gloriosas mas sempre efêmeras.}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=3.5cm]{
+\externalfigure[SEBASTIAN_MULHERES_THUMB][width=50mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=4.5cm,style=tfx]
+{\noindent{\bf Título} {\em Mulheres}\\
+{\bf Autor} Mihail Sebastian\\
+{\bf Tradução} Fernando Klabin\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-934-5\\
+{\bf Pág.} 150\\
+{\bf Pré-venda} XXXX\\
+{\bf Preço} XXXXX
+}
+
+\noindent {\em Mulheres} é um livro que acontece em quatro histórias cheias de nuances que, juntas, formam um retrato da Europa entre guerras. Acompanhamos Ștefan Valeriu em seus relacionamentos íntimos ou sociais, românticos ou platônicos. Desde sua experiência enquanto jovem no resort de um lago alpino até sua vida já estabelecida em Bucareste e Paris --- à medida que essas mulheres lhe abrem novos mundos e lhe atribuem contorno como homem e indivíduo. Em prosa leve e elegante, Mihail Sebastian, um dos maiores escritores romenos do século {\cap XX}, explora temas subjetivos como a saudade, a alteridade, a empatia e o arrependimento. Mulheres pode ser entendido como um hino ao amor em todas as suas formas: às vezes imprudentes, outras gloriosas e sempre, em última análise, efêmeras.
+
+% \blank[big]
+
+% \subject{Sobre os organizadores}
+
+% \startitemize
+%   \item
+    
+% \page
+\subject{Trechos do livro}
+
+    % {\bf Capítulo {\em Anarquismo, marxismo e expectativas para o futuro}}
+
+    \startitemize
+    \item Creio que sua vida fora envenenada por aquelas duas mãos, que ela carregava com a sensação instintiva de sua inutilidade. Pareciam alheias ao corpo, feitas de madeira, demasiado pesadas. Do ponto de vista do observador, tinha a impressão de que aquelas mãos estavam sempre tensas e arqueadas [\unknown] Sempre que Emilie se enrolava, ou ficava triste, ou furiosa, estendia as mãos ao longo do vestido, como se as tentasse esconder ou apoiar em algo. Costumava pensar que, se as roupas de Emilie tivessem bolsos, sua vida poderia ter sido muito mais simples.
+
+    % {\bf Capítulo {\em Metas e projetos}}
+
+
+    \item  No verão, viajamos para Talloires, onde nos hospedamos numa pousada muito barata, mas de ambiente refinado (um deleite para o gosto burguês de Arabela), e lá desempenhamos, despretensiosamente, o papel de “jovens recém-casados felizes”, na companhia de gente decente e fofoqueira. Arabela cintilava de orgulho em meio às amigas da pousada, todas elas esposas criteriosas, e como lhe caía bem dessa vez a aura de “mulher casada”, ela que durante tantos anos perambulara por um universo duvidoso e agitado. Sentia-me realmente contente por ter concedido àquela mulher a única volúpia para a qual provavelmente fora predestinada: a ilusão do amor legítimo. E me alegrava ao ver como Arabela aos poucos perdia a sombra de dúvida --- ou talvez de pânico --- que algumas vezes cobriu, no passado, o seu sorriso.
+
+    % {\bf Capítulo {\em Metas e projetos }}
+
+  \item 
+— Vou embora amanhã e me pergunto se não estaria indo tarde demais. Um instante tarde demais.
+— Isso significa?
+— Isso significa que sua passagem pelo terraço de manhã, de camisa branca, de pescoço descoberto, com seu nome estrangeiro, que ninguém na pousada consegue pronunciar direito, com essa sua juventude decidida e confusa, com sua vida desconhecida, com os jornais estrangeiros que você recebe de lugares remotos, com as cartas que lhe chegam em envelopes com selos estranhos, com suas crispações rabugentas, com suas alegrias explosivas, com sua paixão pela leitura de livros e por rolar na grama, é uma imagem agradável.
+Ştefan pega na sua mão para beijá-la, mas a encontra tão tranquila, tão admirada com seu aperto emocionado, tão segura de si, que, sem poder mais soltá-la, com medo de que o gesto seja demasiado brutal e, também, sem poder mantê-la presa na sua, ele sugere que parta.
+
+  \stopitemize
+
+\stoptext
