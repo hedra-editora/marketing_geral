@@ -1,0 +1,3 @@
+Embora a obra de Orides Fontela tenha sido elogiada, em diferentes momentos, por críticos como Antonio Candido, Décio de Almeida Prado, Alcides Villaça, Augusto Massi e José Miguel Wisnik, só recentemente seu público se ampliou.
+
+Depois de publicar as obras completas de Orides, em 2015, a Hedra agora apresenta os livros da autora separadamente. «Transposição» já está disponível em nosso site, e «Helianto» está em pré-venda com 30% de desconto!
