@@ -1,0 +1,191 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Abolição e emancipação \\ das mulheres}
+
+\blank[big]
+
+\noindent{\it O primeiro romance de Júlia Lopes de Almeida e as questões que o Brasil ainda não resolveu}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[JULIA_MEDEIROS_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em A família Medeiros}\\
+{\bf Autor} Júlia Lopes de Almeida\\
+{\bf Organizadores} Anna Faedrich e Rafael Balseiro Zin\\
+{\bf Editora} Hedra\\
+{\bf Volumes} 18\\
+}
+
+\noindent{}Nos 90 anos de morte de Júlia Lopes de Almeida, a Editora Hedra
+inicia a publicação das Obras Completas da autora. Sob a organização
+de Anna Faedrich e Rafael Balseiro Zin, pesquisadores responsáveis
+pelo resgate da memória de Júlia Lopes, os romances, contos, novelas,
+crônicas, peças de teatro e textos de não ficção da autora serão 
+apresentados ao público em edições prefaciadas por acadêmicas e 
+acadêmicos de todo o Brasil. 
+
+O projeto inicial prevê a publicação de 18 volumes, apresentados a
+seguir: \\ \\ 
+
+\startitemize[n]
+\setupinterlinespace[line=1.8ex] % Ajuste o valor conforme necessário
+
+\item A família Medeiros (romance)
+\item A viúva Simões (romance)
+\item Memórias de Marta (romance)
+\item A falência (romance)
+\item A intrusa (romance)
+\item Cruel Amor (romance)
+\item A Silveirinha (romance)
+\item A casa verde (romance)
+\item Pássaro tonto (romance)
+\item O funil do diabo (romance)
+\item Tríptico sobre a vida e a cultura nos campos
+\item Contos e novelas  
+\item Contos para crianças e adolescentes 
+\item Teatro 
+\item Livros de conselhos 
+\item Crônicas  
+\item Crônicas de viagem
+\item Ensaios e conferências
+
+\stopitemize
+
+\page
+
+Os destaques da coleção são os seguintes:
+
+\startitemize[n]
+\setupinterlinespace[line=1.8ex] % Ajuste o valor conforme necessário
+
+  \item todos os volumes contêm prefácio de especialistas na obra de Júlia Lopes de Almeida
+
+  \item o {\it Tríptico sobre a vida e a cultura nos campos} contém o romance {\it Correio da roça} (1913), os poemas e a prosa de {\it A árvore} (1906) e o texto sobre ``a cultura de flores'' de {\it Jardim florido}, respeitando assim o projeto da autora, no qual esses três livros compunham uma unidade    
+  
+  \item reunião de todos os contos e novelas da autora em dois volumes: um voltado para o público adulto, outro para os jovens leitores
+  
+  \item reunião inédita da dramaturgia completa da autora: desde as peças anteriormente publicadas em 1917, em um só volume --- {\it Quem ama não perdoa}, {\it Doidos de amor} e {\it Nos jardins de Saul} --- passando pelas peças manuscritas --- {\it O caminho do céu}, {\it O dinheiro dos outros}, {\it Vai raiar o sol}, {\it A senhora marquesa}, {\it A última entrevista} e {Laura} --- até {\it A herança}, publicada em 1909 
+  
+  \item reunião dos livros de conselhos --- {\it Livro das noivas} (1896) e {\it Livro das donas e donzelas} (1906) --- em um só volume, de importância história para a pesquisa a respeito de costumes e hábitos das mulheres brasileiras da virada do século {\sc xix} para o século {\sc xx}
+
+  \item reunião das crônicas da autora publicadas na imprensa periódica nas colunas {\it Eles e elas}, {\it Dois dedos de prosa} e {\it A violeta}
+
+  \item reunião em volume único das crônicas de viagem da autora: {\it Cenas e paisagens do Espírito Santo} (1912) e {\it Jornadas no meu país} (1920)
+  
+  \item reunião das obras de não ficção da autora em volume único: {\it Maternidade} (1925) e as conferências ``A mulher e a arte'' (sem data), ``Padre José Maurício'' (1917), ``Brasil'' (1922) e ``Oração a Santa Doroteia'' (1923) 
+
+\stopitemize
+
+\page
+
+\subject{Sobre a autora}
+
+{\bf Júlia Lopes de Almeida} (1862--1934) nasceu no Rio de Janeiro. 
+Considerada um verdadeiro fenômeno literário, escreveu romances, contos,
+novelas, peças teatrais, crônicas, ensaios, livros didáticos e infantis.
+Estreou como escritora em 1881, incentivada pelo pai, com uma crônica 
+publicada na {\it Gazeta de Campinas}. Entusiasta da modernidade e 
+das mentalidades daquele período de efervescência cultural e intenso 
+otimismo, compôs em seus textos um amplo painel da {\it Belle Époque}
+carioca. Seu primeiro romance, {\it Memórias de Marta}, foi publicado em
+folhetim, na {\it Tribuna Liberal}, do Rio de Janeiro, de 1888 a 1889.
+Em seu casarão no bairro de Santa Teresa, oferecia celebrados saraus nos 
+jardins, então conhecidos como {\it Salão Verde} --- onde ocorreram 
+algumas das reuniões de criação da Academia Brasileira de Letras, de que
+Júlia Lopes teria participado, se não tivesse sido afastada da cadeira 
+que ocuparia sob o argumento de que nossa academia deveria seguir o modelo
+da francesa, frequentada apenas por homens. Apesar dessa deslealdade de 
+parceiros, a autora não seguiu atuante e incansável no meio literário, 
+jornalístico e intelectual brasileiro e na luta pela emancipação feminina, 
+aconselhando mulheres a trabalharem e a terem sua própria fonte de renda
+para não dependerem dos homens, criticando filósofos misóginos, contestando
+a falta de educação para as mulheres, mas, sobretudo, o tipo de educação 
+que recebiam em casa, destinada apenas ao casamento e à futilidade. Desde
+sua morte, em 1934, foi gradativa e injustamente alijada da memória e história 
+literárias, processo que esta coleção de Obras Completas pretende reverter.
+
+
+\subject{Sobre os organizadores}
+
+{\bf Anna Faedrich} é doutora em Letras, com especialização em Teoria da
+Literatura ({\sc pucrs}), professora de literatura brasileira na
+Universidade Federal Fluminense ({\sc uff}) e coordenadora do projeto de
+pesquisa {\it Literatura de autoria feminina na belle époque brasileira:
+memória, esquecimento e repertórios de exclusão}. É autora de {\it Teorias
+da autoficção} ({\sc e}d{\sc uerj}, 2022) e {\it Escritoras
+silenciadas} (Macabéa/\,Fundação Biblioteca Nacional, 2022).
+
+{\bf Rafael Balseiro Zin} é sociólogo e doutor em Ciências Sociais, pela
+{\sc puc--sp}, onde atua como pesquisador no Núcleo de Estudos em Arte,
+Mídia e Política (Neamp/\,{\sc cnp}q). Nos últimos anos, entre outros
+temas, tem se dedicado a investigar a trajetória intelectual das escritoras
+abolicionistas no Brasil, com especial atenção ao legado de Maria Firmina dos
+Reis e Júlia Lopes de Almeida.
+
+\stoptext
