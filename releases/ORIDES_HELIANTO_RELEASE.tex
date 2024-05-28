@@ -1,0 +1,193 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb No sentido do girassol}
+
+\blank[big]
+
+\noindent{\it A trajetória circular, do concreto ao transcendente, na poesia de Orides Fontela}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[ORIDES_HELIANTO_THUMB.png][width=60mm]
+}
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em Helianto}\\
+{\bf Autor} Orides Fontela\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-751-8\\
+{\bf Pág.} 80\\
+{\bf Pré-venda} 29/05\\
+{\bf Lançamento} XX/XX\\
+{\bf Preço} R\$\,XXXXX
+}
+
+\noindent{}O título {\it Helianto}, do segundo livro de Orides
+Fontela, publicado em 1973, é sinônimo de girassol. Essa flor que
+acompanha o sentido do astro maior orienta também o olhar do leitor. Os
+poemas de {\it Helianto} são, afinal, guiados pela
+imagem da circularidade. A partir desse movimento fundamental da
+natureza --- explícito em poemas como “Oscila” e “Paisagem em círculo”
+--- a poeta aprofunda a experiência ao mesmo tempo telúrica e elevada
+que já explorara em {\it Transposição}, seu primeiro
+livro.
+
+Celebrada, na época da publicação, por José Paulo Paes e Antonio
+Candido, a poeta investiga nos poemas de {\it
+Helianto} a apreensão e fixação do que é efêmero. Da mesma maneira, o
+percurso que vai das imagens do firmamento ao solo reafirma a tensão da
+obra de estreia, entre o transcendente e o concreto, além do
+aprofundamento da especulação teológica e das experiências místicas, nas
+quais a justaposição de {\em criação humana} e {\em natureza} compõe uma
+forma de ascensão ao sagrado.     
+
+\subject{Sobre a autora}
+
+{\bf Orides Fontela} (1940--1998) nasceu em São João
+da Boa Vista, onde concluiu o curso normal e tornou-se professora. Foi
+surpreendida, depois de publicar alguns poemas no jornal da cidade, pelo
+entusiasmo do antigo colega de escola, o jovem crítico Davi Arrigucci
+Jr., que fez questão de levar apresentar a produção literária da amiga
+aos professores e ao público da antiga {\sc FFCL},
+atual {\sc FFLCH}, de modo que o primeiro livro de
+Orides, {\it Transposição} (1969), já nasceu
+consagrado. Já morando em São Paulo e cursando filosofia, a poeta
+combinou leituras acadêmicas ao misticismo cristão e à meditação
+oriental --- arranjo que deixou marcas em sua obra. Depois de
+{\it Helianto}, publicado em 1973, seu terceiro
+livro, {\it Alba} (1983), conquistou o prêmio Jabuti
+de Poesia. {\it Teia} (1996) foi contemplado com o
+prêmio da Associação Paulista de Críticos de Arte
+({\sc apca}). Seus poemas foram elogiados, em
+diversos momentos, por críticos do porte de Antonio Candido, Décio de
+Almeida Prado, Alcides Villaça, Augusto Massi e José Miguel Wisnik. Esse
+reconhecimento contribuiu para que a autora, em momentos pontuais,
+alcançasse mais leitores, mas só recentemente sua obra vêm conquistando
+a atenção que merece.
+
+
+\subject[title={Obras completas de Orides
+Fontela},reference={obras-completas-de-orides-fontela}]
+
+Depois de publicar, em volume único, as obras completas de Orides
+Fontela, em 2015, a Hedra agora apresenta os livros da autora
+separadamente, com breve apresentação dos editores.
+{\it Transposição}, primeiro livro da autor, já está
+disponível no site da editora. {\it Helianto} sai em
+pré-venda no fim do mês de maio de 2024.
+
+\subject{Dois poemas de {\em Helianto}}
+
+\startcolumns[n=2]\adaptlayout[width=2\textwidth]
+{\bf Helianto}
+
+\startblockquote
+\noindent{}Cânon\\
+da flor completa\\
+metro\,/\,valência\,/\,rito\\
+da flor\\
+verbo\\\blank[big]
+
+\noindent{}círculo\\
+exemplar de helianto\\
+flor e\\
+mito\\\blank[big]
+
+\noindent{}ciclo\\
+do complexo espelho\\
+flor e\\
+ritmo\\\blank[big]
+
+\noindent{}cânon\\
+da luz perfeita\\
+capturada fixa\\
+na flor\\
+verbo.
+\stopblockquote
+
+\column
+{\bf Rosácea}
+
+\startblockquote
+\noindent{}Rosa primária quíntupla\\
+abstrato vitral\\
+das figuras do ser.\\\blank[big]
+
+\noindent{}Ritmo em círculo, cinco\\
+tempos de um mesmo ponto\\
+interno, que se acende\\
+no infinito. Rosa\\
+não rosa: arquitetura\\
+corforma do possível.\\\blank[big]
+
+\noindent{}Abstrato vitral\\
+das figuras do ser.
+\stopblockquote
+\stopcolumns
+
+
+  
+\stoptext
