@@ -1,0 +1,60 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=361606]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{IVAN ILITCH NO SÉCULO 21}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf NOVA TRADUÇÃO
+DE CLÁSSICO RENOVA
+O REALISMO DE
+TOLSTÓI PARA
+O NOSSO TEMPO}
+
+\stopMyCampaign
+
+%\vfill\scale[lines=1.5]{\MyStar[MyColorText][none]}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{./TOLSTOI_MORTE_THUMB.jpeg}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Tradutor de {\bf CLÁSSICOS DA LITERATURA RUSSA}, como {\it O mestre e Margarida}, de Mikhail Bulgákov, {\it Memórias do subsolo}, de Fiódor Dostoiévski, e {\it Anna Kariênina}, de Tolstó, {\bf IRINEU FRANCO PERPETUO} acaba de verter para o português um clássico insuperável do realismo russo: {\it A morte de Ivan Ilitch}.
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Ganhador do Prêmio Jabuti de Tradução em 2014 pela sua versão de {\it Vida e Destino}, de Vassili Grossman, Irineu Franco Perpetuo renova a leitura de {\bf A MORTE DE IVAN ILITCH} com uma tradução que, sem deixar de lado o rigor e o respeito ao original, evidencia em língua portuguesa a impressionante força da literatura de Tolstói nos nossos tempos.
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
