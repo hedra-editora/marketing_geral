@@ -1,0 +1,72 @@
+% AUTOR_LIVRO_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][BlueIII]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{EVENTO DE LANÇAMENTO}
+
+\startMyCampaign
+{\bf A MELODIA \\ 
+ TRÁGICA,} \\ 
+ DE ROGÉRIO SKYLAB 
+\stopMyCampaign
+
+\scale[factor=fit]{\Seta\,{\bf NOITE DE AUTÓGRAFOS}} 
+
+\vfill
+
+\page %---------------------------------------------------------|
+
+
+\MyPicture{SKYLAB_MELODIA_1.jpeg}
+
+% Colocar sempre imagens quadradas
+%\scale[factor=fit]{\MyPortrait{pessoa}\quad\MyPortrait{pessoa2}\quad\MyPortrait{cat2}}
+
+\scale[factor=fit]{\Seta\,{\bf 21 DE JUNHO, às 19H}
+na TUMBA DO FARAÓ}
+
+
+\page %---------------------------------------------------------|
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+No dia 21 de junho, às 19h, Rogério Skylab vai autografar exemplares do seu livro {\bf A MELODIA TRÁGICA} na Tumba do Faraó, loja de discos mais fora da curva de Santa Catarina e espaço de eventos alternativos de Floripa.  
+
+{\vfill\scale[factor=5]{\Seta\,A {\bf Tumba do Faraó} fica no Parthenon Center, na Rua Tenente Silveira, 111, loja 106,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{no centro de Florianópolis.}}
+
+\page %---------------------------------------------------------|
+
+\MyCover{SKYLAB_MELODIA_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|]]></content>
+	
