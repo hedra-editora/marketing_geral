@@ -1,7 +1,10 @@
-Poeta fingidor: Fernando Pessoa (1888-1935)
+136 anos de Fernando Pessoa: primeiro dramaturgo, depois poeta
 
-Há 136 anos, nascia em Lisboa Fernando Pessoa, um dos maiores poetas da língua portuguesa e uma figura singular na literatura mundial. Sua vida enigmática e sua genialidade são refletidas em uma obra vasta e diversificada.
+Poucos sabem, mas Fernando Pessoa, um dos maiores escritores da língua portuguesa e uma figura singular na literatura mundial, não comecou sua atividade literária pela poesia, mas pelo teatro.
 
-Pessoa é conhecido por criar heterônimos, personas literárias com estilos e perspectivas únicas. Álvaro de Campos, Ricardo Reis e Alberto Caeiro são alguns dos mais famosos. 
+Sua primeira peça, intitulada «O marinheiro», publicada em 1915, marcou a sua estreia no mundo literário, revelando seu talento multifacetado. 
 
-Sua poesia aborda temas como amor e fragmentação e metafísica, com precisão nas palavras e intensidade emocional.
+O drama e a poesia de Pessoa tem algo em comum:  a multiplicidade de vozes poéticas. 
+Além disso, a relação de Pessoa com o teatro está intrinsecamente ligada aos seus heterônimos: personagens literárias distintas, com biografias e perspectivas únicas, que o escritor concebeu.
+ 
+Entre os heterônimos mais conhecidos estão Alberto Caeiro, Álvaro de Campos e Ricardo Reis. 
