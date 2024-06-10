@@ -10,7 +10,7 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=361606]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColor][x=ad0406]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][white]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
@@ -18,29 +18,32 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{DESTAQUE}
+\Mensagem{DIA DOS NAMORADOS} %Sempre usar esse header
 
-\MyCover{./TOLSTOI_MORTE_THUMB.jpeg}
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
+«Casamento. Quanta tristeza, miséria, humilhação; quantas lágrimas e maldições; que
+agonia e sofrimento essa palavra tem trazido à humanidade.»
+\stopMyCampaign
+
+
+{\vfill\scale[factor=fit]{\Seta\,Emma Goldman em \bf Sobre anarquismo, sexo e casamento}}
 
 \page %---------------------------------------------------------| 
 
-\startMyCampaign
-
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
-\setupinterlinespace[line=1.5ex]
-{\tfxx «Sim, havia vida, está partindo, partindo, e não tenho como a deter. Sim. Para que me enganar? Afinal, é evidente para todos, menos para mim, que vou morrer, tratando-se de uma questão apenas do número de semanas ou dias — pode até ser agora. Pois havia a luz, e agora são trevas. Pois eu estava aqui, e agora vou para lá! Para onde?»}
 
-\stopMyCampaign
+\MyPicture{./goldman2.jpg}
 
-{\vfill\scale[factor=fit]{\Seta\,Trecho do livro {\bf A morte de Ivan Ilitch}, de Lev Tolstói}}
+{\vfill\scale[factor=6]{\Seta\,Emma Goldman (1869-1940)}}
+
 
 \page %---------------------------------------------------------|
 
-\MyPhoto{ILITCH_MORTE_IMAGE-2.jpg}
-
-{\vfill\scale[factor=6]{\Seta\,{\bf LEV TOLSTÓI} (1828--1910)}}
+\MyCover{./GOLDMAN_CASAMENTO_THUMB.pdf}
 
 \page %---------------------------------------------------------|
 
