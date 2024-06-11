@@ -1,0 +1,182 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bf A transformação de Kafka nos cem anos de sua morte}
+
+\blank[big]
+
+\noindent{\it Nova tradução do clássico “A metamorfose” evidencia o humor do
+original e abre suas possibilidades de sentido}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[KAFKA_TRANSFORMACAO_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em A transformação}\\
+{\bf Autor} Franz Kafka\\
+{\bf Tradutor} Celso Donizete Cruz\\
+{\bf Editora} Hedra\\
+{\bf ISBN} XXXXXXXXXXXXXX\\
+{\bf Pág.} 122\\
+{\bf Pré-venda} 12/06\\
+{\bf Lançamento} 12/07\\
+{\bf Preço} R\$\,XXXXXXX
+}
+
+\noindent{}Publicada em 1915, a novela {\em Die Verwandlung} é traduzida comumente
+para o português como {\em A metamorfose}. Muitos leitores conhecem a
+famosa narrativa sobre Gregor Samsa, que “certa manhã, ao despertar de
+um sonho inquieto, descobriu-se em sua cama transformado num
+insuportável inseto”. No entanto, poucos sabem que o título original
+também pode ser traduzido como {\em A transformação}, termo mais amplo e
+versátil, adotado pelo tradutor Celso Donizete Cruz, mestre em língua e
+literatura alemãs pela USP.
+
+{\em A transformação} pode referir-se a mudanças físicas, psicológicas
+ou situacionais, sem necessariamente carregar a mesma conotação natural
+e completa de “metamorfose”, que tem uma conotação mais biológica e
+específica, frequentemente associada a mudanças naturais e inevitáveis,
+como a metamorfose de uma lagarta em borboleta.
+
+Para alguns, a palavra "metamorfose" induz a pensar em um personagem
+trágico e mais triste, evocando uma mudança biológica que pode ser
+inevitável e dolorosa. Por outro lado, "transformação" sugere uma
+conotação mais alegre e psicológica, indicando um crescimento ou
+evolução pessoal que é intencional e positivo. Com isso, abre-se o
+sentido da narrativa para o lúdico, o tom jocoso e brincalhão que muitos
+contemporâneos perceberam em Kafka. É impossível esquecer, nesse
+sentido, a conhecida anedota de que o autor, quando fazia leituras
+públicas de seus manuscritos em cervejarias de Praga, durante as quais
+algumas mulheres desmaiavam ao ouvir suas imagens terríveis, o fazia
+entre gargalhadas. Ao falar do humor de seu texto, evidenciado em opções
+de tradução, conseguimos, assim, retomar um outro lado de sua literatura
+que às vezes passa despercebido.
+
+Com a tradução de {\em A transformação}, também conseguimos recuperar a
+repetição sonora do substantivo alemão do título original,
+{\em Verwandlung}, que ecoa na forma verbal {\em verwandelt}
+(transformado), no fim da primeira frase da narrativa. E não foram
+poucos intelectuais que optaram pelo rigor com a língua original. Como o
+escritor argentino Jorge Luis Borges, que também criticava o título
+consagrado nas traduções, argumentando que a língua alemã possui a
+palavra {\em Metamorphose}, e Kafka a adotaria se sua intenção fosse de
+fato privilegiar a mutação biológica, o que não é o caso. E também o
+crítico Otto Maria Carpeaux, que em um texto de 1941, marco inaugural da
+recepção crítica de Kafka no Brasil, referiu-se à história de Gregor
+Samsa como\ldots{} {\em A transformação}!
+
+Além da novidade da tradução, a edição da Hedra também traz uma pequena
+fortuna crítica, que inclui esse texto de Carpeaux, responsável por
+introduzir o público brasileiro na literatura do tcheco, e o ensaio
+“Kafka. A propósito do décimo aniversário de sua morte”, em que Walter
+Benjamin inova a interpretação de Kafka à época ao deslocá-la de uma questão propriamente judaica para o contexto da modernidade como um todo.
+
+\subject{Sobre o autor}
+
+Franz Kafka (Praga, 1883--Klosterneuburg, 1924) é um dos autores mais lidos 
+e influentes do século 20. Oriundo de uma abastada família judaica de
+comerciantes, sua infância é marcada pela relação conflituosa com o pai.
+Frequenta na juventude uma escola alemã de Praga, cursa química e
+posteriormente direito na Universidade Karl-Ferdinand, seguindo depois 
+uma bem-sucedida carreira como funcionário público na área de segurança do trabalho. 
+Além de {\it A transformação}, Kafka publicou em vida {\it O~foguista}, {\it A~sentença} e {\it O artista da fome}. {\it O~processo}, {\it O~castelo} e {\it América} 
+(este último, inacabado) foram publicados postumamente, graças à intervenção de 
+seu amigo Max Brod, que se recusou a seguir o testamento de Kafka, no qual 
+determinava a destruição de todos os seus escritos inéditos. A sua obra inclui
+ainda contos, diários e uma significativa correspondência com sua noiva Felice
+Bauer, que ele jamais desposaria. Falece ao 39 anos, vítima de tuberculose.
+
+\subject{Sobre o tradutor}
+
+Celso Donizete Cruz, mestre em língua e literatura alemãs pela Universidade de São Paulo, foi professor da Universidade Federal de Sergipe. Além de obras traduzidas do alemão, inglês e italiano, é de sua autoria {\it As metamorfoses de Kafka} (Annablume, 2008), um estudo comparativo das mais de doze traduções de {\it A transformação} publicadas no Brasil.
+
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    Certa manhã, ao despertar de um sonho inquieto, Gregor Samsa descobriu-se
+    em sua cama transformado num insuportável inseto. Deitado de costas, duras
+    como um casco, ele viu, ao erguer um pouco a cabeça, sua barriga arredondada,
+    pardacenta, repartida por pregas arqueadas, do alto da qual a coberta, já
+    quase toda caída, escorregava. Diante de seus olhos moviam-se
+    desesperadas suas várias pernas, ridiculamente finas em comparação com
+    suas proporções de antes.
+  \item
+    Em {\it A transformação}, um jovem é subitamente transformado num horrível inseto que os seus próprios parentes querem matar. O homem, submergido
+    pela vida banal de todos os dias, não é mais a imagem de Deus; não se
+    pode deter essa queda onde se desejaria, em alguma etapa propícia; e a queda torna-se radical até se perder o direito de existir. (Do ensaio “Franz Kafka e o mundo invisível”, de Otto Maria Carpeaux.)
+    \item
+    É mais fácil extrair conclusões especulativas das notas póstumas de
+    Kafka que investigar um único dos temas que aparecem em seus contos e
+    romances. No entanto somente esses temas podem lançar alguma luz sobre
+    as forças arcaicas que atravessam a obra de Kafka --- forças,
+    entretanto, que com igual justificação poderíamos identificar no mundo
+    contemporâneo. (Do ensaio “Kafka. A propósito do décimo aniversário de sua morte”, de Walter Benjamin.)
+  \stopitemize
+ 
+\stoptext
