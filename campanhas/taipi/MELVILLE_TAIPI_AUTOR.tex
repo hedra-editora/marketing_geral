@@ -1,0 +1,61 @@
+% MELVILLE_TAIPI_AUTOR.tex
+\usecolors[crayola]
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][x=414b47]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+      
+
+\def\MyBackground#1{
+\defineoverlay
+  [backgroundimage]
+  [{\externalfigure[#1][height=\overlayheight]}]
+}
+\environment{extra.env}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackgroundMessage{ESCRITOR A BORDO}
+\MyBackground{MELVILLE_TAIPI__1.jpg}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\position(0,7.8){\scale[factor=4]{\Seta\,HERMAN MELVILLE (1819--1891)}}
+\stopMyCampaign
+
+\page 
+
+\Mensagem{ESCRITOR A BORDO}
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+
+Escritor, poeta e ensaísta norte-americano, {\bf MELVILLE} é autor de um dos livros mais emblemáticos de literatura de aventura, o célebre {\bf MOBY DICK} (1851), considerado um dos romances mais importantes da literatura ocidental. 
+
+\page %----------------------------------------------------------|
+
+A escrita de Melville baseia-se sobretudo em suas vivências de {\bf MARINHEIRO}, as quais lhe proporcionaram um distanciamento que certamente contribuiu para a minuciosa análise que realiza das {\bf CONTRADIÇÕES DA SOCIEDADE NORTE-AMERICANA}. 
+
+\page
+
+Apesar de hoje {\bf MOBY DICK} ser sua obra mais conhecida, quando vivo Melville era conhecido como o autor de {\bf TAIPI}, seu romance de estreia e responsável por consagrá-lo como um dos mais conhecidos autores dos {\cap EUA}. 
+
+\page
+
+Sua morte, bem como o centenário de seu nascimento, comemorado em 1919, foram de extrema importância para renovar o interesse pela figura de Melville e reavivar os estudos acadêmicos voltados para sua obra, a qual tinha finalmente ascendido à categoria dos {\bf CLÁSSICOS}.
+
+\page
+
+\MyCover{MELVILLE_TAIPI_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
