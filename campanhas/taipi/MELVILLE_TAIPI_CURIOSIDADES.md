@@ -12,5 +12,4 @@ Contudo, tudo transcorre muito diferentemente do que Melville esperava: os nativ
 Sem desfazer-se completamente do medo, a recepção digna que lhe foi oferecida faz Melville  questionar a imagem que os colonizadores cultivavam desse povo.
 Muito a frente de seu tempo, Melville se pergunta quem seriam os verdadeiros selvagens: os colonizadores ou os nativos? 
 
-
-«Tão logo chegam ao destino, eles incendeiam, massacram e destroem, em acordo com o teor das instruções escritas, e navegando para longe do cenário de devastação, conclamam toda a cristandade para que aplauda sua coragem e justiça. Quantas vezes o termo “selvagens” é incorretamente aplicado!» --- Herman Melville.
+«A habilidade demoníaca que ostentamos na invenção de toda a sorte de mecanismos de morte, a vingança com que conduzimos nossas guerras e a infelicidade e a desolação que se seguem em sua esteira, são o bastante para identificar o homem branco civilizado como o animal mais feroz da face da terra.» --- Herman Melville.

@@ -1,6 +1,6 @@
 O mal do homem moderno: 100 anos de Franz Kafka
 
- Por ter nascido em uma família judia em Praga, em 1883, momento no qual a cidade pertencia ao Império Austro-Húngaro, Kafka cresceu sob as influências de três culturas diversas – a judia, a tcheca e a alemã.
+Esse mês comemoramos 100 anos do nascimento de Franz Kafka. Por ter nascido em uma família judia em Praga, em 1883, momento no qual a cidade pertencia ao Império Austro-Húngaro, cresceu sob a influência de três culturas diversas – a judia, a tcheca e a alemã.
  
 A sua complexa herança cultural, assim como sua carreira como funcionário público, são elementos biográficos que transparecem em sua obra.
 

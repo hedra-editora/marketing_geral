@@ -1,4 +1,4 @@
-Para além do real imediato: cinco  poemas dramáticos de Fernando Pessoa
+Teatro: cinco  poemas dramáticos de Fernando Pessoa
 
 «Teatro do êxtase» reúne cinco peças de Fernando Pessoa, concebidas como poemas dramáticos e destinadas mais à leitura do que à encenação. 
 
