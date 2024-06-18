@@ -1,72 +1,58 @@
-% CHOMSKY_ANARQUISMO_AUTOR.tex
-% quem é "autor"
-% > "VIDA E OBRA"
-
+% AUTOR_LIVRO_AUTOR.tex
 % Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
-\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]                % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
 % Cores definidas pelo designer:
-% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
-% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
-% MyRed			r=0.820, g=0.141, b=0.161 % d12429
-% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
-% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
-% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+% MyGreen       r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan        r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed         r=0.820, g=0.141, b=0.161 % d12429
+% MyPink        r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray        r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange      r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
 \definecolor[MyColor][BrickRed]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
-
 % Classe para diagramação dos posts
-\environment{marketing.env}		   
+\environment{marketing.env}        
 
 % Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
- 		\def\MensagemSaibaMais  {SAIBA MAIS:}
- 		\def\MensagemSite		{HEDRA.COM.BR}
- 		\def\MensagemLink       {LINK NA BIO}
+        \def\MensagemSaibaMais      {SAIBA MAIS:}
+        \def\MensagemSite           {HEDRA.COM.BR}
+        \def\MensagemLink           {LINK NA BIO}
 
-\starttext %--------------------------------------------------------|
-
-\Mensagem{UMA VOZ DA ESQUERDA}
+\starttext  %---------------------------------------------------------|
+\Mensagem{EM TRIBUTO}
+\startMyCampaign
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-%\startMyCampaign
+ MORRE O ANARQUISTA
+{\bf NOAM CHOMSKY}
 
-\MyPicture{CHOMSKY_ANARQUISMO_2}
+%\vfill\scale[factor=4]{\Seta\,NOAM CHOMSKY (1928--2024)}
+\stopMyCampaign
+\stopstandardmakeup
 
-%\stopMyCampaign
+\page 
 
-\vfill\scale[factor=6]{\Seta\,NOAM CHOMSKY (1928--)}
+\Mensagem{EM TRIBUTO}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+ 
+ Reconhecido internacionalmente como um dos maiores intelectuais vivos da esquerda, {\bf NOAM CHOMSKY} publicou centenas de artigos e livros sobre temas como mídia, {\bf MOVIMENTOS SOCIAIS}, política e economia global.
 
 \page %----------------------------------------------------------|
 
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
-
-Reconhecido internacionalmente como um dos maiores intelectuais vivos da esquerda, {\bf NOAM CHOMSKY} publicou centenas de artigos e livros sobre temas como mídia, {\bf MOVIMENTOS SOCIAIS}, política e economia global.
-
-\page
-
-Professor de linguística na \\ Universidade do Arizona e professor emérito do Instituto de Tecnologia de Massachusetts ({\cap mit}),  sua teoria sobre gramática gerativa teve um profundo impacto no campo dos {\bf ESTUDOS
-LINGUÍSTICOS}. 
-
-\page
-
 \MyPicture{CHOMSKY_ANARQUISMO_2}
 
-% Fora suas contribuições acadêmicas,
-
- Chomsky é igualmente conhecido por seu {\bf ATIVISMO POLÍTICO} e por suas críticas contundentes ao imperialismo, militarismo, corporativismo e outras formas de poder institucional.
-
-% \page
-
-% \MyPicture{CHOMSKY_ANARQUISMO_2}
- 
-% Ele é um {\bf CRÍTICO FERRENHO} das políticas externas dos Estados Unidos e de outros governos, bem como dos meios de comunicação corporativos.
+Além disso, era professor de linguística na Universidade do Arizona e 
+{\bf PROFESSOR EMÉRITO} do {\cap mit}.
+% Sua teoria sobre a «gramática gerativa» teve um profundo impacto no campo dos {\bf ESTUDOS
+% LINGUÍSTICOS}. 
 
 
 \page
@@ -76,12 +62,13 @@ IMPÉRIO AMERICANO} (Campus, 2004), {\bf PARA ENTENDER O PODER} (Bertrand
 Brasil, 2005), {\bf O LUCRO OU AS PESSOAS} (Bertrand Brasil, 2006), {\bf O
 GOVERNO DO FUTURO} (Record, 2007) e {\bf RAZÕES DE ESTADO} (Record, 2008).
 
-\page %----------------------------------------------------------|
+\page
 
-\MyCover{CHOMSKY_ANARQUISMO_THUMB}
+% \MyCover{CHOMSKY_ANARQUISMO_THUMB}
 
 \page %----------------------------------------------------------|
 
 \Hedra
 
 \stoptext %---------------------------------------------------------|
+
