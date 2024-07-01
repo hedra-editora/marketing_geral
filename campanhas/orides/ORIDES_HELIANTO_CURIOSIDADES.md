@@ -1,4 +1,4 @@
-Orides Fontela: uma vida toda para a poesia
+Orides Fontela: entre poesia e necessidade  
 
 Orides Fontela levou uma “vida de poeta”. Isto é, uma vida voltada para a poesia, para o pensamento e para a arte, e avessa às vicissitudes e exigências da existência cotidiana.
 

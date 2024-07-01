@@ -1,4 +1,4 @@
-O mestre de Proust: John Ruskin e seu testamento literário
+O mestre de Proust: John Ruskin, um dos maiores autores do século XIX, pouco conhecido do grande público
 
 Entre narrativa de viagem, elegia e coleção de excertos de diário, «Praeterita» é a autobiografia de um dos mais importantes intelectuais da era vitoriana, John Ruskin.
 
