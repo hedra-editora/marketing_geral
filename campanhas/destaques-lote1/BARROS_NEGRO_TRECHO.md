@@ -1,0 +1,1 @@
+«A construção da identidade é um processo em devir, algo que jamais pode atingir um ponto de estabilidade.» --- «Lugar de negro, lugar de branco?», Douglas Rodrigues Barros (@douglasbaro)
