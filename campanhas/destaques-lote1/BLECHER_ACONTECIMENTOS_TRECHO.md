@@ -1,0 +1,1 @@
+«Ao fitar por muito tempo um ponto fixo na parede, às vezes acabo não sabendo mais quem sou nem onde estou. Então, sinto claramente falta da minha identidade como se tivesse me tornado, de repente, um estrangeiro perfeito.» --- Max Blecher, «Acontecimentos na irrealidade».
