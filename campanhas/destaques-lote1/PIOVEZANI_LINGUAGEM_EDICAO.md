@@ -1,4 +1,4 @@
-A linguagem facista: o que Benito Mussolini e de Jair Bolsonaro têm em comum?
+A linguagem fascista: o que Benito Mussolini e Jair Bolsonaro têm em comum?
 
 A partir de uma perspectiva histórica e da exposição do uso da linguagem pelo regime nazista, A linguagem fascista traça um paralelo entre dois casos emblemáticos da linguagem fascista: os discursos de Benito Mussolini e de Jair Bolsonaro.
 
