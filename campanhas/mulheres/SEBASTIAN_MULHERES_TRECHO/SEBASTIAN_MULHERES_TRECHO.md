@@ -1,1 +1,0 @@
-«Tenho medo de me aproximar dessa ferida antiga que se chama amor, e sinto que é desmesuradamente melhor deixar os remorsos e as revoltas em paz, em suas profundas camadas anímicas, hoje calmas, porque, pelo menos aqui onde me encontro, sou uma velha conhecida delas e me sinto de certo modo em casa.» -- «Mulheres», Mihail Sebastian.
