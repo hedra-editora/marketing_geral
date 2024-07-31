@@ -1,0 +1,65 @@
+% ENGELS_FEUERBACH_EFEMERIDE.tex
+\usecolors[crayola]
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][x=d22027]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+      
+\environment{extra.env}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackgroundMessage{MENSAGEM CATIVANTE}
+\MyBackground{engels}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+%{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
+\position(0,7.8){\scale[factor=4]{\Seta\,FRIEDRICH ENGELS (1820--1895)}}
+\stopMyCampaign
+
+\page 
+
+\Mensagem{MANCHETE CATIVANTE}
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Hoje se completam 129 anos da morte do revolucionário alemão Friedrich Engels, responsável por desenvolver, com Marx, o chamado {\bf SOCIALISMO CIENTÍFICO}. 
+
+\page
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Filho mais velho de um industrial da tecelagem, viveu em Berlim e depois em Manchester, onde conheceu {\bf MARX}, em 1842, ao se envolver com o jornalismo radical e a política. 
+
+\page
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Em Bruxelas, auxiliou na formação da {\bf LIGA DOS COMUNISTAS}. Em 1849, tomou parte de um levante no sul da Alemanha e, com seu fracasso, voltou à Inglaterra. 
+
+\page
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Com a morte de Marx, trabalhou na preparação e na publicação dos dois últimos volumes de {\bf O CAPITAL}. Investiu seu tempo em outras produções teóricas e teve significativa influência na social-democracia alemã.
+
+\page %----------------------------------------------------------|
+
+\MyCover{ENGELS_FILOSOFIA_THUMB.pdf}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

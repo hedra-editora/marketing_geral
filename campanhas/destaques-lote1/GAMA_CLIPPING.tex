@@ -24,43 +24,6 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink		{LINK NA BIO}
 
-\def\MyCover#1{\starttikzpicture[overlay, remember picture]
-              \node
-                   [draw=none, 
-                    blur shadow={shadow xshift=5.5pt,shadow yshift=-1.5pt, shadow scale=0.93},
-                    shadow opacity=50, 
-                    shadow blur extra rounding] 
-                    at (0.12  \textwidth,-.4\textheight) {\externalfigure[#1][width=2cm]};
-                \stoptikzpicture}
-
-\def\MySecondCover#1{\starttikzpicture[overlay, remember picture]
-              \node
-                   [draw=none, 
-                    blur shadow={shadow xshift=5.5pt,shadow yshift=-1.5pt, shadow scale=0.93},
-                    shadow opacity=50, 
-                    shadow blur extra rounding] 
-                    at (0.37  \textwidth,-.33\textheight) {\externalfigure[#1][width=2.05cm]};
-                \stoptikzpicture}
-
-\def\MyThirdCover#1{\starttikzpicture[overlay, remember picture]
-              \node
-                   [draw=none, 
-                    blur shadow={shadow xshift=5.5pt,shadow yshift=-1.5pt, shadow scale=0.93},
-                    shadow opacity=50, 
-                    shadow blur extra rounding] 
-                    at (0.62  \textwidth,-.259\textheight) {\externalfigure[#1][width=2cm]};
-                \stoptikzpicture}
-
-\def\MyFourthCover#1{\starttikzpicture[overlay, remember picture]
-              \node
-                   [draw=none, 
-                    blur shadow={shadow xshift=5.5pt,shadow yshift=-1.5pt, shadow scale=0.93},
-                    shadow opacity=50, 
-                    shadow blur extra rounding] 
-                    at (0.87  \textwidth,-.187\textheight) {\externalfigure[#1][width=2.05cm]};
-                \stoptikzpicture}
-
-
 \starttext %---------------------------------------------------------|
 
 \Mensagem{NA IMPRENSA}
@@ -74,11 +37,29 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
+\starttikzpicture[remember picture,overlay]
+        \node at (4.5,-3.8) {\externalfigure[GAMA_IMPRENSA_TRECHO_2][width=\textwidth]};
+ \stoptikzpicture
+
+ \page
 
 \starttikzpicture[remember picture,overlay]
         \node at (4.5,-3.8) {\externalfigure[GAMA_IMPRENSA_TRECHO][width=\textwidth]};
 \stoptikzpicture
-{\vfill\scale[factor=5]{\Seta\,Trecho da coluna de {\bf Tom Farias}, da Folha de São}\setupinterlinespace[line=1.5ex]\scale[factor=5]{Paulo, em 24 de julho.}}
+
+\page
+
+\starttikzpicture[remember picture,overlay]
+        \node at (4.5,-3.8) {\externalfigure[GAMA_IMPRENSA_TRECHO_3][width=\textwidth]};
+\stoptikzpicture
+
+\page
+
+\starttikzpicture[remember picture,overlay]
+        \node at (4.5,-3.8) {\externalfigure[GAMA_IMPRENSA_TRECHO_4][width=\textwidth]};
+\stoptikzpicture
+
+ {\vfill\scale[factor=5]{\Seta\,Trechos da coluna de {\bf Tom Farias}, da Folha de São}\setupinterlinespace[line=1.5ex]\scale[factor=5]{Paulo, em 24 de julho.}}
 
 % «A ideia de publicação das {\bf OBRAS COMPLETAS DE LUIZ GAMA} é genial, corajosa e altamente oportuna. Bruno Lima se esmera no trato
 % editorial dos artigos, abrindo cada um deles com resumo explicativo que nos orienta e nos insere no seu contexto, no tempo em que
@@ -88,13 +69,19 @@
 
 \page %---------------------------------------------------------|
 
+\MyCover{GAMA_DIREITO_THUMB}
+
+\page
+
 \MyCover{GAMA_LIBERDADE_THUMB}
 
-\MySecondCover{GAMA_DIREITO_THUMB}
+\page
 
-\MyThirdCover{GAMA_CRIME_THUMB}
+\MyCover{GAMA_CRIME_THUMB}
 
-\MyFourthCover{GAMA_DEMOCRACIA_THUMB}
+\page
+
+\MyCover{GAMA_DEMOCRACIA_THUMB}
 
 \page %---------------------------------------------------------|
 
