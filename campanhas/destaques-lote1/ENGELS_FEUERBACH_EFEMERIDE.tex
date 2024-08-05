@@ -14,6 +14,7 @@
 \definecolor[MyColor][Sepia]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
+
 % Classe para diagramação dos posts
 \environment{marketing.env}		   
 
@@ -22,9 +23,13 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink       {LINK NA BIO}
 
+\def\MyPicture#1{\vfill
+                \starttikzpicture
+                    \node[yshift=-5mm, inner sep=0] (image) at (0,0) {\externalfigure[#1][width=\textwidth]};
+                                    \stoptikzpicture}  
 \starttext %--------------------------------------------------------|
 
-\Mensagem{MANCHETE CATIVANTE}
+\Mensagem{TEÓRICO E REVOLUCIONÁRIO}
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
