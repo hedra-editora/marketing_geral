@@ -1,67 +1,73 @@
-% BRECHT_EFEMERIDE.tex
-\usecolors[crayola]
+% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
 
-% Configuração de cores TickleMePink
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
 \definecolor[MyColor][Emerald]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
-\environment{marketing.env}        
+\environment{marketing.env}		   
 
 % Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
-        \def\MensagemSaibaMais  {SAIBA MAIS:}
-        \def\MensagemSite       {HEDRA.COM.BR}
-        \def\MensagemLink       {LINK NA BIO}
-      
-\environment{extra.env}
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
 
-\starttext  %---------------------------------------------------------|
+\starttext %--------------------------------------------------------|
 
-\def\MyBackgroundMessage{TEATRO ANTIBURGUÊS}
-\MyBackground{brecht}
+\Mensagem{TEATRO ANTIBURGUÊS}
 
-\startMyCampaign
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
-%{\bf NOAN CHOMSKY} O ANARQUISTA DO NOSSO SÉCULO
-\position(0,7.8){\scale[factor=4]{\Seta\,BERTOLT BRECHT (1898--1956)}}
-\stopMyCampaign
 
-\page 
+%\startMyCampaign
 
-\Mensagem{MANCHETE CATIVANTE}
-\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+\MyPhoto{brecht}
 
+%\stopMyCampaign
+
+\vfill\scale[factor=6]{\Seta\,BERTOLT BRECHT (1898--1956)}
 
 \page %----------------------------------------------------------|
-
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
 
 {\bf BERTOLT BRECHT} foi um importante dramaturgo e poeta alemão do século {\cap XX}. Seus trabalhos artísticos e teóricos influenciaram profundamente o teatro contemporâneo, tornando-o mundialmente conhecido.
 
 
+% \page
+
+% \starttikzpicture[remember picture,overlay]
+% \node at (4.8,-3.2) {\externalfigure[brecht2][width=10cm]};
+% \stoptikzpicture
+
+
+% \vfill{\scale[factor=4]{Bertolt Brecht e Walter Benjamin jogando xadrez na Dinamarca}\setupinterlinespace[line=1.5ex]\scale[factor=4]{em 1934.}}
+
 \page
-
-\starttikzpicture[remember picture,overlay]
-\node at (4.8,-3.2) {\externalfigure[brecht2][width=10cm]};
-\stoptikzpicture
-
-
-\vfill{\scale[factor=4]{Bertolt Brecht e Walter Benjamin jogando xadrez na Dinamarca}\setupinterlinespace[line=1.5ex]\scale[factor=4]{em 1934.}}
-
-\page
-Durante o regime nazista, Brecht deixou a Alemanha, vivendo na Escandinavia e {\cap EUA}. Com o fim da guerra, o escritor retornou a Berlim Oriental e fundou a Berliner Ensemble com sua esposa e colaboradora de longa data, a atriz Helene Weigel.
+Durante o regime nazista, Brecht deixou a Alemanha, vivendo na Escandinavia e {\cap EUA}. Com o fim da guerra, o escritor retornou a Berlim Oriental e fundou a {\bf BERLINER ENSEMBLE} com sua esposa e colaboradora de longa data, a atriz Helene Weigel.
 
 
 \page %----------------------------------------------------------|
 
-A sua concepção brechtiana de teatro implica um amplo conjunto de {\bf CRÍTICAS AO MUNDO BURGUÊS E CAPITALISTA}. Diante de uma sociedade que reproduzia acriticamente suas desigualdades, Brecht acredita que o teatro precisaria fazer com que o homem enxergasse os mecanismos perversos dessa reprodução, despertando a atenção do espectador para o seu {\bf POTENCIAL TRANSFORMADOR}. 
+\MyPhoto{brecht3}
+
+A concepção brechtiana de teatro implica um amplo conjunto de {\bf CRÍTICAS AO MUNDO BURGUÊS E CAPITALISTA}.
+
+
+\page
+ Diante de uma sociedade que reproduzia acriticamente suas desigualdades, o teatro precisaria fazer com que o homem enxergasse os mecanismos perversos dessa reprodução, despertando a atenção do espectador para o seu {\bf POTENCIAL TRANSFORMADOR}. 
 
 \page
 
-É nesse sentido que o dramaturgo adota {\bf MECANISMOS DE DISTANCIAMENTO} --- a ruptura com os cenários realistas, a exposição da teatralidade, o canto --- como meios de afastar o espectador daquilo que lhe é familiar e tirá-lo de sua relação hipnótica de identificação com a cena e ensiná-lo a {\bf OBSERVAR O MUNDO CRITICAMENTE.}
+É nesse sentido que o dramaturgo adota {\bf MECANISMOS DE\\ DISTANCIAMENTO} --- a ruptura com os cenários realistas, a exposição da teatralidade, o canto --- como meios de afastar o espectador daquilo que lhe é familiar e tirá-lo de sua relação hipnótica de identificação com a cena e ensiná-lo a {\bf OBSERVAR O MUNDO CRITICAMENTE.}
 
 \page
 
@@ -74,6 +80,4 @@ Seus textos, montagens e\\ inovações teóricas o consolidaram como {\bf UM DOS
 \stoptext %---------------------------------------------------------|
 
 
-
-\page
 
