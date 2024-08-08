@@ -1,0 +1,144 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb Obra com 70 textos de Luiz Gama vence o Prêmio Jabuti}
+
+\blank[big]
+
+\noindent{\it {\bf Direito (1870-1875)}, com escritos da época em que o autor iniciou a carreira de advogado, marca presença na primeira edição do Jabuti Acadêmico}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[GAMA_DIREITO_THUMB.png][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em Direito (1870-1875)}\\
+{\bf Autor} Luiz Gama\\
+{\bf Organizador} Bruno Rodrigues de Lima\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-734-1\\
+{\bf Pág.} 488\\
+{\bf Preço} R\$\,149,90
+}
+
+\noindent{}Na última terça-feira (6/8), o livro {\em Direito (1870-1875)}, de Luiz Gama, venceu o Prêmio Jabuti na categoria {\bf Direito}. Com organização de Bruno Rodrigues de Lima, doutor em História do Direito pela Universidade de Frankfurt e coordenador das Obras completas do abolicionista baiano, {\em Direito} reúne 70 textos que, em grande parte, nunca tinham sido publicados em livro.
+
+A obra é fruto de uma década de trabalho de Bruno Rodrigues, que pesquisou pelos inéditos em arquivos da imprensa e do judiciário paulista, fluminense, gaúcho, paranaense, mineiro e baiano. O resultado é uma obra ímpar, que vai desde as maiores causas abolicionistas pelas quais Gama advogou, até missivas íntimas e textos líricos.
+
+Aqui, por exemplo, o leitor encontra uma das raríssimas menções públicas de Gama à “Questão Netto”, a ação coletiva pela qual ele representou a demanda de liberdade de 217 pessoas. Simplesmente, a maior ação de liberdade das Américas. Também lemos a polêmica pública em que o autor se envolveu com José de Alencar, então Ministro da Justiça. O autor de {\it Iracema} saiu à imprensa para apoiar a demissão de um cargo público de Gama, cuja resposta não poderia ser mais veemente: “se dobrasse-me subserviente perante um juiz prevaricador, que, aconselhado, proferia despachos manifestamente contrários à lei; se pactuasse com os ladrões devassos e não requeresse a manumissão de indivíduos postos ilegalmente em cativeiro; se, numa palavra, guardasse profundo silêncio perante os salteadores do poder e da liberdade, seria mantido no emprego de amanuense de Polícia, e acatado pela administração!”.
+
+Ao lado das grandes questões públicas, {\em Direito} traz textos delicados, como a carta que escreveu para o amigo José Carlos Rodrigues em novembro de 1870. Ao recordar momentos ao lado do companheiro que mudara-se para Nova York, Gama revela pequenos detalhes de seu cotidiano, dos utensílios de sua casa aos ambientes e acontecimentos que o marcaram. Na missiva, lemos uma rica recordação de sua infância, em um raro quadro da Bahia de 1837.
+
+Também lemos a carta de Gama ao seu filho, então com onze anos. Com lirismo, Gama orienta o jovem sobre o que dizer, o que evitar, o que fazer, o que combater, o que ser, no que crer, o que ler. Diante de tantas causas que defendeu em nome da liberdade e contra as elites do Império, Gama pensava que sofreria uma atentado fatal a qualquer momento, o que o motivou a deixar suas últimas palavras para o filho.
+
+\subject{Sobre o autor}
+
+{\bf Luiz Gonzaga Pinto da Gama} nasceu livre em Salvador da Bahia no dia 21
+de junho de 1830 e morreu na cidade de São Paulo, como herói da
+liberdade, em 24 de agosto de 1882. Filho de Luiza Mahin, africana
+livre, e de um fidalgo baiano cujo nome nunca revelou, Gama foi
+escravizado pelo próprio pai, na ausência da mãe, e vendido para o sul
+do país no dia 10 de novembro de 1840. Dos dez aos dezoito anos de
+idade, Gama viveu escravizado em São Paulo e, após conseguir provas de
+sua liberdade, fugiu do cativeiro e assentou praça como soldado (1848).
+Depois de seis anos de serviço militar (1854), Gama tornou-se escrivão
+de polícia e, em 1859, publicou suas {\it Primeiras trovas burlescas},
+livro de poesias escrito sob o pseudônimo Getulino, que marcaria o seu
+ingresso na história da literatura brasileira. Desde o período em que
+era funcionário público, Gama redigiu, fundou e contribuiu com veículos
+de imprensa, tornando-se um dos principais jornalistas de seu tempo. Mas
+foi como advogado, posição que conquistou em dezembro de 1869, que
+escreveu a sua obra magna, a luta contra a escravidão por dentro do
+direito, que resultou no feito assombroso --- sem precedentes no
+abolicionismo mundial --- de conferir a liberdade para aproximadamente
+750 pessoas através das lutas nos tribunais.
+
+\subject{Sobre o organizador}
+
+{\bf Bruno Rodrigues de Lima} é advogado e historiador do direito, graduado em Direito pela
+Universidade do Estado da Bahia (UNEB-Cabula), mestre em Direito, Estado
+e Constituição pela Universidade de Brasília (UnB) e doutor em
+História do Direito pela Universidade de Frankfurt, Alemanha, com tese
+sobre a obra jurídica de Luiz Gama. Em 2022, ganhou o Prêmio Walter Kolb de melhor tese de doutorado da Universidade de Frankfurt. Atualmente, é pesquisador de pós-doutorado no Instituto Max Planck de História do Direito e Teoria do Direito. Pela EDUFBA,
+publicou o livro {\it Lama \& Sangue -- Bahia 1926} (2018).
+
+\subject{Trechos do livro}
+
+  \startitemize
+    \item
+    A religião, a moral, o direito e a liberdade são gêneros deteriorados que não têm cotação nos mercados do Império.
+
+    Aí compra-se e vende-se o homem; açoitam-se-lhe as carnes, monetariza-se-lhe o suor e o sangue, o homem é o escravo, o escravo é o dinheiro e a questão é essencialmente econômica!
+  \item
+    Tu evitas a amizade e as relações dos grandes homens; eles são como o
+    oceano que aproxima-se das costas para corroer os penedos.
+
+    Sê republicano, como o foi o Homem-Cristo. Faze-te artista; crê, porém,
+    que o estudo é o melhor entretenimento, e o livro o melhor amigo.
+  \stopitemize
+ 
+\stoptext
