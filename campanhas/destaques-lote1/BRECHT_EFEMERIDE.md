@@ -2,7 +2,7 @@ Teatro antiburguês: Bertolt Brecht (1898-1956)
 
 Bertolt Brecht foi um importante dramaturgo e poeta alemão do século XX. Seus trabalhos artísticos e teóricos influenciaram profundamente o teatro contemporâneo, tornando-o mundialmente conhecido.
 
-Durante o regime nazista, Brecht deixou a Alemanha, vivendo na Escandinavia e  EUA. Com o fim da guerra, o escritor retornou a Berlim Oriental e fundou a Berliner Ensemble com sua esposa e colaboradora de longa data, a atriz Helene Weigel.
+Durante o regime nazista, Brecht deixou a Alemanha, vivendo na Escandinávia e  EUA. Com o fim da guerra, o escritor retornou a Berlim Oriental e fundou a Berliner Ensemble com sua esposa e colaboradora de longa data, a atriz Helene Weigel.
 
 A concepção brechtiana de teatro implica um amplo conjunto de críticas ao mundo burguês e capitalista.
 
