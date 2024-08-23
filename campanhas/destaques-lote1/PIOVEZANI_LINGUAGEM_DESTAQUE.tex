@@ -1,0 +1,65 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][Mahogany]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+% Legenda escrita:
+% No livro do Gênesis, é de lábios abertos que vêm o sopro da vida, as palavras da tentação e o anúncio da queda. A fala cria a existência e sua finitude, gerando assim nossa própria humanidade.
+
+% Nossa linguagem, portanto, não está somente a serviço do que é útil, belo e justo. Ela pode, ao contrário, servir ao que há de mais nefasto na condição humana: o ódio por seu se-melhante, visto como seu pior inimigo. Depois de assistir de perto às atrocidades do nazismo e aos terríveis usos de sua linguagem, Klemperer não têm dúvidas em afirmar que as
+% «palavras podem ser como minúsculas doses de arsênico: são engolidas de maneira despercebida e parecem ser inofensi-vas; passado um tempo, o efeito do veneno se faz notar».
+
+\Mensagem{A LINGUAGEM FASCISTA}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«Ao abrir a boca, podemos conquistar ou arruinar nossa liberdade, podemos ganhar a vida ou sucumbir à morte\ldots{}» 
+
+\vfill\hfill →
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«\ldots{}Vários mitos repetem essa ideia, porque ao fazê-lo os seres humanos respiram, se alimentam e falam. Quando falamos\ldots{}» 
+
+\vfill\hfill →
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«\ldots{}nossas palavras podem abrir ou fechar portas, podem ampliar nossos horizontes ou aniquilar nossos sonhos.»
+
+\stopMyCampaign
+
+{\vfill\scale[factor=6]{\Seta\,Trecho da introdução do livro {\bf A linguagem}}\setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf fascista}, de Carlos Piovezani e Emilio Gentile.}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{./PIOVEZANI_LINGUAGEM_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

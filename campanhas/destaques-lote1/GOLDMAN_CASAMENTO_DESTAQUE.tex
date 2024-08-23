@@ -1,0 +1,57 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][EnglishVermilion]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{EMMA GOLDMAN}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«Todo estímulo que desperta a imaginação e eleva o espírito é tão necessário à vida quanto o ar\ldots{}» 
+
+\vfill\hfill →
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«\ldots{}Sem estímulos, o trabalho criativo é impossível, como é também impossível o espírito de bondade e generosidade.»
+
+\stopMyCampaign
+
+{\vfill\scale[factor=6]{\Seta\,Trecho de {\bf Sobre anarquismo, sexo}}\setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf e casamento}, de Emma Goldman. O excerto}\setupinterlinespace[line=1.5ex]\scale[factor=6]{sai do capítulo {\bf A hipocrisia do puritanismo},}\setupinterlinespace[line=1.5ex]\scale[factor=6]{publicado em 1910 por Goldman na revista}\setupinterlinespace[line=1.5ex]\scale[factor=6]{que editava, «Mother Earth».}}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{./GOLDMAN_CASAMENTO_IMAGEM.jpg}
+
+{\vfill\scale[factor=6]{\Seta\,Edição n.\,10 de «Mother Earth».}
+% \setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf e casamento}, de Emma Goldman. O excerto}\setupinterlinespace[line=1.5ex]\scale[factor=6]{sai do capítulo {\bf A hipocrisia do puritanismo},}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{./GOLDMAN_CASAMENTO_THUMB.pdf}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
