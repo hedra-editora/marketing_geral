@@ -1,4 +1,0 @@
-«Em nós até a cor é um defeito, um vício imperdoável de origem, o estigma de um crime e vão ao ponto de esquecer que esta cor é a origem da riqueza de milhares de salteadores, que nos insultam que esta cor convencional da escravidão, como supõem os especuladores, à semelhança da terra através da escura superfície, encerra vulcões, onde arde o fogo sagrado da liberdade.» 
-
-
-Trecho do livro «Liberdade», de Luiz Gama, símbolo do movimento abolicionista e da luta contra a escravidão no Brasil. Com mais de oitenta por cento de textos inéditos, as obras completas de Luiz Gama serão publicadas pela Hedra em onze volumes.
