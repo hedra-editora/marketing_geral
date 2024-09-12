@@ -1,6 +1,6 @@
 «Éramos todos feuerbachianos» — Friedrich Engels
 
-Ludwig Feuerbach rompeu com com idealismo hegeliano e colocou a «natureza e o ser humano» no centro de sua filosofia. 
+Ludwig Feuerbach rompeu com idealismo hegeliano e colocou a «natureza e o ser humano» no centro de sua filosofia. 
 
 Sua principal obra, «A essência do cristianismo» (1841), argumenta que Deus é uma projeção dos desejos humanos e que a religião aliena as pessoas de sua verdadeira essência humana. Ao reorientar a crítica da religião e da filosofia e colocar «o materialismo novamente no trono», Feuerbach tornou-se uma referência indispensável a Marx e Engels. 
 
