@@ -1,6 +1,6 @@
 Max Blecher, o Kafka romeno
 
-Em 1936, o autor Mihail Sebastian visitou um amigo doente de cama, em uma cidade pacata no nordeste da Romênia. Ele voltou à Bucareste «saturado, exausto, sentindo que eu não conseguiria voltar à vida», como escreveu em seu diário.
+Em 1936, o autor Mihail Sebastian visitou um amigo no leito de morte, em uma cidade pacata no nordeste da Romênia. Ele voltou à Bucareste «saturado, exausto, sentindo que eu não conseguiria voltar à vida», como escreveu em seu diário.
 
 «Tudo parecia sem sentido e absurdo.» Seu amigo de apenas vinte e seis anos vinha vivendo «em íntima companhia com a morte», o que Sebastian considerava ambos humilhante e aterrorizante.
 
