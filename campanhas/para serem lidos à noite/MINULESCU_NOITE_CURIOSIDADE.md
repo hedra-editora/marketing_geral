@@ -9,7 +9,9 @@ Apesar de já ser um escritor reconhecido nos anos 1920, Minulescu foi um grande
 
 Sua coleção contém obras de artistas romenos conhecidos do período entreguerras, como Nina Arbore, Alexandru Ciucurencu, Cecilia Cuțescu-Storck, Oscar Han e Max Herman Maxy. Um dos itens mais celebrados da coleção de Minulescu é um retrato seu pintado por Victor Brauner em 1924.
 
-Em 1934, Minulescu e sua esposa, a poeta Claudia Millian, mudaram-se para um edifício modernista, onde a coleção, que àquela altura continha cerca de trezentas obras de arte, passou a ser exposta. Atualmente, a Casa Memorial Ion Minulescu e Claudia Millian pertence ao Museu Nacional da Literatura Romena. Os interiores como eram durante a vida de Minulescu, mantendo assim a integridade da coleção e sua visão artística.
+Em 1934, Minulescu e sua esposa, a poeta Claudia Millian, mudaram-se para um edifício modernista, onde a coleção, que àquela altura continha cerca de trezentas obras de arte, passou a ser exposta. 
+
+Atualmente, a Casa Memorial Ion Minulescu e Claudia Millian pertence ao Museu Nacional da Literatura Romena. Os interiores permanecem como eram durante a vida de Minulescu, mantendo assim a integridade da coleção e sua visão artística.
 
 
 

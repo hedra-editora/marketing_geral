@@ -1,6 +1,6 @@
 Literatura romena em foco: Ion Minulescu (1881--1944)
 
-Um dos maiores nomes do modernismo romeno romenos do século XX, Ion Minulescu transitou entre a poesia, prosa, crítica literária e dramaturgia.
+Um dos maiores nomes do modernismo romeno do século XX, Ion Minulescu transitou entre a poesia, prosa, crítica literária e dramaturgia.
 
 Durante a juventude estudou Direito em Paris, onde entrou em contato com o simbolismo francês, que influenciou profundamente a sua escrita. 
 
