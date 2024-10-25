@@ -13,5 +13,5 @@ No entanto, essa contribuição deve estar em consonância com sua integridade c
 É bastante triste que, hoje em dia, alguns escritores só desçam de sua “torre de marfim” para trazer veneno e paixões políticas cegas à mesa, suas vozes apenas adicionando confusão, ideias obscuras e intolerância ao debate geral. Sim, é bastante triste que esses “intelectuais” alimentem a virulência e a violência em um momento em que isso já é tão abundante.»
 
 Trecho de entrevista concedida por Max Blecher para revista «Rampa», em 1937.
--|
+
 
