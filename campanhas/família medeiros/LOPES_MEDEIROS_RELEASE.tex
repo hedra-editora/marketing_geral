@@ -1,0 +1,219 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]	
+
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfc A família Medeiros\\} 
+{\tfb Júlia Lopes de Almeida}
+
+\blank[big]
+
+
+\noindent {\it Ambientado em Campinas no século {\cap XIX}, o romance expõe o conflito geracional entre o conservador Comendador Medeiros e seus filhos, Eva e Otávio, defensores da abolição.}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=1cm]{
+\externalfigure[THUMB_TEMPORARIO.pdf][width=50mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=1.7cm,style=tfx]
+{\noindent{\bf Título} {\it A família Medeiros}\\
+{\bf Autor} Júlia Lopes de Almeida\\
+{\bf Organização} Anna Faedrich e Rafael Balseiro Zin\\
+{\bf Aparatos} Alfredo Sousa, Norma Telles e Rafael Balseiro Zin\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-721-1\\
+{\bf Pág.}  XX\\
+{\bf Preço} XX 
+}
+
+% \inoutermargin[width=70mm,hoffset=1.1cm,voffset=8cm,style=tfx]
+% {{\bf Sobre o autor} {\it Júlia Lopes de Almeida} nasceu no Rio de Janeiro, em 24 de setembro de 1862. Considerada um verdadeiro fenômeno literário, escreveu romances, contos, novelas, peças teatrais, crônicas, ensaios, livros didáticos e infantis. Estreou na imprensa em 1881, incentivada pelo pai, e atuou como cronista nos mais importantes jornais do país. Entusiasta da modernidade e das mentalidades daquele período de efervescência cultural e intenso otimismo, compôs em seus textos um amplo painel da Belle Époque carioca. Seu primeiro romance, Memórias de Marta, foi publicado em folhetim, na Tribuna Liberal, do Rio de Janeiro, de 1888 a 1889. Nele, registrou as condições desumanas vivenciadas pelos moradores de cortiços. Em seu casarão no bairro de Santa Teresa, oferecia celebrados saraus nos jardins, então conhecidos como Salão Verde. Atuou ativamente no meio literário, jornalístico e intelectual brasileiro, e foi uma das idealizadoras da Academia Brasileira de Letras, porém foi excluída da lista oficial por ser mulher. Lutou pela emancipação feminina, aconselhou mulheres a trabalharem e terem sua própria fonte de renda para não dependerem dos homens, criticou filósofos misóginos, contestou severamente a falta de educação para as mulheres, mas, sobretudo, o tipo de educação que recebiam em casa, destinada apenas ao casamento e à futilidade. Morreu em 1934 e, desde então, foi gradativa e injustamente alijada da memória e história literárias.}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=7.5cm,style=tfx]
+{{\bf Sobre os organizadores} 
+
+{\it Anna Faedrich} é doutora em Letras ({\cap PUCRS}) e professora na Universidade Federal Fluminense ({\cap UFF}). É autora de {\it Teorias da autoficção} ({\cap E}d{\cap UERJ}, 2022) e {\it Escritoras silenciadas} (Macabéa/\,Fundação Biblioteca Nacional, 2022).
+ 
+
+ {\it Rafael Balseiro Zin} é sociólogo e doutor em ciências sociais {\cap puc-sp}. Investiga a trajetória intelectual das escritoras abolicionistas no Brasil, especialmente Maria Firmina dos Reis e Júlia Lopes de Almeida.}
+
+% \inoutermargin[width=70mm,hoffset=1.1cm,voffset=16.6cm,style=tfx]
+% {{\bf Sobre o apresentador} Leonardo Francisco Soares é professor do Instituto de Letras e Linguística da Universidade Federal de Uberlândia ({\cap ILEEL/UFU}) e do programa de pós-graduação em Estudos Literários do {\cap ILEEL/UFU}. Publicou, dentre outros, um texto na coletânea {\it Guerra e literatura: ensaios em emergência} (Alameda, 2022)}
+
+
+\inoutermargin[width=70mm,hoffset=-10cm,voffset=19.7cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] hedra \hfill \mbox{}
+}
+
+
+\noindent{\tfb \it Inédito no Brasil, autor romeno \\faz sua estreia com obra-prima\\ sobrenatural}
+
+\blank[.5cm]
+
+{\it A família Medeiros} (1892) é o segundo romance publicado por Júlia Lopes de Almeida. Ambientado em Campinas, no estado de São Paulo, retrata os costumes e conflitos entre as gerações da família do Comendador Medeiros: enquanto este, cafeicultor, resiste à emancipação dos escravizados e à valorização do trabalho assalariado, Eva, sua sobrinha, e Otávio, seu filho, enfrentam o seu conservadorismo e defendem abertamente os ideais abolicionistas e republicanos. 
+
+Esses embates correspondem, no conjunto do romance, à resistência dos escravizados da Fazenda Genoveva, que articulam um levante pela própria libertação, e ao projeto inovador de Eva na administração dos negócios da Fazenda Mangueiral, cujos negócios são conduzidos com respeito à dignidade humana por meio da partilha dos lucros. 
+
+Com o propósito de sensibilizar o público da época quanto à brutalidade da escravidão, Júlia Lopes de Almeida registrou o ambiente social e político paulista dos últimos anos do século {\cap XIX}, descrevendo o sofrimento dos escravizados e suas formas de resistência, como as revoltas contra os proprietários e os quilombos.
+
+%FALTOU FALAR DA DIMENSÃO LINGUISTICA... E ACHO QUE ESSE TEXTO FICOU MUITO PRESO NO ENREDO DO ROMANCE.
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=160mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\subject{Sobre a autora}
+
+ {\it Júlia Lopes de Almeida}, nascida no Rio de Janeiro em 1862, destacou-se como um fenômeno literário, escrevendo romances, contos, peças teatrais e crônicas que capturaram a Belle Époque carioca. Participou ativamente do meio literário e foi uma das idealizadoras da Academia Brasileira de Letras, da qual foi excluída por ser mulher. Defensora da emancipação feminina, criticou a educação restrita às mulheres e incentivou a independência financeira, deixando um legado que foi injustamente esquecido ao longo do tempo.
+
+% \blank[big]
+% \page
+% \subject{Sobre o tradutor}
+
+% Fernando Klabin nasceu em São Paulo e formou-se em Ciência Política pela Universidade de Bucareste, onde foi agraciado com a Ordem do Mérito Cultural da Romênia no grau de Oficial, em 2016. Além de tradutor exerce atividades ocasionais como fotógrafo, escritor, ator e artista plástico.
+
+% \subject{Sobre o apresentador}
+
+% Leonardo Francisco Soares é professor associado do Instituto de Letras e Linguística da Universidade Federal de Uberlândia ({\cap ILEEL/UFU}) e professor permanente do programa de pós-graduação em Estudos Literários do {\cap ILEEL/UFU}. Publicou, dentre outros, um texto na coletânea {\it Guerra e literatura: ensaios em emergência} (Alameda, 2022)
+
+% \subject{Trecho do livro}
+
+%   \startitemize
+%     \item
+%     {\bf Capítulo {\it Bate-papo com o coisa-ruim}}
+
+%     % \startitemize
+%     % \item
+%     %  A imaginação dos poetas, na maior parte das vezes, ultrapassa a realidade e estrangula o verossímil. Ainda bem que a maioria das pessoas que frequenta a Igreja não lê poesia, e aqueles que lêem e acreditam na conversa fiada dos poetas não vão à Igreja.
+
+%     % \stopitemize
+
+%     \startitemize
+%     \item
+%       Jamais esquecerei aquele momento de terror, acentuado pela vergonha de não poder manifestá-lo diante da pessoa que o produzira em nós dois.
+% Amarelo como a cera, de olhos arregalados atrás de nós, Oreste não conseguiu segurar a emoção diante daquela constatação fantástica. Com a voz embargada pela síncope suprema em que sua alma parecia deixar o corpo, ele sussurrou tão baixo que mal se fez ouvir:
+  
+%      --- Onde está sua sombra, Seu Damian? Você não faz sombra sobre a terra?
+
+%     \stopitemize
+
+
+% %   \item
+% %     {\bf Capítulo {\it O homem do coração de ouro}}
+% % \startitemize
+% % \item --- Onde está o anel?\unknown Por que você arrancou a pedra?\unknown\\
+% % --- Não fui eu quem arrancou.\\
+% % --- Então quem foi?\\
+% % --- Ele!\unknown\\
+% % --- Ele quem?\unknown\\
+% % --- O homem do coração de ouro!\\
+% % --- Admirável título para uma novela fantástica!, exclamei.\\
+
+% %     \stopitemize
+
+% % \startitemize
+% % \item
+% % --- Você teria a bondade de me dizer quantos anos tem?\\
+% % --- Trezentos e onze anos, e cento e noventa e oito dias,
+% % considerando, claro, os trinta dias dos anos bissextos.\\
+% % --- E por que é que você está há tanto tempo por aqui?\\
+% % --- Não posso morrer até estar completo, como todos os
+% % mortais.\\
+% % --- Falta-lhe algo?\\
+% % --- Sim\unknown\\
+% % --- Algum órgão importante?\\
+% % --- O mais importante de todos\unknown O coração! [\unknown]
+
+%   \stopitemize
+
+
+
+\stoptext
