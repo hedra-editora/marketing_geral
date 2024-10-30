@@ -1,0 +1,71 @@
+% SKYLAB_MELODIA_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][BrickRed]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{SESSÃO DE AUTÓGRAFOS}
+
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf A MELODIA TRÁGICA,} DE
+ ROGÉRIO SKYLAB 
+\stopMyCampaign
+
+\vfill
+
+% Colocar sempre imagens quadradas
+% \scale[factor=70]{\MyPortrait{SKYLAB_FOTO2}}
+
+\scale[factor=fit]{\Seta\,{\bf 19 DE NOVEMBRO 19H} Restaurante Nina}
+
+
+\page %---------------------------------------------------------|
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+O evento do livro {\bf A MELODIA TRÁGICA} contará com uma sessão de autográfos como autor, {\bf ROGÉRIO SKYLAB}.
+
+{\vfill\scale[factor=5]{\Seta\,O {\bf Restaurante Nina} fica na R.\,Mal.\,Deodoro, 847,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Centro, Curitiba.}}
+
+\page %---------------------------------------------------------|
+
+
+\MyCover{SKYLAB_MELODIA_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+Data:  às 19h
+
+Restaurante Nina
