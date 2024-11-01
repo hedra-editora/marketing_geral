@@ -62,8 +62,12 @@
 \setupalign[right]
 
 \starttext
-{\bfc A toca iluminada: diário\\ de sanatório\\} 
-{\tfb Max Blecher}
+{\bfd A toca iluminada\\}
+{\tfc\it Diário de sanatório} 
+
+\blank[0.3cm]
+
+\noindent{\tfb Max Blecher}
 
 \blank[big]
 
@@ -112,7 +116,27 @@
 }
 
 
-\noindent{\tfb \it Um dos maiores escritores romenos e seu íntimo caso com a morte}
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=18.7cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] comercial@edlab.press \hfill \mbox{}
+}
+
+
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=19.2cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] www.hedra.com.br \hfill \mbox{}
+}
+
+\startalignment[middle]
+{\tfc \it Um dos maiores escritores romenos e seu íntimo caso com a morte}
+
+% precisa colocar \setupinterlinespace[line=3.5ex] nesse titulo mas está vazando pro restatne do texto
+
+\startalignment[right]
 
 \blank[.5cm]
 
