@@ -1,0 +1,62 @@
+% AUTOR_LIVRO_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=30bfbd]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{OFICINA TEÓRICO-PRÁTICA}
+
+\startMyCampaign
+{\bf BRECHT E O
+
+TEATRO POLÍTICO NO BRASIL DOS ANOS 1960}
+\stopMyCampaign
+\vfill
+
+\scale[factor=5.5]{\Seta\,{\bf CONVIDADOS} Sérgio de Carvalho e Maria}{\setupinterlinespace[line=1.7ex]\scale[factor=5.5]{Lívia Goes.}}
+\scale[factor=5.5]{\Seta\,{\bf 20 VAGAS}}
+\scale[factor=5.5]{\Seta\,{\bf GRATUITA}}
+
+% Colocar sempre imagens quadradas
+\scale[factor=7]{\Seta\,{\bf 10 E 11 DE DEZEMBRO 18H ÀS 22H} Funarte}
+
+
+\page %---------------------------------------------------------|
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+A oficina, associada ao lançamento do livro {\bf NEM CANTO, NEM ESCÂNDALO: A EXPERIÊNCIA ESTÁTICA RADICAL DO TEATRO DOS UNIVERSITÁRIOS DE SÃO PAULO} de Sérgio de Carvalho e Maria Lívia Goes, contará com {\bf 20 VAGAS} e será {\bf GRATUITA}.
+
+
+
+{\vfill\scale[factor=5]{\Seta\,A {\bf Funarte} fica na Alameda Nothmann, 1058,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Campos Elísios.}}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
