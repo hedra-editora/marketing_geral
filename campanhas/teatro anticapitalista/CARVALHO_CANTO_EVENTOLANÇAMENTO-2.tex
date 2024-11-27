@@ -11,7 +11,7 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=30bfbd]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColor][MaximumRed]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
@@ -24,12 +24,28 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink		{LINK NA BIO}
 
+\def\startMyCampaign{\bgroup
+            \FormularMI
+            \switchtobodyfont[28pt]
+            \setupinterlinespace[line=1.9ex]
+            \setcharacterkerning[packed]}
+\def\stopMyCampaign{\par\egroup}
+
+\hyphenation{ANTICAPITALISTA}
+
 \starttext %---------------------------------------------------------|
 
 \Mensagem{EVENTO DE LANÇAMENTO}
 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
 \startMyCampaign
-{\bf NEM CANTO, NEM ESCÂNDALO,} DE
+{\bf TEATRO
+
+ ANTICAPITALISTA:
+O CASO TUSP (1966--1969)}, DE
 MARIA LÍVIA 
 
 GOES E SÉRGIO 
@@ -51,7 +67,8 @@ DE CARVALHO
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Durante o evento de lançamento, exemplares do livro {\bf NEM CANTO, NEM ESCÂNDALO: A EXPERIÊNCIA ESTÁTICA RADICAL DO TEATRO DOS UNIVERSITÁRIOS DE SÃO PAULO} serão distribuídos gratuitamente.
+Durante o evento, exemplares do livro {\bf TEATRO ANTICAPITALISTA:
+O CASO TUSP (1966--1969)} serão distribuídos gratuitamente.
 
 
 {\vfill\scale[factor=5]{\Seta\,A {\bf Funarte} fica na Alameda Nothmann, 1058,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Campos Elísios.}}
