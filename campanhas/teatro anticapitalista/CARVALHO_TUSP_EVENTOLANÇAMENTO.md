@@ -7,3 +7,5 @@ o caso TUSP (1966-1969)», de Sérgio de Carvalho e Maria Lívia Goes, contará 
 
 10 e 11 de dezembro 18h às 22h 
 na Funarte (Alameda Nothmann, 1058, Campos Elísios.)
+
+A publicação desse livro foi viabilizada pelo Governo do Estado de São Paulo, a Secretaria da Cultura, Economia e Indústria Criativas e o Programa de Ação Cultural – ProAC.

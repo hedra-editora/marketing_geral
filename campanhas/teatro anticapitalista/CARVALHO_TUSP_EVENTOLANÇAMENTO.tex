@@ -24,51 +24,34 @@
  		\def\MensagemSite		{HEDRA.COM.BR}
  		\def\MensagemLink		{LINK NA BIO}
 
-\def\startMyCampaign{\bgroup
-            \FormularMI
-            \switchtobodyfont[28pt]
-            \setupinterlinespace[line=1.9ex]
-            \setcharacterkerning[packed]}
-\def\stopMyCampaign{\par\egroup}
-
-\hyphenation{ANTICAPITALISTA}
-
 \starttext %---------------------------------------------------------|
 
-\Mensagem{EVENTO DE LANÇAMENTO}
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-
+\Mensagem{OFICINA TEÓRICO-PRÁTICA}
 
 \startMyCampaign
-{\bf TEATRO
+{\bf BRECHT E O
 
- ANTICAPITALISTA:
-O CASO TUSP (1966--1969)}, DE
-MARIA LÍVIA 
-
-GOES E SÉRGIO 
-
-DE CARVALHO 
+TEATRO POLÍTICO NO BRASIL DOS ANOS 1960}
 \stopMyCampaign
-% \scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Constantino Kaváfis, Luiz Krausz e Valter Hugo Mãe}
-
 \vfill
 
-% Colocar sempre imagens quadradas
-% \scale[factor=fit]{\MyPortrait{pessoa}\quad\MyPortrait{pessoa2}\quad\MyPortrait{cat2}}
+\scale[factor=5.5]{\Seta\,{\bf COM}  Maria Lívia Goes e Sérgio de Carvalho.}
+\scale[factor=5.5]{\Seta\,{\bf 20 VAGAS}}
+\scale[factor=7]{\Seta\,{\bf GRÁTIS}}
 
-\scale[factor=fit]{\Seta\,{\bf 11 DE DEZEMBRO 20H} Funarte}
+% Colocar sempre imagens quadradas
+\scale[factor=7]{\Seta\,{\bf 10 E 11 DE DEZEMBRO 18H ÀS 22H} Funarte}
 
 
 \page %---------------------------------------------------------|
+\page
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 
-Durante o evento, exemplares do livro {\bf TEATRO ANTICAPITALISTA:
-O CASO TUSP (1966--1969)} serão distribuídos gratuitamente.
+A oficina, associada ao lançamento do livro {\bf TEATRO ANTICAPITALISTA:
+O CASO TUSP (1966--1969)}, de Sérgio de Carvalho e Maria Lívia Goes, contará com {\bf 20 VAGAS} e será {\bf GRATUITA}.
+A publicação desse livro foi viabilizada pelo Governo do Estado de São Paulo, a Secretaria da Cultura, Economia e Indústria Criativas e o Programa de Ação Cultural – Pro{\cap AC}.
 
 
 {\vfill\scale[factor=5]{\Seta\,A {\bf Funarte} fica na Alameda Nothmann, 1058,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Campos Elísios.}}
@@ -76,5 +59,17 @@ O CASO TUSP (1966--1969)} serão distribuídos gratuitamente.
 \page %---------------------------------------------------------|
 
 \Hedra
+
+
+\starttikzpicture[remember picture,overlay]
+\node at (1.5,-2) {\externalfigure[logo_proac.png][width=3cm]};
+\node at (4.5,-2.2) {\externalfigure[logo_cult.png][width=2.1cm]};
+\node at (7.5,-2.25) {\externalfigure[logo_gov.png][width=3cm]};
+
+\stoptikzpicture
+
+
+
+
 
 \stoptext %---------------------------------------------------------|
