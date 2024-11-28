@@ -1,7 +1,7 @@
 
 IDEIAS DE POSTS (SEMPRE VER SE TEM ALGUM DOS TRECHOS QUE EXTRAIMOS QUE PODE COMPOR O POST)
 
-- o que foi o tusp? contar um pouco da sua historia etc (na apresentação tem infos sobre, da pra pesquisar tb na internet se for o caso) - OK FEITO
+- o que foi o tusp? contar um pouco da sua historia etc (na apresentação tem infos sobre, da pra pesquisar tb na internet se for o caso) - OK FAZENDO
 
 - posts sobre os autores?
 
@@ -37,3 +37,49 @@ Sérgio de Carvalho é um dramaturgo, diretor teatral e professor brasileiro, co
 
 Maria Livia Goes
 Maria Livia Goes é atriz, dramaturga e pesquisadora teatral, destacando-se por sua atuação em produções que exploram a interseção entre arte e sociedade. Associada à Companhia do Latão, ela contribui para projetos que revisitam a história brasileira com uma perspectiva crítica, utilizando o teatro como ferramenta de reflexão social. Maria Livia também atua como pedagoga e teórica, participando de debates sobre o papel transformador do teatro na construção de narrativas coletivas.
+
+
+ORELHA E QUARTA CAPA
+
+Quais as possibilidades de um teatro antifascista ou anticapitalista quando
+não há condições de contato com a base social, num tempo de reorganização da
+esquerda? A escolha inicial do TUSP, o Teatro dos Universitários de São
+Paulo, em  plena repressão, foi concentrar-se no campo que lhe dizia
+respeito: o de um teatro universitário. A missão inicial a que se propôs ―
+lição para qualquer grupo em formação ― era adquirir complexidade estética.
+Num momento de supressões, entendiam isso como uma escolha política, um
+caminho possível de resistência à ditadura.
+
+Criado por estudantes militantes, o TUSP teve breve e luminosa duração. Foi
+fundado em 1966 e terminou em 1969, alguns anos antes de a sigla ser
+utilizada pela Universidade de São Paulo, com a qual não tem nenhuma relação
+histórica. O trabalho meteórico do Teatro dos Universitários pode ser
+considerado um exemplo para a cena politizada brasileira.
+
+
+----
+
+
+O método de trabalho do Teatro dos Universitários de São
+Paulo é útil até hoje para jovens artistas interessados na
+relação entre arte e política anticapitalista. De que forma um grupo
+estudantil, não profissional e multiartístico foi capaz de realizar um
+trabalho teatral tão inventivo? A breve história do TUSP é um exemplo de
+prática capaz de inspirar uma arte inconformista e não mercantil.
+
+É praticamente impossível imaginar sem o TUSP quais seriam os desdobramentos da
+interação entre teatralidades épicas, dramáticas e performativas à procura de
+uma cena politizada brasileira que tinha como interesse comum a crítica ao
+capitalismo e aos fascismos que perpetuam a miséria nacional.
+
+A necessidade de tratar de questões revolucionárias, para as quais não havia
+referências anteriores, fez surgir uma nova pesquisa estética. A história não
+contada do teatro político é é plena de suas inovações, em uma frequente dialética
+entre instrumentalização e autonomia.
+
+Como diz Moacyr Urbano Villela, um dos fundadores, ❝não era ao público de elite que nos
+dirigíamos, mas aos estudantes pouco cultos e pouco politizados que
+viviam os impasses e as frustrações do momento. As elites culturais
+estavam ali, com certeza, mas naquele momento, caladas e perplexas.
+Tinha surgido um novo público de classe média ávido por intervir e
+intervindo atabalhoadamente. Quisemos dar nosso recado nesse contexto.❞
