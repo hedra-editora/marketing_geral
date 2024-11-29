@@ -1,0 +1,78 @@
+\% AUTOR_LIVRO_AUTOR.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=e7cd16]	  [r=0.862, g=0.118, b=0.118]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black] [r=0.655, g=0.663, b=0.675]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais  {SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink       {LINK NA BIO}
+
+\starttext %--------------------------------------------------------|
+
+\hyphenation{ANTICAPITALISTA}
+
+\Mensagem{SOBRE OS AUTORES}
+
+\vskip-30pt
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+OS AUTORES DE
+
+{\bf TEATRO
+
+ ANTICAPITALISTA:
+O CASO TUSP (1966--1969)}
+\stopMyCampaign
+ \scale[factor=60]{\MyPortrait{maria}\quad\MyPortrait{sergio}}
+
+\vfill\scale[factor=6]{\Seta\,Maria Lívia Nobre Goes\quad\scale[factor=7.3]{\Seta\,Sérgio de Carvalho}}
+
+\page %----------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+ {\bf MARIA LÍVIA NOBRE GOES} é dramaturga e pesquisadora teatral. É associada ao grupo Companhia do Latão, no qual contribui com projetos que revisitam a história brasileira criticamente, utilizando o teatro como ferramenta de reflexão social. 
+\page
+
+{\bf SÉRGIO DE CARVALHO} é dramaturgo, diretor teatral e professor da {\cap ECA-USP}. Ficou conhecido publicamente por sua atuação no grupo Companhia do Latão, que é referência no teatro político brasileiro contemporâneo. Ao longo de sua trajetória, Sérgio conserva duas importantes influências, a saber: o dramaturgo Bertolt Brecht e o pensamento crítico marxista.
+
+\page %----------------------------------------------------------|
+
+
+ Em {\bf TEATRO ANTICAPITALISTA: O CASO TUSP (1966--1969)}, os autores buscam compreender as experiências teatrais e políticas dos grupos de teatro universitário da cidade de São Paulo no início da segunda metade do século {\cap XX}, em especial a experiência do {\cap TUSP} e de seu teatro politizado.
+
+\page
+
+\MyCover{CARVALHO_TUSP_THUMB}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\starttikzpicture[remember picture,overlay]
+\node at (1.5,-2) {\externalfigure[logo_proac.png][width=3cm]};
+\node at (4.5,-1.92) {\externalfigure[logo_cult.png][width=1.2cm]};
+\node at (7.5,-2.25) {\externalfigure[logo_gov.png][width=3cm]};
+
+\stoptikzpicture
+
+\stoptext %---------------------------------------------------------|
