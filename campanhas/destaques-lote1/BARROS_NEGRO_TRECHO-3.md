@@ -1,0 +1,3 @@
+«O negro torna-se um corpo no qual realizou-se a mais absoluta visão expropriadora; certamente, isto é o que fundamenta a visão de mundo, não só das vítimas dessa redução ontológica, como do corpo social diferenciado por este significante identitário redutor. Em nenhum momento pode-se afirmar que essa redução de indivíduos ao corpo é uma anomalia pertencente ao passado, mas é, sim, a força motora da modernidade capitalista o lugar do espaço sócio-político no qual ainda vivemos e que produz diferenciação racial e muros asseguradores nacionais.» 
+
+Trecho do livro «Lugar de negro, lugar de branco?», de Douglas Rodrigues Barros.
