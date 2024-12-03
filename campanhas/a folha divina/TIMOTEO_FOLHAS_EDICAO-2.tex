@@ -1,0 +1,79 @@
+% AUTOR_LIVRO_EDICAO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MangoTango]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{POR DENTRO DA EDIÇÃO}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+AS ILUSTRAÇÕES DE 
+{\bf A FOLHA DIVINA}
+
+\stopMyCampaign
+
+%\vfill\scale[lines=1.5]{\MyStar[MyColorText][none]}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{TIMOTEO_FOLHA_THUMB}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Em {\bf A FOLHA DIVINA}, Timóteo destaca a importância de preservar os conhecimentos ancestrais como forma de manter a harmonia do mundo. Essa {\bf CONEXÃO ENTRE GERAÇÕES} se reflete também na composição do livro, que intercala o texto de Timóteo com as ilustrações de seus netos, Nhamandu Mirim Nilmar da Silva Vilharve e Kerexu Jennifer da Silva Boggarim.
+
+
+\page %---------------------------------------------------------|
+
+
+\MyPhoto{FIGURA-5}
+
+{\scale[factor=4]{As mulheres colocam a {\it ka'a} já moída em pequenas cuias.}}
+
+\page %---------------------------------------------------------|
+\MyPhoto{FIGURA-9}
+
+{\scale[factor=4]{O que os {\it juruá} chamam de instrumentos musicais ficam guardados na} \setupinterlinespace[line=1.5ex]\scale[factor=4]{{\it opy}, a casa de reza.}}
+
+
+\page
+
+\MyPhoto{FIGURA-14}
+
+
+{\scale[factor=4]{Na {\it opy}, a casa de reza, o {\it xeramõi} benze as cuias  contendo a {\it ka’a miri’i.}}}
+
+\page
+\MyPhoto{FIGURA-17}
+
+{\scale[factor=4]{A {\it ka'a miri'i} não é uma erva, mas uma árvore.}}
+
+
+
+\page
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
