@@ -1,0 +1,83 @@
+% AUTOR_LIVRO_EDICAO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=4cb7c4]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{MANCHETE CATIVANTE}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf 
+NOSSO LIVRO É\ 
+LEGAL POR\ 
+MUITOS MOTIVOS, \
+E VAMOS TE\ 
+CONTAR QUAIS}
+
+\stopMyCampaign
+
+%\vfill\scale[lines=1.5]{\MyStar[MyColorText][none]}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{OTACILIO_CAPA}
+
+\page %---------------------------------------------------------| 
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+{\bf OTACÍLIO BATISTA} foi um renomado cantador e repentista brasileiro. Sua lírica se estabeleceu em João Pessoa, Paraíba, onde saiu do anonimato e se consagrou em seu dom artístico. 
+
+\page
+
+A {\bf POESIA DE REPENTE} foi seu veículo de expressão e Batista se destacou como um dos grandes nomes deste gênero.
+Contribuiu significativamente para a literatura de cordel, tornando-se uma figura emblemática neste gênero.
+
+\page
+
+A sua biografia, {\bf OTACÍLIO BATISTA, UMA HISTÓRIA DO REPENTE BRASILEIRO}, foi escrita por Sandino Patriota, seu neto, e lançada em 2023, ano que marcou o centenário do nascimento do artista.
+
+
+\page %---------------------------------------------------------|
+
+
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Pulvinar ante, a ultricies magna {\bf TRECHO EM DESTAQUE, MAS PODE HAVER MAIS DE UM}, sempre em negrito e caixa alta. Aqui entra um trecho cativante do texto.»
+
+{\vfill\scale[factor=5]{{\bf Nome de quem escreveu a análise}, qualificação de}\setupinterlinespace[line=1.5ex]\scale[factor=5]{XPTO professora na Universidade de Nova York. Lembre}\setupinterlinespace[line=1.5ex]\scale[factor=5]{de quebrar as linhas nos códigos.}}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+
+
+
+
+
+
+
