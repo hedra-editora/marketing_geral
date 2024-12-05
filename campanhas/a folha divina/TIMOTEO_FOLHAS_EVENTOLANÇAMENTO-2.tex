@@ -1,0 +1,75 @@
+% AUTOR_LIVRO_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MangoTango]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{EVENTO DE LANÇAMENTO}
+
+\startMyCampaign
+{\bf A FOLHA DIVINA,} DE
+ TIMÓTEO VERÁ TUPÃ POPYGUA 
+\stopMyCampaign
+\scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Timóteo Verá Tupã Popygua e André Ramalho Rodrigues}
+
+\vfill
+
+% Colocar sempre imagens quadradas
+ \scale[factor=70]{\MyPortrait{TIMOTEO_FOLHA_FOTO_PB}\quad\MyPortrait{TIMOTEO_ANDRE_FOLHA_FOTO_PB}}
+
+\scale[factor=fit]{\Seta\,{\bf 12 DE DEZEMBRO 19H} Mercado Municipal de Registro}
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+A Editora Hedra e a Arte da Terra --- associação que administra a gestão do Mercado Municipal da cidade de Registro, em São Paulo — convidam para o lançamento do livro «A folha
+divina». O lançamento contará com a presença do autor, {\bf TIMÓTEO VERÁ TUPÃ POPYGUA}, e de
+{\bf ANDRÉ RAMALHO RODRIGUES}, que fará a mediação.
+
+{\vfill\scale[factor=5]{\Seta\,O {\bf Mercado Municipal de Registro} fica na Praça}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Beira Rio, Centro, Registro ({\cap SP}).}}
+
+\page %---------------------------------------------------------|
+
+
+\MyCover{TIMOTEO_FOLHA_THUMB.png}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+
+\starttikzpicture[remember picture,overlay]
+\node at (1.7,-1) {\externalfigure[LOGO_IDESC][width=2cm]};
+\node at (7.3,-1) {\externalfigure[LOGO_ARTE][width=2cm]};
+\stoptikzpicture
+
+
+
+
+
+\stoptext %---------------------------------------------------------|
