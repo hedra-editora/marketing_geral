@@ -11,7 +11,7 @@
 % MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
 
 % Configuração de cores
-\definecolor[MyColor][x=e7cd16]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColor][x=3f9cd0]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
 \definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
 
 % Classe para diagramação dos posts
@@ -19,11 +19,10 @@
 
 \def\startMyCampaign{\bgroup
             \FormularMI
-            \switchtobodyfont[25.5pt]
+            \switchtobodyfont[25pt]
             \setupinterlinespace[line=1.9ex]
             \setcharacterkerning[packed]}
 \def\stopMyCampaign{\par\egroup}
-
 
 \starttext %---------------------------------------------------------|
 
@@ -33,39 +32,20 @@
 
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
-
-«Ainda que o {\cap TUSP} não fosse um grupo de teatro político em sentido estrito, sua atividade sempre dialogou com ações culturais militantes. 
-\vfill\hfill →
-
-\page
-
-
-E boa parte do coletivo colaborou com grupos de resistência à ditadura.
-\vfill\hfill →
-
-\page
-
-Havia, portanto, um jogo entre se assumir e não se assumir como um teatro político, diante do contexto de perseguições e censura promovidas pela ditadura.»
-
+«Em três aspectos a história pertence ao vivente: enquanto indivíduo atuante e determinado, enquanto
+conservador e reverente, e enquanto sofredor e carente de libertação.»
 
 \stopMyCampaign
 
-{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Teatro anticapitalista: o}}\setupinterlinespace[line=1.5ex]\scale[factor=6]{{\bf caso {\cap TUSP} (1966--1969)}, de Maria Lívia Goes e}\setupinterlinespace[line=1.5ex]\scale[factor=6]{Sérgio de Carvalho.}}
+
+{\vfill\scale[factor=5]{\Seta\,Trecho do livro {\bf Sobre a utilidade e a desvantagem}}\setupinterlinespace[line=1.5ex]\scale[factor=5]{{\bf da história para a vida}, de Nietzsche.}}
 
 \page %---------------------------------------------------------| 
 
-\MyCover{CARVALHO_TUSP_THUMB}
+\MyCover{./NIETZSCHE_UTILIDADE_THUMB.pdf}
 
 \page %---------------------------------------------------------|
 
 \Hedra
-
-\starttikzpicture[remember picture,overlay]
-\node at (1.5,-2) {\externalfigure[logo_proac.png][width=3cm]};
-\node at (4.5,-1.92) {\externalfigure[logo_cult.png][width=1.2cm]};
-\node at (7.5,-2.25) {\externalfigure[logo_gov.png][width=3cm]};
-
-\stoptikzpicture
-
 
 \stoptext %---------------------------------------------------------|
