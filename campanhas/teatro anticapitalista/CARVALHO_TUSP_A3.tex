@@ -1,0 +1,142 @@
+\usecolors[crayola]          % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+\definecolor[MyColor][x=e7cd16]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+\environment{marketing.env}      
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+    \def\MensagemSaibaMais  {FUNARTE}
+    \def\MensagemSite   {ALAMEDA NOTHMANN 1058}
+    \def\MensagemLink       {10 E 11 DE DEZEMBRO 18H ÀS 22H}
+
+\definepapersize    [post]        [width=93.1mm, height=135.3mm] %10.23cm
+\definepapersize    [14x21]       [width=140mm, height=210mm]
+\setuppapersize     [post]        %[14x21]
+
+\setuplayout[marking=empty,
+          location=middle,
+          width=55mm,
+          height=33mm,
+          leftmargin=33mm,
+          rightmargin=2mm,
+          backspace=35mm,
+          header=2mm,
+          headerdistance=0mm,
+          footer=1mm,
+          footerdistance=0mm,
+          topspace=0mm,
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargindistance=3mm,
+          rightmargindistance=0mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          topdistance=0mm,
+          bottomdistance=0mm,
+    %      top=21mm,
+    %      bottom=21mm,
+]
+
+\definelayout[MyLayout][
+          height=103.3mm,
+%         backspace=5mm,
+%         header=6.6mm,
+          footer=9mm,
+%         topspace=0mm,
+%         topdistance=0mm,
+%         headerdistance=3mm,
+          footerdistance=1mm,
+%         bottomdistance=0mm,
+]
+
+\definelayout[MyLayoutWithHeader][
+          height=11cm,
+%          backspace=5mm,
+          height=165.4mm,
+          header=8.1mm,
+          footer=9mm,
+%          topspace=0mm,
+%          topdistance=0mm,
+          headerdistance=2mm,
+          footerdistance=0mm,
+%          bottomdistance=0mm,
+]
+
+\def\Mensagem#1{
+\def\MySlogan{\uppercasing{#1}}
+\definelayer[Mensagem]
+\setuplayer[Mensagem][width=\paperwidth, height=.8pt, color=MyColorText]
+\setlayer[Mensagem]{
+    \position(\dimexpr\leftmarginwidth-31mm,2.5mm){\FormularMImedium\bold  \switchtobodyfont[10pt] \color[color=MyColorText]{\bf \MySlogan}}
+    \position(1mm,8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
+    \position(1mm,\dimexpr\paperheight-\footerheight-8mm){\blackrule[width=\paperwidth, height=.6pt, color=MyColorText]}
+    \position(\dimexpr\leftmarginwidth-30mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{\MensagemSaibaMais}} 
+    \position(\dimexpr\leftmarginwidth+2mm,\dimexpr\paperheight-7mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemSite}}
+    \position(\dimexpr\leftmarginwidth+2mm,\dimexpr\paperheight-4mm){\switchtobodyfont[7pt]\FormularMImedium\bold \uppercasing{↙\MensagemLink}}
+    }        
+\setuplayout[MyLayoutWithHeader]\setupbackgrounds[header][background=Mensagem]
+}
+
+\define\Hedra{
+\setcharacterkerning[reset]
+\Times
+\switchtobodyfont[50pt] 
+\hfill \switchtobodyfont[50pt] hedra \hfill \mbox{}  }
+
+\starttext %--------------------------------------------------------|
+%\showframe
+
+\hyphenation{ANTICAPITALISTA}
+
+\Mensagem{LANÇAMENTO E OFICINA}
+\tfx
+
+\starttikzpicture[remember picture,overlay]
+\node at (-18mm,-19mm) {\externalfigure[CARVALHO_TUSP_THUMB][width=3cm]};
+\node at (8mm,-104.6mm) {\setcharacterkerning[reset]\Times\MyColorText\switchtobodyfont[15pt] hedra};
+\node at (-11mm,-106mm) {\externalfigure[logo_proac.png][width=2cm]};
+\node at (25mm,-105.5mm) {\externalfigure[logo_cult.png][width=1.1cm]};
+\node at (45mm,-104.5mm) {\externalfigure[logo_gov_2.png][width=2cm]};
+
+\stoptikzpicture
+    
+\inmargin{\tfxx
+\setupinterlinespace[1ex]\mbox{}\blank[4cm]
+}
+    
+\setupinterlinespace[2.8ex]
+
+%\blank[4.7em]
+
+\kern-3ex {\switchtobodyfont[15pt]\bf TEATRO
+
+ ANTICAPITALISTA:
+O CASO TUSP (1966--1969)}
+
+\blank[0.5em]
+
+\tfxx\setupinterlinespace[2.5ex]
+Sérgio de Carvalho e Maria Lívia Goes\\
+
+\blank[3ex]
+
+\setupinterlinespace[2.5ex]
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+A Editora Hedra convida para o lançamento do livro «Teatro anticapitalista: o caso {\cap TUSP} (1966--1969)», que acontecerá dia {\bf 11 DE DEZEMBRO, ÀS 20H}. O evento contará com a presença dos autores, Sérgio de Carvalho e Maria Lívia Goes, e nele faremos a distribuição gratuita de exemplares do livro.
+Nos dias {\bf 10 E 11 DE DEZEMBRO 18H ÀS 22H}, os autores também ministrarão a oficina «Brecht e o teatro político no Brasil dos anos 1960». Ambos os eventos ocorrerão na Funarte.
+
+\blank[2ex]
+
+\setupbodyfont[6pt]
+A publicação desse livro foi viabilizada pelo Governo do \\Estado de São Paulo, pela Secretaria da Cultura, Economia e Indústria Criativas e pelo Programa de Ação Cultural – Pro{\cap AC}.
+
+\blank[4ex]
+
+% \starttikzpicture[remember picture,overlay]
+% \node at (10mm,-5mm) {\scale[factor=30]{\MyPortrait{maria}}\hspace[big]\scale[factor=30]{\MyPortrait{sergio}}};
+% \stoptikzpicture
+
+\stoptext %---------------------------------------------------------|
+

@@ -1,0 +1,73 @@
+% AUTOR_LIVRO_EVENTOLANÇAMENTO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][MaximumBluePurple]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+\def\MensagemSaibaMais 	{SAIBA MAIS:}
+\def\MensagemSite		{HEDRA.COM.BR}
+\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{MESA DE DEBATE}
+
+\startMyCampaign
+{\bf XAMANISMOS AMERÍNDIOS}
+
+\stopMyCampaign
+
+\vfill
+
+\scale[factor=6]{\Seta\,{\bf CONVIDADOS} Diakuru Judimar Sarmento}
+\setupinterlinespace[line=1.7ex]\scale[factor=6]{Fernandes, Túlio Soares-Desano, Geraldo}
+\setupinterlinespace[line=1.7ex]\scale[factor=6]{Andrello, Pedro Lolli, Danilo Paiva Ramos}
+
+\scale[factor=6]{\Seta\,{\bf 4 DE SETEMBR0 17H} na Biblioteca}
+\setupinterlinespace[line=1.7ex]\scale[factor=6]{Comunitária da UFScar}
+
+% Colocar sempre imagens quadradas
+% \scale[factor=fit]{\MyPortrait{pessoa}\quad\MyPortrait{pessoa2}\quad\MyPortrait{cat2}}
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+%\setupinterlinespace[line=1ex]{
+O {\bf DEBATE SOBRE\\ 
+XAMANISMOS AMERÍNDIOS}\\ 
+contará com a presença dos autores Geraldo Andrello, Pedro Lolli, Danilo Paiva Ramos. Além deles, dois\\ 
+membros Centro de Culturas\\ 
+Indígenas da {\cap UFSC}ar também estarão presentes. O evento será seguido de uma confraternização com autógrafos, na {\bf LIVRARIA DA EDUFSCAR}.
+%}
+
+{\vfill\scale[factor=5]{\Seta\,A mesa acontecerá no {\bf Auditório 1} da Biblioteca}
+\setupinterlinespace[line=1.5ex]\scale[factor=5]{Comunitária da {\cap UFSC}ar ({\cap bco}), que fica na Av.\,Biblioteca} 
+\setupinterlinespace[line=1.5ex]\scale[factor=5]{Comunitária, S/\,N, campus {\cap UFSC}ar, São Carlos.}
+
+\page %---------------------------------------------------------|
+
+\MyCover{XAMANISMOS_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

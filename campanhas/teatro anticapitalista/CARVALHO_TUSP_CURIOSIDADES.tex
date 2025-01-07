@@ -1,0 +1,99 @@
+% AUTOR_LIVRO_CURIOSIDADES.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=e7cd16]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\Mensagem{EM CONTEXTO} %Sempre usar esse header
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+VOCÊ CONHECE A HISTÓRIA DO {\bf TUSP} 
+E SEU {\bf TEATRO POLÍTICO}?
+
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------| 
+
+
+\MyPhoto{IMAGEM8}
+
+\scale[factor=5]{Atores do {\cap TUSP} antes da apresentação no Sindicato dos Bancários.}
+
+\page
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+
+O {\cap TUSP}, Teatro dos Universitários de São Paulo, foi um grupo teatral formado por estudantes militantes, de 1966 a 1969. Surgiu como uma iniciativa independente, sem ligação oficial com instituições, e envolveu alunos de diversas faculdades. O grupo teve uma curta, mas marcante trajetória, destacando-se como um {\bf MODELO DE TEATRO POLÍTICO}.
+
+\page %---------------------------------------------------------|
+
+Criado em meio à ditadura militar no Brasil, o grupo contou com a colaboração de artistas renomados, como Paulo José e Flávio Império, e produziu espetáculos de alto nível, como «A exceção e a regra» e «Os fuzis de Dona Tereza Carrar», ambas baseadas em textos de {\bf BERTOLT BRECHT}.
+
+\page
+
+
+\MyPhoto{IMAGEM9}
+
+\scale[factor=5]{Projeção e sombras em {\em A exceção e a regra}.}
+
+
+\page
+
+Além das peças, o grupo organizava debates, publicava a revista aParte e promovia ações culturais e educativas. Embora não se declarasse explicitamente como um grupo de «teatro político», suas atividades dialogavam diretamente com a {\bf RESISTÊNCIA À DITADURA E AS LUTAS PELA DEMOCRACIA}.
+
+
+\page
+
+A repressão, no entanto, levou ao fim do coletivo em 1969, quando muitos de seus membros foram presos, exilados ou forçados à clandestinidade.
+
+\page
+
+O {\cap TUSP} é lembrado por sua capacidade de unir {\bf CRIATIVIDADE ARTÍSTICA E COMPROMISSO POLÍTICO}, mostrando que o teatro pode ser uma ferramenta poderosa de transformação social. 
+
+\page %---------------------------------------------------------|
+
+\MyCover{CARVALHO_TUSP_THUMB}
+
+\page
+
+\Hedra
+
+
+\starttikzpicture[remember picture,overlay]
+\node at (1.5,-2) {\externalfigure[logo_proac.png][width=3cm]};
+\node at (4.5,-1.92) {\externalfigure[logo_cult.png][width=1.2cm]};
+\node at (7.5,-2.25) {\externalfigure[logo_gov.png][width=3cm]};
+
+\stoptikzpicture
+
+
+
+
+
+\stoptext %---------------------------------------------------------|

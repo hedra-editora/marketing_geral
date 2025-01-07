@@ -1,0 +1,54 @@
+% AUTOR_LIVRO_TRECHO.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][x=2a3e92]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]     
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{DESTAQUE}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+«Bebamos!
+Toma as grandes taças adornadas, meu caro, pois o filho de Sêmele e Zeus deu aos homens vinho
+que traz olvido.»
+
+\stopMyCampaign
+
+{\vfill\scale[factor=6]{\Seta\,Trecho do {\bf Fragmento 346}, de Ateneu,}\setupinterlinespace[line=1.5ex]\scale[factor=6]{presente no livro {\it Lira grega}.}}
+\page %---------------------------------------------------------| 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Esse famoso fragmento de Ateneu, de caráter filosófico e linguagem exortativa, elabora uma {\bf RESPOSTA HEDONISTA À EFEMERIDADE DA VIDA}, tema presente na poesia grega antiga desde o canto {\cap VI} da Ilíada. 
+\page
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Alceu, porém, parece ter sido o primeiro a fazer a associação entre ambos os temas, tão próprios ao que a tradição posterior aos poetas latinos — notadamente a Horácio — conhecerá como tema do {\bf CARPE DIEM}.
+
+\page
+
+\MyCover{RAGUSA_LIRA_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

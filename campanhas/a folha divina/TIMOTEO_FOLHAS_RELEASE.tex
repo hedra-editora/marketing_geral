@@ -1,0 +1,150 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+    \mainlanguage[pt]  
+
+    \definefontfeature
+        [default]
+        [default]
+        [expansion=quality,protrusion=quality,onum=yes]
+    \setupalign[fullhz,hanging]
+    \definefontfamily [mainface] [sf] [Formular]
+    \setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+            \setupindenting[yes, 3ex]  % none small medium big next first dimension
+            \indenting[next]           % never not no yes always first next
+            
+            % [cont-ent.p.76]
+            \setupspacing[broad]  %broad packed
+            % O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]     
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfd A folha divina\\}
+{\tfb Timóteo Verá Tupã Popyguá}
+
+\blank[big]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\noindent {\it Transmitindo uma sabedoria ancestral,} A folha divina, {\it conta a história da} ka’a miri’i,  {“erva-mate”, e sua importância dentro a visão de mundo dos Guarani Mbya.}
+
+
+% A toca iluminada {\it apresenta as experiências de Blecher em sanatórios durante a década de 1930, onde a vivência na espécie de um mundo-bolha pode se sobrepor à realidade, por vezes estranha e cheio de rotinas. E é nesse lugar que sua vida interior passa a assumir um papel cada vez mais ampliado}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=2cm]{
+\externalfigure[TIMOTEO_FOLHA_THUMB][width=50mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=2.7cm,style=tfx]
+{\noindent{\bf Título} {\em A folha divina}\\
+{\bf Autor} Timóteo Verá Tupã Popyguá\\
+{\bf Organização e apresentação} Anita Ekman\\
+{\bf Posfácio} Freg J. Stokes\\
+{\bf Ilustrações} Nhamandu Mirim Nilmar da Silva Vilharve\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-964-2\\
+{\bf Páginas} 80\\
+{\bf Preço} 59,90
+}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=8.5cm,style=tfx]
+{{\bf Sobre o autor} {\it Timóteo Verá Tupã Popyguá} é uma figura proeminente na luta pelos direitos do povo Guarani Mbya. Cacique da Tekoa da reserva indígena Takuari, tem se dedicado a preservar e disseminar a rica sabedoria ancestral de sua comunidade. Timóteo é também filósofo e autor do livro {\it A terra uma só} (Hedra, 2022), no qual explora a relação íntima entre os seres humanos e a natureza.}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=14cm,style=tfx]
+{{\bf Sobre a organizadora} {\it Anita Ekman} artista visual, performer, curadora e pesquisadora de arte pré-colonial e história da floresta tropical, além de co-curadora de exposições voltadas às artes e história das mulheres indígenas com Sandra Benites. Tem elaborado projetos para o Peabody Museum de Harvard e Instituto Goethe, este último em colaboração com líderes indígenas como Carlos Papa e Cristine Takua, além de Freg J. Stokes.}
+
+% \inoutermargin[width=70mm,hoffset=1.1cm,voffset=16.6cm,style=tfx]
+% {{\bf Sobre o apresentador} Leonardo Francisco Soares é professor do Instituto de Letras e Linguística da Universidade Federal de Uberlândia ({\cap ILEEL/UFU}) e do programa de pós-graduação em Estudos Literários do {\cap ILEEL/UFU}. Publicou, dentre outros, um texto na coletânea {\it Guerra e literatura: ensaios em emergência} (Alameda, 2022)}
+
+
+\inoutermargin[width=70mm,hoffset=-10cm,voffset=18.5cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] hedra \hfill \mbox{}
+}
+
+
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=18.7cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] comercial@edlab.press \hfill \mbox{}
+}
+
+
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=19.2cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] www.hedra.com.br \hfill \mbox{}
+}
+
+\startalignment[middle]
+{\tfc \it Tradição e resistência: a recuperação da origem indígena da erva-mate}
+\stopalignment
+
+
+\blank[.5cm]
+
+\noindent {\it A folha divina}, de Timóteo Verá Tupã Popyguá, é uma obra que mergulha na rica cosmogonia indígena, explorando a conexão espiritual e cultural que esse povo mantém com as folhas divinas, em especial a {\it ka’a miri’i}. Conhecida como “erva-mate”, essa planta desempenha um papel central nas mitologias, tradições e identidades guarani.
+
+Os mitos ancestrais, práticas e sabedorias registradas pelo autor articulam uma reflexão profunda sobre as folhas divinas e seu uso tradicional, que se insere em um contexto de fortalecimento espiritual e rituais comunitários.
+
+A narrativa também denuncia os impactos da exploração predatória do meio ambiente, destacando a importância não apenas das folhas divinas, mas de toda Mata Atlântica na preservação da alegria, do equilíbrio espiritual e da harmonia com a natureza.
+
+Diante da apropriação europeia da erva-mate, ocorrida no contexto da colonização espanhola, o livro se dedica a reconstituir a origem indígena da planta e a profundidade da filosofia guarani.
+A partir dessa leitura, passamos a enxergar a erva-mate enquanto resultado de um profundo conflito entre culturas, no qual a
+versão dos originários detentores da tradição relativa ao uso dessas
+folhas divinas, e das florestas e terras onde elas milenarmente foram
+cultivadas, segue sendo silenciada. 
+
+\stoptext
+

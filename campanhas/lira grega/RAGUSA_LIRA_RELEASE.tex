@@ -1,0 +1,180 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]	
+
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfc Lira grega}\\
+{\tfb\it  Antologia de poesia arcaica}
+
+\blank[0.3cm]
+
+\noindent{\tfb Giuliana Ragusa (org.)}
+
+\blank[big]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+\noindent {\it Com tradução direta do grego antigo,}  Lira grega {\it verte para o português fragmentos selecionados dos maiores poetas da mélica grega.} 
+
+
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=2cm]{
+\externalfigure[RAGUSA_LIRA_THUMB][width=50mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=2.8cm,style=tfx]
+{\noindent{\bf Título} {\it Lira grega: antologia de poesia arcaica}\\
+% {\bf Autor} Júlia Lopes de Almeida\\
+{\bf Organização e tradução} Giuliana Ragusa\\
+% {\bf Aparatos} Alfredo Sousa, Norma Telles e Rafael Balseiro Zin\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-85-7715-987-1\\
+{\bf Pág.}  440\\
+{\bf Preço} 99,90 
+}
+
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=7.5cm,style=tfx]
+{{\bf Sobre a organizadora}  {\it Giuliana Ragusa} é\\ professora livre-docente de Língua e\\ Literatura Grega na Faculdade de Filosofia, Letras e Ciências Humanas da Universidade de São Paulo ({\cap USP}).  Possui mestrado e\\ doutorado em Letras Clássicas, além de ter realizado um pós-doutorado na University of Wisconsin, Madison, com bolsa da {\cap FAPESP}. Desde 2004, ela atua no ensino e pesquisa na área de Estudos Clássicos, sendo uma\\ referência no estudo da lírica grega arcaica.
+Entre suas obras estão {\it Fragmentos de uma deusa: a representação de Afrodite na\\ lírica de Safo}, que recebeu o segundo lugar no Prêmio Jabuti de 2006, e {\it Lira, mito e\\ erotismo: Afrodite na poesia mélica grega arcaica}. Além de livros, Ragusa publica\\ artigos em periódicos especializados e\\ desenvolve projetos de pesquisa sobre a\\ mélica grega arcaica, integrando o programa de pós-graduação em Letras Clássicas da {\cap usp}.}
+
+
+\inoutermargin[width=70mm,hoffset=-10cm,voffset=19.7cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] hedra \hfill \mbox{}
+}
+
+
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=20.3cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] comercial@edlab.press \hfill \mbox{}
+}
+
+
+\inoutermargin[width=70mm,hoffset=-5.5cm,voffset=19.7cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] www.hedra.com.br \hfill \mbox{}
+}
+
+
+\startalignment[middle]
+\noindent{\tfb Uma viagem à origem da poesia ocidental}
+\stopalignment
+
+\blank[.5cm]
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+\noindent Quase uma década depois da sua primeira publicação, a nova edição bilíngue de {\it Lira grega} revisa e expande a obra.
+A antologia reúne fragmentos dos nove poetas mais influentes da mélica grega arcaica --- como Safo, Alceu, Píndaro e Baquílides ---, traduzidos diretamente do grego antigo por Giuliana Ragusa.
+
+
+Com introdução crítica, notas explicativas e vasta bibliografia de apoio, a edição contribui para que a mélica, gênero poético performático associado à música e à dança, ganhe uma interpretação cuidadosa e acessível, conectando o leitor contemporâneo às vivências sociais e rituais da Grécia antiga.
+
+A articulação dos poemas a referências culturais e traços estilísticos enriquece a leitura. E a abordagem inovadora da antologia, que inclui uma visão abrangente da mélica, reflete o compromisso de sua organizadora em difundir a poesia grega antiga de forma consistente e criteriosa.  
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=160mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+% \subject{Sobre a autora}
+
+%  {\it Júlia Lopes de Almeida}, nascida no Rio de Janeiro em 1862, destacou-se como um fenômeno literário, escrevendo romances, contos, peças teatrais e crônicas que capturaram a Belle Époque carioca. Participou ativamente do meio literário e foi uma das idealizadoras da Academia Brasileira de Letras, da qual foi excluída por ser mulher. Defensora da emancipação feminina, criticou a educação restrita às mulheres e incentivou a independência financeira, deixando um legado que foi injustamente esquecido ao longo do tempo.
+
+
+\stoptext

@@ -1,0 +1,59 @@
+% AUTOR_LIVRO_CLIPPING.tex
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][VividViolet]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][white]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+% Comandos & Instruções %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%|
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+ 		\def\MensagemSaibaMais 	{SAIBA MAIS:}
+ 		\def\MensagemSite		{HEDRA.COM.BR}
+ 		\def\MensagemLink		{LINK NA BIO}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{NA IMPRENSA}
+
+\MyPhoto{clippinggama} %Usar este tamanho de imagem
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+No dia 9 de agosto, foi publicada no Brasil de Fato uma entrevista com Bruno Rodrigues de Lima, organizador do {\bf PROJETO LUIZ GAMA}, recém-premiado pelo Jabuti Acadêmico.
+
+\page
+
+«Quando o Prêmio Jabuti Acadêmico reconhece Luiz Gama como livro do ano de 2024, isso significa uma enormidade para o cenário literário jurídico brasileiro. Ou seja, nós estamos avançando, nós estamos colocando Luiz Gama --- e eu digo nós porque é uma tarefa coletiva, não é uma tarefa individual, nunca foi, nunca será --- no {\bf CÂNONE DA LITERATURA BRASILEIRA.}» 
+
+\page %---------------------------------------------------------|
+
+«O que eu sei é que é urgente colocar Luiz Gama na cesta básica literária, acadêmica, científica e histórica do Brasil. E é essa minha tarefa já desde garoto, que é ir nos arquivos da escravidão, recolher, material por material, escrito por escrito, papel por papel, os textos de quem eu considero o maior escritor de língua portuguesa nascido no Brasil, que é o baiano Luiz Gama.» 
+{\vfill\scale[factor=5]{\Seta\,Trecho da entrevista com {\bf Bruno Rodrigues de Lima},}\setupinterlinespace[line=1.5ex]\scale[factor=5]{do Brasil de Fato, em 9 de agosto de 2024.}}
+
+\page %---------------------------------------------------------|
+
+\MyCover{GAMA_DIREITO_THUMB}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|
+

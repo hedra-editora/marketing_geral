@@ -1,0 +1,49 @@
+% AUTOR_LIVRO_INSTITUCIONAL.tex
+% Cores pré-definidas
+% https://wiki.contextgarden.net/Color#Pre-defined_colors
+\usecolors[crayola]
+
+\definecolor[MyColor][black]
+\definecolor[MyColorText][white] % corresponde a RGB(167, 169, 172)
+\setupcolors[textcolor=MyColorText]
+
+\environment{marketing.env}
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{HEDRA INFORMA}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+{\bf DESCONTO DE 20\%} 
+EM TODO 
+
+CATÁLOGO 
+
+{\bf DE 21/12 A 05/01}
+
+\stopMyCampaign
+
+% \vfill
+% \scale[lines=2]{\MyStar[white][none]}
+
+\page %---------------------------------------------------------|
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+
+Do dia {\bf 21/12 AO 05/01} a equipe de Hedra estará em recesso. 
+Durante esse período, o site todo estará com {\bf 20\% DE DESCONTO}. 
+Os despachos retornam a partir do dia {\bf 06/01}.
+
+Desejamos boas festas a todos!
+
+\page
+\Hedra
+
+\stoptext

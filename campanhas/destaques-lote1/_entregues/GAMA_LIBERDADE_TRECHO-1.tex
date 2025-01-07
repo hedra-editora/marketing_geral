@@ -1,0 +1,81 @@
+% Preencher com o nome das cor ou composição RGB (ex: [r=0.862, g=0.118, b=0.118]) 
+\usecolors[crayola] 			   % Paleta de cores pré-definida: wiki.contextgarden.net/Color#Pre-defined_colors
+
+% Cores definidas pelo designer:
+% MyGreen		r=0.251, g=0.678, b=0.290 % 40ad4a
+% MyCyan		r=0.188, g=0.749, b=0.741 % 30bfbd
+% MyRed			r=0.820, g=0.141, b=0.161 % d12429
+% MyPink		r=0.980, g=0.780, b=0.761 % fac7c2
+% MyGray		r=0.812, g=0.788, b=0.780 % cfc9c7
+% MyOrange		r=0.980, g=0.671, b=0.290 % faab4a
+
+% Configuração de cores
+\definecolor[MyColor][GrannySmithApple]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]     % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}		   
+
+\starttext %---------------------------------------------------------|
+
+\Mensagem{PROJETO LUIZ GAMA}
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«Em nós até a cor é um defeito, um vício imperdoável de origem, o estigma de um crime\ldots{}» 
+
+\vfill\hfill →
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------| 
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«e vão ao ponto de esquecer que esta cor é a origem da riqueza de milhares de salteadores, que nos insultam\ldots{}» 
+
+\vfill\hfill →
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------| 
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«que esta cor convencional da escravidão, como supõem os especuladores, à semelhança da terra\ldots{}» 
+
+\vfill\hfill →
+
+\stopMyCampaign
+
+\page %---------------------------------------------------------| 
+
+\startMyCampaign
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+«através da escura superfície, encerra vulcões, onde arde o fogo sagrado da liberdade.» 
+
+\stopMyCampaign
+
+{\vfill\scale[factor=6]{\Seta\,Trecho do livro {\bf Liberdade}, de Luiz Gama,}\setupinterlinespace[line=1.5ex]\scale[factor=6]{símbolo do movimento abolicionista e da luta}\setupinterlinespace[line=1.5ex]\scale[factor=6]{contra a escravidão no Brasil. Com mais de}\setupinterlinespace[line=1.5ex]\scale[factor=6]{oitenta por cento de textos inéditos, as obras}\setupinterlinespace[line=1.5ex]\scale[factor=6]{completas de Luiz Gama serão publicadas}\setupinterlinespace[line=1.5ex]\scale[factor=6]{pela Hedra em onze volumes.}}
+
+\page %---------------------------------------------------------| 
+
+\MyCover{GAMA_LIBERDADE_THUMB.jpg}
+
+\page %---------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

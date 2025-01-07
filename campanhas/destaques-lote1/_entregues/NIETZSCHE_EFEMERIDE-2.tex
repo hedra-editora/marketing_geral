@@ -1,0 +1,64 @@
+\usecolors[crayola]
+
+% Configuração de cores TickleMePink
+\definecolor[MyColor][VividTangerine]      % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(220, 30, 30)
+\definecolor[MyColorText][black]  % ou ex: [r=0.862, g=0.118, b=0.118] % corresponde a RGB(167, 169, 172)
+
+% Classe para diagramação dos posts
+\environment{marketing.env}        
+
+% Cabeço e rodapé: Informações (caso queira trocar alguma coisa)
+        \def\MensagemSaibaMais  {SAIBA MAIS:}
+        \def\MensagemSite       {HEDRA.COM.BR}
+        \def\MensagemLink       {LINK NA BIO}
+      
+\environment{extra.env}
+
+\starttext  %---------------------------------------------------------|
+
+\def\MyBackgroundMessage{HUMANO, DEMASIADO HUMANO}
+\MyBackground{NIETZSCHE_BACKGROUND.jpeg}
+
+\startMyCampaign
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\position(0,7.8){\scale[factor=3]{\Seta\,{\bf FRIEDRICH NIETZSCHE} (1844--1900)}}
+\stopMyCampaign
+
+\page %----------------------------------------------------------|
+
+\Mensagem{HUMANO, DEMASIADO HUMANO}
+
+\setupbackgrounds[page][background=color,backgroundcolor=MyColor]
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Friedrich Nietzsche, filósofo e filólogo alemão, nasceu em uma família de pastores protestantes. {\bf CRÍTICO MORDAZ DA CULTURA OCIDENTAL}, tornou-se professor de Letras Clássicas aos 25 anos, na Universidade da Basileia.
+
+
+\page
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+ Lá também se aproximou do compositor {\bf RICHARD WAGNER}. Serviu como enfermeiro voluntário na guerra franco-prussiana, mas contraiu difteria, que lhe prejudicou a saúde em definitivo --- até sua morte, em {\bf 25 DE AGOSTO DE 1900}. 
+
+\page %----------------------------------------------------------|
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+Em 1879, devido a constantes recaídas, deixou a universidade e passou a receber uma renda anual. A partir daí assumiu uma vida errante, dedicando-se exclusivamente à reflexão e à redação de suas obras. Em 1889, manifestaram-se os primeiros sintomas de {\bf PROBLEMAS MENTAIS}, provavelmente decorrentes de sífilis.
+
+\page %----------------------------------------------------------|
+
+Dentre suas principais obras, se destacam «O nascimento da tragédia», «Assim falava Zaratustra», «Para além do bem e mal», «A genealogia da moral» e «O anticristo». Além de {\bf SOBRE A UTILIDADE E A DESVANTAGEM DA HISTÓRIA PARA A VIDA}, uma de suas considerações extemporâneas.
+
+\page %----------------------------------------------------------|
+
+\MyCover{NIETZSCHE_UTILIDADE_THUMB.png}
+
+\page %----------------------------------------------------------|
+
+\Hedra
+
+\stoptext %---------------------------------------------------------|

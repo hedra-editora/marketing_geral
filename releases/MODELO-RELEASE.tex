@@ -1,0 +1,216 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+\mainlanguage[pt]	
+
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfc Título} \\
+{\tfb Autor}
+
+\blank[big]
+
+
+\noindent {\it Aqui um pequeno parágrafo sobre o livro... este livro é demais o autor faz isso e aquilo e tudo mais hehe}
+
+\blank[1.5cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=2.35cm]{
+\externalfigure[MINULESCU_NOITE_THUMB][width=50mm]}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=3cm,style=tfx]
+{\noindent{\bf Título} {\it Livro legal}\\
+{\bf Autor} Fulaninho da Silva\\
+{\bf Tradução} Beltrano Souza\\
+{\bf Apresentação} Sicrano Andrade\\
+{\bf Editora} Hedra\\
+{\bf ISBN} XXXx\\
+{\bf Pág.} 110\\
+{\bf Preço} 43,00
+}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=6.5cm,style=tfx]
+{{\bf Sobre o autor} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo}
+
+\inoutermargin[width=70mm,hoffset=1.1cm,voffset=10cm,style=tfx]
+{{\bf Sobre o tradutor} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. }
+
+% \inoutermargin[width=70mm,hoffset=1.1cm,voffset=16.6cm,style=tfx]
+% {{\bf Sobre o apresentador} Leonardo Francisco Soares é professor do Instituto de Letras e Linguística da Universidade Federal de Uberlândia ({\cap ILEEL/UFU}) e do programa de pós-graduação em Estudos Literários do {\cap ILEEL/UFU}. Publicou, dentre outros, um texto na coletânea {\it Guerra e literatura: ensaios em emergência} (Alameda, 2022)}
+
+
+\inoutermargin[width=70mm,hoffset=-10cm,voffset=18.5cm,style=tfx]
+{\definefontfamily [Times] [rm] [Times New Roman]
+                   [tf=file:TimesLTStd-Roman.otf]
+
+\setcharacterkerning[reset] \switchtobodyfont[Times,50pt] hedra \hfill \mbox{}
+}
+
+\noindent{\tfb \it Linha fina, impactante, que sirva como título para os parágrafos a seguir}
+
+\blank[.5cm]
+
+Conhecido sobretudo pela sua contribuição ao movimento simbolista, foi com suas incursões pelo fantástico que Ion Minulescu se firmou como um dos maiores escritores da Romênia. Publicado originalmente em 1930, {\it Para serem lidas à noite} marca o ponto de virada do autor rumo ao sobrenatural. 
+Desde sua provocante nota de abertura – “leia-as de noite, ou então, não as leia nunca” –, consolida-se um universo enigmático e encantador. Composto por quatro contos, o livro é um convite à exploração das nuances da imaginação, combinando mistério, humor e ironia, e ecoando grandes mestres simbolistas, como Villiers de L'Isle-Adam, Oscar Wilde, Henri de Régnier e Edgar Allan Poe.
+
+
+Os contos reunidos, de prosa envolvente e estrutura narrativa inovadora, se articulam em um jogo de espelhos. Cada enigma narrativo é apresentado dentro de outro, como uma caixa de Pandora que se abre para revelar novos segredos a cada página virada, promovendo uma leitura imersiva e cheia de surpresas.
+
+
+
+% funcionam como labirintos nos quais os limites entre o real e o irreal desvanecem. Seja recorrendo a célebres tópicos como o pacto com o diabo, seja concebendo intrigantes relatos como o de uma gravata comprada na cidade de Braîla, a obra propõe uma viagem pelos meandros do espírito. 
+
+
+% O autor utiliza esse recurso para mostrar como as histórias pessoais se entrelaçam com o tecido da sociedade, abordando questões universais que ressoam com a experiência humana.
+
+% Outro traço distintivo do estilo de Minulescu é a convivência do cômico e do sombrio.
+% Através do humor sutil com que os personagens enfrentam as adversidades e da pungente ironia do narrador, o escritor propõe uma reflexão crítica sobre a condição humana e transparece engenhosamente a fragilidade da fronteira que separa o ridículo e o trágico. 
+
+% Além disso, a obra é marcada por uma fina ironia que permeia o discurso. O humor sutil com que os personagens enfrentam suas adversidades e dilemas existenciais não apenas atenua a tensão, como também provoca uma reflexão crítica sobre a condição humana. Esse equilíbrio entre o cômico e o sombrio é uma característica distintiva do estilo do autor, que habilmente nos lembra do caráter tênue da linha que separa o ridículo e o trágico.
+
+Mas, acima de tudo, destaca-se a ambientação noturna, que, sugerida já no título e reforçada pela nota inicial, domina as narrativas e proporciona um cenário ideal para os mistérios, para os “jogos de mostras e máscaras” articulados por Minulescu e a serem vislumbrados pelo leitor notívago. 
+
+{\it Para serem lidas à noite} é uma obra-prima da literatura fantástica que merece um lugar de destaque em qualquer estante, tanto pela autenticidade estilística quanto pelo talento com que Minulescu desafia nossas percepções do real.
+
+% \subject{Sobre o autor}
+
+% Ion Minulescu, nascido em 1881 em Bucareste, destaca-se como uma das figuras mais fascinantes da literatura romena do século {\cap XX}. Escritor, poeta, crítico literário e dramaturgo, sua trajetória é marcada por uma riqueza criativa que transita entre o simbolismo e o fantástico, influenciando gerações de leitores e escritores.
+
+% Sua formação em direito na vibrante Paris proporcionou a Minulescu um contato profundo com as correntes literárias da época, em especial o simbolismo francês. Ao longo de sua carreira, ele conseguiu traduzir essa influência em uma linguagem poética e sofisticada, que revela uma sensibilidade única na representação dos sentimentos e da realidade.
+
+% Minulescu assina em 1908 o manifesto literário, {\it Acendam as tochas}, veementemente antitradicional, no qual se pedia ao jovem que “acendesse as tochas”, promovesse “a liberdade e a individualidade na arte” e abandonasse as formas ultrapassadas, herdadas dos antecessores. Não muito mais tarde, na inconformista revista literária {\it Insula} (1912), publicará uma série de artigos ousados e combativos, dirigidos contra  certas tradições estabelecidas na literatura e nas artes.
+
+% Embora seja amplamente reconhecido por sua contribuição ao movimento simbolista, Minulescu destaca-se também na esfera da literatura fantástica, como verifica-se em seu célebre {\it Para serem lidas à noite}. Suas incursões nesse gênero revelam um talento excepcional para criar atmosferas oníricas e enredos que desafiam a lógica e mesclam o cotidiano com o extraordinário, conferindo às suas narrativas uma aura quase mágica.
+
+% O legado de Minulescu não se limita apenas à sua escrita ficcional; sua atuação como jornalista e editor também foi fundamental para o desenvolvimento cultural na Romênia. O autor não hesitou em se posicionar critica e combativamente em relação às questões sociais e políticas de seu tempo, defendendo que a literatura deve dialogar com a realidade. 
+
+% Falecido em 1944, Minulescu permanece uma figura indispensável da literatura romena, com uma obra que transcende fronteiras e continua a ressoar profundamente nos leitores contemporâneos. 
+
+
+% \blank[big]
+\page
+\subject{Sobre o tradutor}
+
+Fernando Klabin nasceu em São Paulo e formou-se em Ciência Política pela Universidade de Bucareste, onde foi agraciado com a Ordem do Mérito Cultural da Romênia no grau de Oficial, em 2016. Além de tradutor exerce atividades ocasionais como fotógrafo, escritor, ator e artista plástico.
+
+\subject{Sobre o apresentador}
+
+Leonardo Francisco Soares é professor associado do Instituto de Letras e Linguística da Universidade Federal de Uberlândia ({\cap ILEEL/UFU}) e professor permanente do programa de pós-graduação em Estudos Literários do {\cap ILEEL/UFU}. Publicou, dentre outros, um texto na coletânea {\it Guerra e literatura: ensaios em emergência} (Alameda, 2022)
+
+\subject{Trecho do livro}
+
+  \startitemize
+    \item
+    {\bf Capítulo {\it Bate-papo com o coisa-ruim}}
+
+    % \startitemize
+    % \item
+    %  A imaginação dos poetas, na maior parte das vezes, ultrapassa a realidade e estrangula o verossímil. Ainda bem que a maioria das pessoas que frequenta a Igreja não lê poesia, e aqueles que lêem e acreditam na conversa fiada dos poetas não vão à Igreja.
+
+    % \stopitemize
+
+    \startitemize
+    \item
+      Jamais esquecerei aquele momento de terror, acentuado pela vergonha de não poder manifestá-lo diante da pessoa que o produzira em nós dois.
+Amarelo como a cera, de olhos arregalados atrás de nós, Oreste não conseguiu segurar a emoção diante daquela constatação fantástica. Com a voz embargada pela síncope suprema em que sua alma parecia deixar o corpo, ele sussurrou tão baixo que mal se fez ouvir:
+  
+     --- Onde está sua sombra, Seu Damian? Você não faz sombra sobre a terra?
+
+    \stopitemize
+
+
+%   \item
+%     {\bf Capítulo {\it O homem do coração de ouro}}
+% \startitemize
+% \item --- Onde está o anel?\unknown Por que você arrancou a pedra?\unknown\\
+% --- Não fui eu quem arrancou.\\
+% --- Então quem foi?\\
+% --- Ele!\unknown\\
+% --- Ele quem?\unknown\\
+% --- O homem do coração de ouro!\\
+% --- Admirável título para uma novela fantástica!, exclamei.\\
+
+%     \stopitemize
+
+% \startitemize
+% \item
+% --- Você teria a bondade de me dizer quantos anos tem?\\
+% --- Trezentos e onze anos, e cento e noventa e oito dias,
+% considerando, claro, os trinta dias dos anos bissextos.\\
+% --- E por que é que você está há tanto tempo por aqui?\\
+% --- Não posso morrer até estar completo, como todos os
+% mortais.\\
+% --- Falta-lhe algo?\\
+% --- Sim\unknown\\
+% --- Algum órgão importante?\\
+% --- O mais importante de todos\unknown O coração! [\unknown]
+
+  \stopitemize
+
+
+
+\stoptext
