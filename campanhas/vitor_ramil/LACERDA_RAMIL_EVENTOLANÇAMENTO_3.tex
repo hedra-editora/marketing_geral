@@ -26,7 +26,7 @@
 
 \starttext %---------------------------------------------------------|
 
-\Mensagem{EVENTOS DE LANÇAMENTO}
+\Mensagem{EVENTO DE LANÇAMENTO}
 
 \startMyCampaign
 
@@ -35,7 +35,7 @@
 {\bf VITOR RAMIL: O ASTRONAUTA LÍRICO,} DE
  MARCOS LACERDA 
 \stopMyCampaign
- \scale[factor=fit]{\Seta\,{\bf CONVIDADOS} Marcos Lacerda e Claudia Parra}
+ \scale[factor=fit]{\Seta\,{\bf EVENTOS EM} RIBERÃO PRETO}
 
 \vfill
 
@@ -44,25 +44,31 @@
 
 \scale[factor=fit]{\Seta\,{\bf 29 DE JANEIRO 19H30} Sesc Ribeirão Preto}
 
+\scale[factor=fit]{\Seta\,{\bf 30 DE JANEIRO 19H} Biblioteca Sinhá Junqueira}
 
-% \page %---------------------------------------------------------|
-% \page
+\page %---------------------------------------------------------|
 
-% \hyphenpenalty=10000
-% \exhyphenpenalty=10000
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
-% Lançamento do livro {\bf VITOR RAMIL: O ASTRONAUTA LÍRICO}.\\
-% Bate-papo com {\bf MARCOS LACERDA} e {\bf VITOR RAMIL}, e mediação de {\bf LEANDRO MAIA}.
+No dia {\bf 29/01}, faremos uma edição do {\bf CONVERSAS MUSICAIS} no Sesc Ribeirão Preto, com a presença de Marcos Lacerda e Claudia Parra. No dia  {\bf 30/01}, estaremos na Biblioteca Sinhá Junqueira para um bate-papo entre o autor e o professor Delzio Marques.
 
-% {\vfill\scale[factor=5]{\Seta\,{\bf Centro de Artes da UFPel -- Auditório 2}}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Rua Álvaro Chaves, 65 -- Pelotas/{\cap RS}.}}
+{\vfill\scale[factor=5]{\Seta\,{\bf Sesc Ribeirão Preto} R. Tibiriçá 50, Centro ({\cap RMRP}).}}
 
-% \page %---------------------------------------------------------|
+{\scale[factor=5]{\Seta\,{\bf Biblioteca Sinhá Junqueira}, R. Duque de Caxias 547,}\setupinterlinespace[line=1.7ex]\scale[factor=5]{Centro ({\cap RMRP}).}}
+
+\page %---------------------------------------------------------|
 
 
-% \MyCover{RAMIL_CAPA}
+\MyCover{RAMIL_CAPA}
 
-% \page %---------------------------------------------------------|
+\page %---------------------------------------------------------|
 
-% \Hedra
+\Hedra
+
+\starttikzpicture[remember picture,overlay]
+\node at (6,0) {\externalfigure[sesc.png][width=2cm]};
+\node at (3,-.3) {\externalfigure[junqueira.png][width=3cm]};
+\stoptikzpicture
 
 \stoptext %---------------------------------------------------------|
