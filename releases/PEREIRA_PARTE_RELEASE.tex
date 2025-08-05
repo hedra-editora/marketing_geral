@@ -1,0 +1,145 @@
+\setuppapersize[A4]
+\usecolors[crayola]
+\setupbackgrounds[paper][background=color,backgroundcolor=Almond]
+	
+	\definefontfeature
+		[default]
+		[default]
+		[expansion=quality,protrusion=quality,onum=yes]
+	\setupalign[fullhz,hanging]
+	\definefontfamily [mainface] [sf] [Formular]
+	\setupbodyfont[mainface,11pt]
+
+% Indenting [4.4 cont-enp.p.65]
+			\setupindenting[yes, 3ex]  % none small medium big next first dimension
+			\indenting[next]           % never not no yes always first next
+			
+			% [cont-ent.p.76]
+			\setupspacing[broad]  %broad packed
+			% O tamanho do espaço entre o ponto final e o começo de uma sentença. 
+
+
+\startsetups[grid][mypenalties]
+    \setdefaultpenalties
+    \setpenalties\widowpenalties{2}{10000}
+    \setpenalties\clubpenalties {2}{10000}
+\stopsetups
+
+\setuppagenumbering
+  [location={}]            % Estilo dos números de páginat
+
+\setuphead[subject]
+[style=bfb]		
+
+\setuplayout[
+          location=middle,
+          %
+          leftedge=0mm,
+          leftedgedistance=0mm,
+          leftmargin=20mm,
+          leftmargindistance=0mm,
+          width=100mm,
+          rightmargindistance=0mm,
+          rightmargin=20mm,
+          rightedgedistance=0mm,
+          rightedge=0mm,
+          backspace=20mm,
+          %
+          top=21mm,
+          topdistance=0mm,
+          header=0mm,
+          headerdistance=0mm,
+          height=250mm,
+          footerdistance=0mm,
+          footer=0mm,
+          bottomdistance=0mm,
+          bottom=21mm,
+          topspace=21mm,
+        setups=mypenalties,
+]
+
+\setupalign[right]
+
+\starttext
+{\bfb O gesto inútil, e necessário,\\ da poesia}
+
+\blank[big]
+
+\noindent{\it Em seu novo livro de poemas, Iuri Pereira explora os caminhos e possibilidades para a poesia no século 21}
+
+\blank[1cm]
+
+\inoutermargin[width=60mm,hoffset=1cm,style=tfx,,voffset=6.5cm]{
+\externalfigure[PEREIRA_PARTE_THUMB.pdf][width=60mm]
+}
+
+
+\inoutermargin[width=70mm,hoffset=1cm,voffset=7.5cm,style=tfx]{
+\noindent{\bf Título} {\em Parte de tudo}\\
+{\bf Autor} Iuri Pereira\\
+{\bf Editora} Hedra\\
+{\bf ISBN} 978-65-89705-33-8\\
+{\bf Pág.} 76\\
+{\bf Preço} R\$\,54,09
+}
+
+\noindent{}A poesia é um acidente, gesto minoritário e inútil. Corrida em raia inválida levando a um mato sem cachorro. Mas também é picada e desvio, intervalo e campo de visão, gramática biográfica e trincheira, palco de uma primeira pessoa que nunca está lá quando a procuramos fora.
+
+Alguns poemas são partes de fala, partes de um diálogo, conversa com e contra a ausência. Alguns são memórias de passagens que articulam feixes de traços heterogêneos de uma experiência. Outros são devoluções de atropelamentos que vêm de fora, da história, indigestão, esconjuro e defesa. Sempre são passagens fixadas do tempo, que só foge e nos leva com ele. Retornos do assombro de certos movimentos totalizados num retrato.
+
+Em todos os casos, ninharias, fiapos de um pequeno cotidiano. Não traz consolo, não confere promoções, não dá fama, não vende, não é televisionável, mal pode dizer que tem leitores para encher as cadeiras de uma pequena sala, a poesia. 
+
+Mesmo sendo, então, talvez, um capricho, tem sua humilde dignidade de ação emancipada do ato, de produção — poesia — que ultrapassa o produto, para ser menos que marca, menos que registro, menos que livro, só resquício, indício, melodia e decalque de tudo.
+
+%\page
+
+\subject{Sobre o autor}
+
+{\bf Iuri Pereira} (São Paulo, 1973), graduado em Letras na USP, mestre e doutor em Teoria Literária na Unicamp, é autor de {\it Dez poemas da vizinhança vazia} (Hedra, 2012), {\it No parque} (SM, 2016), com a artista argentina Rebeca Luciani, e {\it Sinto muito} (Peirópolis, 2023), com o artista Marcelo Cipis. Organizou os livros {\it Farsa de Inês Pereira} (Hedra, 2012), de Gil Vicente, {\it Desenganos da vida humana} (Hedra, 2013), de Gregório de Matos, e {\it Escritos sobre literatura} (Hedra, 2014), de Sigmund Freud.
+
+% \page
+
+% \subject{Trechos do livro}
+
+%   \startitemize
+%     \item
+%     {\bf A miséria dos homens frente aos animais}
+
+%     \startitemize
+%     \item
+%       Observe o rebanho a pastar: ele nada sabe do que é o ontem e o hoje;
+%       saltita aqui e acolá, come, descansa, digere, novamente saltita, noite e
+%       dia, dia após dia. Em resumo, preso ao seu prazer e desprazer, estancado
+%       no instante, não se entristece nem se enfastia. Ver isso é difícil para
+%       o homem, que se vangloria de sua humanidade perante o animal, mas
+%       contempla enciumado a sorte deste --- pois o homem apenas quer, como o
+%       animal, viver sem fastio e sem dor; mas o quer em vão, por não querer
+%       como aquele. O homem pergunta ao animal: “por que nada me diz de sua
+%       sorte e apenas me fita?” O animal quer responder e dizer: “acontece que
+%       eu sempre esqueço o que quero dizer” --- mas já esquece essa resposta e
+%       silencia, e o homem se espanta.
+%     \stopitemize
+%   \item
+%     {\bf A ciência domina a vida humana}
+
+%     \startitemize
+%     \item
+%       Aliás, hoje é vangloriado o fato de que “a ciência começa a dominar a
+%       vida”: é possível que se chegue a isso, mas a vida assim dominada não
+%       tem muito valor, pois é menos vida e garante menos vida para o futuro do
+%       que outrora, quando se dominava a vida não pelo saber, mas por instintos
+%       e fortes alucinações. Mas esta não deve ser, como dissemos, uma época de
+%       personalidades harmoniosas, perfeitas e maduras, mas a do trabalho mais
+%       ordinário e mais útil possível. Isso significa que os homens devem
+%       direcionar-se aos propósitos da época para trabalhar o mais cedo
+%       possível. Eles devem trabalhar na fábrica das utilidades universais
+%       antes de se tornar maduros --- porque seria um luxo dispensar do
+%       “mercado de trabalho” uma grande quantidade de força. Cegam-se alguns
+%       pássaros para que eles cantem melhor; não acredito que os homens de hoje
+%       cantem melhor do que os de outrora, mas sei que se cegam na atualidade.
+%       Mas o instrumento, o terrível instrumento que utilizam para cegar é uma
+%       luz por demais rútila, súbita e cambiante.
+%     \stopitemize
+%   \stopitemize
+ 
+ \stoptext
